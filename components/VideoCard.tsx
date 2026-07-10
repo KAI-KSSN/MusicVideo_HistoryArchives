@@ -1,0 +1,4 @@
+import type { MusicVideo } from "@/types/music-video";
+export default function VideoCard({video,onOpen}:{video:MusicVideo;onOpen:(v:MusicVideo)=>void}){
+ const image=video.youtubeId?`https://i.ytimg.com/vi/${video.youtubeId}/hq720.jpg`:"";
+ return <article className="card" onClick={()=>onOpen(video)}><div className="thumb" style={{backgroundImage:image?`linear-gradient(transparent,rgba(0,0,0,.55)),url(${image})`:`linear-gradient(135deg,#303045,#101014)`}}>{!image&&<div className="fallback"><span>{video.artist}</span><strong>{video.title}</strong></div>}<span className="badge">{video.award||video.selectionBasis||"CURATED"}</span><button>▶</button></div><div className="copy"><div><h3>{video.title}</h3><p>{video.artist}</p></div><span>{video.year||"—"}</span></div><div className="tags">{video.director&&<span>Dir. {video.director}</span>}<span>{video.genre}</span></div></article>}
