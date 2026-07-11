@@ -19,6 +19,27 @@ export default async function VideoDetailPage({ params }: Props) {
 
   if (!video) notFound();
 
+  const wins = (video.awards ?? []).filter((result) => result.result !== "nominee");
+  const nominations = (video.awards ?? []).filter((result) => result.result === "nominee");
+  const festivalSelections = (video.recognitions ?? []).filter((result) =>
+    ["festival_selection", "jury_selection"].includes(result.recognitionType),
+  );
+  const editorialRecognitions = (video.recognitions ?? []).filter((result) =>
+    ["editorial_selection", "platform_recognition"].includes(result.recognitionType),
+  );
+
+  const formatAward = (result: (typeof wins)[number]) => {
+    const outcome = result.result === "winner"
+      ? "Winner"
+      : result.result === "peoples_voice_winner"
+        ? "People's Voice Winner"
+        : result.result.replaceAll("_", " ");
+    return `${result.awardName} — ${result.categoryName} (${result.awardYear}) · ${outcome}`;
+  };
+
+  const formatRecognition = (result: (typeof festivalSelections)[number]) =>
+    `${result.programName}${result.categoryName ? ` — ${result.categoryName}` : ""} (${result.recognitionYear})`;
+
   const thumbnail =
     video.thumbnailUrl ||
     (video.youtubeId
@@ -96,12 +117,53 @@ export default async function VideoDetailPage({ params }: Props) {
               </>
             )}
 
-            {video.award && (
+            {wins.length > 0 && (
               <>
-                <dt>Award</dt>
+                <dt>Awards</dt>
                 <dd className="work-award-list">
-                  {video.award.split("\n").map((award) => (
-                    <span key={award}>{award}</span>
+                  {wins.map((award) => (
+                    <span key={`${award.awardSlug}-${award.categoryName}-${award.awardYear}-${award.result}`}>
+                      {formatAward(award)}
+                    </span>
+                  ))}
+                </dd>
+              </>
+            )}
+
+            {nominations.length > 0 && (
+              <>
+                <dt>Nominations</dt>
+                <dd className="work-award-list">
+                  {nominations.map((award) => (
+                    <span key={`${award.awardSlug}-${award.categoryName}-${award.awardYear}`}>
+                      {formatAward(award)}
+                    </span>
+                  ))}
+                </dd>
+              </>
+            )}
+
+            {festivalSelections.length > 0 && (
+              <>
+                <dt>Festival Selections</dt>
+                <dd className="work-award-list">
+                  {festivalSelections.map((recognition) => (
+                    <span key={`${recognition.programSlug}-${recognition.recognitionYear}-${recognition.result}`}>
+                      {formatRecognition(recognition)}
+                    </span>
+                  ))}
+                </dd>
+              </>
+            )}
+
+            {editorialRecognitions.length > 0 && (
+              <>
+                <dt>Editorial Recognition</dt>
+                <dd className="work-award-list">
+                  {editorialRecognitions.map((recognition) => (
+                    <span key={`${recognition.programSlug}-${recognition.recognitionYear}-${recognition.result}`}>
+                      {formatRecognition(recognition)}
+                    </span>
                   ))}
                 </dd>
               </>

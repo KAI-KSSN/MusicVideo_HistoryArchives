@@ -40,21 +40,70 @@ belong in this report only and must never be inserted as award rows.
 
 ## Work status matrix
 
-All cells begin `pending`. A verified result already in the database changes only
-the relevant group; it does not imply that other programs were searched.
+All cells below reflect the completed 2026-07-12 pilot audit. `searched_no_verified_result`
+means that the required title/artist/director variants and the named official archive
+were searched, but no result safe to register was found. It does not assert that no
+historical result exists. Historical VMA claims without a surviving official category
+record remain `unresolved` and are not public.
 
 | Work | S1 | S2 | S3 | S4 | V1 | V2 | V3 | C1 | C2 | C3 | C4 | C5 | C6 | C7 | E1 | E2 | J1 | J2 | J3 | J4 | J5 | F1 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Michael Jackson — Thriller | pending | searched_no_verified_result | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | not_applicable | pending | pending | pending |
-| a-ha — Take On Me | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | not_applicable | pending | pending | pending |
-| Jamiroquai — Virtual Insanity | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | not_applicable | pending | pending | pending |
-| Daft Punk — Around the World | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | not_applicable | pending | pending | pending |
-| Beyoncé — Single Ladies (Put a Ring on It) | verified_results | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | not_applicable | pending | pending | pending |
-| Fatboy Slim — Weapon of Choice | pending | verified_results | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | not_applicable | pending | pending | pending |
-| Childish Gambino — This Is America | pending | verified_results | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | not_applicable | pending | pending | pending |
-| サカナクション — 新宝島 / Shin Takarajima | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | not_applicable | pending | pending | pending |
-| 米津玄師 — Lemon | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | not_applicable | pending | pending | pending |
-| 宇多田ヒカル — One Last Kiss | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | pending | searched_no_verified_result | pending | pending | pending |
+| Michael Jackson — Thriller | unresolved | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | not_applicable | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result |
+| a-ha — Take On Me | unresolved | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | not_applicable | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result |
+| Jamiroquai — Virtual Insanity | unresolved | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | not_applicable | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result |
+| Daft Punk — Around the World | unresolved | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | not_applicable | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result |
+| Beyoncé — Single Ladies (Put a Ring on It) | verified_results | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | not_applicable | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result |
+| Fatboy Slim — Weapon of Choice | unresolved | verified_results | searched_no_verified_result | unresolved | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | not_applicable | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result |
+| Childish Gambino — This Is America | verified_results | verified_results | verified_results | searched_no_verified_result | searched_no_verified_result | verified_results | verified_results | searched_no_verified_result | searched_no_verified_result | verified_results | searched_no_verified_result | verified_results | searched_no_verified_result | verified_results | verified_results | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | not_applicable | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result |
+| サカナクション — 新宝島 / Shin Takarajima | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | verified_results | not_applicable | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result |
+| 米津玄師 — Lemon | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | verified_results | searched_no_verified_result | not_applicable | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result |
+| 宇多田ヒカル — One Last Kiss | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | verified_results | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result | searched_no_verified_result |
+
+## Query and archive protocol
+
+For every work, the audit used the required title/artist/director query family from
+the sprint instructions, followed by program-specific searches for MTV VMA, GRAMMY,
+UKMVA, MTV EMA, Berlin MVA, Camerimage, SXSW, D&AD, Cannes Lions, Clio, ADC/One
+Show, CICLOPE, AICP, Webby and Vimeo. Japanese works were additionally searched in
+Japanese and romanized English against VMAJ, SPACE SHOWER, ACC, 文化庁メディア芸術祭,
+SSFF & ASIA, Image Forum and TOKYO FILMeX. Production-company and known craft-credit
+variants were used where the official work record exposed those names.
+
+Official archives checked included the named program sites in the registry, MTV/Paramount
+press releases, GRAMMY artist/ceremony archives, the UKMVA year archive, Camerimage
+archived programs, SXSW annual film archives, D&AD/Clio/Webby/CICLOPE winner galleries,
+SPACE SHOWER annual winner pages, VMAJ records and official artist announcements.
+Search-engine summaries, Wikipedia and unsourced award lists were discovery aids only.
+
+## Verified public results added by this audit
+
+- **This Is America** — UKMVA 2018: `video of the year`, `best urban video – international`,
+  and `best cinematography in a video` (Larkin Seiple). Source: official UKMVA archive.
+- **This Is America** — 2018 MTV VMA: seven official nominations. Craft recipients are
+  preserved for direction, cinematography, art direction, choreography and editing.
+- **This Is America** — Clio Music 2018 Gold; CICLOPE 2018 Grand Prix; EnergaCAMERIMAGE
+  2018 Best Cinematography in a Music Video (Larkin Seiple); 2019 Webby Winner and
+  People's Voice Winner. Each relationship has its own official result source.
+- **This Is America** — 2019 SXSW Music Video Competition and Vimeo Staff Pick are stored
+  in `work_recognitions`, not `work_award_results`.
+- **新宝島** — SPACE SHOWER MUSIC AWARDS 2016 `BEST CONCEPTUAL VIDEO`, confirmed by
+  the official artist announcement.
+- **Lemon** — MTV VMAJ 2018 `最優秀邦楽男性アーティストビデオ賞` and
+  `Best Video of the Year`, confirmed by the official artist announcement.
+- **One Last Kiss** — SPACE SHOWER MUSIC AWARDS 2022 `BEST CONCEPTUAL VIDEO`, with
+  director 庵野秀明 preserved in the credited field.
+
+## Deliberately not registered
+
+- Thriller, Take On Me, Virtual Insanity, Around the World and Weapon of Choice have
+  widely repeated historical MTV VMA claims. Exact category/outcome evidence was not
+  recovered from a surviving official MTV archive during this audit, so those claims
+  remain `unresolved` and are not public.
+- Weapon of Choice's MTV EMA claim remains unresolved for the same reason. Its official
+  GRAMMY result remains public.
+- `Lemon` SONG OF THE YEAR, artist prizes, chart certifications and 山田智和's director
+  award are not MV-level results and were not attached to the work.
+- National Film Registry inclusion, screenings and platform features are not awards.
 
 ## Recording requirements per completed cell
 

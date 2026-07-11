@@ -15,6 +15,18 @@ export type AwardResult = {
   sources: Array<{ title: string; publisher: string; url: string }>;
 };
 
+export type RecognitionResult = {
+  programName: string;
+  programSlug: string;
+  recognitionYear: number;
+  recognitionType: "festival_selection" | "jury_selection" | "editorial_selection" | "platform_recognition";
+  result: string;
+  categoryName?: string;
+  creditedName?: string;
+  officialUrl?: string;
+  sources: Array<{ title: string; publisher: string; url: string }>;
+};
+
 export type MusicVideo = {
   id: string;
   slug?: string;
@@ -31,6 +43,7 @@ export type MusicVideo = {
   selectionBasis: string;
   award: string;
   awards?: AwardResult[];
+  recognitions?: RecognitionResult[];
   referenceUrl: string;
   researchStatus: string;
   priority: number;

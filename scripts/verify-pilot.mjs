@@ -22,6 +22,19 @@ if (!response.ok) {
 
 const works = await response.json();
 
+async function fetchPublicView(view) {
+  const result = await fetch(`${url}/rest/v1/${view}?select=*`, {
+    headers: { apikey: key, Authorization: `Bearer ${key}` },
+  });
+  if (!result.ok) throw new Error(`${view} request failed (${result.status}).`);
+  return result.json();
+}
+
+const [awardResults, recognitions] = await Promise.all([
+  fetchPublicView("archive_award_results"),
+  fetchPublicView("archive_recognitions"),
+]);
+
 for (let index = 1; index < works.length; index += 1) {
   const previous = works[index - 1].release_year ?? Number.MAX_SAFE_INTEGER;
   const current = works[index].release_year ?? Number.MAX_SAFE_INTEGER;
@@ -97,6 +110,38 @@ if (expected !== undefined) {
       `Published slug mismatch. Expected ${JSON.stringify(expectedSlugs)}, received ${JSON.stringify(actualSlugs)}.`,
     );
   }
+}
+
+const requiredAwardResults = [
+  ["sakanaction-shin-takarajima", "space-shower-music-awards", "winner"],
+  ["kenshi-yonezu-lemon", "mtv-video-music-awards-japan", "winner"],
+  ["hikaru-utada-one-last-kiss", "space-shower-music-awards", "winner"],
+  ["childish-gambino-this-is-america", "uk-music-video-awards", "winner"],
+  ["childish-gambino-this-is-america", "mtv-video-music-awards", "nominee"],
+];
+
+for (const [workSlug, awardSlug, outcome] of requiredAwardResults) {
+  if (!awardResults.some((item) =>
+    item.workSlug === workSlug && item.awardSlug === awardSlug && item.result === outcome
+  )) {
+    throw new Error(`Missing verified public award result: ${workSlug}/${awardSlug}/${outcome}.`);
+  }
+}
+
+if (!recognitions.some((item) =>
+  item.workSlug === "childish-gambino-this-is-america" &&
+  item.recognitionType === "festival_selection" &&
+  item.result === "competition_selection"
+)) {
+  throw new Error("Missing verified SXSW competition selection for This Is America.");
+}
+
+if (!recognitions.some((item) =>
+  item.workSlug === "childish-gambino-this-is-america" &&
+  item.recognitionType === "editorial_selection" &&
+  item.result === "staff_pick"
+)) {
+  throw new Error("Missing verified Vimeo editorial selection for This Is America.");
 }
 
 console.log(`Pilot verification passed: ${works.length} published work(s).`);
