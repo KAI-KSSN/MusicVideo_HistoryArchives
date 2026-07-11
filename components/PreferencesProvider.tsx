@@ -35,17 +35,21 @@ export default function PreferencesProvider({
     const savedTheme = window.localStorage.getItem("mvhl-theme");
     const savedLanguage = window.localStorage.getItem("mvhl-language");
 
-    if (savedTheme === "light" || savedTheme === "dark") {
-      setThemeState(savedTheme);
-    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setThemeState("dark");
-    }
+    const timer = window.setTimeout(() => {
+      if (savedTheme === "light" || savedTheme === "dark") {
+        setThemeState(savedTheme);
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        setThemeState("dark");
+      }
 
-    if (savedLanguage === "ja" || savedLanguage === "en") {
-      setLanguageState(savedLanguage);
-    }
+      if (savedLanguage === "ja" || savedLanguage === "en") {
+        setLanguageState(savedLanguage);
+      }
 
-    setMounted(true);
+      setMounted(true);
+    }, 0);
+
+    return () => window.clearTimeout(timer);
   }, []);
 
   useEffect(() => {

@@ -1,25 +1,29 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import LocalizedEditorial from "@/components/LocalizedEditorial";
 import SiteHeader from "@/components/SiteHeader";
-import { getVideoBySlug, videos } from "@/lib/videos";
+import { getPublishedWorkBySlug, getPublishedWorks } from "@/lib/archive";
 
 type Props = {
   params: Promise<{ slug: string }>;
 };
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const videos = await getPublishedWorks();
   return videos.map((video) => ({ slug: video.slug }));
 }
 
 export default async function VideoDetailPage({ params }: Props) {
   const { slug } = await params;
-  const video = getVideoBySlug(slug);
+  const video = await getPublishedWorkBySlug(slug);
 
   if (!video) notFound();
 
-  const thumbnail = video.youtubeId
-    ? `https://i.ytimg.com/vi/${video.youtubeId}/maxresdefault.jpg`
-    : "";
+  const thumbnail =
+    video.thumbnailUrl ||
+    (video.youtubeId
+      ? `https://i.ytimg.com/vi/${video.youtubeId}/maxresdefault.jpg`
+      : "");
 
   return (
     <main
@@ -157,7 +161,7 @@ export default async function VideoDetailPage({ params }: Props) {
 
       <footer className="work-footer">
         <span>Research status: {video.researchStatus}</span>
-        <a href="/">Return to collection</a>
+        <Link href="/">Return to collection</Link>
       </footer>
     </main>
   );

@@ -6,9 +6,11 @@ export default function MuseumVideoCard({
 }: {
   video: MusicVideo;
 }) {
-  const thumbnail = video.youtubeId
-    ? `https://i.ytimg.com/vi/${video.youtubeId}/hq720.jpg`
-    : "";
+  const thumbnail =
+    video.thumbnailUrl ||
+    (video.youtubeId
+      ? `https://i.ytimg.com/vi/${video.youtubeId}/hq720.jpg`
+      : "");
 
   const tags = [
     video.genre,

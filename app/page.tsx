@@ -1,8 +1,10 @@
 import MuseumArchive from "@/components/MuseumArchive";
 import SiteHeader from "@/components/SiteHeader";
-import { videos } from "@/lib/videos";
+import { getPublishedWorks } from "@/lib/archive";
 
-export default function Home() {
+export default async function Home() {
+  const videos = await getPublishedWorks();
+
   return (
     <main>
       <SiteHeader />

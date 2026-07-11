@@ -22,6 +22,7 @@ export type MusicVideo = {
   researchStatus: string;
   priority: number;
   youtubeId: string;
+  thumbnailUrl?: string;
 
   shortSummary?: string;
   whyItMatters?: string;
@@ -35,4 +36,9 @@ export type MusicVideo = {
 
   primaryColor?: string;
   secondaryColor?: string;
+
+  workType?: string;
+  publicationStatus?: "draft" | "candidate" | "researching" | "verified" | "published" | "archived" | "rejected";
+  tags?: Array<{ name: string; category: string }>;
+  sources?: Array<{ title: string; publisher: string; url: string }>;
 };

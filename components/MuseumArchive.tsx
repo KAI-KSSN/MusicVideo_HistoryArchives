@@ -35,7 +35,8 @@ export default function MuseumArchive({
       savedScale === "standard" ||
       savedScale === "compact"
     ) {
-      setGridScale(savedScale);
+      const timer = window.setTimeout(() => setGridScale(savedScale), 0);
+      return () => window.clearTimeout(timer);
     }
   }, []);
 
