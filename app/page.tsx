@@ -1,4 +1,12 @@
-import MVArchive from "@/components/MVArchive";
-import videos from "@/data/videos.json";
-import type { MusicVideo } from "@/types/music-video";
-export default function Home(){return <MVArchive videos={videos as MusicVideo[]} />}
+import MuseumArchive from "@/components/MuseumArchive";
+import SiteHeader from "@/components/SiteHeader";
+import { videos } from "@/lib/videos";
+
+export default function Home() {
+  return (
+    <main>
+      <SiteHeader />
+      <MuseumArchive videos={videos} />
+    </main>
+  );
+}
