@@ -98,8 +98,12 @@ export default async function VideoDetailPage({ params }: Props) {
 
             {video.award && (
               <>
-                <dt>Selected</dt>
-                <dd>{video.award}</dd>
+                <dt>Award</dt>
+                <dd className="work-award-list">
+                  {video.award.split("\n").map((award) => (
+                    <span key={award}>{award}</span>
+                  ))}
+                </dd>
               </>
             )}
           </dl>

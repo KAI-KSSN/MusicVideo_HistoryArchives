@@ -1327,3 +1327,14 @@ html[data-theme="dark"] .work-hero-image {
 }
 
 /* MVHL GRID SCALE AND HERO FADE END */
+
+/* Object Information award list */
+.work-award-list {
+  display: grid;
+  gap: 8px;
+}
+
+.work-award-list span + span {
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+}

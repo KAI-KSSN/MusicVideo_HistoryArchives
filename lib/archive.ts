@@ -25,6 +25,7 @@ type ArchiveRow = {
   vfx_production: string | null;
   youtube_id: string | null;
   thumbnail_url: string | null;
+  awards: string | null;
   editorials: Record<"ja" | "en", ArchiveEditorial> | Partial<Record<"ja" | "en", ArchiveEditorial>>;
   tags: Array<{ name: string; category: string }>;
   sources: Array<{ title: string | null; publisher: string | null; url: string }>;
@@ -65,7 +66,7 @@ function mapArchiveRow(row: ArchiveRow): MusicVideo {
     region: isDomestic ? "Japan" : "Global",
     scope: isDomestic ? "Domestic" : "International",
     selectionBasis: whyItMatters?.en ?? whyItMatters?.ja ?? "",
-    award: "",
+    award: row.awards ?? "",
     referenceUrl: row.official_release_url ?? "",
     researchStatus: row.status ?? "published",
     priority: row.is_canonical ? 1 : 2,
