@@ -3,14 +3,19 @@ import type { MusicVideo } from "@/types/music-video";
 
 export default function MuseumVideoCard({
   video,
-  index,
 }: {
   video: MusicVideo;
-  index: number;
 }) {
   const thumbnail = video.youtubeId
     ? `https://i.ytimg.com/vi/${video.youtubeId}/hq720.jpg`
     : "";
+
+  const tags = [
+    video.genre,
+    video.scope === "Domestic" ? "Japan" : "International",
+    video.decade ? `${video.decade}s` : "",
+    video.award ? "Selected" : "",
+  ].filter(Boolean) as string[];
 
   return (
     <article
@@ -47,12 +52,7 @@ export default function MuseumVideoCard({
               <strong>{video.title}</strong>
             </div>
           )}
-
-          <div className="museum-card-number">
-            {String(index).padStart(2, "0")}
-          </div>
-
-          <div className="museum-card-overlay">
+<div className="museum-card-overlay">
             <p className="museum-card-artist">{video.artist}</p>
             <h2>{video.title}</h2>
 
@@ -67,12 +67,7 @@ export default function MuseumVideoCard({
           </div>
         </div>
 
-        <div className="museum-caption">
-          <div className="museum-caption-index">
-            <span>{video.scope === "Domestic" ? "JP" : "INT"}</span>
-            <span>{video.year || "—"}</span>
-          </div>
-
+        <div className="museum-caption museum-caption-with-tags">
           <div className="museum-caption-copy">
             <p>
               {video.shortSummary ||
@@ -80,35 +75,19 @@ export default function MuseumVideoCard({
                 "This work is currently being researched for inclusion in the archive."}
             </p>
 
-            <dl>
-              {video.productionCompany && (
-                <>
-                  <dt>Production</dt>
-                  <dd>{video.productionCompany}</dd>
-                </>
-              )}
-
-              {video.vfxProduction && (
-                <>
-                  <dt>VFX</dt>
-                  <dd>{video.vfxProduction}</dd>
-                </>
-              )}
-
-              {video.genre && (
-                <>
-                  <dt>Genre</dt>
-                  <dd>{video.genre}</dd>
-                </>
-              )}
-
-              {video.award && (
-                <>
-                  <dt>Selected</dt>
-                  <dd>{video.award}</dd>
-                </>
-              )}
-            </dl>
+            {tags.length > 0 && (
+              <div
+                className={`museum-tag-preview ${
+                  tags.length > 3 ? "has-overflow-hint" : ""
+                }`}
+              >
+                <div className="museum-tag-preview-track">
+                  {tags.map((tag) => (
+                    <span key={tag}>{tag}</span>
+                  ))}
+                </div>
+              </div>
+            )}
 
             <span className="museum-card-enter">View work ↗</span>
           </div>

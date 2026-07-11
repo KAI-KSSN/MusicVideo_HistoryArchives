@@ -113,42 +113,46 @@ export default async function VideoDetailPage({ params }: Props) {
         </div>
       </section>
 
-      <section className="work-essay-grid">
-        <article>
-          <p className="museum-kicker">Why it matters</p>
-          <h2>
-            <LocalizedEditorial
-              localized={video.whyItMattersI18n}
-              fallback={video.whyItMatters || video.selectionBasis}
-              emptyJa="この作品が映像史において持つ意味を現在調査しています。"
-              emptyEn="The historical significance of this work is currently being researched."
-            />
-          </h2>
-        </article>
+      <section className="work-caption work-editorial">
+        <div className="work-caption-index">
+          <span>Editorial</span>
+        </div>
 
-        <article>
-          <p className="museum-kicker">Historical context</p>
-          <p>
-            <LocalizedEditorial
-              localized={video.historicalContextI18n}
-              fallback={video.historicalContext}
-              emptyJa="公開当時の映像文化、制作背景、後世への影響を調査中です。"
-              emptyEn="Its historical context, production culture, and influence are currently being researched."
-            />
-          </p>
-        </article>
+        <div className="work-caption-primary">
+          <p className="museum-kicker">Editorial</p>
 
-        <article>
-          <p className="museum-kicker">Key innovation</p>
-          <p>
-            <LocalizedEditorial
-              localized={video.keyInnovationI18n}
-              fallback={video.keyInnovation}
-              emptyJa="技法および制作上の革新性を、出典とともに確認しています。"
-              emptyEn="Its technical and production innovations are being verified with sources."
-            />
-          </p>
-        </article>
+          <dl>
+            <dt>Why it matters</dt>
+            <dd>
+              <LocalizedEditorial
+                localized={video.whyItMattersI18n}
+                fallback={video.whyItMatters || video.selectionBasis}
+                emptyJa="この作品が映像史において持つ意味を現在調査しています。"
+                emptyEn="The historical significance of this work is currently being researched."
+              />
+            </dd>
+
+            <dt>Historical context</dt>
+            <dd>
+              <LocalizedEditorial
+                localized={video.historicalContextI18n}
+                fallback={video.historicalContext}
+                emptyJa="公開当時の映像文化、制作背景、後世への影響を調査中です。"
+                emptyEn="Its historical context, production culture, and influence are currently being researched."
+              />
+            </dd>
+
+            <dt>Key innovation</dt>
+            <dd>
+              <LocalizedEditorial
+                localized={video.keyInnovationI18n}
+                fallback={video.keyInnovation}
+                emptyJa="技法および制作上の革新性を、出典とともに確認しています。"
+                emptyEn="Its technical and production innovations are being verified with sources."
+              />
+            </dd>
+          </dl>
+        </div>
       </section>
 
       <footer className="work-footer">

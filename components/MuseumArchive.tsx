@@ -1,10 +1,12 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import MuseumVideoCard from "@/components/MuseumVideoCard";
 import type { MusicVideo } from "@/types/music-video";
 
 const INITIAL_COUNT = 24;
+
+type GridScale = "large" | "standard" | "compact";
 
 function unique(values: string[]) {
   return [...new Set(values.filter(Boolean))].sort((a, b) =>
@@ -22,18 +24,39 @@ export default function MuseumArchive({
   const [decade, setDecade] = useState("");
   const [director, setDirector] = useState("");
   const [genre, setGenre] = useState("");
+  const [gridScale, setGridScale] = useState<GridScale>("standard");
   const [visibleCount, setVisibleCount] = useState(INITIAL_COUNT);
+
+  useEffect(() => {
+    const savedScale = window.localStorage.getItem("mvhl-grid-scale");
+
+    if (
+      savedScale === "large" ||
+      savedScale === "standard" ||
+      savedScale === "compact"
+    ) {
+      setGridScale(savedScale);
+    }
+  }, []);
 
   const decades = unique(
     videos.map((video) => (video.decade ? `${video.decade}s` : "")),
   );
+
   const directors = unique(videos.map((video) => video.director));
   const genres = unique(videos.map((video) => video.genre));
+
+  const hasActiveFilters =
+    Boolean(query.trim()) ||
+    Boolean(scope) ||
+    Boolean(decade) ||
+    Boolean(director) ||
+    Boolean(genre);
 
   const filtered = useMemo(() => {
     const normalizedQuery = query.trim().toLocaleLowerCase("ja");
 
-    return videos.filter((video) => {
+    const results = videos.filter((video) => {
       const searchable = [
         video.title,
         video.artist,
@@ -55,7 +78,30 @@ export default function MuseumArchive({
         (!genre || video.genre === genre)
       );
     });
-  }, [videos, query, scope, decade, director, genre]);
+
+    if (!hasActiveFilters) {
+      return [...results].sort((a, b) => {
+        const yearA = a.year ?? Number.MAX_SAFE_INTEGER;
+        const yearB = b.year ?? Number.MAX_SAFE_INTEGER;
+
+        if (yearA !== yearB) {
+          return yearA - yearB;
+        }
+
+        return a.title.localeCompare(b.title, "ja");
+      });
+    }
+
+    return results;
+  }, [
+    videos,
+    query,
+    scope,
+    decade,
+    director,
+    genre,
+    hasActiveFilters,
+  ]);
 
   const visible = filtered.slice(0, visibleCount);
 
@@ -66,6 +112,11 @@ export default function MuseumArchive({
     setDirector("");
     setGenre("");
     setVisibleCount(INITIAL_COUNT);
+  }
+
+  function changeGridScale(scale: GridScale) {
+    setGridScale(scale);
+    window.localStorage.setItem("mvhl-grid-scale", scale);
   }
 
   return (
@@ -96,6 +147,7 @@ export default function MuseumArchive({
       <section className="museum-controls">
         <label className="museum-search">
           <span>Search</span>
+
           <input
             value={query}
             onChange={(event) => {
@@ -109,7 +161,10 @@ export default function MuseumArchive({
         <div className="museum-filter-row">
           <select
             value={scope}
-            onChange={(event) => setScope(event.target.value)}
+            onChange={(event) => {
+              setScope(event.target.value);
+              setVisibleCount(INITIAL_COUNT);
+            }}
           >
             <option value="">All regions</option>
             <option value="Domestic">Japan</option>
@@ -118,9 +173,13 @@ export default function MuseumArchive({
 
           <select
             value={decade}
-            onChange={(event) => setDecade(event.target.value)}
+            onChange={(event) => {
+              setDecade(event.target.value);
+              setVisibleCount(INITIAL_COUNT);
+            }}
           >
             <option value="">All decades</option>
+
             {decades.map((value) => (
               <option key={value}>{value}</option>
             ))}
@@ -128,9 +187,13 @@ export default function MuseumArchive({
 
           <select
             value={director}
-            onChange={(event) => setDirector(event.target.value)}
+            onChange={(event) => {
+              setDirector(event.target.value);
+              setVisibleCount(INITIAL_COUNT);
+            }}
           >
             <option value="">All directors</option>
+
             {directors.map((value) => (
               <option key={value}>{value}</option>
             ))}
@@ -138,9 +201,13 @@ export default function MuseumArchive({
 
           <select
             value={genre}
-            onChange={(event) => setGenre(event.target.value)}
+            onChange={(event) => {
+              setGenre(event.target.value);
+              setVisibleCount(INITIAL_COUNT);
+            }}
           >
             <option value="">All genres</option>
+
             {genres.map((value) => (
               <option key={value}>{value}</option>
             ))}
@@ -159,19 +226,46 @@ export default function MuseumArchive({
             <h2>Selected works</h2>
           </div>
 
-          <div className="museum-section-count">
-            <span>{filtered.length.toLocaleString()}</span>
-            <small>of {videos.length.toLocaleString()}</small>
+          <div className="museum-collection-tools">
+            <div
+              className="museum-grid-scale"
+              aria-label="Thumbnail display scale"
+            >
+              <button
+                type="button"
+                className={gridScale === "large" ? "active" : ""}
+                onClick={() => changeGridScale("large")}
+              >
+                Large
+              </button>
+
+              <button
+                type="button"
+                className={gridScale === "standard" ? "active" : ""}
+                onClick={() => changeGridScale("standard")}
+              >
+                Standard
+              </button>
+
+              <button
+                type="button"
+                className={gridScale === "compact" ? "active" : ""}
+                onClick={() => changeGridScale("compact")}
+              >
+                Compact
+              </button>
+            </div>
+
+            <div className="museum-section-count">
+              <span>{filtered.length.toLocaleString()}</span>
+              <small>of {videos.length.toLocaleString()}</small>
+            </div>
           </div>
         </header>
 
-        <div className="museum-grid">
-          {visible.map((video, index) => (
-            <MuseumVideoCard
-              key={video.id}
-              video={video}
-              index={index + 1}
-            />
+        <div className={`museum-grid museum-grid-${gridScale}`}>
+          {visible.map((video) => (
+            <MuseumVideoCard key={video.id} video={video} />
           ))}
         </div>
 
