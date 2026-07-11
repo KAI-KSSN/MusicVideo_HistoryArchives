@@ -71,7 +71,7 @@ export default function MuseumArchive({
   return (
     <>
       <section className="museum-intro">
-        <div>
+        <div className="museum-intro-title">
           <p className="museum-kicker">Music Video History Library</p>
           <h1>
             Moving images,
@@ -85,7 +85,11 @@ export default function MuseumArchive({
             A curated archive of music videos essential to the history,
             language, and practice of moving-image culture.
           </p>
-          <span>{videos.length.toLocaleString()} works in research</span>
+
+          <div className="museum-intro-stats">
+            <span>{videos.length.toLocaleString()} works in research</span>
+            <span>Japan / International</span>
+          </div>
         </div>
       </section>
 
@@ -155,15 +159,19 @@ export default function MuseumArchive({
             <h2>Selected works</h2>
           </div>
 
-          <span>
-            {filtered.length.toLocaleString()} /{" "}
-            {videos.length.toLocaleString()}
-          </span>
+          <div className="museum-section-count">
+            <span>{filtered.length.toLocaleString()}</span>
+            <small>of {videos.length.toLocaleString()}</small>
+          </div>
         </header>
 
         <div className="museum-grid">
-          {visible.map((video) => (
-            <MuseumVideoCard key={video.id} video={video} />
+          {visible.map((video, index) => (
+            <MuseumVideoCard
+              key={video.id}
+              video={video}
+              index={index + 1}
+            />
           ))}
         </div>
 
@@ -175,7 +183,7 @@ export default function MuseumArchive({
               setVisibleCount((current) => current + INITIAL_COUNT)
             }
           >
-            Load more
+            <span>Load more</span>
             <span>{filtered.length - visible.length} remaining</span>
           </button>
         )}

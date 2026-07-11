@@ -1,3 +1,4 @@
+@import "./home-polish.css";
 :root,
 html[data-theme="light"] {
   --background: #f0efe9;

@@ -1,0 +1,202 @@
+/* MVHL Home polish v1 */
+
+.museum-intro {
+  align-items: end;
+  min-height: 600px;
+  padding-top: 110px;
+  padding-bottom: 68px;
+}
+
+.museum-intro-title {
+  align-self: end;
+}
+
+.museum-intro-note {
+  padding-bottom: 4px;
+}
+
+.museum-intro-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.museum-intro-stats span {
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.museum-controls {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.museum-search {
+  min-height: 58px;
+}
+
+.museum-filter-row {
+  margin-top: 12px;
+}
+
+.museum-filter-row select,
+.museum-filter-row button {
+  min-height: 50px;
+}
+
+.museum-collection {
+  padding-top: 76px;
+}
+
+.museum-section-header {
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--foreground);
+}
+
+.museum-section-count {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+}
+
+.museum-section-count > span {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 34px;
+  line-height: 1;
+}
+
+.museum-section-count small {
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.museum-grid {
+  gap: 82px 22px;
+  padding-top: 30px;
+}
+
+.museum-card {
+  min-width: 0;
+}
+
+.museum-card-image {
+  isolation: isolate;
+}
+
+.museum-card-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border: 1px solid rgba(255,255,255,.08);
+  pointer-events: none;
+}
+
+.museum-card-number {
+  position: absolute;
+  z-index: 3;
+  top: 14px;
+  right: 14px;
+  color: rgba(255,255,255,.78);
+  font-size: 9px;
+  letter-spacing: .12em;
+}
+
+.museum-card-overlay {
+  z-index: 2;
+  padding: 24px;
+}
+
+.museum-card-overlay h2 {
+  margin-bottom: 20px;
+}
+
+.museum-card-overlay-meta {
+  padding-top: 12px;
+  border-top: 1px solid rgba(255,255,255,.38);
+}
+
+.museum-card:hover .museum-card-image {
+  transform: translateY(-4px);
+}
+
+.museum-card:hover .museum-card-image::after {
+  border-color: color-mix(
+    in srgb,
+    var(--work-accent) 74%,
+    rgba(255,255,255,.16)
+  );
+}
+
+.museum-caption {
+  padding-top: 18px;
+}
+
+.museum-caption-copy > p {
+  min-height: 68px;
+  margin-bottom: 18px;
+  font-size: 16px;
+  line-height: 1.42;
+}
+
+.museum-caption-copy dl {
+  grid-template-columns: 96px 1fr;
+}
+
+.museum-caption-copy dt,
+.museum-caption-copy dd {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.museum-card-enter {
+  margin-top: 19px;
+  transition:
+    color 180ms ease,
+    border-color 180ms ease;
+}
+
+.museum-load-more {
+  margin-top: 90px;
+}
+
+@media (max-width: 1050px) {
+  .museum-intro {
+    min-height: 520px;
+  }
+
+  .museum-grid {
+    gap-top: 64px;
+  }
+}
+
+@media (max-width: 720px) {
+  .museum-intro {
+    min-height: 520px;
+    padding-top: 72px;
+    padding-bottom: 44px;
+  }
+
+  .museum-section-header {
+    align-items: end;
+  }
+
+  .museum-section-count > span {
+    font-size: 26px;
+  }
+
+  .museum-grid {
+    gap: 62px;
+    padding-top: 22px;
+  }
+
+  .museum-caption-copy > p {
+    min-height: 0;
+  }
+}

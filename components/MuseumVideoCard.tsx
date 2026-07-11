@@ -3,8 +3,10 @@ import type { MusicVideo } from "@/types/music-video";
 
 export default function MuseumVideoCard({
   video,
+  index,
 }: {
   video: MusicVideo;
+  index: number;
 }) {
   const thumbnail = video.youtubeId
     ? `https://i.ytimg.com/vi/${video.youtubeId}/hq720.jpg`
@@ -27,8 +29,9 @@ export default function MuseumVideoCard({
             backgroundImage: thumbnail
               ? `linear-gradient(
                   180deg,
-                  rgba(0, 0, 0, 0.03) 22%,
-                  rgba(0, 0, 0, 0.8)
+                  rgba(0, 0, 0, 0.02) 18%,
+                  rgba(0, 0, 0, 0.16) 48%,
+                  rgba(0, 0, 0, 0.86) 100%
                 ),
                 url(${thumbnail})`
               : `linear-gradient(
@@ -44,6 +47,10 @@ export default function MuseumVideoCard({
               <strong>{video.title}</strong>
             </div>
           )}
+
+          <div className="museum-card-number">
+            {String(index).padStart(2, "0")}
+          </div>
 
           <div className="museum-card-overlay">
             <p className="museum-card-artist">{video.artist}</p>
