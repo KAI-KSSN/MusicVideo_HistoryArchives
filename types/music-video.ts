@@ -3,6 +3,18 @@ export type LocalizedText = {
   en?: string;
 };
 
+export type AwardResult = {
+  awardName: string;
+  awardSlug: string;
+  awardYear: number;
+  categoryName: string;
+  categoryType: string;
+  result: string;
+  creditedName?: string;
+  officialUrl?: string;
+  sources: Array<{ title: string; publisher: string; url: string }>;
+};
+
 export type MusicVideo = {
   id: string;
   slug?: string;
@@ -18,6 +30,7 @@ export type MusicVideo = {
   scope: "Domestic" | "International";
   selectionBasis: string;
   award: string;
+  awards?: AwardResult[];
   referenceUrl: string;
   researchStatus: string;
   priority: number;

@@ -1,5 +1,5 @@
 import { cache } from "react";
-import type { LocalizedText, MusicVideo } from "@/types/music-video";
+import type { AwardResult, LocalizedText, MusicVideo } from "@/types/music-video";
 import { decorateVideo, videos as jsonVideos } from "@/lib/videos";
 
 type ArchiveEditorial = {
@@ -31,6 +31,8 @@ type ArchiveRow = {
   sources: Array<{ title: string | null; publisher: string | null; url: string }>;
 };
 
+type ArchiveAwardRow = AwardResult & { workSlug: string };
+
 const dataSource = process.env.MVHL_DATA_SOURCE ?? "supabase";
 const allowJsonFallback = process.env.MVHL_JSON_FALLBACK === "true";
 
@@ -44,7 +46,7 @@ function localizedField(
   return ja || en ? { ja: ja ?? undefined, en: en ?? undefined } : undefined;
 }
 
-function mapArchiveRow(row: ArchiveRow): MusicVideo {
+function mapArchiveRow(row: ArchiveRow, awards: AwardResult[] = []): MusicVideo {
   const genre = row.tags.find((tag) => tag.category === "genre")?.name ?? "";
   const isDomestic = row.country_code === "JP";
   const summary = localizedField(row.editorials, "shortSummary");
@@ -66,7 +68,10 @@ function mapArchiveRow(row: ArchiveRow): MusicVideo {
     region: isDomestic ? "Japan" : "Global",
     scope: isDomestic ? "Domestic" : "International",
     selectionBasis: whyItMatters?.en ?? whyItMatters?.ja ?? "",
-    award: row.awards ?? "",
+    award: awards
+      .map((result) => `${result.awardName} — ${result.categoryName} (${result.awardYear})`)
+      .join("\n"),
+    awards,
     referenceUrl: row.official_release_url ?? "",
     researchStatus: row.status ?? "published",
     priority: row.is_canonical ? 1 : 2,
@@ -89,6 +94,22 @@ function mapArchiveRow(row: ArchiveRow): MusicVideo {
       url: source.url,
     })),
   });
+}
+
+async function fetchArchiveAwards(slug?: string): Promise<ArchiveAwardRow[]> {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
+  if (!url || !key) throw new Error("Supabase environment variables are missing.");
+
+  const params = new URLSearchParams({ select: "*", order: "awardYear.desc,awardName,categoryName" });
+  if (slug) params.set("workSlug", `eq.${slug}`);
+
+  const response = await fetch(`${url}/rest/v1/archive_award_results?${params}`, {
+    headers: { apikey: key, Authorization: `Bearer ${key}` },
+    next: { revalidate: 60 },
+  });
+  if (!response.ok) throw new Error(`Supabase awards request failed (${response.status}).`);
+  return (await response.json()) as ArchiveAwardRow[];
 }
 
 async function fetchArchiveRows(slug?: string): Promise<ArchiveRow[]> {
@@ -138,7 +159,14 @@ async function withFallback<T>(
 
 export const getPublishedWorks = cache(async (): Promise<MusicVideo[]> =>
   withFallback(
-    async () => (await fetchArchiveRows()).map(mapArchiveRow),
+    async () => {
+      const [rows, awardRows] = await Promise.all([fetchArchiveRows(), fetchArchiveAwards()]);
+      const awardsBySlug = new Map<string, ArchiveAwardRow[]>();
+      for (const award of awardRows) {
+        awardsBySlug.set(award.workSlug, [...(awardsBySlug.get(award.workSlug) ?? []), award]);
+      }
+      return rows.map((row) => mapArchiveRow(row, awardsBySlug.get(row.slug) ?? []));
+    },
     () => [...jsonVideos].sort((a, b) => {
       const yearA = a.year ?? Number.MAX_SAFE_INTEGER;
       const yearB = b.year ?? Number.MAX_SAFE_INTEGER;
@@ -151,8 +179,8 @@ export const getPublishedWorkBySlug = cache(
   async (slug: string): Promise<MusicVideo | undefined> =>
     withFallback(
       async () => {
-        const [row] = await fetchArchiveRows(slug);
-        return row ? mapArchiveRow(row) : undefined;
+        const [[row], awards] = await Promise.all([fetchArchiveRows(slug), fetchArchiveAwards(slug)]);
+        return row ? mapArchiveRow(row, awards) : undefined;
       },
       () => jsonVideos.find((video) => video.slug === slug),
     ),
