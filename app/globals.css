@@ -1005,9 +1005,13 @@ html[data-theme="dark"] .work-hero-image {
 }
 
 .museum-caption-with-tags .museum-caption-copy > p {
+  display: -webkit-box;
+  overflow: hidden;
   max-width: 760px;
   min-height: 68px;
   margin: 0 0 8px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
 
 /* Tag preview */

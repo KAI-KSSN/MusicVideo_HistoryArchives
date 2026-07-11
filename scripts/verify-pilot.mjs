@@ -38,6 +38,10 @@ if (works.some((work) => work.status !== "published")) {
 const thriller = works.find((work) => work.slug === "michael-jackson-thriller");
 
 if (thriller) {
+  const expectedSummaries = {
+    ja: "ドラマチックな物語、振付、特殊メイクを融合した長編形式のミュージックビデオ。",
+    en: "A long-form music video combining dramatic narrative, choreography, make-up, and special effects.",
+  };
   const requiredFields = [
     "title",
     "release_year",
@@ -64,6 +68,10 @@ if (thriller) {
       !editorial?.keyInnovation
     ) {
       throw new Error(`Published Thriller is missing ${locale} editorial data.`);
+    }
+
+    if (editorial.shortSummary !== expectedSummaries[locale]) {
+      throw new Error(`Published Thriller has an unexpected ${locale} card summary.`);
     }
   }
 

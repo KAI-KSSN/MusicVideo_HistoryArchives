@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { usePreferences } from "@/components/PreferencesProvider";
 import type { MusicVideo } from "@/types/music-video";
 
 export default function MuseumVideoCard({
@@ -6,6 +9,7 @@ export default function MuseumVideoCard({
 }: {
   video: MusicVideo;
 }) {
+  const { language } = usePreferences();
   const thumbnail =
     video.thumbnailUrl ||
     (video.youtubeId
@@ -18,6 +22,17 @@ export default function MuseumVideoCard({
     video.decade ? `${video.decade}s` : "",
     video.award ? "Selected" : "",
   ].filter(Boolean) as string[];
+
+  const localizedSummary = video.shortSummaryI18n;
+  const summary =
+    (language === "ja"
+      ? localizedSummary?.ja || localizedSummary?.en
+      : localizedSummary?.en || localizedSummary?.ja) ||
+    video.shortSummary ||
+    video.selectionBasis ||
+    (language === "ja"
+      ? "この作品の紹介文は現在準備中です。"
+      : "This work is currently being researched for inclusion in the archive.");
 
   return (
     <article
@@ -72,9 +87,7 @@ export default function MuseumVideoCard({
         <div className="museum-caption museum-caption-with-tags">
           <div className="museum-caption-copy">
             <p>
-              {video.shortSummary ||
-                video.selectionBasis ||
-                "This work is currently being researched for inclusion in the archive."}
+              {summary}
             </p>
 
             {tags.length > 0 && (
@@ -91,7 +104,9 @@ export default function MuseumVideoCard({
               </div>
             )}
 
-            <span className="museum-card-enter">View work ↗</span>
+            <span className="museum-card-enter">
+              {language === "ja" ? "作品を見る" : "View work"} ↗
+            </span>
           </div>
         </div>
       </Link>
