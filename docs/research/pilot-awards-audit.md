@@ -1,6 +1,11 @@
 # Pilot Awards Audit
 
-Status: baseline audit completed before the structured-awards migration.
+Status: **expanded-scope research in progress**.
+
+The initial source audit validated the five currently public result rows, but it
+did not exhaust every award, festival, craft category, and editorial-recognition
+program in `pilot-awards-research-matrix.md`. It must not be described as a
+complete re-research of all ten works until that matrix is complete.
 
 ## Rules
 
@@ -131,5 +136,6 @@ Five `winner` rows currently exist across three works. They were inserted before
 
 - Retained results: 5
 - Retained results with official awarding-organization evidence: 5
-- Pilot works intentionally left without award rows after this pass: 7
+- Pilot works with no award rows at this stage: 7
+- This means "no verified relationship inserted yet," not "the work has no awards."
 - Results based only on Wikipedia, search snippets, fan sites, or generated databases: 0

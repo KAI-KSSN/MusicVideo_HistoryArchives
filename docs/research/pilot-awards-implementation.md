@@ -1,5 +1,10 @@
 # Pilot Awards Implementation Report
 
+> Scope notice: schema normalization and validation are complete. The expanded
+> award-research scope across every listed program is still in progress. The
+> five public results are official-source-backed, but the absence of a result on
+> the other works is not yet a completed negative finding.
+
 ## Existing schema
 
 MVHL already had normalized `awards`, `award_categories`, and `work_award_results` tables. The earlier schema lacked factual award-program metadata, historical category metadata, credited recipients, ceremony numbers, and mandatory result-level sources.
@@ -23,12 +28,12 @@ MVHL already had normalized `awards`, `award_categories`, and `work_award_result
 
 Created or updated factual master records for 19 programs requested by the sprint. Registry presence does not imply a relationship to a pilot work.
 
-## Pilot results
+## Currently verified pilot results
 
 - Weapon of Choice: 1 verified result.
 - Single Ladies (Put a Ring on It): 3 verified results.
 - This Is America: 1 verified result.
-- Thriller, Take On Me, Virtual Insanity, Around the World, 新宝島, Lemon, and One Last Kiss: no public award results after this audit.
+- Thriller, Take On Me, Virtual Insanity, Around the World, 新宝島, Lemon, and One Last Kiss: no public award results at this stage. Expanded-scope research remains in progress.
 
 See `pilot-awards-audit.md` for the work-by-work decisions and unresolved claims.
 
@@ -45,7 +50,7 @@ See `pilot-awards-audit.md` for the work-by-work decisions and unresolved claims
 - Public award results: 5.
 - Results with a direct stored official source: 5.
 - Results using Wikipedia/search snippets as evidence: 0.
-- Works correctly left with an empty award history: 7.
+- Works currently left with an empty award history: 7. This is a publication-safety state, not a claim that exhaustive research found no recognition.
 
 ## Validation
 
