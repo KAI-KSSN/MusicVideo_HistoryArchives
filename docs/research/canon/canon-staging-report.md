@@ -6,7 +6,7 @@
 
 - Selected works: 98
 - Works with complete bilingual editorial: 90
-- Works with complete award-scope audit: 9
+- Works with complete award-scope audit: 17
 - Verified award result records: 92
 - Works currently passing every publication gate: 9
 
@@ -14,17 +14,17 @@
 
 | Work | Evidence | Missing / blockers | Awards added | Sources | Editorial | Published by this sprint |
 |---|---|---|---:|---:|---|---|
-| Queen — Bohemian Rhapsody | 1970s-01.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`label_unverified` | 0 | 2 | Complete | No |
+| Queen — Bohemian Rhapsody | 1970s-01.json | `production_credit_unverified`<br>`label_unverified` | 0 | 2 | Complete | No |
 | Donna Summer — I Feel Love | 1970s-03.json | `work_identity_unresolved`<br>`official_video_unresolved`<br>`director_unverified`<br>`production_credit_unverified`<br>`award_scope_incomplete` | 0 | 2 | Incomplete | No |
-| Elvis Costello — Watching the Detectives | 1970s-03.json | `youtube_id_unverified`<br>`director_unverified`<br>`production_credit_unverified`<br>`award_scope_incomplete` | 0 | 3 | Complete | No |
-| ABBA — Take a Chance on Me | 1970s-01.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`label_unverified` | 0 | 2 | Complete | No |
-| Kate Bush — Wuthering Heights | 1970s-02.json | `award_scope_incomplete`<br>`director_unverified`<br>`label_unverified` | 0 | 2 | Complete | No |
+| Elvis Costello — Watching the Detectives | 1970s-03.json | `youtube_id_unverified`<br>`director_unverified`<br>`production_credit_unverified` | 0 | 3 | Complete | No |
+| ABBA — Take a Chance on Me | 1970s-01.json | `production_credit_unverified`<br>`label_unverified` | 0 | 2 | Complete | No |
+| Kate Bush — Wuthering Heights | 1970s-02.json | `director_unverified`<br>`label_unverified` | 0 | 2 | Complete | No |
 | Kraftwerk — The Robots | 1970s-03.json | `work_identity_unresolved`<br>`official_video_unresolved`<br>`director_unverified`<br>`production_credit_unverified`<br>`label_unverified`<br>`award_scope_incomplete` | 0 | 1 | Incomplete | No |
-| Blondie — Heart of Glass | 1970s-02.json | `award_scope_incomplete`<br>`director_unverified`<br>`release_year_needs_second_source` | 0 | 2 | Complete | No |
+| Blondie — Heart of Glass | 1970s-02.json | `director_unverified`<br>`release_year_needs_second_source` | 0 | 2 | Complete | No |
 | ELO — Shine a Little Love | 1970s-03.json | `work_identity_unresolved`<br>`official_video_unresolved`<br>`director_unverified`<br>`production_credit_unverified`<br>`label_unverified`<br>`award_scope_incomplete` | 0 | 1 | Incomplete | No |
-| The Buggles — Video Killed the Radio Star | 1970s-01.json | `award_scope_incomplete`<br>`production_credit_unverified` | 0 | 3 | Complete | No |
-| The Clash — London Calling | 1970s-02.json | `award_scope_incomplete`<br>`label_unverified` | 0 | 3 | Complete | No |
-| David Bowie — Ashes to Ashes | 1970s-01.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`label_unverified` | 0 | 2 | Complete | No |
+| The Buggles — Video Killed the Radio Star | 1970s-01.json | `production_credit_unverified` | 0 | 3 | Complete | No |
+| The Clash — London Calling | 1970s-02.json | `label_unverified` | 0 | 3 | Complete | No |
+| David Bowie — Ashes to Ashes | 1970s-01.json | `production_credit_unverified`<br>`label_unverified` | 0 | 2 | Complete | No |
 | Herbie Hancock — Rockit | 1980s-02.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`label_unverified` | 0 | 3 | Complete | No |
 | Michael Jackson — Thriller | pilot-canon-01.json | — | 0 | 5 | Complete | Yes; reconciled |
 | Duran Duran — Wild Boys | 1980s-02.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`label_unverified` | 0 | 3 | Complete | No |

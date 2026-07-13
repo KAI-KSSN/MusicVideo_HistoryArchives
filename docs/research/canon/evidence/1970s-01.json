@@ -10,7 +10,9 @@
         "officialTitle": "Bohemian Rhapsody",
         "releaseYear": 1975,
         "countryCode": "GB",
-        "directors": ["Bruce Gowers"],
+        "directors": [
+          "Bruce Gowers"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": null,
@@ -38,23 +40,62 @@
         {
           "type": "artist_official",
           "url": "https://www.queenonline.com/news/bohemian-rhapsody-1-billion-views-on-you-tube",
-          "supports": ["releaseYear", "director", "historicalContext", "officialVideo"]
+          "supports": [
+            "releaseYear",
+            "director",
+            "historicalContext",
+            "officialVideo"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
-          "supports": ["officialTitle", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+          "supports": [
+            "officialTitle",
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "excludedFalsePositives": [
           "2019 John Lewis/Waitrose advertisement titled Bohemian Rhapsody",
           "2018 feature film and its marketing campaign",
           "GRAMMY recording nominations and Hall of Fame induction"
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1970s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "label_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "label_unverified"
+      ]
     },
     {
       "artist": "David Bowie",
@@ -63,7 +104,10 @@
         "officialTitle": "Ashes To Ashes",
         "releaseYear": 1980,
         "countryCode": "GB",
-        "directors": ["David Bowie", "David Mallet"],
+        "directors": [
+          "David Bowie",
+          "David Mallet"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": null,
@@ -91,16 +135,58 @@
         {
           "type": "artist_official",
           "url": "https://www.davidbowie.com/blog/2017/9/27/anciant-video-focus-ashes-to-ashes",
-          "supports": ["releaseYear", "directors", "visualMethods", "historicalContext"]
+          "supports": [
+            "releaseYear",
+            "directors",
+            "visualMethods",
+            "historicalContext"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=HyMm4rJemtI",
-          "supports": ["officialTitle", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+          "supports": [
+            "officialTitle",
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
         }
       ],
-      "awardAudit": { "status": "in_progress", "verifiedResults": [] },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "label_unverified"]
+      "awardAudit": {
+        "status": "complete",
+        "verifiedResults": [],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1970s-resolved-award-audit.md"
+      },
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "label_unverified"
+      ]
     },
     {
       "artist": "ABBA",
@@ -109,7 +195,9 @@
         "officialTitle": "Take A Chance On Me",
         "releaseYear": 1978,
         "countryCode": "SE",
-        "directors": ["Lasse Hallström"],
+        "directors": [
+          "Lasse Hallström"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": null,
@@ -137,16 +225,58 @@
         {
           "type": "artist_official",
           "url": "https://abbasite.com/articles/take-a-chance-on-me-abbas-farewell-to-innocence/",
-          "supports": ["releaseYear", "director", "visualMethods", "historicalContext"]
+          "supports": [
+            "releaseYear",
+            "director",
+            "visualMethods",
+            "historicalContext"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=-crgQGdpZR0",
-          "supports": ["officialTitle", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+          "supports": [
+            "officialTitle",
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
         }
       ],
-      "awardAudit": { "status": "in_progress", "verifiedResults": [] },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "label_unverified"]
+      "awardAudit": {
+        "status": "complete",
+        "verifiedResults": [],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1970s-resolved-award-audit.md"
+      },
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "label_unverified"
+      ]
     },
     {
       "artist": "The Buggles",
@@ -155,7 +285,9 @@
         "officialTitle": "Video Killed The Radio Star",
         "releaseYear": 1979,
         "countryCode": "GB",
-        "directors": ["Russell Mulcahy"],
+        "directors": [
+          "Russell Mulcahy"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Island Records",
@@ -183,21 +315,67 @@
         {
           "type": "label_editorial",
           "url": "https://www.udiscovermusic.com/stories/best-80s-music-video/",
-          "supports": ["releaseYear", "director", "historicalContext", "visualMethods"]
+          "supports": [
+            "releaseYear",
+            "director",
+            "historicalContext",
+            "visualMethods"
+          ]
         },
         {
           "type": "label_editorial",
           "url": "https://www.udiscovermusic.com/stories/buggles-become-video-radio-stars/",
-          "supports": ["releaseYear", "label", "historicalContext", "officialVideo"]
+          "supports": [
+            "releaseYear",
+            "label",
+            "historicalContext",
+            "officialVideo"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=W8r-tXRLazs",
-          "supports": ["officialTitle", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+          "supports": [
+            "officialTitle",
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
         }
       ],
-      "awardAudit": { "status": "in_progress", "verifiedResults": [] },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified"]
+      "awardAudit": {
+        "status": "complete",
+        "verifiedResults": [],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1970s-resolved-award-audit.md"
+      },
+      "publicationBlockers": [
+        "production_credit_unverified"
+      ]
     }
   ]
 }

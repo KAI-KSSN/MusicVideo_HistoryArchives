@@ -27,16 +27,31 @@
         {
           "type": "artist_official",
           "url": "https://www.pinkfloyd.com/albums/the-wall/",
-          "supports": ["albumReleaseYear", "concept", "geraldScarfeAlbumCredit"]
+          "supports": [
+            "albumReleaseYear",
+            "concept",
+            "geraldScarfeAlbumCredit"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=HrxX9TBj2zY",
-          "supports": ["youtubeId", "thumbnailUrl", "runtimeSeconds"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
         }
       ],
-      "awardAudit": { "status": "not_started", "verifiedResults": [] },
-      "publicationBlockers": ["work_identity_unresolved", "award_scope_incomplete", "director_unverified"]
+      "awardAudit": {
+        "status": "not_started",
+        "verifiedResults": []
+      },
+      "publicationBlockers": [
+        "work_identity_unresolved",
+        "award_scope_incomplete",
+        "director_unverified"
+      ]
     },
     {
       "artist": "Blondie",
@@ -73,12 +88,19 @@
         {
           "type": "artist_official",
           "url": "https://www.blondie.net/videos/heart-of-glass-official-music-video/",
-          "supports": ["officialTitle", "officialVideo"]
+          "supports": [
+            "officialTitle",
+            "officialVideo"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=WGU_4-5RaxU",
-          "supports": ["youtubeId", "thumbnailUrl", "runtimeSeconds"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
         }
       ],
       "discoveryOnly": [
@@ -88,8 +110,40 @@
           "reasonNotVerified": "No authoritative first-party or production source has yet been located."
         }
       ],
-      "awardAudit": { "status": "not_started", "verifiedResults": [] },
-      "publicationBlockers": ["award_scope_incomplete", "director_unverified", "release_year_needs_second_source"]
+      "awardAudit": {
+        "status": "complete",
+        "verifiedResults": [],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1970s-resolved-award-audit.md"
+      },
+      "publicationBlockers": [
+        "director_unverified",
+        "release_year_needs_second_source"
+      ]
     },
     {
       "artist": "The Clash",
@@ -98,7 +152,9 @@
         "officialTitle": "London Calling",
         "releaseYear": 1979,
         "countryCode": "GB",
-        "directors": ["Don Letts"],
+        "directors": [
+          "Don Letts"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": null,
@@ -126,21 +182,65 @@
         {
           "type": "director_official",
           "url": "https://www.donletts.com/music-videos",
-          "supports": ["director", "location", "productionContext", "visualMethods"]
+          "supports": [
+            "director",
+            "location",
+            "productionContext",
+            "visualMethods"
+          ]
         },
         {
           "type": "label_official",
           "url": "https://www.sonymusic.co.jp/artist/TheClash/info/513479",
-          "supports": ["releaseContext", "officialHdRemaster"]
+          "supports": [
+            "releaseContext",
+            "officialHdRemaster"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=EfK-WX2pa8c",
-          "supports": ["officialTitle", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+          "supports": [
+            "officialTitle",
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
         }
       ],
-      "awardAudit": { "status": "not_started", "verifiedResults": [] },
-      "publicationBlockers": ["award_scope_incomplete", "label_unverified"]
+      "awardAudit": {
+        "status": "complete",
+        "verifiedResults": [],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1970s-resolved-award-audit.md"
+      },
+      "publicationBlockers": [
+        "label_unverified"
+      ]
     },
     {
       "artist": "Kate Bush",
@@ -177,12 +277,21 @@
         {
           "type": "artist_official",
           "url": "https://music.katebush.com/buy/the-kick-inside/",
-          "supports": ["releaseYear", "songTitle"]
+          "supports": [
+            "releaseYear",
+            "songTitle"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=-1pMMIe4hb4",
-          "supports": ["officialTitle", "selectedVersion", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+          "supports": [
+            "officialTitle",
+            "selectedVersion",
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
         }
       ],
       "discoveryOnly": [
@@ -192,8 +301,40 @@
           "reasonNotVerified": "Useful discovery source, but an authoritative production or artist credit has not yet been located."
         }
       ],
-      "awardAudit": { "status": "not_started", "verifiedResults": [] },
-      "publicationBlockers": ["award_scope_incomplete", "director_unverified", "label_unverified"]
+      "awardAudit": {
+        "status": "complete",
+        "verifiedResults": [],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1970s-resolved-award-audit.md"
+      },
+      "publicationBlockers": [
+        "director_unverified",
+        "label_unverified"
+      ]
     }
   ]
 }

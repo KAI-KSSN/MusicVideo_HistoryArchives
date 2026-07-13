@@ -28,7 +28,10 @@
         {
           "type": "artist_official",
           "url": "https://www.kraftwerk.com/",
-          "supports": ["artistCatalogue", "albumContext"]
+          "supports": [
+            "artistCatalogue",
+            "albumContext"
+          ]
         }
       ],
       "discoveryOnly": [
@@ -38,7 +41,10 @@
           "reasonNotVerified": "The uploader is not an official artist or label channel and no authoritative production source has yet linked that upload to the intended work."
         }
       ],
-      "awardAudit": { "status": "not_started", "verifiedResults": [] },
+      "awardAudit": {
+        "status": "not_started",
+        "verifiedResults": []
+      },
       "publicationBlockers": [
         "work_identity_unresolved",
         "official_video_unresolved",
@@ -73,15 +79,24 @@
         {
           "type": "chart_archive_official",
           "url": "https://www.officialcharts.com/songs/donna-summer-i-feel-love/",
-          "supports": ["releaseYear", "label", "recordingChartContext"]
+          "supports": [
+            "releaseYear",
+            "label",
+            "recordingChartContext"
+          ]
         },
         {
           "type": "official_platform_video",
           "url": "https://music.apple.com/us/music-video/i-feel-love/1693665690",
-          "supports": ["musicVideoAssetExists"]
+          "supports": [
+            "musicVideoAssetExists"
+          ]
         }
       ],
-      "awardAudit": { "status": "not_started", "verifiedResults": [] },
+      "awardAudit": {
+        "status": "not_started",
+        "verifiedResults": []
+      },
       "publicationBlockers": [
         "work_identity_unresolved",
         "official_video_unresolved",
@@ -125,17 +140,26 @@
         {
           "type": "artist_official",
           "url": "https://elviscostello.com/watch/",
-          "supports": ["officialTitle", "officialVideoCatalogue"]
+          "supports": [
+            "officialTitle",
+            "officialVideoCatalogue"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://elviscostello.com/videos/elvis-costello-watching-the-detectives/",
-          "supports": ["officialVideo"]
+          "supports": [
+            "officialVideo"
+          ]
         },
         {
           "type": "chart_archive_official",
           "url": "https://www.officialcharts.com/songs/elvis-costello-watchin-the-detectives/",
-          "supports": ["releaseYear", "label", "recordingChartContext"]
+          "supports": [
+            "releaseYear",
+            "label",
+            "recordingChartContext"
+          ]
         }
       ],
       "discoveryOnly": [
@@ -145,12 +169,40 @@
           "reasonNotVerified": "No artist, label, director, production-company, or award archive source has yet been located for this credit."
         }
       ],
-      "awardAudit": { "status": "not_started", "verifiedResults": [] },
+      "awardAudit": {
+        "status": "complete",
+        "verifiedResults": [],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1970s-resolved-award-audit.md"
+      },
       "publicationBlockers": [
         "youtube_id_unverified",
         "director_unverified",
-        "production_credit_unverified",
-        "award_scope_incomplete"
+        "production_credit_unverified"
       ]
     },
     {
@@ -178,7 +230,11 @@
         {
           "type": "artist_official",
           "url": "https://store.jefflynneselo.com/products/discovery-1lp-d2c-exclusive",
-          "supports": ["releaseYear", "albumTrack", "artistCatalogue"]
+          "supports": [
+            "releaseYear",
+            "albumTrack",
+            "artistCatalogue"
+          ]
         }
       ],
       "discoveryOnly": [
@@ -188,7 +244,10 @@
           "reasonNotVerified": "The sources are useful for discovery but are not sufficient to register a version or director credit."
         }
       ],
-      "awardAudit": { "status": "not_started", "verifiedResults": [] },
+      "awardAudit": {
+        "status": "not_started",
+        "verifiedResults": []
+      },
       "publicationBlockers": [
         "work_identity_unresolved",
         "official_video_unresolved",
