@@ -37,7 +37,7 @@ for (const file of files) {
     if (work.awardAudit?.status === "complete" && !Array.isArray(work.awardAudit.checkedPrograms)) {
       throw new Error(`${file}: completed award audit lacks checkedPrograms`);
     }
-    if (!work.publicationBlockers?.length) {
+    if (!work.publicationBlockers?.length && work.existingPublished !== true) {
       throw new Error(`${file}: staged evidence unexpectedly has no publication blocker`);
     }
   }

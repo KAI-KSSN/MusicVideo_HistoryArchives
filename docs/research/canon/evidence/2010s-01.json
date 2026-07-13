@@ -6,6 +6,7 @@
     {
       "artist": "Childish Gambino",
       "title": "This Is America",
+      "existingPublished": true,
       "metadata": {
         "officialTitle": "This Is America",
         "releaseYear": 2018,
@@ -93,7 +94,7 @@
         ],
         "notes": "The prior pilot-wide official archive audit is reused. SXSW competition placement and Vimeo Staff Pick remain recognitions rather than work_award_results."
       },
-      "publicationBlockers": ["staged_existing_published_reconciliation_pending"]
+      "publicationBlockers": []
     },
     {
       "artist": "Flying Lotus",

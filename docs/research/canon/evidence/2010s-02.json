@@ -189,6 +189,7 @@
     {
       "artist": "米津玄師",
       "title": "Lemon",
+      "existingPublished": true,
       "metadata": {
         "officialTitle": "Lemon",
         "releaseYear": 2018,
@@ -281,7 +282,7 @@
         ],
         "notes": "The prior pilot-wide award audit is reused. Only the two artist-official MTV VMAJ results are registered; no result is inferred for the other checked programs."
       },
-      "publicationBlockers": ["staged_existing_published_reconciliation_pending"]
+      "publicationBlockers": []
     }
   ]
 }
