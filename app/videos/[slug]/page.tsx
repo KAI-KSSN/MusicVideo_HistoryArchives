@@ -2,7 +2,9 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import LocalizedEditorial from "@/components/LocalizedEditorial";
 import SiteHeader from "@/components/SiteHeader";
+import WorkKnowledgeSections from "@/components/WorkKnowledgeSections";
 import { getPublishedWorkBySlug, getPublishedWorks } from "@/lib/archive";
+import { getWorkKnowledgeGraph } from "@/lib/knowledge-graph";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -15,7 +17,10 @@ export async function generateStaticParams() {
 
 export default async function VideoDetailPage({ params }: Props) {
   const { slug } = await params;
-  const video = await getPublishedWorkBySlug(slug);
+  const [video, knowledgeGraph] = await Promise.all([
+    getPublishedWorkBySlug(slug),
+    getWorkKnowledgeGraph(slug),
+  ]);
 
   if (!video) notFound();
 
@@ -267,6 +272,11 @@ export default async function VideoDetailPage({ params }: Props) {
           </dl>
         </div>
       </section>
+
+      <WorkKnowledgeSections
+        technologies={knowledgeGraph.technologies}
+        visualLanguages={knowledgeGraph.visualLanguages}
+      />
 
       {(video.sources?.length ?? 0) > 0 && (
         <section className="work-caption work-sources">
