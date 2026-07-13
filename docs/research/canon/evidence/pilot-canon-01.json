@@ -10,7 +10,9 @@
         "officialTitle": "Michael Jackson's Thriller",
         "releaseYear": 1983,
         "countryCode": "US",
-        "directors": ["John Landis"],
+        "directors": [
+          "John Landis"
+        ],
         "productionCompany": "Optimum Productions",
         "vfxProduction": null,
         "label": null,
@@ -38,39 +40,84 @@
         {
           "type": "library_catalog_official",
           "url": "https://www.loc.gov/item/86708393/",
-          "supports": ["officialTitle", "releaseYear", "countryCode", "director", "productionCompany", "productionCharacteristics"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "countryCode",
+            "director",
+            "productionCompany",
+            "productionCharacteristics"
+          ]
         },
         {
           "type": "national_registry_official",
           "url": "https://www.loc.gov/item/prn-09-250/",
-          "supports": ["registrySelection", "historicalContext"]
+          "supports": [
+            "registrySelection",
+            "historicalContext"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=sOnqjkJTMaA",
-          "supports": ["officialTitle", "youtubeId", "thumbnailUrl"]
+          "supports": [
+            "officialTitle",
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.grammy.com/awards/26th-annual-grammy-awards/",
-          "supports": ["excludedFalsePositive"]
+          "supports": [
+            "excludedFalsePositive"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.grammy.com/awards/27th-annual-grammy-awards/",
-          "supports": ["excludedFalsePositive"]
+          "supports": [
+            "excludedFalsePositive"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
         "excludedFalsePositives": [
           "GRAMMY results for the song or album are not music-video awards.",
           "Making Michael Jackson's Thriller is a separate making-of work and is not registered as an award for this music video.",
           "The National Film Registry selection is preservation recognition, not an award result."
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/pilot-awards-research-matrix.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "label_unverified", "vfx_production_unverified"]
+      "publicationBlockers": [],
+      "existingPublished": true
     },
     {
       "artist": "a-ha",
@@ -79,7 +126,9 @@
         "officialTitle": "Take On Me",
         "releaseYear": 1985,
         "countryCode": "GB",
-        "directors": ["Steve Barron"],
+        "directors": [
+          "Steve Barron"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Warner Bros. Records",
@@ -107,25 +156,64 @@
         {
           "type": "artist_official",
           "url": "https://a-hadiscography.com/video.htm",
-          "supports": ["officialTitle", "releaseYear", "director", "animationFormat"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "director",
+            "animationFormat"
+          ]
         },
         {
           "type": "label_official",
           "url": "https://wmg.jp/a-ha/mv/",
-          "supports": ["officialVideoCatalogue", "label"]
+          "supports": [
+            "officialVideoCatalogue",
+            "label"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=djV11Xbc914",
-          "supports": ["officialTitle", "youtubeId", "thumbnailUrl"]
+          "supports": [
+            "officialTitle",
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
-        "notes": "Frequently reported historical MTV VMA results are not staged until an exact official result archive identifies the work, year, category, and outcome."
+        "notes": "Frequently reported historical MTV VMA results are not staged until an exact official result archive identifies the work, year, category, and outcome.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/pilot-awards-research-matrix.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "production_company_unverified", "vfx_production_unverified"]
+      "publicationBlockers": [],
+      "existingPublished": true
     }
   ]
 }

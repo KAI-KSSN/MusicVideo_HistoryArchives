@@ -10,7 +10,9 @@
         "officialTitle": "The Scientist",
         "releaseYear": 2002,
         "countryCode": "GB",
-        "directors": ["Jamie Thraves"],
+        "directors": [
+          "Jamie Thraves"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Parlophone",
@@ -35,23 +37,90 @@
         }
       },
       "sources": [
-        {"type":"artist_official","url":"https://www.coldplay.com/video/the-scientist/","supports":["officialTitle","releaseYear","officialVideoIdentity"]},
-        {"type":"artist_official","url":"https://www.coldplay.com/release/the-scientist/","supports":["officialTitle","releaseYear"]},
-        {"type":"director_official","url":"https://www.jamiethraves.com/portfolio/coldplay-the-scientist-official-4k-video","supports":["director","officialVideoIdentity"]},
-        {"type":"label_official","url":"https://warnermusic-ie-4.nds.acquia-psi.com/news/2022/arushofbloodtothehead20/","supports":["director","filmFormat","restorationContext"]},
-        {"type":"award_archive_official","url":"https://www.grammy.com/artists/jamie-thraves/6719/","supports":["director","awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=RB-RcX5DS5A","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "artist_official",
+          "url": "https://www.coldplay.com/video/the-scientist/",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "officialVideoIdentity"
+          ]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://www.coldplay.com/release/the-scientist/",
+          "supports": [
+            "officialTitle",
+            "releaseYear"
+          ]
+        },
+        {
+          "type": "director_official",
+          "url": "https://www.jamiethraves.com/portfolio/coldplay-the-scientist-official-4k-video",
+          "supports": [
+            "director",
+            "officialVideoIdentity"
+          ]
+        },
+        {
+          "type": "label_official",
+          "url": "https://warnermusic-ie-4.nds.acquia-psi.com/news/2022/arushofbloodtothehead20/",
+          "supports": [
+            "director",
+            "filmFormat",
+            "restorationContext"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.grammy.com/artists/jamie-thraves/6719/",
+          "supports": [
+            "director",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=RB-RcX5DS5A",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
         "status": "in_progress",
         "verifiedResults": [
-          {"program":"GRAMMY Awards","year":2004,"category":"Best Music Video","result":"Nominee","creditedNames":["Coldplay","Jamie Thraves"],"source":"https://www.grammy.com/artists/jamie-thraves/6719/"}
+          {
+            "program": "GRAMMY Awards",
+            "year": 2004,
+            "category": "Best Music Video",
+            "result": "Nominee",
+            "creditedNames": [
+              "Coldplay",
+              "Jamie Thraves"
+            ],
+            "source": "https://www.grammy.com/artists/jamie-thraves/6719/"
+          }
         ],
         "candidateOfficialClaims": [
-          {"program":"MTV Video Music Awards","year":2003,"claim":"Best Direction, Breakthrough Video, and Best Group Video wins","source":"https://www.jamiethraves.com/pages/about-1","registrationStatus":"hold_for_awarding_body_archive"}
+          {
+            "program": "MTV Video Music Awards",
+            "year": 2003,
+            "claim": "Best Direction, Breakthrough Video, and Best Group Video wins",
+            "source": "https://www.jamiethraves.com/pages/about-1",
+            "registrationStatus": "hold_for_awarding_body_archive"
+          }
         ]
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "award_scope_incomplete",
+        "production_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Beyoncé",
@@ -60,7 +129,9 @@
         "officialTitle": "Single Ladies (Put a Ring on It)",
         "releaseYear": 2008,
         "countryCode": "US",
-        "directors": ["Jake Nava"],
+        "directors": [
+          "Jake Nava"
+        ],
         "productionCompany": "Anonymous Content",
         "vfxProduction": null,
         "label": "Columbia Records",
@@ -85,19 +156,94 @@
         }
       },
       "sources": [
-        {"type":"award_archive_official","url":"https://ir.paramount.com/news-releases/news-release-details/beyonce-green-day-lady-gaga-lead-way-three-moonmen-2009-video","supports":["director","productionCompany","awardProgram","awardYear","awardCategories","awardOutcomes","creditedRecipients"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=4m1EFMoRFvY","supports":["officialTitle","youtubeId","thumbnailUrl"]}
+        {
+          "type": "award_archive_official",
+          "url": "https://ir.paramount.com/news-releases/news-release-details/beyonce-green-day-lady-gaga-lead-way-three-moonmen-2009-video",
+          "supports": [
+            "director",
+            "productionCompany",
+            "awardProgram",
+            "awardYear",
+            "awardCategories",
+            "awardOutcomes",
+            "creditedRecipients"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=4m1EFMoRFvY",
+          "supports": [
+            "officialTitle",
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
-          {"program":"MTV Video Music Awards","year":2009,"category":"VIDEO OF THE YEAR","result":"Winner","creditedNames":["Beyoncé"],"source":"https://ir.paramount.com/news-releases/news-release-details/beyonce-green-day-lady-gaga-lead-way-three-moonmen-2009-video"},
-          {"program":"MTV Video Music Awards","year":2009,"category":"BEST CHOREOGRAPHY","result":"Winner","creditedNames":["JaQuel Knight","Frank Gatson Jr."],"source":"https://ir.paramount.com/news-releases/news-release-details/beyonce-green-day-lady-gaga-lead-way-three-moonmen-2009-video"},
-          {"program":"MTV Video Music Awards","year":2009,"category":"BEST EDITING","result":"Winner","creditedNames":["Jarrett Fijal"],"source":"https://ir.paramount.com/news-releases/news-release-details/beyonce-green-day-lady-gaga-lead-way-three-moonmen-2009-video"}
+          {
+            "program": "MTV Video Music Awards",
+            "year": 2009,
+            "category": "VIDEO OF THE YEAR",
+            "result": "Winner",
+            "creditedNames": [
+              "Beyoncé"
+            ],
+            "source": "https://ir.paramount.com/news-releases/news-release-details/beyonce-green-day-lady-gaga-lead-way-three-moonmen-2009-video"
+          },
+          {
+            "program": "MTV Video Music Awards",
+            "year": 2009,
+            "category": "BEST CHOREOGRAPHY",
+            "result": "Winner",
+            "creditedNames": [
+              "JaQuel Knight",
+              "Frank Gatson Jr."
+            ],
+            "source": "https://ir.paramount.com/news-releases/news-release-details/beyonce-green-day-lady-gaga-lead-way-three-moonmen-2009-video"
+          },
+          {
+            "program": "MTV Video Music Awards",
+            "year": 2009,
+            "category": "BEST EDITING",
+            "result": "Winner",
+            "creditedNames": [
+              "Jarrett Fijal"
+            ],
+            "source": "https://ir.paramount.com/news-releases/news-release-details/beyonce-green-day-lady-gaga-lead-way-three-moonmen-2009-video"
+          }
         ],
-        "notes": "Existing verified pilot results and their direct Paramount/MTV source are reused without expansion beyond the official release."
+        "notes": "Existing verified pilot results and their direct Paramount/MTV source are reused without expansion beyond the official release.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/pilot-awards-research-matrix.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "vfx_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [],
+      "existingPublished": true
     },
     {
       "artist": "Justice",
@@ -106,7 +252,10 @@
         "officialTitle": "D.A.N.C.E.",
         "releaseYear": 2007,
         "countryCode": "FR",
-        "directors": ["Jonas Euvremer", "François Rousselet"],
+        "directors": [
+          "Jonas Euvremer",
+          "François Rousselet"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Ed Banger Records",
@@ -131,19 +280,66 @@
         }
       },
       "sources": [
-        {"type":"artist_official","url":"https://uk.justice.church/music?lang=en_US","supports":["officialTitle","releaseYear","label"]},
-        {"type":"artist_official","url":"https://uk.justice.church/about?lang=pt","supports":["releaseYear","historicalContext","awardNominationDiscovery"]},
-        {"type":"award_archive_official","url":"https://www.grammy.com/artists/justice/14621/","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=sy1dYFGkPUE","supports":["officialTitle","youtubeId","thumbnailUrl"]}
+        {
+          "type": "artist_official",
+          "url": "https://uk.justice.church/music?lang=en_US",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "label"
+          ]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://uk.justice.church/about?lang=pt",
+          "supports": [
+            "releaseYear",
+            "historicalContext",
+            "awardNominationDiscovery"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.grammy.com/artists/justice/14621/",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=sy1dYFGkPUE",
+          "supports": [
+            "officialTitle",
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
         "status": "in_progress",
         "verifiedResults": [
-          {"program":"GRAMMY Awards","year":2008,"category":"Best Music Video","result":"Nominee","creditedNames":["Justice"],"source":"https://www.grammy.com/artists/justice/14621/"}
+          {
+            "program": "GRAMMY Awards",
+            "year": 2008,
+            "category": "Best Music Video",
+            "result": "Nominee",
+            "creditedNames": [
+              "Justice"
+            ],
+            "source": "https://www.grammy.com/artists/justice/14621/"
+          }
         ],
         "notes": "The director names are supported by the official-video credit and are retained as individual people. No production company is inferred from secondary databases."
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "award_scope_incomplete",
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Radiohead",
@@ -152,7 +348,9 @@
         "officialTitle": "House of Cards",
         "releaseYear": 2008,
         "countryCode": "GB",
-        "directors": ["James Frost"],
+        "directors": [
+          "James Frost"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": null,
@@ -177,21 +375,85 @@
         }
       },
       "sources": [
-        {"type":"artist_official","url":"https://www.radiohead.com/deadairspace/page/3","supports":["officialVideoIdentity","releaseContext"]},
-        {"type":"director_official","url":"https://www.jamesfrost.tv/moving-image/house-of-cards","supports":["officialTitle","artist","director"]},
-        {"type":"director_official","url":"https://www.jamesfrost.tv/about","supports":["director","historicalContext","awardNominationDiscovery"]},
-        {"type":"technology_director_official","url":"https://www.aaronkoblin.com/work/rh/index.html","supports":["director","technologyDirector","captureTechnology","openSourceContext"]},
-        {"type":"award_archive_official","url":"https://www.grammy.com/artists/radiohead/8042/","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=8nTFjVm9sTQ","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "artist_official",
+          "url": "https://www.radiohead.com/deadairspace/page/3",
+          "supports": [
+            "officialVideoIdentity",
+            "releaseContext"
+          ]
+        },
+        {
+          "type": "director_official",
+          "url": "https://www.jamesfrost.tv/moving-image/house-of-cards",
+          "supports": [
+            "officialTitle",
+            "artist",
+            "director"
+          ]
+        },
+        {
+          "type": "director_official",
+          "url": "https://www.jamesfrost.tv/about",
+          "supports": [
+            "director",
+            "historicalContext",
+            "awardNominationDiscovery"
+          ]
+        },
+        {
+          "type": "technology_director_official",
+          "url": "https://www.aaronkoblin.com/work/rh/index.html",
+          "supports": [
+            "director",
+            "technologyDirector",
+            "captureTechnology",
+            "openSourceContext"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.grammy.com/artists/radiohead/8042/",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=8nTFjVm9sTQ",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
         "status": "in_progress",
         "verifiedResults": [
-          {"program":"GRAMMY Awards","year":2009,"category":"Best Music Video","result":"Nominee","creditedNames":["Radiohead","James Frost"],"source":"https://www.grammy.com/artists/radiohead/8042/"}
+          {
+            "program": "GRAMMY Awards",
+            "year": 2009,
+            "category": "Best Music Video",
+            "result": "Nominee",
+            "creditedNames": [
+              "Radiohead",
+              "James Frost"
+            ],
+            "source": "https://www.grammy.com/artists/radiohead/8042/"
+          }
         ],
         "notes": "The simultaneous GRAMMY nomination for the song performance is not attached as a work award. Only the music-video nomination is registered."
       },
-      "publicationBlockers": ["award_scope_incomplete", "label_unverified", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "award_scope_incomplete",
+        "label_unverified",
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified"
+      ]
     }
   ]
 }

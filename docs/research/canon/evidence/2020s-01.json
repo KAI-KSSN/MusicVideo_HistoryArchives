@@ -10,7 +10,9 @@
         "officialTitle": "One Last Kiss",
         "releaseYear": 2021,
         "countryCode": "JP",
-        "directors": ["庵野秀明"],
+        "directors": [
+          "庵野秀明"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Epic Records Japan",
@@ -38,38 +40,90 @@
         {
           "type": "label_official",
           "url": "https://www.sonymusic.co.jp/artist/utadahikaru/info/528047",
-          "supports": ["officialTitle", "releaseYear", "director", "officialVideoExistence", "culturalReach"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "director",
+            "officialVideoExistence",
+            "culturalReach"
+          ]
         },
         {
           "type": "label_official",
           "url": "https://www.sonymusic.co.jp/artist/utadahikaru/discography/ESCL-5488",
-          "supports": ["officialTitle", "releaseYear", "label"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "label"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=0Uhh62MUEic",
-          "supports": ["officialTitle", "director", "youtubeId", "thumbnailUrl"]
+          "supports": [
+            "officialTitle",
+            "director",
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://prtimes.jp/a/?c=2929&f=d2929-1983-5950e976d8c5708e582067b1b9d65665.pdf&r=1983",
-          "supports": ["officialTitle", "director", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "director",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "SPACE SHOWER MUSIC AWARDS",
             "year": 2022,
             "category": "BEST MOVIE SONG",
             "result": "Winner",
-            "creditedNames": ["宇多田ヒカル", "庵野秀明"],
+            "creditedNames": [
+              "宇多田ヒカル",
+              "庵野秀明"
+            ],
             "source": "https://prtimes.jp/a/?c=2929&f=d2929-1983-5950e976d8c5708e582067b1b9d65665.pdf&r=1983"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/pilot-awards-research-matrix.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [],
+      "existingPublished": true
     },
     {
       "artist": "The Weeknd",
@@ -78,7 +132,9 @@
         "officialTitle": "Take My Breath",
         "releaseYear": 2021,
         "countryCode": "US",
-        "directors": ["Cliqua"],
+        "directors": [
+          "Cliqua"
+        ],
         "productionCompany": "Somesuch",
         "vfxProduction": null,
         "label": "XO Records",
@@ -106,12 +162,28 @@
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=rhTl_OyehF8",
-          "supports": ["officialTitle", "releaseYear", "youtubeId", "thumbnailUrl", "label"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "youtubeId",
+            "thumbnailUrl",
+            "label"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://awards.ukmva.com/years/2021",
-          "supports": ["officialTitle", "director", "productionCompany", "producer", "label", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "director",
+            "productionCompany",
+            "producer",
+            "label",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         }
       ],
       "awardAudit": {
@@ -122,12 +194,19 @@
             "year": 2021,
             "category": "Best R&B / Soul Video — International",
             "result": "Shortlisted",
-            "creditedNames": ["Cliqua", "Somesuch"],
+            "creditedNames": [
+              "Cliqua",
+              "Somesuch"
+            ],
             "source": "https://awards.ukmva.com/years/2021"
           }
         ]
       },
-      "publicationBlockers": ["award_scope_incomplete", "vfx_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "award_scope_incomplete",
+        "vfx_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "NewJeans",
@@ -136,7 +215,9 @@
         "officialTitle": "Ditto",
         "releaseYear": 2022,
         "countryCode": "KR",
-        "directors": ["Shin Woo-seok"],
+        "directors": [
+          "Shin Woo-seok"
+        ],
         "productionCompany": "Dolphiners Films",
         "vfxProduction": null,
         "label": "ADOR",
@@ -164,17 +245,37 @@
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=pSUydWEqKwE",
-          "supports": ["officialTitle", "releaseYear", "youtubeId", "thumbnailUrl", "label", "sideA"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "youtubeId",
+            "thumbnailUrl",
+            "label",
+            "sideA"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=V37TaRdVUQY",
-          "supports": ["officialTitle", "releaseYear", "label", "sideB"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "label",
+            "sideB"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://clios.com/winners-gallery/details/9201",
-          "supports": ["officialTitle", "director", "productionCompany", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "director",
+            "productionCompany",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         }
       ],
       "awardAudit": {
@@ -185,13 +286,22 @@
             "year": 2024,
             "category": "Film & Video — Music Videos",
             "result": "Shortlist",
-            "creditedNames": ["NewJeans", "Shin Woo-seok", "Dolphiners Films"],
+            "creditedNames": [
+              "NewJeans",
+              "Shin Woo-seok",
+              "Dolphiners Films"
+            ],
             "source": "https://clios.com/winners-gallery/details/9201"
           }
         ],
         "notes": "Song-of-the-year results for the recording are outside the music-video award scope and are not registered here."
       },
-      "publicationBlockers": ["award_scope_incomplete", "vfx_credit_unverified", "runtime_unverified", "label_source_needs_upgrade"]
+      "publicationBlockers": [
+        "award_scope_incomplete",
+        "vfx_credit_unverified",
+        "runtime_unverified",
+        "label_source_needs_upgrade"
+      ]
     },
     {
       "artist": "Kendrick Lamar",
@@ -200,7 +310,10 @@
         "officialTitle": "Count Me Out",
         "releaseYear": 2022,
         "countryCode": "US",
-        "directors": ["Dave Free", "Kendrick Lamar"],
+        "directors": [
+          "Dave Free",
+          "Kendrick Lamar"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "pgLang / Top Dawg Entertainment / Aftermath / Interscope",
@@ -228,12 +341,26 @@
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=5GhhVHpPR_M",
-          "supports": ["officialTitle", "releaseYear", "youtubeId", "thumbnailUrl", "label"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "youtubeId",
+            "thumbnailUrl",
+            "label"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.grammy.com/news/2024-grammys-nominations-full-winners-nominees-list/",
-          "supports": ["officialTitle", "directors", "producers", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "directors",
+            "producers",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         }
       ],
       "awardAudit": {
@@ -244,12 +371,22 @@
             "year": 2024,
             "category": "Best Music Video",
             "result": "Nominee",
-            "creditedNames": ["Kendrick Lamar", "Dave Free", "Jason Baum", "Jamie Rabineau"],
+            "creditedNames": [
+              "Kendrick Lamar",
+              "Dave Free",
+              "Jason Baum",
+              "Jamie Rabineau"
+            ],
             "source": "https://www.grammy.com/news/2024-grammys-nominations-full-winners-nominees-list/"
           }
         ]
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "award_scope_incomplete",
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified"
+      ]
     }
   ]
 }

@@ -10,7 +10,9 @@
         "officialTitle": "Virtual Insanity",
         "releaseYear": 1996,
         "countryCode": "GB",
-        "directors": ["Jonathan Glazer"],
+        "directors": [
+          "Jonathan Glazer"
+        ],
         "productionCompany": "Academy Films",
         "vfxProduction": null,
         "label": null,
@@ -38,25 +40,62 @@
         {
           "type": "production_company",
           "url": "https://www.academyfilms.com/portfolio/jamiroquai-virtual-insanity",
-          "supports": ["officialTitle", "director", "productionCompany", "visualTechnique"]
+          "supports": [
+            "officialTitle",
+            "director",
+            "productionCompany",
+            "visualTechnique"
+          ]
         },
         {
           "type": "official_chart_archive",
           "url": "https://www.officialcharts.com/songs/jamiroquai-virtual-insanity/",
-          "supports": ["releaseYear"]
+          "supports": [
+            "releaseYear"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=4JkIs37a2JE",
-          "supports": ["youtubeId", "thumbnailUrl"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
-        "notes": "The prior pilot audit found no result safe to register. Frequently reported historical MTV VMA results remain unresolved until an explicit official category record is retained."
+        "notes": "The prior pilot audit found no result safe to register. Frequently reported historical MTV VMA results remain unresolved until an explicit official category record is retained.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/pilot-awards-research-matrix.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "label_unverified", "runtime_unverified"]
+      "publicationBlockers": [],
+      "existingPublished": true
     },
     {
       "artist": "Daft Punk",
@@ -65,7 +104,9 @@
         "officialTitle": "Around The World",
         "releaseYear": 1997,
         "countryCode": "FR",
-        "directors": ["Michel Gondry"],
+        "directors": [
+          "Michel Gondry"
+        ],
         "productionCompany": "Partizan",
         "vfxProduction": null,
         "label": null,
@@ -93,25 +134,62 @@
         {
           "type": "artist_official",
           "url": "https://www.daftpunk.com/homework/",
-          "supports": ["officialTitle", "releaseYear", "albumContext"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "albumContext"
+          ]
         },
         {
           "type": "production_company",
           "url": "https://partizan.com/director/michel-gondry/commercials-branded/",
-          "supports": ["director", "productionCompany"]
+          "supports": [
+            "director",
+            "productionCompany"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=K0HSD_i2DvA",
-          "supports": ["youtubeId", "thumbnailUrl"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
-        "notes": "The prior pilot audit did not accept any award result. Historical nominations remain unresolved without an explicit official result page."
+        "notes": "The prior pilot audit did not accept any award result. Historical nominations remain unresolved without an explicit official result page.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/pilot-awards-research-matrix.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "label_unverified", "runtime_unverified"]
+      "publicationBlockers": [],
+      "existingPublished": true
     },
     {
       "artist": "Beastie Boys",
@@ -120,7 +198,9 @@
         "officialTitle": "Sabotage",
         "releaseYear": 1994,
         "countryCode": "US",
-        "directors": ["Spike Jonze"],
+        "directors": [
+          "Spike Jonze"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Grand Royal / Capitol Records",
@@ -148,22 +228,39 @@
         {
           "type": "artist_official",
           "url": "https://beastieboys.com/discography/",
-          "supports": ["officialTitle", "releaseYear", "albumContext"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "albumContext"
+          ]
         },
         {
           "type": "director_approved_archive",
           "url": "https://www.criterion.com/films/638-beastie-boys-video-anthology",
-          "supports": ["officialTitle", "director"]
+          "supports": [
+            "officialTitle",
+            "director"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://ir.paramount.com/news-releases/news-release-details/beyonce-green-day-lady-gaga-lead-way-three-moonmen-2009-video",
-          "supports": ["director", "label", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "director",
+            "label",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=z5rRZdiu1UE",
-          "supports": ["youtubeId", "thumbnailUrl"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         }
       ],
       "awardAudit": {
@@ -175,12 +272,19 @@
             "year": 2009,
             "category": "Best Video (That Should Have Won a Moonman)",
             "result": "winner",
-            "creditedNames": ["Beastie Boys", "Spike Jonze"],
+            "creditedNames": [
+              "Beastie Boys",
+              "Spike Jonze"
+            ],
             "source": "https://ir.paramount.com/news-releases/news-release-details/beyonce-green-day-lady-gaga-lead-way-three-moonmen-2009-video"
           }
         ]
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "award_scope_incomplete",
+        "production_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Björk",
@@ -189,7 +293,9 @@
         "officialTitle": "All Is Full of Love",
         "releaseYear": 1999,
         "countryCode": "GB",
-        "directors": ["Chris Cunningham"],
+        "directors": [
+          "Chris Cunningham"
+        ],
         "productionCompany": "RSA Films",
         "vfxProduction": null,
         "label": null,
@@ -217,32 +323,57 @@
         {
           "type": "artist_official",
           "url": "https://shop.bjork.com/products/bjork-homogenic",
-          "supports": ["officialTitle", "albumContext"]
+          "supports": [
+            "officialTitle",
+            "albumContext"
+          ]
         },
         {
           "type": "film_archive",
           "url": "https://www.criterionchannel.com/all-is-full-of-love/videos/all-is-full-of-love",
-          "supports": ["officialTitle", "releaseYear", "countryCode", "director", "runtimeSeconds"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "countryCode",
+            "director",
+            "runtimeSeconds"
+          ]
         },
         {
           "type": "production_trade_archive",
           "url": "https://magazine.shots.net/videos/video/2647/all-is-full-of-love",
-          "supports": ["director", "productionCompany"]
+          "supports": [
+            "director",
+            "productionCompany"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.grammy.com/artists/bjork/485/",
-          "supports": ["awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.dandad.org/work/d-ad-awards-archive/bj%C3%B6rk-all-is-full-of-love",
-          "supports": ["awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=cbGSy6PKOb0",
-          "supports": ["youtubeId", "thumbnailUrl"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         }
       ],
       "awardAudit": {
@@ -254,7 +385,9 @@
             "year": 2000,
             "category": "Best Music Video",
             "result": "nominee",
-            "creditedNames": ["Björk"],
+            "creditedNames": [
+              "Björk"
+            ],
             "source": "https://www.grammy.com/artists/bjork/485/"
           },
           {
@@ -275,7 +408,11 @@
           }
         ]
       },
-      "publicationBlockers": ["award_scope_incomplete", "label_unverified", "vfx_credit_unverified"]
+      "publicationBlockers": [
+        "award_scope_incomplete",
+        "label_unverified",
+        "vfx_credit_unverified"
+      ]
     }
   ]
 }

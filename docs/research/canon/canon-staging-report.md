@@ -6,9 +6,9 @@
 
 - Selected works: 98
 - Works with complete bilingual editorial: 90
-- Works with complete award-scope audit: 2
+- Works with complete award-scope audit: 9
 - Verified award result records: 92
-- Works currently passing every publication gate: 2
+- Works currently passing every publication gate: 9
 
 ## Work-by-work status
 
@@ -26,9 +26,9 @@
 | The Clash — London Calling | 1970s-02.json | `award_scope_incomplete`<br>`label_unverified` | 0 | 3 | Complete | No |
 | David Bowie — Ashes to Ashes | 1970s-01.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`label_unverified` | 0 | 2 | Complete | No |
 | Herbie Hancock — Rockit | 1980s-02.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`label_unverified` | 0 | 3 | Complete | No |
-| Michael Jackson — Thriller | pilot-canon-01.json | `award_scope_incomplete`<br>`runtime_unverified`<br>`label_unverified`<br>`vfx_production_unverified` | 0 | 5 | Complete | No |
+| Michael Jackson — Thriller | pilot-canon-01.json | — | 0 | 5 | Complete | Yes; reconciled |
 | Duran Duran — Wild Boys | 1980s-02.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`label_unverified` | 0 | 3 | Complete | No |
-| a-ha — Take On Me | pilot-canon-01.json | `award_scope_incomplete`<br>`runtime_unverified`<br>`production_company_unverified`<br>`vfx_production_unverified` | 0 | 3 | Complete | No |
+| a-ha — Take On Me | pilot-canon-01.json | — | 0 | 3 | Complete | Yes; reconciled |
 | Dire Straits — Money for Nothing | 1980s-01.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified` | 0 | 3 | Complete | No |
 | Madonna — Material Girl | 1980s-01.json | `award_scope_incomplete`<br>`release_year_needs_second_source` | 0 | 3 | Complete | No |
 | Genesis — Land of Confusion | 1980s-02.json | `award_scope_incomplete`<br>`label_unverified`<br>`release_year_needs_second_source` | 1 | 2 | Complete | No |
@@ -43,9 +43,9 @@
 | Beastie Boys — Sabotage | 1990s-01.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
 | Nine Inch Nails — Closer | 1990s-04.json | `award_scope_incomplete`<br>`vfx_credit_unverified` | 3 | 4 | Complete | No |
 | Soundgarden — Black Hole Sun | 1990s-04.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
-| Jamiroquai — Virtual Insanity | 1990s-01.json | `award_scope_incomplete`<br>`label_unverified`<br>`runtime_unverified` | 0 | 3 | Complete | No |
+| Jamiroquai — Virtual Insanity | 1990s-01.json | — | 0 | 3 | Complete | Yes; reconciled |
 | Aphex Twin — Come to Daddy | 1990s-02.json | `award_scope_incomplete`<br>`runtime_unverified` | 1 | 4 | Complete | No |
-| Daft Punk — Around the World | 1990s-01.json | `award_scope_incomplete`<br>`label_unverified`<br>`runtime_unverified` | 0 | 3 | Complete | No |
+| Daft Punk — Around the World | 1990s-01.json | — | 0 | 3 | Complete | Yes; reconciled |
 | Foo Fighters — Everlong | 1990s-03.json | `award_scope_incomplete`<br>`production_credit_unverified` | 0 | 4 | Complete | No |
 | Missy Elliott — The Rain | 1990s-04.json | `award_scope_incomplete`<br>`label_unverified`<br>`production_credit_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
 | Radiohead — Karma Police | 1990s-02.json | `award_scope_incomplete`<br>`runtime_unverified` | 0 | 4 | Complete | No |
@@ -56,7 +56,7 @@
 | Blur — Coffee & TV | 1990s-03.json | `award_scope_incomplete`<br>`vfx_credit_unverified` | 2 | 5 | Complete | No |
 | The Chemical Brothers — Let Forever Be | 1990s-05.json | `award_scope_incomplete`<br>`label_source_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
 | Red Hot Chili Peppers — Californication | 1990s-03.json | `award_scope_incomplete`<br>`director_source_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified` | 1 | 3 | Complete | No |
-| Fatboy Slim — Weapon of Choice | 2000s-01.json | `award_scope_incomplete`<br>`label_unverified`<br>`production_credit_unverified`<br>`runtime_unverified` | 1 | 3 | Complete | No |
+| Fatboy Slim — Weapon of Choice | 2000s-01.json | — | 1 | 3 | Complete | Yes; reconciled |
 | 宇多田ヒカル — Traveling | 2000s-04.json | `award_scope_incomplete`<br>`director_source_needs_upgrade`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified`<br>`youtube_availability_unverified` | 1 | 4 | Complete | No |
 | Chemical Brothers — Star Guitar | 1990s-03.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified` | 2 | 4 | Complete | No |
 | Coldplay — The Scientist | 2000s-02.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified` | 1 | 6 | Complete | No |
@@ -71,7 +71,7 @@
 | Battles — Atlas | 2000s-05.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 0 | 3 | Complete | No |
 | Justice — D.A.N.C.E. | 2000s-02.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
 | Kanye West — Stronger | 2000s-03.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
-| Beyoncé — Single Ladies | 2000s-02.json | `award_scope_incomplete`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 3 | 2 | Complete | No |
+| Beyoncé — Single Ladies | 2000s-02.json | — | 3 | 2 | Complete | Yes; reconciled |
 | Radiohead — House of Cards | 2000s-02.json | `award_scope_incomplete`<br>`label_unverified`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 1 | 6 | Complete | No |
 | サカナクション — アルクアラウンド | 2000s-04.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified`<br>`release_date_precision_unverified` | 1 | 4 | Complete | No |
 | OK Go — Needing / Getting | 2010s-04.json | `award_scope_incomplete`<br>`runtime_unverified`<br>`label_unverified`<br>`vfx_company_unverified` | 5 | 7 | Complete | No |
@@ -100,7 +100,7 @@
 | L'HOMME STATUE — Do Not Tell Me | 2020s-05.json | `official_video_unresolved`<br>`award_scope_incomplete`<br>`label_unverified` | 1 | 3 | Complete | No |
 | The Weeknd — Take My Breath | 2020s-01.json | `award_scope_incomplete`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 1 | 2 | Complete | No |
 | Tyler, The Creator — LUMBERJACK | 2020s-02.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 0 | 1 | Complete | No |
-| 宇多田ヒカル — One Last Kiss | 2020s-01.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
+| 宇多田ヒカル — One Last Kiss | 2020s-01.json | — | 1 | 4 | Complete | Yes; reconciled |
 | Beyoncé — BREAK MY SOUL | 2020s-02.json | `work_identity_unresolved`<br>`official_video_unresolved`<br>`director_unverified`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`award_scope_incomplete`<br>`runtime_unverified` | 0 | 1 | Incomplete | No |
 | Kendrick Lamar — Count Me Out | 2020s-01.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 1 | 2 | Complete | No |
 | NewJeans — Ditto | 2020s-01.json | `award_scope_incomplete`<br>`vfx_credit_unverified`<br>`runtime_unverified`<br>`label_source_needs_upgrade` | 1 | 3 | Complete | No |
