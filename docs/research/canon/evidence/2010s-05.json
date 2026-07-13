@@ -10,7 +10,9 @@
         "officialTitle": "Daydreaming",
         "releaseYear": 2016,
         "countryCode": "GB",
-        "directors": ["Paul Thomas Anderson"],
+        "directors": [
+          "Paul Thomas Anderson"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "XL Recordings",
@@ -38,30 +40,77 @@
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=TTAU7lLDZYU",
-          "supports": ["officialTitle", "releaseYear", "director", "youtubeId", "thumbnailUrl"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "director",
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         },
         {
           "type": "label_official",
           "url": "https://shop.xlrecordings.com/release/347038-radiohead-a-moon-shaped-pool?lang=en_GB",
-          "supports": ["officialTitle", "releaseYear", "label", "album", "trackRuntime"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "label",
+            "album",
+            "trackRuntime"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.ukmva.com/42-2016",
-          "supports": ["negativeAwardFinding"]
+          "supports": [
+            "negativeAwardFinding"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.grammy.com/artists/radiohead/8042/",
-          "supports": ["negativeAwardFinding", "recordingAwardDistinction"]
+          "supports": [
+            "negativeAwardFinding",
+            "recordingAwardDistinction"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
-        "notes": "No work-level music-video result was located in the checked official UKMVA 2016 and GRAMMY Radiohead records. Recording and song nominations are not entered as music-video awards."
+        "notes": "No work-level music-video result was located in the checked official UKMVA 2016 and GRAMMY Radiohead records. Recording and song nominations are not entered as music-video awards. The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2010s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["production_credit_unverified", "vfx_credit_unverified", "award_scope_incomplete", "runtime_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Tame Impala",
@@ -70,7 +119,9 @@
         "officialTitle": "Let It Happen",
         "releaseYear": 2015,
         "countryCode": "AU",
-        "directors": ["David Wilson"],
+        "directors": [
+          "David Wilson"
+        ],
         "productionCompany": "Colonel Blimp",
         "vfxProduction": "The Mill",
         "label": "Universal Music Australia",
@@ -98,38 +149,97 @@
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=pFptt7Cargc",
-          "supports": ["officialTitle", "releaseYear", "youtubeId", "thumbnailUrl"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         },
         {
           "type": "production_company_official",
           "url": "https://colonelblimp.com/films/tame-impala-let-it-happen",
-          "supports": ["officialTitle", "director", "productionCompany"]
+          "supports": [
+            "officialTitle",
+            "director",
+            "productionCompany"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.ukmva.com/73-2015",
-          "supports": ["officialTitle", "director", "youtubeId", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "director",
+            "youtubeId",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "production_trade",
           "url": "https://www.promonews.tv/videos/2015/08/18/tame-impala-let-it-happen-david-wilson/36173",
-          "supports": ["productionCompany", "vfxProduction", "label", "producer", "cinematographer", "editor", "productionDesigner", "serviceProduction"]
+          "supports": [
+            "productionCompany",
+            "vfxProduction",
+            "label",
+            "producer",
+            "cinematographer",
+            "editor",
+            "productionDesigner",
+            "serviceProduction"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "UK Music Video Awards",
             "year": 2015,
             "category": "Best Rock/Indie Video — International",
             "result": "Winner",
-            "creditedNames": ["David Wilson"],
+            "creditedNames": [
+              "David Wilson"
+            ],
             "source": "https://www.ukmva.com/73-2015"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2010s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "vfx_source_needs_upgrade", "label_source_needs_upgrade"]
+      "publicationBlockers": [
+        "runtime_unverified",
+        "vfx_source_needs_upgrade",
+        "label_source_needs_upgrade"
+      ]
     }
   ]
 }

@@ -10,7 +10,9 @@
         "officialTitle": "Needing/Getting",
         "releaseYear": 2012,
         "countryCode": "US",
-        "directors": ["Brian L. Perkins"],
+        "directors": [
+          "Brian L. Perkins"
+        ],
         "productionCompany": "Caviar",
         "vfxProduction": null,
         "label": null,
@@ -38,48 +40,85 @@
         {
           "type": "artist_official",
           "url": "https://okgo.net/2012/02/06/needinggetting-official-video/index.html",
-          "supports": ["officialTitle", "releaseYear", "officialVideoExistence", "productionConcept"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "officialVideoExistence",
+            "productionConcept"
+          ]
         },
         {
           "type": "artist_official",
           "url": "https://okgo.net/2012/02/10/behind-the-scenes-of-needinggetting/index.html",
-          "supports": ["productionConcept", "technicalMethod", "instrumentCount"]
+          "supports": [
+            "productionConcept",
+            "technicalMethod",
+            "instrumentCount"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=MejbOFk7H6c",
-          "supports": ["youtubeId", "thumbnailUrl"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.dandad.org/work/d-ad-awards-archive/ok-go-needinggetting",
-          "supports": ["awardProgram", "awardYear", "awardCategory", "awardOutcome", "productionConcept"]
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome",
+            "productionConcept"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.oneclub.org/awards/theoneshow/-award/17823/ok-go/",
-          "supports": ["director", "productionCompany", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "director",
+            "productionCompany",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://clios.com/winners-gallery/details/45528",
-          "supports": ["awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://winners.webbyawards.com/2013/video-film/general-video-film/music/147187/ok-go-needinggetting-music-video",
-          "supports": ["awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "D&AD Awards",
             "year": 2013,
             "category": "Film",
             "result": "Graphite Pencil",
-            "creditedNames": ["Goodby Silverstein & Partners"],
+            "creditedNames": [
+              "Goodby Silverstein & Partners"
+            ],
             "source": "https://www.dandad.org/work/d-ad-awards-archive/ok-go-needinggetting"
           },
           {
@@ -87,7 +126,9 @@
             "year": 2013,
             "category": "Film",
             "result": "Wood Pencil",
-            "creditedNames": ["Goodby Silverstein & Partners"],
+            "creditedNames": [
+              "Goodby Silverstein & Partners"
+            ],
             "source": "https://www.dandad.org/work/d-ad-awards-archive/ok-go-needinggetting"
           },
           {
@@ -95,7 +136,11 @@
             "year": 2012,
             "category": "Branded Content — Music Videos",
             "result": "Bronze Pencil",
-            "creditedNames": ["Goodby Silverstein & Partners", "Caviar", "Brian L. Perkins"],
+            "creditedNames": [
+              "Goodby Silverstein & Partners",
+              "Caviar",
+              "Brian L. Perkins"
+            ],
             "source": "https://www.oneclub.org/awards/theoneshow/-award/17823/ok-go/"
           },
           {
@@ -103,7 +148,9 @@
             "year": 2013,
             "category": "Branded Entertainment & Content — Music",
             "result": "Gold Award",
-            "creditedNames": ["Goodby Silverstein & Partners"],
+            "creditedNames": [
+              "Goodby Silverstein & Partners"
+            ],
             "source": "https://clios.com/winners-gallery/details/45528"
           },
           {
@@ -111,12 +158,45 @@
             "year": 2013,
             "category": "Online Film & Video — Music",
             "result": "Honoree",
-            "creditedNames": ["Goodby Silverstein & Partners"],
+            "creditedNames": [
+              "Goodby Silverstein & Partners"
+            ],
             "source": "https://winners.webbyawards.com/2013/video-film/general-video-film/music/147187/ok-go-needinggetting-music-video"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2010s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "label_unverified", "vfx_company_unverified"]
+      "publicationBlockers": [
+        "runtime_unverified",
+        "label_unverified",
+        "vfx_company_unverified"
+      ]
     },
     {
       "artist": "The Chemical Brothers",
@@ -125,7 +205,9 @@
         "officialTitle": "Wide Open",
         "releaseYear": 2016,
         "countryCode": "GB",
-        "directors": ["Dom & Nic"],
+        "directors": [
+          "Dom & Nic"
+        ],
         "productionCompany": "Outsider",
         "vfxProduction": "The Mill London",
         "label": "Virgin EMI",
@@ -153,28 +235,67 @@
         {
           "type": "award_archive_official",
           "url": "https://www.ukmva.com/42-2016",
-          "supports": ["officialTitle", "directors", "productionCompany", "vfxProduction", "label", "youtubeId", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "directors",
+            "productionCompany",
+            "vfxProduction",
+            "label",
+            "youtubeId",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.dandad.org/work/d-ad-awards-archive/chemical-brothers-wide-open",
-          "supports": ["officialTitle", "releaseYear", "countryCode", "directors", "productionCompany", "vfxProduction", "awardProgram", "awardYear", "awardCategory", "awardOutcome", "productionConcept"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "countryCode",
+            "directors",
+            "productionCompany",
+            "vfxProduction",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome",
+            "productionConcept"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=BC2dRkm8ATU",
-          "supports": ["youtubeId", "thumbnailUrl"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://clios.com/winners-gallery/details/51022",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "UK Music Video Awards",
             "year": 2016,
             "category": "Best Dance Video — UK",
             "result": "Winner",
-            "creditedNames": ["Dom & Nic", "Outsider"],
+            "creditedNames": [
+              "Dom & Nic",
+              "Outsider"
+            ],
             "source": "https://www.ukmva.com/42-2016"
           },
           {
@@ -182,7 +303,9 @@
             "year": 2016,
             "category": "Best Visual Effects in a Video",
             "result": "Winner",
-            "creditedNames": ["The Mill London"],
+            "creditedNames": [
+              "The Mill London"
+            ],
             "source": "https://www.ukmva.com/42-2016"
           },
           {
@@ -190,12 +313,55 @@
             "year": 2016,
             "category": "Music Videos",
             "result": "Yellow Pencil",
-            "creditedNames": ["Dom & Nic", "Outsider", "The Mill London"],
+            "creditedNames": [
+              "Dom & Nic",
+              "Outsider",
+              "The Mill London"
+            ],
             "source": "https://www.dandad.org/work/d-ad-awards-archive/chemical-brothers-wide-open"
+          },
+          {
+            "program": "Clio Awards",
+            "year": 2016,
+            "category": "Film Technique — Visual Effects",
+            "result": "Shortlist",
+            "creditedNames": [
+              "The Mill"
+            ],
+            "source": "https://clios.com/winners-gallery/details/51022"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2010s-resolved-award-audit.md",
+        "notes": "The exact Clio visual-effects shortlist is added to the existing UKMVA and D&AD work-level results."
       },
-      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified"]
+      "publicationBlockers": [
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "宇多田ヒカル",
@@ -207,7 +373,9 @@
         "englishTitle": null,
         "releaseYear": 2017,
         "countryCode": "JP",
-        "directors": ["山田健人"],
+        "directors": [
+          "山田健人"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": null,
@@ -235,38 +403,99 @@
         {
           "type": "artist_official",
           "url": "https://www.utadahikaru.jp/profile/",
-          "supports": ["officialTitle", "releaseYear", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "label_official",
           "url": "https://www.sonymusic.co.jp/Music/Info/utadahikaru/profile/",
-          "supports": ["officialTitle", "releaseYear", "officialVideoExistence", "awardProgram", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "officialVideoExistence",
+            "awardProgram",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "label_official",
           "url": "https://www.sonymusic.co.jp/Music/Info/utadahikaru/22songs/kento_yamada.html",
-          "supports": ["officialTitle", "director", "releaseYear", "awardProgram", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "director",
+            "releaseYear",
+            "awardProgram",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "artist_official",
           "url": "https://www.utadahikaru.jp/music/tfmsiu8_b/",
-          "supports": ["officialTitle", "album"]
+          "supports": [
+            "officialTitle",
+            "album"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "MTV VMAJ",
             "year": 2017,
             "category": "Best Collaboration Video",
             "result": "Winner",
-            "creditedNames": ["宇多田ヒカル", "KOHH", "山田健人"],
+            "creditedNames": [
+              "宇多田ヒカル",
+              "KOHH",
+              "山田健人"
+            ],
             "source": "https://www.utadahikaru.jp/profile/"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2010s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified", "label_unverified"]
+      "publicationBlockers": [
+        "official_video_unresolved",
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified",
+        "label_unverified"
+      ]
     },
     {
       "artist": "Radiohead",
@@ -303,20 +532,60 @@
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=QBGaO89cBMI",
-          "supports": ["officialTitle", "releaseYear", "youtubeId", "thumbnailUrl"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.ukmva.com/191-2017",
-          "supports": ["negativeAwardFinding", "personAwardDistinction"]
+          "supports": [
+            "negativeAwardFinding",
+            "personAwardDistinction"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
-        "notes": "The UKMVA 2017 Best Director award located for Oscar Hudson is a person-level honour and is not registered as an award result for Lift. No work-level result is inferred from it."
+        "notes": "The UKMVA 2017 Best Director award located for Oscar Hudson is a person-level honour and is not registered as an award result for Lift. No work-level result is inferred from it. The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2010s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["director_unverified", "production_credit_unverified", "vfx_credit_unverified", "award_scope_incomplete", "runtime_unverified", "label_unverified"]
+      "publicationBlockers": [
+        "director_unverified",
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified",
+        "label_unverified"
+      ]
     }
   ]
 }

@@ -12,7 +12,9 @@
         "officialTitle": "Just a Reflektor",
         "releaseYear": 2013,
         "countryCode": "US",
-        "directors": ["Vincent Morisset"],
+        "directors": [
+          "Vincent Morisset"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": null,
@@ -28,7 +30,15 @@
         {
           "type": "award_archive_official",
           "url": "https://www.dandad.org/work/d-ad-awards-archive/just-a-reflektor",
-          "supports": ["candidateOfficialTitle", "candidateDirector", "candidateCountryCode", "candidateInteractiveFormat", "candidateAwardProgram", "candidateAwardYear", "candidateAwardOutcome"]
+          "supports": [
+            "candidateOfficialTitle",
+            "candidateDirector",
+            "candidateCountryCode",
+            "candidateInteractiveFormat",
+            "candidateAwardProgram",
+            "candidateAwardYear",
+            "candidateAwardOutcome"
+          ]
         }
       ],
       "candidateOfficialClaims": [
@@ -37,7 +47,9 @@
           "year": 2014,
           "category": "Digital Marketing",
           "result": "Wood Pencil",
-          "creditedNames": ["Vincent Morisset"],
+          "creditedNames": [
+            "Vincent Morisset"
+          ],
           "source": "https://www.dandad.org/work/d-ad-awards-archive/just-a-reflektor",
           "registrationStatus": "hold_until_work_identity_resolved"
         }
@@ -47,7 +59,11 @@
         "verifiedResults": [],
         "notes": "The D&AD result belongs to Just a Reflektor. It is retained as evidence but is not registered against the generic Reflektor row until the editorial identity is resolved."
       },
-      "publicationBlockers": ["work_identity_unresolved", "official_video_unresolved", "award_scope_incomplete"]
+      "publicationBlockers": [
+        "work_identity_unresolved",
+        "official_video_unresolved",
+        "award_scope_incomplete"
+      ]
     },
     {
       "artist": "David Bowie",
@@ -56,7 +72,9 @@
         "officialTitle": "Blackstar",
         "releaseYear": 2015,
         "countryCode": null,
-        "directors": ["Johan Renck"],
+        "directors": [
+          "Johan Renck"
+        ],
         "productionCompany": "Gisla & Renck",
         "vfxProduction": null,
         "label": "ISO / Columbia Records",
@@ -84,43 +102,103 @@
         {
           "type": "artist_official",
           "url": "https://www.davidbowie.com/blackstar",
-          "supports": ["officialTitle", "albumReleaseYear", "label"]
+          "supports": [
+            "officialTitle",
+            "albumReleaseYear",
+            "label"
+          ]
         },
         {
           "type": "artist_official",
           "url": "https://www.davidbowie.com/blog/2025/11/20/-blackstar-single-is-10",
-          "supports": ["officialTitle", "releaseYear", "director", "youtubeId", "historicalContext", "visualDescription"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "director",
+            "youtubeId",
+            "historicalContext",
+            "visualDescription"
+          ]
         },
         {
           "type": "artist_official",
           "url": "https://www.davidbowie.com/blog/2020/11/19/-video-arrived-five-years-ago-today",
-          "supports": ["director", "premiereDate"]
+          "supports": [
+            "director",
+            "premiereDate"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.ukmva.com/42-2016",
-          "supports": ["officialTitle", "director", "productionCompany", "label", "awardProgram", "awardYear", "awardCategory", "awardOutcome", "productionDesigner"]
+          "supports": [
+            "officialTitle",
+            "director",
+            "productionCompany",
+            "label",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome",
+            "productionDesigner"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=kszLwBaC4Sw",
-          "supports": ["youtubeId", "thumbnailUrl"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "UK Music Video Awards",
             "year": 2016,
             "category": "Best Production Design in a Video",
             "result": "Winner",
-            "creditedNames": ["Jan Houllevigue"],
+            "creditedNames": [
+              "Jan Houllevigue"
+            ],
             "source": "https://www.ukmva.com/42-2016"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2010s-resolved-award-audit.md",
+        "notes": "The official GRAMMY records for the song and album are not music-video awards and are excluded. The verified UKMVA production-design result is retained."
       },
-      "publicationBlockers": ["award_scope_incomplete", "vfx_credit_unverified", "runtime_unverified", "country_code_unverified"]
+      "publicationBlockers": [
+        "vfx_credit_unverified",
+        "runtime_unverified",
+        "country_code_unverified"
+      ]
     },
     {
       "artist": "Perfume",
@@ -130,7 +208,9 @@
         "officialTitle": "Magic of Love",
         "releaseYear": 2013,
         "countryCode": "JP",
-        "directors": ["関和亮"],
+        "directors": [
+          "関和亮"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Universal J",
@@ -158,33 +238,84 @@
         {
           "type": "artist_official",
           "url": "https://www.perfume-web.jp/news/detail.php?id=45",
-          "supports": ["officialTitle", "releaseYear", "officialVideoExistence", "label"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "officialVideoExistence",
+            "label"
+          ]
         },
         {
           "type": "artist_official",
           "url": "https://www.perfume-web.jp/discography/detail.php?cid=1&id=41",
-          "supports": ["officialTitle", "releaseYear", "officialVideoExistence"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "officialVideoExistence"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://hps.mtvjapan.com/mediacms/pdfs/mtvj_press-release_20140614_6jvx.pdf",
-          "supports": ["officialTitle", "director", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "director",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "MTV VMAJ",
             "year": 2014,
             "category": "Best Dance Video / 最優秀ダンスビデオ賞",
             "result": "Winner",
-            "creditedNames": ["Perfume", "関和亮"],
+            "creditedNames": [
+              "Perfume",
+              "関和亮"
+            ],
             "source": "https://hps.mtvjapan.com/mediacms/pdfs/mtvj_press-release_20140614_6jvx.pdf"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2010s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "official_video_unresolved",
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "米津玄師",
@@ -194,7 +325,9 @@
         "officialTitle": "Lemon",
         "releaseYear": 2018,
         "countryCode": "JP",
-        "directors": ["山田智和"],
+        "directors": [
+          "山田智和"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Sony Music Records",
@@ -222,17 +355,32 @@
         {
           "type": "artist_official",
           "url": "https://reissuerecords.net/2018/02/27/%E3%80%8Elemon%E3%80%8Fmusic-video%E5%85%AC%E9%96%8B/",
-          "supports": ["officialTitle", "releaseYear", "director", "youtubeId", "historicalContext", "visualConcept"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "director",
+            "youtubeId",
+            "historicalContext",
+            "visualConcept"
+          ]
         },
         {
           "type": "artist_official",
           "url": "https://reissuerecords.net/2018/10/10/%E3%80%8Cmtv-vmaj-2018%E3%80%8D%E5%8F%97%E8%B3%9E%EF%BC%81/",
-          "supports": ["awardProgram", "awardYear", "awardCategories", "awardOutcomes"]
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategories",
+            "awardOutcomes"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=SX_ViT4Ra7k",
-          "supports": ["youtubeId", "thumbnailUrl"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         }
       ],
       "awardAudit": {
@@ -268,7 +416,9 @@
             "year": 2018,
             "category": "Best Male Video — Japan / 最優秀邦楽男性アーティストビデオ賞",
             "result": "Winner",
-            "creditedNames": ["米津玄師"],
+            "creditedNames": [
+              "米津玄師"
+            ],
             "source": "https://reissuerecords.net/2018/10/10/%E3%80%8Cmtv-vmaj-2018%E3%80%8D%E5%8F%97%E8%B3%9E%EF%BC%81/"
           },
           {
@@ -276,7 +426,9 @@
             "year": 2018,
             "category": "Best Video of the Year",
             "result": "Winner",
-            "creditedNames": ["米津玄師"],
+            "creditedNames": [
+              "米津玄師"
+            ],
             "source": "https://reissuerecords.net/2018/10/10/%E3%80%8Cmtv-vmaj-2018%E3%80%8D%E5%8F%97%E8%B3%9E%EF%BC%81/"
           }
         ],

@@ -11,7 +11,9 @@
         "officialTitle": "This Is America",
         "releaseYear": 2018,
         "countryCode": "US",
-        "directors": ["Hiro Murai"],
+        "directors": [
+          "Hiro Murai"
+        ],
         "productionCompany": "Doomsday Entertainment",
         "vfxProduction": null,
         "label": "RCA Records",
@@ -36,16 +38,110 @@
         }
       },
       "sources": [
-        {"type":"label_official","url":"https://www.sonymusic.co.uk/childish-gambino-releases-this-is-america-video/","supports":["officialTitle","releaseYear","director","label","youtubeId","historicalContext"]},
-        {"type":"production_official","url":"https://doomsdayent.com/directors/hiro-murai/childish-gambino-this-is-america/","supports":["officialTitle","director","productionCompany"]},
-        {"type":"award_archive_official","url":"https://www.grammy.com/artists/hiro-murai/243444/","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"award_archive_official","url":"https://www.ukmva.com/192-2018","supports":["awardProgram","awardYear","awardCategory","awardOutcome","productionCompany","cinematographer"]},
-        {"type":"award_archive_official","url":"https://winners.webbyawards.com/2019/video/general-video/music-video/81551/this-is-america","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"award_archive_official","url":"https://clios.com/winners-gallery/details/72649","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"award_archive_official","url":"https://awards.ciclopefestival.com/winners/2018","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"award_archive_official","url":"https://archive.camerimage.pl/assets/uploads/2019/01/EnergaCAMERIMAGE-WINNERS-SHOW-2019-program.pdf","supports":["awardProgram","awardYear","awardCategory","awardOutcome","cinematographer"]},
-        {"type":"award_archive_official","url":"https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations","supports":["awardProgram","awardYear","awardCategories","awardOutcomes","craftRecipients"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=VYOjWnS4cMY","supports":["youtubeId","thumbnailUrl","runtimeSeconds"]}
+        {
+          "type": "label_official",
+          "url": "https://www.sonymusic.co.uk/childish-gambino-releases-this-is-america-video/",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "director",
+            "label",
+            "youtubeId",
+            "historicalContext"
+          ]
+        },
+        {
+          "type": "production_official",
+          "url": "https://doomsdayent.com/directors/hiro-murai/childish-gambino-this-is-america/",
+          "supports": [
+            "officialTitle",
+            "director",
+            "productionCompany"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.grammy.com/artists/hiro-murai/243444/",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.ukmva.com/192-2018",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome",
+            "productionCompany",
+            "cinematographer"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://winners.webbyawards.com/2019/video/general-video/music-video/81551/this-is-america",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://clios.com/winners-gallery/details/72649",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://awards.ciclopefestival.com/winners/2018",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://archive.camerimage.pl/assets/uploads/2019/01/EnergaCAMERIMAGE-WINNERS-SHOW-2019-program.pdf",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome",
+            "cinematographer"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategories",
+            "awardOutcomes",
+            "craftRecipients"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=VYOjWnS4cMY",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
+        }
       ],
       "awardAudit": {
         "status": "complete",
@@ -75,22 +171,154 @@
           "TOKYO FILMeX"
         ],
         "verifiedResults": [
-          {"program":"GRAMMY Awards","year":2019,"category":"Best Music Video","result":"Winner","creditedNames":["Hiro Murai"],"source":"https://www.grammy.com/artists/hiro-murai/243444/"},
-          {"program":"UK Music Video Awards","year":2018,"category":"Video of the Year","result":"Winner","creditedNames":[],"source":"https://www.ukmva.com/192-2018"},
-          {"program":"UK Music Video Awards","year":2018,"category":"Best Urban Video — International","result":"Winner","creditedNames":["Hiro Murai","Jason Cole","Doomsday Entertainment"],"source":"https://www.ukmva.com/192-2018"},
-          {"program":"UK Music Video Awards","year":2018,"category":"Best Cinematography in a Video","result":"Winner","creditedNames":["Larkin Seiple"],"source":"https://www.ukmva.com/192-2018"},
-          {"program":"The Webby Awards","year":2019,"category":"Music Video","result":"Winner","creditedNames":[],"source":"https://winners.webbyawards.com/2019/video/general-video/music-video/81551/this-is-america"},
-          {"program":"The Webby Awards","year":2019,"category":"Music Video","result":"People's Voice Winner","creditedNames":[],"source":"https://winners.webbyawards.com/2019/video/general-video/music-video/81551/this-is-america"},
-          {"program":"Clio Music","year":2018,"category":"Film — Music Videos","result":"Gold","creditedNames":[],"source":"https://clios.com/winners-gallery/details/72649"},
-          {"program":"CICLOPE Awards","year":2018,"category":"Music Videos","result":"Grand Prix","creditedNames":[],"source":"https://awards.ciclopefestival.com/winners/2018"},
-          {"program":"EnergaCAMERIMAGE","year":2018,"category":"Best Cinematography in a Music Video","result":"Winner","creditedNames":["Larkin Seiple"],"source":"https://archive.camerimage.pl/assets/uploads/2019/01/EnergaCAMERIMAGE-WINNERS-SHOW-2019-program.pdf"},
-          {"program":"MTV Video Music Awards","year":2018,"category":"Video of the Year","result":"Nominee","creditedNames":[],"source":"https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"},
-          {"program":"MTV Video Music Awards","year":2018,"category":"Video with a Message","result":"Nominee","creditedNames":[],"source":"https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"},
-          {"program":"MTV Video Music Awards","year":2018,"category":"Best Cinematography","result":"Nominee","creditedNames":["Larkin Seiple"],"source":"https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"},
-          {"program":"MTV Video Music Awards","year":2018,"category":"Best Direction","result":"Nominee","creditedNames":["Hiro Murai"],"source":"https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"},
-          {"program":"MTV Video Music Awards","year":2018,"category":"Best Art Direction","result":"Nominee","creditedNames":["Jason Kisvarday"],"source":"https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"},
-          {"program":"MTV Video Music Awards","year":2018,"category":"Best Choreography","result":"Nominee","creditedNames":["Sherrie Silver"],"source":"https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"},
-          {"program":"MTV Video Music Awards","year":2018,"category":"Best Editing","result":"Nominee","creditedNames":["Ernie Gilbert"],"source":"https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"}
+          {
+            "program": "GRAMMY Awards",
+            "year": 2019,
+            "category": "Best Music Video",
+            "result": "Winner",
+            "creditedNames": [
+              "Hiro Murai"
+            ],
+            "source": "https://www.grammy.com/artists/hiro-murai/243444/"
+          },
+          {
+            "program": "UK Music Video Awards",
+            "year": 2018,
+            "category": "Video of the Year",
+            "result": "Winner",
+            "creditedNames": [],
+            "source": "https://www.ukmva.com/192-2018"
+          },
+          {
+            "program": "UK Music Video Awards",
+            "year": 2018,
+            "category": "Best Urban Video — International",
+            "result": "Winner",
+            "creditedNames": [
+              "Hiro Murai",
+              "Jason Cole",
+              "Doomsday Entertainment"
+            ],
+            "source": "https://www.ukmva.com/192-2018"
+          },
+          {
+            "program": "UK Music Video Awards",
+            "year": 2018,
+            "category": "Best Cinematography in a Video",
+            "result": "Winner",
+            "creditedNames": [
+              "Larkin Seiple"
+            ],
+            "source": "https://www.ukmva.com/192-2018"
+          },
+          {
+            "program": "The Webby Awards",
+            "year": 2019,
+            "category": "Music Video",
+            "result": "Winner",
+            "creditedNames": [],
+            "source": "https://winners.webbyawards.com/2019/video/general-video/music-video/81551/this-is-america"
+          },
+          {
+            "program": "The Webby Awards",
+            "year": 2019,
+            "category": "Music Video",
+            "result": "People's Voice Winner",
+            "creditedNames": [],
+            "source": "https://winners.webbyawards.com/2019/video/general-video/music-video/81551/this-is-america"
+          },
+          {
+            "program": "Clio Music",
+            "year": 2018,
+            "category": "Film — Music Videos",
+            "result": "Gold",
+            "creditedNames": [],
+            "source": "https://clios.com/winners-gallery/details/72649"
+          },
+          {
+            "program": "CICLOPE Awards",
+            "year": 2018,
+            "category": "Music Videos",
+            "result": "Grand Prix",
+            "creditedNames": [],
+            "source": "https://awards.ciclopefestival.com/winners/2018"
+          },
+          {
+            "program": "EnergaCAMERIMAGE",
+            "year": 2018,
+            "category": "Best Cinematography in a Music Video",
+            "result": "Winner",
+            "creditedNames": [
+              "Larkin Seiple"
+            ],
+            "source": "https://archive.camerimage.pl/assets/uploads/2019/01/EnergaCAMERIMAGE-WINNERS-SHOW-2019-program.pdf"
+          },
+          {
+            "program": "MTV Video Music Awards",
+            "year": 2018,
+            "category": "Video of the Year",
+            "result": "Nominee",
+            "creditedNames": [],
+            "source": "https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"
+          },
+          {
+            "program": "MTV Video Music Awards",
+            "year": 2018,
+            "category": "Video with a Message",
+            "result": "Nominee",
+            "creditedNames": [],
+            "source": "https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"
+          },
+          {
+            "program": "MTV Video Music Awards",
+            "year": 2018,
+            "category": "Best Cinematography",
+            "result": "Nominee",
+            "creditedNames": [
+              "Larkin Seiple"
+            ],
+            "source": "https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"
+          },
+          {
+            "program": "MTV Video Music Awards",
+            "year": 2018,
+            "category": "Best Direction",
+            "result": "Nominee",
+            "creditedNames": [
+              "Hiro Murai"
+            ],
+            "source": "https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"
+          },
+          {
+            "program": "MTV Video Music Awards",
+            "year": 2018,
+            "category": "Best Art Direction",
+            "result": "Nominee",
+            "creditedNames": [
+              "Jason Kisvarday"
+            ],
+            "source": "https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"
+          },
+          {
+            "program": "MTV Video Music Awards",
+            "year": 2018,
+            "category": "Best Choreography",
+            "result": "Nominee",
+            "creditedNames": [
+              "Sherrie Silver"
+            ],
+            "source": "https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"
+          },
+          {
+            "program": "MTV Video Music Awards",
+            "year": 2018,
+            "category": "Best Editing",
+            "result": "Nominee",
+            "creditedNames": [
+              "Ernie Gilbert"
+            ],
+            "source": "https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"
+          }
         ],
         "notes": "The prior pilot-wide official archive audit is reused. SXSW competition placement and Vimeo Staff Pick remain recognitions rather than work_award_results."
       },
@@ -103,7 +331,9 @@
         "officialTitle": "Never Catch Me",
         "releaseYear": 2014,
         "countryCode": "US",
-        "directors": ["Hiro Murai"],
+        "directors": [
+          "Hiro Murai"
+        ],
         "productionCompany": "Doomsday Entertainment",
         "vfxProduction": null,
         "label": "Warp Records",
@@ -128,17 +358,83 @@
         }
       },
       "sources": [
-        {"type":"production_official","url":"https://doomsdayent.com/directors/hiro-murai/flying-lotus-never-catch-me/","supports":["officialTitle","director","productionCompany"]},
-        {"type":"award_archive_official","url":"https://www.ukmva.com/73-2015","supports":["officialTitle","director","awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=2lXD0vv-ds8","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "production_official",
+          "url": "https://doomsdayent.com/directors/hiro-murai/flying-lotus-never-catch-me/",
+          "supports": [
+            "officialTitle",
+            "director",
+            "productionCompany"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.ukmva.com/73-2015",
+          "supports": [
+            "officialTitle",
+            "director",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=2lXD0vv-ds8",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
-          {"program":"UK Music Video Awards","year":2015,"category":"Best Alternative Video — International","result":"Winner","creditedNames":["Hiro Murai"],"source":"https://www.ukmva.com/73-2015"}
-        ]
+          {
+            "program": "UK Music Video Awards",
+            "year": 2015,
+            "category": "Best Alternative Video — International",
+            "result": "Winner",
+            "creditedNames": [
+              "Hiro Murai"
+            ],
+            "source": "https://www.ukmva.com/73-2015"
+          }
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2010s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["award_scope_incomplete", "vfx_credit_unverified", "runtime_unverified", "label_source_needs_upgrade"]
+      "publicationBlockers": [
+        "vfx_credit_unverified",
+        "runtime_unverified",
+        "label_source_needs_upgrade"
+      ]
     },
     {
       "artist": "Sia",
@@ -147,7 +443,10 @@
         "officialTitle": "Chandelier",
         "releaseYear": 2014,
         "countryCode": "US",
-        "directors": ["Sia", "Daniel Askill"],
+        "directors": [
+          "Sia",
+          "Daniel Askill"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "RCA Records",
@@ -172,21 +471,124 @@
         }
       },
       "sources": [
-        {"type":"award_archive_official","url":"https://www.ukmva.com/184-2014","supports":["officialTitle","directors","awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/chandelier","supports":["officialTitle","label","countryCode","awardProgram","awardYear","awardCategories","awardOutcomes"]},
-        {"type":"award_archive_official","url":"https://www.grammy.com/artists/sia/15372/","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=2vjPBrBU-TM","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "award_archive_official",
+          "url": "https://www.ukmva.com/184-2014",
+          "supports": [
+            "officialTitle",
+            "directors",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/chandelier",
+          "supports": [
+            "officialTitle",
+            "label",
+            "countryCode",
+            "awardProgram",
+            "awardYear",
+            "awardCategories",
+            "awardOutcomes"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.grammy.com/artists/sia/15372/",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=2vjPBrBU-TM",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
-          {"program":"UK Music Video Awards","year":2014,"category":"Best Pop Video — International","result":"Winner","creditedNames":["Sia","Daniel Askill"],"source":"https://www.ukmva.com/184-2014"},
-          {"program":"D&AD Awards","year":2015,"category":"Film","result":"Graphite Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/chandelier"},
-          {"program":"D&AD Awards","year":2015,"category":"Music Videos","result":"Wood Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/chandelier"},
-          {"program":"GRAMMY Awards","year":2015,"category":"Best Music Video","result":"Nominee","creditedNames":["Sia"],"source":"https://www.grammy.com/artists/sia/15372/"}
-        ]
+          {
+            "program": "UK Music Video Awards",
+            "year": 2014,
+            "category": "Best Pop Video — International",
+            "result": "Winner",
+            "creditedNames": [
+              "Sia",
+              "Daniel Askill"
+            ],
+            "source": "https://www.ukmva.com/184-2014"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 2015,
+            "category": "Film",
+            "result": "Graphite Pencil",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/chandelier"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 2015,
+            "category": "Music Videos",
+            "result": "Wood Pencil",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/chandelier"
+          },
+          {
+            "program": "GRAMMY Awards",
+            "year": 2015,
+            "category": "Best Music Video",
+            "result": "Nominee",
+            "creditedNames": [
+              "Sia"
+            ],
+            "source": "https://www.grammy.com/artists/sia/15372/"
+          }
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2010s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Pharrell Williams",
@@ -195,7 +597,9 @@
         "officialTitle": "Happy",
         "releaseYear": 2013,
         "countryCode": "FR",
-        "directors": ["We Are From LA"],
+        "directors": [
+          "We Are From LA"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": null,
@@ -220,20 +624,149 @@
         }
       },
       "sources": [
-        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/24-hours-of-happy-pharrell-williams","supports":["officialTitle","directors","countryCode","awardProgram","awardYear","awardCategories","awardOutcomes","historicalContext"]},
-        {"type":"award_archive_official","url":"https://www.grammy.com/artists/we-are-la/18846","supports":["director","awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=ZbZSe6N_BXs","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/24-hours-of-happy-pharrell-williams",
+          "supports": [
+            "officialTitle",
+            "directors",
+            "countryCode",
+            "awardProgram",
+            "awardYear",
+            "awardCategories",
+            "awardOutcomes",
+            "historicalContext"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.grammy.com/artists/we-are-la/18846",
+          "supports": [
+            "director",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=ZbZSe6N_BXs",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.webbyawards.com/press/press-releases/18th-annual-webby-award-winners-announced/",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
-          {"program":"GRAMMY Awards","year":2015,"category":"Best Music Video","result":"Winner","creditedNames":["We Are From LA"],"source":"https://www.grammy.com/artists/we-are-la/18846"},
-          {"program":"D&AD Awards","year":2014,"category":"Digital Experience Design","result":"Graphite Pencil","creditedNames":["We Are From LA"],"source":"https://www.dandad.org/work/d-ad-awards-archive/24-hours-of-happy-pharrell-williams"},
-          {"program":"D&AD Awards","year":2014,"category":"Film","result":"Wood Pencil","creditedNames":["We Are From LA"],"source":"https://www.dandad.org/work/d-ad-awards-archive/24-hours-of-happy-pharrell-williams"},
-          {"program":"D&AD Awards","year":2014,"category":"Music Videos","result":"Wood Pencil","creditedNames":["We Are From LA"],"source":"https://www.dandad.org/work/d-ad-awards-archive/24-hours-of-happy-pharrell-williams"}
-        ]
+          {
+            "program": "GRAMMY Awards",
+            "year": 2015,
+            "category": "Best Music Video",
+            "result": "Winner",
+            "creditedNames": [
+              "We Are From LA"
+            ],
+            "source": "https://www.grammy.com/artists/we-are-la/18846"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 2014,
+            "category": "Digital Experience Design",
+            "result": "Graphite Pencil",
+            "creditedNames": [
+              "We Are From LA"
+            ],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/24-hours-of-happy-pharrell-williams"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 2014,
+            "category": "Film",
+            "result": "Wood Pencil",
+            "creditedNames": [
+              "We Are From LA"
+            ],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/24-hours-of-happy-pharrell-williams"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 2014,
+            "category": "Music Videos",
+            "result": "Wood Pencil",
+            "creditedNames": [
+              "We Are From LA"
+            ],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/24-hours-of-happy-pharrell-williams"
+          },
+          {
+            "program": "The Webby Awards",
+            "year": 2014,
+            "category": "Best Use of Interactive Video",
+            "result": "Webby Winner",
+            "creditedNames": [
+              "Pharrell Williams",
+              "We Are From LA"
+            ],
+            "source": "https://www.webbyawards.com/press/press-releases/18th-annual-webby-award-winners-announced/"
+          },
+          {
+            "program": "The Webby Awards",
+            "year": 2014,
+            "category": "Best Use of Interactive Video",
+            "result": "People's Voice Winner",
+            "creditedNames": [
+              "Pharrell Williams",
+              "We Are From LA"
+            ],
+            "source": "https://www.webbyawards.com/press/press-releases/18th-annual-webby-award-winners-announced/"
+          }
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2010s-resolved-award-audit.md",
+        "notes": "Exact official Webby and existing GRAMMY/D&AD work-level results are retained; audio awards are outside this ledger."
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "label_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "label_unverified",
+        "runtime_unverified"
+      ]
     }
   ]
 }

@@ -11,7 +11,9 @@
         "officialTitle": "Black Lake",
         "releaseYear": 2015,
         "countryCode": "IS",
-        "directors": ["Andrew Thomas Huang"],
+        "directors": [
+          "Andrew Thomas Huang"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "One Little Indian",
@@ -39,20 +41,64 @@
         {
           "type": "museum_official",
           "url": "https://www.moma.org/calendar/exhibitions/1458",
-          "supports": ["officialTitle", "releaseYear", "director", "commission", "label", "installationContext"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "director",
+            "commission",
+            "label",
+            "installationContext"
+          ]
         },
         {
           "type": "museum_official",
           "url": "https://www.moma.org/documents/moma_press-release_389534.pdf",
-          "supports": ["officialTitle", "director", "runtimeSeconds", "filmingLocation", "productionPeriod", "installationContext"]
+          "supports": [
+            "officialTitle",
+            "director",
+            "runtimeSeconds",
+            "filmingLocation",
+            "productionPeriod",
+            "installationContext"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
-        "notes": "The MoMA commission is an institutional commission, not an award result, and is not entered in work_award_results."
+        "notes": "The MoMA commission is an institutional commission, not an award result, and is not entered in work_award_results. The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2010s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified"]
+      "publicationBlockers": [
+        "official_video_unresolved",
+        "production_credit_unverified",
+        "vfx_credit_unverified"
+      ]
     },
     {
       "artist": "The Weeknd",
@@ -61,7 +107,9 @@
         "officialTitle": "Can't Feel My Face",
         "releaseYear": 2015,
         "countryCode": "US",
-        "directors": ["Grant Singer"],
+        "directors": [
+          "Grant Singer"
+        ],
         "productionCompany": "Anonymous Content",
         "vfxProduction": null,
         "label": "Republic Records / XO",
@@ -89,25 +137,71 @@
         {
           "type": "production_trade",
           "url": "https://www.promonews.tv/videos/2015/07/29/weeknd-cant-feel-my-face-grant-singer/36384",
-          "supports": ["officialTitle", "releaseYear", "director", "productionCompany", "producer", "cinematographer", "productionDesigner", "editor", "vfxCredit"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "director",
+            "productionCompany",
+            "producer",
+            "cinematographer",
+            "productionDesigner",
+            "editor",
+            "vfxCredit"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=KEI4qSrkPAs",
-          "supports": ["youtubeId", "thumbnailUrl", "label"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl",
+            "label"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.grammy.com/awards/58th-annual-grammy-awards/",
-          "supports": ["negativeAwardFinding"]
+          "supports": [
+            "negativeAwardFinding"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
-        "notes": "The 2016 GRAMMY record located for Can't Feel My Face concerns the recording and performance categories, not the music video; no MV award is registered from it."
+        "notes": "Official GRAMMY records concern the audio recording/performance, not the music video, and are excluded.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2010s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "production_source_needs_upgrade", "vfx_company_unverified"]
+      "publicationBlockers": [
+        "runtime_unverified",
+        "production_source_needs_upgrade",
+        "vfx_company_unverified"
+      ]
     },
     {
       "artist": "OK Go",
@@ -116,7 +210,10 @@
         "officialTitle": "Obsession",
         "releaseYear": 2017,
         "countryCode": "JP",
-        "directors": ["Yusuke Tanaka", "Damian Kulash Jr."],
+        "directors": [
+          "Yusuke Tanaka",
+          "Damian Kulash Jr."
+        ],
         "productionCompany": "AOI Pro.",
         "vfxProduction": null,
         "label": null,
@@ -144,38 +241,96 @@
         {
           "type": "artist_official",
           "url": "https://okgo.net/2017/11/23/obsession-video-credits/",
-          "supports": ["officialTitle", "releaseYear", "directors", "productionCompany", "technicalCredits", "vfxSupervisor", "editor", "colorist"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "directors",
+            "productionCompany",
+            "technicalCredits",
+            "vfxSupervisor",
+            "editor",
+            "colorist"
+          ]
         },
         {
           "type": "artist_official",
           "url": "https://okgo.net/category/news/",
-          "supports": ["officialVideoExistence", "releaseYear", "awardOutcome"]
+          "supports": [
+            "officialVideoExistence",
+            "releaseYear",
+            "awardOutcome"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://winners.webbyawards.com/2018/video/general-video/music-video/52916/ok-go-obsession",
-          "supports": ["officialTitle", "directors", "productionCompany", "technicalCredits", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "directors",
+            "productionCompany",
+            "technicalCredits",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=QvW61K2s0tA",
-          "supports": ["youtubeId", "thumbnailUrl"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "The Webby Awards",
             "year": 2018,
             "category": "Film & Video — Music Video",
             "result": "People's Voice Winner",
-            "creditedNames": ["SIX"],
+            "creditedNames": [
+              "SIX"
+            ],
             "source": "https://winners.webbyawards.com/2018/video/general-video/music-video/52916/ok-go-obsession"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2010s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "label_unverified", "vfx_company_unverified"]
+      "publicationBlockers": [
+        "runtime_unverified",
+        "label_unverified",
+        "vfx_company_unverified"
+      ]
     },
     {
       "artist": "きゃりーぱみゅぱみゅ",
@@ -187,7 +342,9 @@
         "englishTitle": "Fashion Monster",
         "releaseYear": 2012,
         "countryCode": "JP",
-        "directors": ["田向潤"],
+        "directors": [
+          "田向潤"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Warner Music Japan",
@@ -215,23 +372,66 @@
         {
           "type": "award_archive_official",
           "url": "https://hps.mtvjapan.com/mediacms/pdfs/mtvj_press-release_20130328_zpcj.pdf",
-          "supports": ["officialTitle", "director", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "director",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "MTV VMAJ",
             "year": 2013,
             "category": "Best Karaokee! Song / 最優秀カラオケソング賞",
             "result": "Nominee",
-            "creditedNames": ["きゃりーぱみゅぱみゅ", "田向潤"],
+            "creditedNames": [
+              "きゃりーぱみゅぱみゅ",
+              "田向潤"
+            ],
             "source": "https://hps.mtvjapan.com/mediacms/pdfs/mtvj_press-release_20130328_zpcj.pdf"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2010s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified", "label_source_needs_upgrade"]
+      "publicationBlockers": [
+        "official_video_unresolved",
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified",
+        "label_source_needs_upgrade"
+      ]
     }
   ]
 }

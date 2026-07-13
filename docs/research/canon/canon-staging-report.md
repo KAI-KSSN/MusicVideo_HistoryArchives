@@ -6,8 +6,8 @@
 
 - Selected works: 98
 - Works with complete bilingual editorial: 90
-- Works with complete award-scope audit: 60
-- Verified award result records: 97
+- Works with complete award-scope audit: 75
+- Verified award result records: 100
 - Works currently passing every publication gate: 9
 
 ## Work-by-work status
@@ -74,24 +74,24 @@
 | Beyoncé — Single Ladies | 2000s-02.json | — | 3 | 2 | Complete | Yes; reconciled |
 | Radiohead — House of Cards | 2000s-02.json | `label_unverified`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 3 | 8 | Complete | No |
 | サカナクション — アルクアラウンド | 2000s-04.json | `production_credit_unverified`<br>`runtime_unverified`<br>`release_date_precision_unverified` | 1 | 4 | Complete | No |
-| OK Go — Needing / Getting | 2010s-04.json | `award_scope_incomplete`<br>`runtime_unverified`<br>`label_unverified`<br>`vfx_company_unverified` | 5 | 7 | Complete | No |
-| きゃりーぱみゅぱみゅ — ファッションモンスター | 2010s-03.json | `official_video_unresolved`<br>`award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified`<br>`label_source_needs_upgrade` | 1 | 1 | Complete | No |
+| OK Go — Needing / Getting | 2010s-04.json | `runtime_unverified`<br>`label_unverified`<br>`vfx_company_unverified` | 5 | 7 | Complete | No |
+| きゃりーぱみゅぱみゅ — ファッションモンスター | 2010s-03.json | `official_video_unresolved`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified`<br>`label_source_needs_upgrade` | 1 | 1 | Complete | No |
 | Arcade Fire — Reflektor | 2010s-02.json | `work_identity_unresolved`<br>`official_video_unresolved`<br>`award_scope_incomplete` | 0 | 1 | Incomplete | No |
-| Perfume — Magic of Love | 2010s-02.json | `official_video_unresolved`<br>`award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 1 | 3 | Complete | No |
-| Pharrell Williams — Happy | 2010s-01.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`label_unverified`<br>`runtime_unverified` | 4 | 3 | Complete | No |
-| Flying Lotus — Never Catch Me | 2010s-01.json | `award_scope_incomplete`<br>`vfx_credit_unverified`<br>`runtime_unverified`<br>`label_source_needs_upgrade` | 1 | 3 | Complete | No |
-| Sia — Chandelier | 2010s-01.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 4 | 4 | Complete | No |
-| Björk — Black Lake | 2010s-03.json | `official_video_unresolved`<br>`award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified` | 0 | 2 | Complete | No |
-| David Bowie — Blackstar | 2010s-02.json | `award_scope_incomplete`<br>`vfx_credit_unverified`<br>`runtime_unverified`<br>`country_code_unverified` | 1 | 5 | Complete | No |
-| Tame Impala — Let It Happen | 2010s-05.json | `award_scope_incomplete`<br>`runtime_unverified`<br>`vfx_source_needs_upgrade`<br>`label_source_needs_upgrade` | 1 | 4 | Complete | No |
-| The Weeknd — Can't Feel My Face | 2010s-03.json | `award_scope_incomplete`<br>`runtime_unverified`<br>`production_source_needs_upgrade`<br>`vfx_company_unverified` | 0 | 3 | Complete | No |
-| Radiohead — Daydreaming | 2010s-05.json | `production_credit_unverified`<br>`vfx_credit_unverified`<br>`award_scope_incomplete`<br>`runtime_unverified` | 0 | 4 | Complete | No |
-| The Chemical Brothers — Wide Open | 2010s-04.json | `award_scope_incomplete`<br>`runtime_unverified` | 3 | 3 | Complete | No |
+| Perfume — Magic of Love | 2010s-02.json | `official_video_unresolved`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 1 | 3 | Complete | No |
+| Pharrell Williams — Happy | 2010s-01.json | `production_credit_unverified`<br>`label_unverified`<br>`runtime_unverified` | 6 | 4 | Complete | No |
+| Flying Lotus — Never Catch Me | 2010s-01.json | `vfx_credit_unverified`<br>`runtime_unverified`<br>`label_source_needs_upgrade` | 1 | 3 | Complete | No |
+| Sia — Chandelier | 2010s-01.json | `production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 4 | 4 | Complete | No |
+| Björk — Black Lake | 2010s-03.json | `official_video_unresolved`<br>`production_credit_unverified`<br>`vfx_credit_unverified` | 0 | 2 | Complete | No |
+| David Bowie — Blackstar | 2010s-02.json | `vfx_credit_unverified`<br>`runtime_unverified`<br>`country_code_unverified` | 1 | 5 | Complete | No |
+| Tame Impala — Let It Happen | 2010s-05.json | `runtime_unverified`<br>`vfx_source_needs_upgrade`<br>`label_source_needs_upgrade` | 1 | 4 | Complete | No |
+| The Weeknd — Can't Feel My Face | 2010s-03.json | `runtime_unverified`<br>`production_source_needs_upgrade`<br>`vfx_company_unverified` | 0 | 3 | Complete | No |
+| Radiohead — Daydreaming | 2010s-05.json | `production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
+| The Chemical Brothers — Wide Open | 2010s-04.json | `runtime_unverified` | 4 | 4 | Complete | No |
 | Bonobo — No Reason | 2020s-04.json | `award_scope_incomplete`<br>`runtime_unverified`<br>`vfx_production_unverified`<br>`production_company_source_needs_upgrade` | 2 | 5 | Complete | No |
 | imai feat. 79, 中村佳穂 — Fly | 2020s-03.json | `official_video_unresolved`<br>`release_year_source_needs_upgrade`<br>`award_scope_incomplete`<br>`runtime_unverified`<br>`label_unverified`<br>`production_company_unverified` | 0 | 1 | Complete | No |
-| OK Go — Obsession | 2010s-03.json | `award_scope_incomplete`<br>`runtime_unverified`<br>`label_unverified`<br>`vfx_company_unverified` | 1 | 4 | Complete | No |
-| Radiohead — Lift | 2010s-04.json | `director_unverified`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`award_scope_incomplete`<br>`runtime_unverified`<br>`label_unverified` | 0 | 2 | Complete | No |
-| 宇多田ヒカル — 忘却 | 2010s-04.json | `official_video_unresolved`<br>`award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified`<br>`label_unverified` | 1 | 4 | Complete | No |
+| OK Go — Obsession | 2010s-03.json | `runtime_unverified`<br>`label_unverified`<br>`vfx_company_unverified` | 1 | 4 | Complete | No |
+| Radiohead — Lift | 2010s-04.json | `director_unverified`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified`<br>`label_unverified` | 0 | 2 | Complete | No |
+| 宇多田ヒカル — 忘却 | 2010s-04.json | `official_video_unresolved`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified`<br>`label_unverified` | 1 | 4 | Complete | No |
 | 水曜日のカンパネラ — バク | 2020s-04.json | `official_video_unresolved`<br>`award_scope_incomplete`<br>`runtime_unverified`<br>`production_company_unverified`<br>`vfx_production_unverified`<br>`director_source_needs_upgrade` | 0 | 3 | Complete | No |
 | Childish Gambino — This Is America | 2010s-01.json | — | 16 | 10 | Complete | Yes; reconciled |
 | 米津玄師 — Lemon | 2010s-02.json | — | 2 | 3 | Complete | Yes; reconciled |
