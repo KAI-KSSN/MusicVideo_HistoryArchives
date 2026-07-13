@@ -71,11 +71,10 @@ export default async function VideoDetailPage({ params }: Props) {
   const formatRecognition = (result: (typeof festivalSelections)[number]) =>
     `${result.programName}${result.categoryName ? ` — ${result.categoryName}` : ""} (${result.recognitionYear})`;
 
-  const thumbnail =
-    video.thumbnailUrl ||
-    (video.youtubeId
-      ? `https://i.ytimg.com/vi/${video.youtubeId}/maxresdefault.jpg`
-      : "");
+  const fallbackThumbnail = video.youtubeId
+    ? `https://i.ytimg.com/vi/${video.youtubeId}/hqdefault.jpg`
+    : "";
+  const thumbnail = video.thumbnailUrl || fallbackThumbnail;
 
   return (
     <main
@@ -94,7 +93,7 @@ export default async function VideoDetailPage({ params }: Props) {
           className="work-hero-image"
           style={{
             backgroundImage: thumbnail
-              ? `linear-gradient(180deg, transparent 40%, rgba(0,0,0,.82)), url(${thumbnail})`
+              ? `linear-gradient(180deg, transparent 40%, rgba(0,0,0,.82)), url("${thumbnail}"), url("${fallbackThumbnail}")`
               : `linear-gradient(135deg, ${video.primaryColor}, ${video.secondaryColor})`,
           }}
         >

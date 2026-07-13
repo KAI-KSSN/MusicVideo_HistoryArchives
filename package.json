@@ -10,7 +10,8 @@
     "verify:canon": "node scripts/validate-canon-research-batches.mjs && node scripts/validate-canon-evidence.mjs && node scripts/validate-canon-coverage.mjs",
     "report:canon": "node scripts/summarize-canon-evidence.mjs",
     "verify:pilot": "node --env-file=.env.local scripts/verify-pilot.mjs",
-    "verify:canon:live": "node --env-file=.env.local scripts/verify-canon-publication.mjs && node --env-file=.env.local scripts/verify-canon-hold-release.mjs"
+    "verify:canon:live": "node --env-file=.env.local scripts/verify-canon-publication.mjs && node --env-file=.env.local scripts/verify-canon-hold-release.mjs",
+    "verify:thumbnails": "node --env-file=.env.local scripts/verify-thumbnails.mjs"
   },
   "dependencies": {
     "next": "16.2.10",

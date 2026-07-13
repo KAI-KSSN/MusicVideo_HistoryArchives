@@ -10,11 +10,12 @@ export default function MuseumVideoCard({
   video: MusicVideo;
 }) {
   const { language } = usePreferences();
+  const fallbackThumbnail = video.youtubeId
+    ? `https://i.ytimg.com/vi/${video.youtubeId}/hqdefault.jpg`
+    : "";
   const thumbnail =
     video.thumbnailUrl ||
-    (video.youtubeId
-      ? `https://i.ytimg.com/vi/${video.youtubeId}/hq720.jpg`
-      : "");
+    fallbackThumbnail;
 
   const tags = [
     video.genre,
@@ -55,7 +56,8 @@ export default function MuseumVideoCard({
                   rgba(0, 0, 0, 0.16) 48%,
                   rgba(0, 0, 0, 0.86) 100%
                 ),
-                url(${thumbnail})`
+                url("${thumbnail}"),
+                url("${fallbackThumbnail}")`
               : `linear-gradient(
                   135deg,
                   ${video.primaryColor},
