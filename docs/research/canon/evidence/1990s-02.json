@@ -10,7 +10,9 @@
         "officialTitle": "Karma Police",
         "releaseYear": 1997,
         "countryCode": "GB",
-        "directors": ["Jonathan Glazer"],
+        "directors": [
+          "Jonathan Glazer"
+        ],
         "productionCompany": "Academy Films",
         "vfxProduction": null,
         "label": "Parlophone",
@@ -35,13 +37,97 @@
         }
       },
       "sources": [
-        {"type":"production_company","url":"https://www.academyfilms.com/portfolio/radiohead-karma-police","supports":["officialTitle","director","productionCompany"]},
-        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/karma-police","supports":["label","awardProgramChecked","awardYearChecked"]},
-        {"type":"official_chart_archive","url":"https://www.officialcharts.com/charts/singles-chart/19970907/7501/","supports":["releaseYear"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=1uYWYWPc9HU","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "production_company",
+          "url": "https://www.academyfilms.com/portfolio/radiohead-karma-police",
+          "supports": [
+            "officialTitle",
+            "director",
+            "productionCompany"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/karma-police",
+          "supports": [
+            "label",
+            "awardProgramChecked",
+            "awardYearChecked"
+          ]
+        },
+        {
+          "type": "official_chart_archive",
+          "url": "https://www.officialcharts.com/charts/singles-chart/19970907/7501/",
+          "supports": [
+            "releaseYear"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=1uYWYWPc9HU",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://ir.paramount.com/news-releases/news-release-details/beyonce-and-lady-gaga-tied-nine-2009-mtv-video-music-awards",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        }
       ],
-      "awardAudit": {"status":"in_progress","verifiedResults":[],"notes":"The D&AD archive contains a 1998 entry but displays no pencil result; no award is registered from that page."},
-      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified"]
+      "awardAudit": {
+        "status": "complete",
+        "verifiedResults": [
+          {
+            "program": "MTV Video Music Awards",
+            "ceremony": "2009 MTV Video Music Awards",
+            "year": 2009,
+            "category": "Best Video (That Should Have Won a Moonman)",
+            "result": "nominee",
+            "creditedNames": [
+              "Radiohead",
+              "Jonathan Glazer"
+            ],
+            "source": "https://ir.paramount.com/news-releases/news-release-details/beyonce-and-lady-gaga-tied-nine-2009-mtv-video-music-awards"
+          }
+        ],
+        "notes": "The D&AD archive contains a 1998 entry but displays no pencil result; no award is registered from that page.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1990s-resolved-award-audit.md"
+      },
+      "publicationBlockers": [
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "The Prodigy",
@@ -50,7 +136,9 @@
         "officialTitle": "Smack My Bitch Up",
         "releaseYear": 1997,
         "countryCode": "GB",
-        "directors": ["Jonas Åkerlund"],
+        "directors": [
+          "Jonas Åkerlund"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "XL Recordings",
@@ -75,20 +163,89 @@
         }
       },
       "sources": [
-        {"type":"director_official","url":"https://jonasakerlund.com/bio/","supports":["director","awardClaimDiscovery"]},
-        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/prodigy-smack-my-bitch-up/","supports":["officialTitle","releaseYear","label"]},
-        {"type":"production_trade_archive","url":"https://shots.net/news/view/2176-smack-my-bitch-up","supports":["director"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=xW17jtkjvvg","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "director_official",
+          "url": "https://jonasakerlund.com/bio/",
+          "supports": [
+            "director",
+            "awardClaimDiscovery"
+          ]
+        },
+        {
+          "type": "official_chart_archive",
+          "url": "https://www.officialcharts.com/songs/prodigy-smack-my-bitch-up/",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "label"
+          ]
+        },
+        {
+          "type": "production_trade_archive",
+          "url": "https://shots.net/news/view/2176-smack-my-bitch-up",
+          "supports": [
+            "director"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=xW17jtkjvvg",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
         "candidateOfficialClaims": [
-          {"program":"MTV Video Music Awards","year":1998,"claim":"Best Direction nomination","source":"https://jonasakerlund.com/bio/","registrationStatus":"hold_for_awarding_body_archive"},
-          {"program":"MTV Video Music Awards","year":1998,"claim":"Best Editing nomination","source":"https://jonasakerlund.com/bio/","registrationStatus":"hold_for_awarding_body_archive"}
-        ]
+          {
+            "program": "MTV Video Music Awards",
+            "year": 1998,
+            "claim": "Best Direction nomination",
+            "source": "https://jonasakerlund.com/bio/",
+            "registrationStatus": "hold_for_awarding_body_archive"
+          },
+          {
+            "program": "MTV Video Music Awards",
+            "year": 1998,
+            "claim": "Best Editing nomination",
+            "source": "https://jonasakerlund.com/bio/",
+            "registrationStatus": "hold_for_awarding_body_archive"
+          }
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1990s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Aphex Twin",
@@ -97,7 +254,9 @@
         "officialTitle": "Come To Daddy",
         "releaseYear": 1997,
         "countryCode": "GB",
-        "directors": ["Chris Cunningham"],
+        "directors": [
+          "Chris Cunningham"
+        ],
         "productionCompany": "Black Dog Films",
         "vfxProduction": null,
         "label": "Warp",
@@ -122,18 +281,86 @@
         }
       },
       "sources": [
-        {"type":"label_official","url":"https://aphextwin.warp.net/release/68141-aphex-twin-come-to-daddy?lang=en_US","supports":["officialTitle","releaseYear","label"]},
-        {"type":"production_trade_archive","url":"https://shots.net/news/view/playlist-wouter-stoter","supports":["director","productionCompany","editor","cinematographer"]},
-        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/come-to-daddy-aphex-twin","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=TZ827lkktYs","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "label_official",
+          "url": "https://aphextwin.warp.net/release/68141-aphex-twin-come-to-daddy?lang=en_US",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "label"
+          ]
+        },
+        {
+          "type": "production_trade_archive",
+          "url": "https://shots.net/news/view/playlist-wouter-stoter",
+          "supports": [
+            "director",
+            "productionCompany",
+            "editor",
+            "cinematographer"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/come-to-daddy-aphex-twin",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=TZ827lkktYs",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
-          {"program":"D&AD Awards","year":1998,"category":"Music Videos","result":"Yellow Pencil (two pencils shown; subcategories not exposed by the public record)","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/come-to-daddy-aphex-twin"}
-        ]
+          {
+            "program": "D&AD Awards",
+            "year": 1998,
+            "category": "Music Videos",
+            "result": "Yellow Pencil (two pencils shown; subcategories not exposed by the public record)",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/come-to-daddy-aphex-twin"
+          }
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1990s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified"]
+      "publicationBlockers": [
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Massive Attack",
@@ -142,7 +369,9 @@
         "officialTitle": "Teardrop",
         "releaseYear": 1998,
         "countryCode": "GB",
-        "directors": ["Walter Stern"],
+        "directors": [
+          "Walter Stern"
+        ],
         "productionCompany": "Academy Films",
         "vfxProduction": null,
         "label": "Virgin Records",
@@ -167,20 +396,104 @@
         }
       },
       "sources": [
-        {"type":"production_company","url":"https://www.academyfilms.com/portfolio/tagged/music-video/page/2","supports":["director","productionCompany"]},
-        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/massive-attack-teardrop/","supports":["officialTitle","releaseYear","label"]},
-        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/massive-attack-teardrop","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/teardrop","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=u7K72X4eo_s","supports":["youtubeId","thumbnailUrl","runtimeSeconds"]}
+        {
+          "type": "production_company",
+          "url": "https://www.academyfilms.com/portfolio/tagged/music-video/page/2",
+          "supports": [
+            "director",
+            "productionCompany"
+          ]
+        },
+        {
+          "type": "official_chart_archive",
+          "url": "https://www.officialcharts.com/songs/massive-attack-teardrop/",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "label"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/massive-attack-teardrop",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/teardrop",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=u7K72X4eo_s",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
-          {"program":"D&AD Awards","year":1999,"category":"Music Videos","result":"Wood Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/massive-attack-teardrop"},
-          {"program":"D&AD Awards","year":1999,"category":"Music Videos","result":"Yellow Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/teardrop","notes":"The public archive exposes a second Teardrop record without its subcategory; the records are retained separately rather than merged."}
-        ]
+          {
+            "program": "D&AD Awards",
+            "year": 1999,
+            "category": "Music Videos",
+            "result": "Wood Pencil",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/massive-attack-teardrop"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 1999,
+            "category": "Music Videos",
+            "result": "Yellow Pencil",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/teardrop",
+            "notes": "The public archive exposes a second Teardrop record without its subcategory; the records are retained separately rather than merged."
+          }
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1990s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "vfx_credit_unverified"]
+      "publicationBlockers": [
+        "vfx_credit_unverified"
+      ]
     }
   ]
 }

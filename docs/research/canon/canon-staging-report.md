@@ -6,8 +6,8 @@
 
 - Selected works: 98
 - Works with complete bilingual editorial: 90
-- Works with complete award-scope audit: 29
-- Verified award result records: 92
+- Works with complete award-scope audit: 45
+- Verified award result records: 94
 - Works currently passing every publication gate: 9
 
 ## Work-by-work status
@@ -39,26 +39,26 @@
 | Madonna — Like a Prayer | 1980s-01.json | `production_credit_unverified` | 0 | 2 | Complete | No |
 | Michael Jackson — Leave Me Alone | 1980s-03.json | `director_unverified`<br>`production_credit_unverified`<br>`runtime_unverified` | 1 | 5 | Complete | No |
 | Guns N' Roses — November Rain | 1980s-03.json | `release_year_needs_official_source`<br>`production_credit_unverified`<br>`label_unverified`<br>`runtime_unverified` | 0 | 3 | Complete | No |
-| Björk — Big Time Sensuality | 1990s-05.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
-| Beastie Boys — Sabotage | 1990s-01.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
-| Nine Inch Nails — Closer | 1990s-04.json | `award_scope_incomplete`<br>`vfx_credit_unverified` | 3 | 4 | Complete | No |
-| Soundgarden — Black Hole Sun | 1990s-04.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
+| Björk — Big Time Sensuality | 1990s-05.json | `production_credit_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
+| Beastie Boys — Sabotage | 1990s-01.json | `production_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
+| Nine Inch Nails — Closer | 1990s-04.json | `vfx_credit_unverified` | 3 | 4 | Complete | No |
+| Soundgarden — Black Hole Sun | 1990s-04.json | `production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
 | Jamiroquai — Virtual Insanity | 1990s-01.json | — | 0 | 3 | Complete | Yes; reconciled |
-| Aphex Twin — Come to Daddy | 1990s-02.json | `award_scope_incomplete`<br>`runtime_unverified` | 1 | 4 | Complete | No |
+| Aphex Twin — Come to Daddy | 1990s-02.json | `runtime_unverified` | 1 | 4 | Complete | No |
 | Daft Punk — Around the World | 1990s-01.json | — | 0 | 3 | Complete | Yes; reconciled |
-| Foo Fighters — Everlong | 1990s-03.json | `award_scope_incomplete`<br>`production_credit_unverified` | 0 | 4 | Complete | No |
-| Missy Elliott — The Rain | 1990s-04.json | `award_scope_incomplete`<br>`label_unverified`<br>`production_credit_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
-| Radiohead — Karma Police | 1990s-02.json | `award_scope_incomplete`<br>`runtime_unverified` | 0 | 4 | Complete | No |
-| The Prodigy — Smack My Bitch Up | 1990s-02.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
-| Madonna — Frozen | 1990s-04.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
-| Massive Attack — Teardrop | 1990s-02.json | `award_scope_incomplete`<br>`vfx_credit_unverified` | 2 | 5 | Complete | No |
-| Björk — All Is Full of Love | 1990s-01.json | `award_scope_incomplete`<br>`label_unverified`<br>`vfx_credit_unverified` | 3 | 6 | Complete | No |
-| Blur — Coffee & TV | 1990s-03.json | `award_scope_incomplete`<br>`vfx_credit_unverified` | 2 | 5 | Complete | No |
-| The Chemical Brothers — Let Forever Be | 1990s-05.json | `award_scope_incomplete`<br>`label_source_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
-| Red Hot Chili Peppers — Californication | 1990s-03.json | `award_scope_incomplete`<br>`director_source_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified` | 1 | 3 | Complete | No |
+| Foo Fighters — Everlong | 1990s-03.json | `production_credit_unverified` | 1 | 5 | Complete | No |
+| Missy Elliott — The Rain | 1990s-04.json | `label_unverified`<br>`production_credit_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
+| Radiohead — Karma Police | 1990s-02.json | `runtime_unverified` | 1 | 5 | Complete | No |
+| The Prodigy — Smack My Bitch Up | 1990s-02.json | `production_credit_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
+| Madonna — Frozen | 1990s-04.json | `production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
+| Massive Attack — Teardrop | 1990s-02.json | `vfx_credit_unverified` | 2 | 5 | Complete | No |
+| Björk — All Is Full of Love | 1990s-01.json | `label_unverified`<br>`vfx_credit_unverified` | 3 | 6 | Complete | No |
+| Blur — Coffee & TV | 1990s-03.json | `vfx_credit_unverified` | 2 | 5 | Complete | No |
+| The Chemical Brothers — Let Forever Be | 1990s-05.json | `label_source_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
+| Red Hot Chili Peppers — Californication | 1990s-03.json | `director_source_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified` | 1 | 3 | Complete | No |
 | Fatboy Slim — Weapon of Choice | 2000s-01.json | — | 1 | 3 | Complete | Yes; reconciled |
 | 宇多田ヒカル — Traveling | 2000s-04.json | `award_scope_incomplete`<br>`director_source_needs_upgrade`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified`<br>`youtube_availability_unverified` | 1 | 4 | Complete | No |
-| Chemical Brothers — Star Guitar | 1990s-03.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified` | 2 | 4 | Complete | No |
+| Chemical Brothers — Star Guitar | 1990s-03.json | `production_credit_unverified`<br>`runtime_unverified` | 2 | 4 | Complete | No |
 | Coldplay — The Scientist | 2000s-02.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified` | 1 | 6 | Complete | No |
 | Kylie Minogue — Come Into My World | 2000s-04.json | `award_scope_incomplete`<br>`director_source_needs_upgrade`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`label_unverified`<br>`country_unverified`<br>`runtime_unverified` | 0 | 3 | Complete | No |
 | Röyksopp — Remind Me | 2000s-03.json | `award_scope_incomplete`<br>`label_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |

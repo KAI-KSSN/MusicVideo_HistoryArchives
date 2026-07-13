@@ -10,7 +10,9 @@
         "officialTitle": "The Rain (Supa Dupa Fly)",
         "releaseYear": 1997,
         "countryCode": "US",
-        "directors": ["Hype Williams"],
+        "directors": [
+          "Hype Williams"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": null,
@@ -35,17 +37,77 @@
         }
       },
       "sources": [
-        {"type":"artist_official","url":"https://www.missy-elliott.com/","supports":["officialTitle","releaseYear","director","costumeDesigner"]},
-        {"type":"recording_academy_editorial","url":"https://www.grammy.com/news/hype-williams-vh1-honor-hip-hop-video-director/","supports":["director","officialVideoIdentity"]},
-        {"type":"recording_academy_editorial","url":"https://www.grammy.com/news/revisiting-supa-dupa-fly-at-25-missy-elliott-interview-supa-dupa-fly-the-rain-25th-anniversary/","supports":["releaseYear","historicalContext"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=hHcyJPTTn9w","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "artist_official",
+          "url": "https://www.missy-elliott.com/",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "director",
+            "costumeDesigner"
+          ]
+        },
+        {
+          "type": "recording_academy_editorial",
+          "url": "https://www.grammy.com/news/hype-williams-vh1-honor-hip-hop-video-director/",
+          "supports": [
+            "director",
+            "officialVideoIdentity"
+          ]
+        },
+        {
+          "type": "recording_academy_editorial",
+          "url": "https://www.grammy.com/news/revisiting-supa-dupa-fly-at-25-missy-elliott-interview-supa-dupa-fly-the-rain-25th-anniversary/",
+          "supports": [
+            "releaseYear",
+            "historicalContext"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=hHcyJPTTn9w",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
-        "notes": "The 1998 GRAMMY nomination located in the official archive is Best Rap Solo Performance for the track, not a music-video award, and is therefore not registered as a work award."
+        "notes": "The 1998 GRAMMY nomination located in the official archive is Best Rap Solo Performance for the track, not a music-video award, and is therefore not registered as a work award.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1990s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "label_unverified", "production_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "label_unverified",
+        "production_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Madonna",
@@ -54,7 +116,9 @@
         "officialTitle": "Frozen",
         "releaseYear": 1998,
         "countryCode": "US",
-        "directors": ["Chris Cunningham"],
+        "directors": [
+          "Chris Cunningham"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Warner Bros.",
@@ -79,21 +143,97 @@
         }
       },
       "sources": [
-        {"type":"artist_official","url":"https://www.madonna.com/products/frozen","supports":["officialTitle","releaseYear","director","label","awardClaimDiscovery"]},
-        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/madonna-frozen/","supports":["officialTitle","releaseYear"]},
-        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/frozen","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=XS088Opj9o0","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "artist_official",
+          "url": "https://www.madonna.com/products/frozen",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "director",
+            "label",
+            "awardClaimDiscovery"
+          ]
+        },
+        {
+          "type": "official_chart_archive",
+          "url": "https://www.officialcharts.com/songs/madonna-frozen/",
+          "supports": [
+            "officialTitle",
+            "releaseYear"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/frozen",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=XS088Opj9o0",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
-          {"program":"D&AD Awards","year":1999,"category":"Music Videos","result":"Wood Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/frozen"}
+          {
+            "program": "D&AD Awards",
+            "year": 1999,
+            "category": "Music Videos",
+            "result": "Wood Pencil",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/frozen"
+          }
         ],
         "candidateOfficialClaims": [
-          {"program":"MTV Video Music Awards","year":1998,"claim":"Best Special Effects in a Video winner","source":"https://www.madonna.com/products/frozen","registrationStatus":"hold_for_awarding_body_archive"}
-        ]
+          {
+            "program": "MTV Video Music Awards",
+            "year": 1998,
+            "claim": "Best Special Effects in a Video winner",
+            "source": "https://www.madonna.com/products/frozen",
+            "registrationStatus": "hold_for_awarding_body_archive"
+          }
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1990s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Nine Inch Nails",
@@ -102,7 +242,9 @@
         "officialTitle": "Closer",
         "releaseYear": 1994,
         "countryCode": "US",
-        "directors": ["Mark Romanek"],
+        "directors": [
+          "Mark Romanek"
+        ],
         "productionCompany": "Satellite Films",
         "vfxProduction": null,
         "label": "Nothing Records",
@@ -127,20 +269,114 @@
         }
       },
       "sources": [
-        {"type":"aicp_archive_official","url":"https://www.aicp.show/show/closer","supports":["officialTitle","runtimeSeconds","director","productionCompany","cinematographer","editor","artDirector","awardProgram","awardCategory"]},
-        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/nine-inch-nails-closer","supports":["awardProgram","awardYear","awardCategory","awardOutcome","label"]},
-        {"type":"artist_official_archive","url":"https://vimeo.com/groups/35mmandrisdamburs/videos/3704806","supports":["director","productionContext"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=PTFwQP86BRs","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "aicp_archive_official",
+          "url": "https://www.aicp.show/show/closer",
+          "supports": [
+            "officialTitle",
+            "runtimeSeconds",
+            "director",
+            "productionCompany",
+            "cinematographer",
+            "editor",
+            "artDirector",
+            "awardProgram",
+            "awardCategory"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/nine-inch-nails-closer",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome",
+            "label"
+          ]
+        },
+        {
+          "type": "artist_official_archive",
+          "url": "https://vimeo.com/groups/35mmandrisdamburs/videos/3704806",
+          "supports": [
+            "director",
+            "productionContext"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=PTFwQP86BRs",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
-          {"program":"D&AD Awards","year":1995,"category":"Music Videos","result":"Graphite Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/nine-inch-nails-closer"},
-          {"program":"D&AD Awards","year":1995,"category":"Music Videos","result":"Wood Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/nine-inch-nails-closer","notes":"The public archive does not expose the two pencil subcategories; no subcategory is inferred."},
-          {"program":"AICP Show","year":null,"category":"Music Video","result":"Archived selection","creditedNames":["Mark Romanek","Harris Savides","Robert Duffy","Tom Faden"],"source":"https://www.aicp.show/show/closer","notes":"The public record confirms inclusion in the AICP Show archive but does not expose an award year on the page."}
-        ]
+          {
+            "program": "D&AD Awards",
+            "year": 1995,
+            "category": "Music Videos",
+            "result": "Graphite Pencil",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/nine-inch-nails-closer"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 1995,
+            "category": "Music Videos",
+            "result": "Wood Pencil",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/nine-inch-nails-closer",
+            "notes": "The public archive does not expose the two pencil subcategories; no subcategory is inferred."
+          },
+          {
+            "program": "AICP Show",
+            "year": null,
+            "category": "Music Video",
+            "result": "Archived selection",
+            "creditedNames": [
+              "Mark Romanek",
+              "Harris Savides",
+              "Robert Duffy",
+              "Tom Faden"
+            ],
+            "source": "https://www.aicp.show/show/closer",
+            "notes": "The public record confirms inclusion in the AICP Show archive but does not expose an award year on the page."
+          }
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1990s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "vfx_credit_unverified"]
+      "publicationBlockers": [
+        "vfx_credit_unverified"
+      ]
     },
     {
       "artist": "Soundgarden",
@@ -149,7 +385,9 @@
         "officialTitle": "Black Hole Sun",
         "releaseYear": 1994,
         "countryCode": "US",
-        "directors": ["Howard Greenhalgh"],
+        "directors": [
+          "Howard Greenhalgh"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "A&M",
@@ -174,17 +412,76 @@
         }
       },
       "sources": [
-        {"type":"artist_official","url":"https://www.soundgardenworld.com/videos/soundgarden-black-hole-sun-remastered-audio/","supports":["officialTitle","officialVideoIdentity"]},
-        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/soundgarden-black-hole-sun/","supports":["officialTitle","releaseYear","label"]},
-        {"type":"recording_academy_editorial","url":"https://www.grammy.com/news/soundgarden-superunknown-album-anniversary-chris-cornell-grunge/","supports":["director","historicalContext"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=3mbBbFH9fAg","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "artist_official",
+          "url": "https://www.soundgardenworld.com/videos/soundgarden-black-hole-sun-remastered-audio/",
+          "supports": [
+            "officialTitle",
+            "officialVideoIdentity"
+          ]
+        },
+        {
+          "type": "official_chart_archive",
+          "url": "https://www.officialcharts.com/songs/soundgarden-black-hole-sun/",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "label"
+          ]
+        },
+        {
+          "type": "recording_academy_editorial",
+          "url": "https://www.grammy.com/news/soundgarden-superunknown-album-anniversary-chris-cornell-grunge/",
+          "supports": [
+            "director",
+            "historicalContext"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=3mbBbFH9fAg",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
-        "notes": "The official GRAMMY record is Best Hard Rock Performance for the song, not a music-video award, and is therefore not registered as a work award."
+        "notes": "The official GRAMMY record is Best Hard Rock Performance for the song, not a music-video award, and is therefore not registered as a work award.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1990s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified"
+      ]
     }
   ]
 }

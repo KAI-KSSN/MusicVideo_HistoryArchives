@@ -42,7 +42,14 @@
         "verifiedResults": [],
         "notes": "The editorial label 'Fantasma-era' identifies a period rather than a unique music-video title. No candidate work is substituted without an explicit editorial mapping."
       },
-      "publicationBlockers": ["work_identity_unresolved", "official_video_unresolved", "metadata_unverified", "award_scope_not_started", "editorial_not_started", "sources_missing"]
+      "publicationBlockers": [
+        "work_identity_unresolved",
+        "official_video_unresolved",
+        "metadata_unverified",
+        "award_scope_not_started",
+        "editorial_not_started",
+        "sources_missing"
+      ]
     },
     {
       "artist": "The Chemical Brothers",
@@ -51,7 +58,9 @@
         "officialTitle": "Let Forever Be",
         "releaseYear": 1999,
         "countryCode": "GB",
-        "directors": ["Michel Gondry"],
+        "directors": [
+          "Michel Gondry"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Virgin",
@@ -76,18 +85,84 @@
         }
       },
       "sources": [
-        {"type":"artist_official","url":"https://www.thechemicalbrothers.com/music-videos/let-forever-be-video","supports":["officialTitle","officialVideoIdentity"]},
-        {"type":"artist_official","url":"https://www.thechemicalbrothers.com/news/new-video-for-got-to-keep-on-directed-by-michel-olivier-gondry","supports":["director"]},
-        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/chemical-brothers-let-forever-be","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=s5FyfQDO5g0","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "artist_official",
+          "url": "https://www.thechemicalbrothers.com/music-videos/let-forever-be-video",
+          "supports": [
+            "officialTitle",
+            "officialVideoIdentity"
+          ]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://www.thechemicalbrothers.com/news/new-video-for-got-to-keep-on-directed-by-michel-olivier-gondry",
+          "supports": [
+            "director"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/chemical-brothers-let-forever-be",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=s5FyfQDO5g0",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
-          {"program":"D&AD Awards","year":2000,"category":"Music Videos","result":"Graphite Pencil (two pencils shown; subcategories not exposed by the public record)","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/chemical-brothers-let-forever-be"}
-        ]
+          {
+            "program": "D&AD Awards",
+            "year": 2000,
+            "category": "Music Videos",
+            "result": "Graphite Pencil (two pencils shown; subcategories not exposed by the public record)",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/chemical-brothers-let-forever-be"
+          }
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1990s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "label_source_incomplete", "production_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "label_source_incomplete",
+        "production_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Björk",
@@ -96,7 +171,9 @@
         "officialTitle": "Big Time Sensuality",
         "releaseYear": 1993,
         "countryCode": "IS",
-        "directors": ["Stéphane Sednaoui"],
+        "directors": [
+          "Stéphane Sednaoui"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "One Little Indian",
@@ -121,17 +198,74 @@
         }
       },
       "sources": [
-        {"type":"director_official","url":"https://www.stephanesednaoui.com/","supports":["directorIdentity"]},
-        {"type":"director_authorized_collection_catalog","url":"https://www.mediatheques.strasbourg.eu/doc/IGUANA_2/364318/the-work-of-director-stephane-sednaoui","supports":["director","officialTitle"]},
-        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/bjork-big-time-sensuality/","supports":["officialTitle","releaseYear","label"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=75WFTHpOw8Y","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "director_official",
+          "url": "https://www.stephanesednaoui.com/",
+          "supports": [
+            "directorIdentity"
+          ]
+        },
+        {
+          "type": "director_authorized_collection_catalog",
+          "url": "https://www.mediatheques.strasbourg.eu/doc/IGUANA_2/364318/the-work-of-director-stephane-sednaoui",
+          "supports": [
+            "director",
+            "officialTitle"
+          ]
+        },
+        {
+          "type": "official_chart_archive",
+          "url": "https://www.officialcharts.com/songs/bjork-big-time-sensuality/",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "label"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=75WFTHpOw8Y",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
-        "notes": "No result is registered from unverified Billboard or MTV claims. The official GRAMMY profile contains no music-video nomination for this work."
+        "notes": "No result is registered from unverified Billboard or MTV claims. The official GRAMMY profile contains no music-video nomination for this work.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1990s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "runtime_unverified"
+      ]
     }
   ]
 }

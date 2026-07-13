@@ -10,7 +10,9 @@
         "officialTitle": "Star Guitar",
         "releaseYear": 2002,
         "countryCode": "GB",
-        "directors": ["Michel Gondry"],
+        "directors": [
+          "Michel Gondry"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Virgin",
@@ -35,19 +37,93 @@
         }
       },
       "sources": [
-        {"type":"artist_official","url":"https://www.thechemicalbrothers.com/?appsule=184","supports":["director"]},
-        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/chemical-brothers-star-guitar/","supports":["officialTitle","releaseYear","label"]},
-        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/star-guitar","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=0S43IwBF0uM","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "artist_official",
+          "url": "https://www.thechemicalbrothers.com/?appsule=184",
+          "supports": [
+            "director"
+          ]
+        },
+        {
+          "type": "official_chart_archive",
+          "url": "https://www.officialcharts.com/songs/chemical-brothers-star-guitar/",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "label"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/star-guitar",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=0S43IwBF0uM",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
-          {"program":"D&AD Awards","year":2002,"category":"Music Videos","result":"Black Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/star-guitar"},
-          {"program":"D&AD Awards","year":2002,"category":"Music Videos","result":"Graphite Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/star-guitar","notes":"The public archive does not expose the two pencil subcategories; no subcategory is inferred."}
-        ]
+          {
+            "program": "D&AD Awards",
+            "year": 2002,
+            "category": "Music Videos",
+            "result": "Black Pencil",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/star-guitar"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 2002,
+            "category": "Music Videos",
+            "result": "Graphite Pencil",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/star-guitar",
+            "notes": "The public archive does not expose the two pencil subcategories; no subcategory is inferred."
+          }
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1990s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Blur",
@@ -56,7 +132,9 @@
         "officialTitle": "Coffee & TV",
         "releaseYear": 1999,
         "countryCode": "GB",
-        "directors": ["Garth Jennings"],
+        "directors": [
+          "Garth Jennings"
+        ],
         "productionCompany": "Hammer & Tongs",
         "vfxProduction": null,
         "label": "Food Records",
@@ -81,21 +159,104 @@
         }
       },
       "sources": [
-        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/blur-coffee-tv/","supports":["officialTitle","releaseYear","label"]},
-        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/blur-coffee-tv","supports":["awardProgram","awardYear","awardCategory","awardOutcome","label"]},
-        {"type":"contemporary_music_press","url":"https://www.nme.com/news/music/blur-517-1387489","supports":["productionCompany","productionTechnique"]},
-        {"type":"curated_video_archive","url":"https://www.bugvideos.co.uk/portfolio/coffee-and-tv","supports":["director","productionCompany"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=6oqXVx3sBOk","supports":["youtubeId","thumbnailUrl","runtimeSeconds"]}
+        {
+          "type": "official_chart_archive",
+          "url": "https://www.officialcharts.com/songs/blur-coffee-tv/",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "label"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/blur-coffee-tv",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome",
+            "label"
+          ]
+        },
+        {
+          "type": "contemporary_music_press",
+          "url": "https://www.nme.com/news/music/blur-517-1387489",
+          "supports": [
+            "productionCompany",
+            "productionTechnique"
+          ]
+        },
+        {
+          "type": "curated_video_archive",
+          "url": "https://www.bugvideos.co.uk/portfolio/coffee-and-tv",
+          "supports": [
+            "director",
+            "productionCompany"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=6oqXVx3sBOk",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
-          {"program":"D&AD Awards","year":2000,"category":"Music Videos","result":"Graphite Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/blur-coffee-tv"},
-          {"program":"D&AD Awards","year":2000,"category":"Music Videos","result":"Wood Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/blur-coffee-tv","notes":"The public archive does not expose the two pencil subcategories; no subcategory is inferred."}
+          {
+            "program": "D&AD Awards",
+            "year": 2000,
+            "category": "Music Videos",
+            "result": "Graphite Pencil",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/blur-coffee-tv"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 2000,
+            "category": "Music Videos",
+            "result": "Wood Pencil",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/blur-coffee-tv",
+            "notes": "The public archive does not expose the two pencil subcategories; no subcategory is inferred."
+          }
         ],
-        "notes": "Claims for other programs are not registered until an awarding-body archive is located."
+        "notes": "Claims for other programs are not registered until an awarding-body archive is located.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1990s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "vfx_credit_unverified"]
+      "publicationBlockers": [
+        "vfx_credit_unverified"
+      ]
     },
     {
       "artist": "Red Hot Chili Peppers",
@@ -104,7 +265,10 @@
         "officialTitle": "Californication",
         "releaseYear": 2000,
         "countryCode": "US",
-        "directors": ["Jonathan Dayton", "Valerie Faris"],
+        "directors": [
+          "Jonathan Dayton",
+          "Valerie Faris"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Warner Bros.",
@@ -129,17 +293,79 @@
         }
       },
       "sources": [
-        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/red-hot-chili-peppers-californication/","supports":["officialTitle","releaseYear","label"]},
-        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/californication","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=YlUKcNNmywk","supports":["youtubeId","thumbnailUrl","runtimeSeconds"]}
+        {
+          "type": "official_chart_archive",
+          "url": "https://www.officialcharts.com/songs/red-hot-chili-peppers-californication/",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "label"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/californication",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=YlUKcNNmywk",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
-          {"program":"D&AD Awards","year":2001,"category":"Music Videos","result":"Wood Pencil (two pencils shown; subcategories not exposed by the public record)","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/californication"}
-        ]
+          {
+            "program": "D&AD Awards",
+            "year": 2001,
+            "category": "Music Videos",
+            "result": "Wood Pencil (two pencils shown; subcategories not exposed by the public record)",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/californication"
+          }
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1990s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "director_source_incomplete", "production_credit_unverified", "vfx_credit_unverified"]
+      "publicationBlockers": [
+        "director_source_incomplete",
+        "production_credit_unverified",
+        "vfx_credit_unverified"
+      ]
     },
     {
       "artist": "Foo Fighters",
@@ -148,7 +374,9 @@
         "officialTitle": "Everlong",
         "releaseYear": 1997,
         "countryCode": "US",
-        "directors": ["Michel Gondry"],
+        "directors": [
+          "Michel Gondry"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Columbia",
@@ -173,17 +401,97 @@
         }
       },
       "sources": [
-        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/foo-fighters-everlong/","supports":["officialTitle","releaseYear","label"]},
-        {"type":"recording_academy_editorial","url":"https://www.grammy.com/news/foo-fighters-essential-songs-list-full-discography-dave-grohl-taylor-hawkins/","supports":["releaseYear","officialVideoIdentity"]},
-        {"type":"director_authorized_collection","url":"https://www.criterion.com/films/225-the-work-of-director-michel-gondry","supports":["director"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=eBG7P-K-r1Y","supports":["youtubeId","thumbnailUrl","runtimeSeconds"]}
+        {
+          "type": "official_chart_archive",
+          "url": "https://www.officialcharts.com/songs/foo-fighters-everlong/",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "label"
+          ]
+        },
+        {
+          "type": "recording_academy_editorial",
+          "url": "https://www.grammy.com/news/foo-fighters-essential-songs-list-full-discography-dave-grohl-taylor-hawkins/",
+          "supports": [
+            "releaseYear",
+            "officialVideoIdentity"
+          ]
+        },
+        {
+          "type": "director_authorized_collection",
+          "url": "https://www.criterion.com/films/225-the-work-of-director-michel-gondry",
+          "supports": [
+            "director"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=eBG7P-K-r1Y",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://ir.paramount.com/news-releases/news-release-details/beyonce-and-lady-gaga-tied-nine-2009-mtv-video-music-awards",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
-        "verifiedResults": [],
-        "notes": "No award result is registered. A 2009 MTV retrospective nominee listing is not treated as a 1997-era award, and non-official claims remain excluded."
+        "status": "complete",
+        "verifiedResults": [
+          {
+            "program": "MTV Video Music Awards",
+            "ceremony": "2009 MTV Video Music Awards",
+            "year": 2009,
+            "category": "Best Video (That Should Have Won a Moonman)",
+            "result": "nominee",
+            "creditedNames": [
+              "Foo Fighters",
+              "Michel Gondry"
+            ],
+            "source": "https://ir.paramount.com/news-releases/news-release-details/beyonce-and-lady-gaga-tied-nine-2009-mtv-video-music-awards"
+          }
+        ],
+        "notes": "The official 2009 MTV retrospective nominee listing is registered as a 2009 nomination, not as a 1997-era award; non-official claims remain excluded.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1990s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified"
+      ]
     }
   ]
 }
