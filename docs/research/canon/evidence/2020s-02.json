@@ -10,7 +10,10 @@
         "officialTitle": "Paint The Town Red",
         "releaseYear": 2023,
         "countryCode": "US",
-        "directors": ["Doja Cat", "Nina McNeely"],
+        "directors": [
+          "Doja Cat",
+          "Nina McNeely"
+        ],
         "productionCompany": "Freenjoy",
         "vfxProduction": "SUPERCONTINENT",
         "label": "Kemosabe Records / RCA Records",
@@ -38,38 +41,78 @@
         {
           "type": "label_official",
           "url": "https://www.sonymusic.ca/press_release/doja-cat-releases-new-single-paint-the-town-red",
-          "supports": ["officialTitle", "releaseYear", "directors", "label", "officialVideoExistence", "productionConcept"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "directors",
+            "label",
+            "officialVideoExistence",
+            "productionConcept"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=m4_9TFeMfJE",
-          "supports": ["officialTitle", "youtubeId", "thumbnailUrl"]
+          "supports": [
+            "officialTitle",
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         },
         {
           "type": "production_portfolio",
           "url": "https://vimeo.com/851575360",
-          "supports": ["directors", "productionCompany", "vfxProduction", "producer", "cinematographer", "productionDesigner", "editor", "colorist"]
+          "supports": [
+            "directors",
+            "productionCompany",
+            "vfxProduction",
+            "producer",
+            "cinematographer",
+            "productionDesigner",
+            "editor",
+            "colorist"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://winners.webbyawards.com/2024/video-film/general-video-film/music-video/290305/doja-cat-paint-the-town-red",
-          "supports": ["officialTitle", "editor", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "editor",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://berlincommercial.awardsengine.com/?action=ows%3Aentries.details&e=159281&project_year=2024",
-          "supports": ["officialTitle", "directors", "productionCompany", "producer", "cinematographer", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "directors",
+            "productionCompany",
+            "producer",
+            "cinematographer",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "The Webby Awards",
             "year": 2024,
             "category": "Video — Music Video",
             "result": "Nominee",
-            "creditedNames": ["Mah Ferraz", "Church Edit"],
+            "creditedNames": [
+              "Mah Ferraz",
+              "Church Edit"
+            ],
             "source": "https://winners.webbyawards.com/2024/video-film/general-video-film/music-video/290305/doja-cat-paint-the-town-red"
           },
           {
@@ -77,12 +120,46 @@
             "year": 2024,
             "category": "Music Videos — Craft: Editing",
             "result": "Shortlist",
-            "creditedNames": ["Doja Cat", "Nina McNeely", "Freenjoy"],
+            "creditedNames": [
+              "Doja Cat",
+              "Nina McNeely",
+              "Freenjoy"
+            ],
             "source": "https://berlincommercial.awardsengine.com/?action=ows%3Aentries.details&e=159281&project_year=2024"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2020s-resolved-award-audit.md",
+        "notes": "The official GRAMMY result is for the audio performance, not the music video, and is excluded. Existing exact Webby and Berlin Commercial work records are retained."
       },
-      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "production_source_needs_upgrade"]
+      "publicationBlockers": [
+        "runtime_unverified",
+        "production_source_needs_upgrade"
+      ]
     },
     {
       "artist": "Tyler, The Creator",
@@ -91,7 +168,9 @@
         "officialTitle": "LUMBERJACK",
         "releaseYear": 2021,
         "countryCode": "US",
-        "directors": ["Tyler Okonma"],
+        "directors": [
+          "Tyler Okonma"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Columbia Records",
@@ -119,15 +198,52 @@
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=R4Y7JIQlv20",
-          "supports": ["officialTitle", "releaseYear", "director", "youtubeId", "thumbnailUrl", "label"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "director",
+            "youtubeId",
+            "thumbnailUrl",
+            "label"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
-        "notes": "A possible 2021 MTV VMA direction nomination was not entered because an accessible official archive record has not yet been attached."
+        "notes": "A possible 2021 MTV VMA direction nomination was not entered because an accessible official archive record has not yet been attached. The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2020s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "YOASOBI",
@@ -166,28 +282,74 @@
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=ZRtdQ81jPUQ",
-          "supports": ["officialTitle", "releaseYear", "youtubeId", "thumbnailUrl", "label"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "youtubeId",
+            "thumbnailUrl",
+            "label"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.musicawardsjapan.com/wp-content/uploads/20_%E6%9C%80%E5%84%AA%E7%A7%80%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B7%E3%82%99%E3%83%83%E3%82%AF%E3%83%92%E3%82%99%E3%83%86%E3%82%99%E3%82%AA%E8%B3%9Ed.pdf",
-          "supports": ["officialTitle", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "MUSIC AWARDS JAPAN",
             "year": 2025,
             "category": "Best Music Video / 最優秀ミュージックビデオ賞",
             "result": "Winner",
-            "creditedNames": ["YOASOBI"],
+            "creditedNames": [
+              "YOASOBI"
+            ],
             "source": "https://www.musicawardsjapan.com/wp-content/uploads/20_%E6%9C%80%E5%84%AA%E7%A7%80%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B7%E3%82%99%E3%83%83%E3%82%AF%E3%83%92%E3%82%99%E3%83%86%E3%82%99%E3%82%AA%E8%B3%9Ed.pdf"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2020s-resolved-award-audit.md",
+        "notes": "The MUSIC AWARDS JAPAN Best Music Video result is retained. Other MAJ song-category entries are not duplicated as music-video awards."
       },
-      "publicationBlockers": ["director_unverified", "production_credit_unverified", "vfx_credit_unverified", "award_scope_incomplete", "runtime_unverified"]
+      "publicationBlockers": [
+        "director_unverified",
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Beyoncé",
@@ -212,15 +374,28 @@
         {
           "type": "label_official",
           "url": "https://www.sonymusic.fr/news/beyonce-break-my-soul/",
-          "supports": ["officialTitle", "releaseYear", "officialLyricVideoExistence", "recordingContext"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "officialLyricVideoExistence",
+            "recordingContext"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "blocked_by_identity_resolution",
         "verifiedResults": [],
-        "notes": "The editorial row does not identify whether it refers to the official lyric video, CLIQUEBAIT version, visualizer, or another visual asset. Song and recording awards are excluded until the work identity is resolved."
+        "notes": "The spreadsheet label does not resolve to one exact audiovisual work. Award registration is blocked until work identity and official video are resolved."
       },
-      "publicationBlockers": ["work_identity_unresolved", "official_video_unresolved", "director_unverified", "production_credit_unverified", "vfx_credit_unverified", "award_scope_incomplete", "runtime_unverified"]
+      "publicationBlockers": [
+        "work_identity_unresolved",
+        "official_video_unresolved",
+        "director_unverified",
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "award_scope_incomplete",
+        "runtime_unverified"
+      ]
     }
   ]
 }

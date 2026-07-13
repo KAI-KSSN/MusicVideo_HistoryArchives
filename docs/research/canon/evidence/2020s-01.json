@@ -187,7 +187,7 @@
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "UK Music Video Awards",
@@ -200,10 +200,36 @@
             ],
             "source": "https://awards.ukmva.com/years/2021"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2020s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
       "publicationBlockers": [
-        "award_scope_incomplete",
         "vfx_credit_unverified",
         "runtime_unverified"
       ]
@@ -279,7 +305,7 @@
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "Clio Music Awards",
@@ -294,10 +320,35 @@
             "source": "https://clios.com/winners-gallery/details/9201"
           }
         ],
-        "notes": "Song-of-the-year results for the recording are outside the music-video award scope and are not registered here."
+        "notes": "Song-of-the-year results for the recording are outside the music-video award scope and are not registered here. The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2020s-resolved-award-audit.md"
       },
       "publicationBlockers": [
-        "award_scope_incomplete",
         "vfx_credit_unverified",
         "runtime_unverified",
         "label_source_needs_upgrade"
@@ -361,10 +412,20 @@
             "awardCategory",
             "awardOutcome"
           ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://awards.ukmva.com/years/2023",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "GRAMMY Awards",
@@ -378,11 +439,50 @@
               "Jamie Rabineau"
             ],
             "source": "https://www.grammy.com/news/2024-grammys-nominations-full-winners-nominees-list/"
+          },
+          {
+            "program": "UK Music Video Awards",
+            "year": 2023,
+            "category": "Best Hip Hop / Grime / Rap Video — International",
+            "result": "Shortlisted",
+            "creditedNames": [
+              "Kendrick Lamar",
+              "Dave Free",
+              "pgLang",
+              "Project3"
+            ],
+            "source": "https://awards.ukmva.com/years/2023"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2020s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
       "publicationBlockers": [
-        "award_scope_incomplete",
         "production_credit_unverified",
         "vfx_credit_unverified",
         "runtime_unverified"

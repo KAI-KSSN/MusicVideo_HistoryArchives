@@ -11,7 +11,9 @@
         "officialTitle": "Cash In Cash Out",
         "releaseYear": 2022,
         "countryCode": "US",
-        "directors": ["François Rousselet"],
+        "directors": [
+          "François Rousselet"
+        ],
         "productionCompany": "DIVISION",
         "vfxProduction": "Electric Theatre Collective",
         "label": "Columbia Records / Sony Music",
@@ -39,28 +41,94 @@
         {
           "type": "award_archive_official",
           "url": "https://www.britisharrows.com/films/british-arrows/2023/cash-in-cash-out-pharrell-21-savage-and-tyler-the-creato",
-          "supports": ["officialTitle", "artist", "releaseYear", "director", "productionCompany", "vfxProduction", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "artist",
+            "releaseYear",
+            "director",
+            "productionCompany",
+            "vfxProduction",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.dandad.org/work/d-ad-awards-archive/pharrell-williams-cash-in-cash-out",
-          "supports": ["officialTitle", "client", "productionCompany", "vfxProduction", "awardProgram", "awardYear", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "client",
+            "productionCompany",
+            "vfxProduction",
+            "awardProgram",
+            "awardYear",
+            "awardOutcome"
+          ]
         },
         {
           "type": "award_annual_official",
           "url": "https://www.dandad.org/annual/2023/dandad2023/d-ad-in-2023",
-          "supports": ["awardCategory", "awardOutcome"]
+          "supports": [
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://2022.ukmva.com/winners-technical-craft/",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://awards.ciclopefestival.com/winners/2022/music-videos",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://awards.ciclopefestival.com/winners/2022/music-videos/direction",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://clios.com/winners-gallery/",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "British Arrows",
             "year": 2023,
             "category": "Music Video — Craft",
             "result": "Gold",
-            "creditedNames": ["François Rousselet", "DIVISION", "Electric Theatre Collective"],
+            "creditedNames": [
+              "François Rousselet",
+              "DIVISION",
+              "Electric Theatre Collective"
+            ],
             "source": "https://www.britisharrows.com/films/british-arrows/2023/cash-in-cash-out-pharrell-21-savage-and-tyler-the-creato"
           },
           {
@@ -68,13 +136,113 @@
             "year": 2023,
             "category": "Visual Effects / Craft",
             "result": "Black Pencil",
-            "creditedNames": ["DIVISION", "Electric Theatre Collective"],
+            "creditedNames": [
+              "DIVISION",
+              "Electric Theatre Collective"
+            ],
             "source": "https://www.dandad.org/annual/2023/dandad2023/d-ad-in-2023"
+          },
+          {
+            "program": "UK Music Video Awards",
+            "year": 2022,
+            "category": "Best Animation in a Video",
+            "result": "Winner",
+            "creditedNames": [
+              "François Rousselet",
+              "DIVISION",
+              "Electric Theatre Collective"
+            ],
+            "source": "https://2022.ukmva.com/winners-technical-craft/"
+          },
+          {
+            "program": "CICLOPE Festival",
+            "year": 2022,
+            "category": "Music Videos",
+            "result": "Grand Prix",
+            "creditedNames": [
+              "François Rousselet",
+              "DIVISION",
+              "Electric Theatre Collective"
+            ],
+            "source": "https://awards.ciclopefestival.com/winners/2022/music-videos"
+          },
+          {
+            "program": "CICLOPE Festival",
+            "year": 2022,
+            "category": "Music Videos — Production Design",
+            "result": "Gold",
+            "creditedNames": [
+              "François Rousselet",
+              "DIVISION",
+              "Electric Theatre Collective"
+            ],
+            "source": "https://awards.ciclopefestival.com/winners/2022/music-videos"
+          },
+          {
+            "program": "CICLOPE Festival",
+            "year": 2022,
+            "category": "Music Videos — Direction",
+            "result": "Gold",
+            "creditedNames": [
+              "François Rousselet",
+              "DIVISION"
+            ],
+            "source": "https://awards.ciclopefestival.com/winners/2022/music-videos/direction"
+          },
+          {
+            "program": "CICLOPE Festival",
+            "year": 2022,
+            "category": "Music Videos — Visual Effects",
+            "result": "Gold",
+            "creditedNames": [
+              "Electric Theatre Collective"
+            ],
+            "source": "https://awards.ciclopefestival.com/winners/2022/music-videos"
+          },
+          {
+            "program": "Clio Music",
+            "year": 2023,
+            "category": "Film & Video Craft — Animation",
+            "result": "Grand",
+            "creditedNames": [
+              "Electric Theatre Collective",
+              "DIVISION"
+            ],
+            "source": "https://clios.com/winners-gallery/"
           }
         ],
-        "notes": "The D&AD work page records ten pencils, but it does not expose a reliable category-to-pencil mapping for every result. Only the Black Pencil explicitly mapped to Visual Effects / Craft by the official annual summary is staged."
+        "notes": "Exact UKMVA, CICLOPE, Clio Music, D&AD, and British Arrows work records are retained. D&AD lists ten pencils, but only the already-mapped Black Pencil is retained until every remaining pencil can be mapped to a category and level without inference.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2020s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "runtime_unverified"]
+      "publicationBlockers": [
+        "official_video_unresolved",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Bonobo",
@@ -83,7 +251,9 @@
         "officialTitle": "No Reason",
         "releaseYear": 2017,
         "countryCode": "GB",
-        "directors": ["Oscar Hudson"],
+        "directors": [
+          "Oscar Hudson"
+        ],
         "productionCompany": "Pulse Films",
         "vfxProduction": null,
         "label": "Ninja Tune",
@@ -111,38 +281,75 @@
         {
           "type": "artist_official",
           "url": "https://bonobomusic.com/watch/",
-          "supports": ["officialTitle", "officialVideoCatalogue"]
+          "supports": [
+            "officialTitle",
+            "officialVideoCatalogue"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=ebzEEEdjHj0",
-          "supports": ["officialTitle", "artist", "youtubeId", "thumbnailUrl"]
+          "supports": [
+            "officialTitle",
+            "artist",
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.ukmva.com/191-2017",
-          "supports": ["officialTitle", "director", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "director",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "label_official",
           "url": "https://ninjatune.net/about-us",
-          "supports": ["label", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "label",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "production_trade",
           "url": "https://www.promonews.tv/videos/2017/01/19/bonobo-no-reason-oscar-hudson/45656",
-          "supports": ["director", "productionCompany", "productionDesign"]
+          "supports": [
+            "director",
+            "productionCompany",
+            "productionDesign"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/bonobo-no-reason",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "UK Music Video Awards",
             "year": 2017,
             "category": "Best UK Dance Video",
             "result": "Winner",
-            "creditedNames": ["Oscar Hudson"],
+            "creditedNames": [
+              "Oscar Hudson"
+            ],
             "source": "https://ninjatune.net/about-us"
           },
           {
@@ -150,12 +357,56 @@
             "year": 2017,
             "category": "Best Production Design in a Video",
             "result": "Winner",
-            "creditedNames": ["Oscar Hudson"],
+            "creditedNames": [
+              "Oscar Hudson"
+            ],
             "source": "https://ninjatune.net/about-us"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 2017,
+            "category": "Music Videos",
+            "result": "Wood Pencil",
+            "creditedNames": [
+              "Oscar Hudson",
+              "Pulse Films"
+            ],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/bonobo-no-reason"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2020s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "vfx_production_unverified", "production_company_source_needs_upgrade"]
+      "publicationBlockers": [
+        "runtime_unverified",
+        "vfx_production_unverified",
+        "production_company_source_needs_upgrade"
+      ]
     },
     {
       "artist": "水曜日のカンパネラ",
@@ -165,7 +416,9 @@
         "officialTitle": "バク",
         "releaseYear": 2017,
         "countryCode": "JP",
-        "directors": ["鎌谷聡次郎"],
+        "directors": [
+          "鎌谷聡次郎"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Warner Music Japan",
@@ -193,24 +446,71 @@
         {
           "type": "label_official",
           "url": "https://wmg.jp/wedcamp/mv/",
-          "supports": ["artist", "label", "officialVideoCatalogue"]
+          "supports": [
+            "artist",
+            "label",
+            "officialVideoCatalogue"
+          ]
         },
         {
           "type": "music_press",
           "url": "https://www.billboard-japan.com/d_news/detail/49381/2",
-          "supports": ["officialTitle", "releaseYear", "director", "fullCgProductionConcept"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "director",
+            "fullCgProductionConcept"
+          ]
         },
         {
           "type": "music_press",
           "url": "https://natalie.mu/music/news/226979",
-          "supports": ["officialTitle", "releaseYear", "director", "fullCgProductionConcept"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "director",
+            "fullCgProductionConcept"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
-        "verifiedResults": []
+        "status": "complete",
+        "verifiedResults": [],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2020s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "runtime_unverified", "production_company_unverified", "vfx_production_unverified", "director_source_needs_upgrade"]
+      "publicationBlockers": [
+        "official_video_unresolved",
+        "runtime_unverified",
+        "production_company_unverified",
+        "vfx_production_unverified",
+        "director_source_needs_upgrade"
+      ]
     },
     {
       "artist": "A$AP Rocky",
@@ -220,7 +520,10 @@
         "officialTitle": "Tailor Swif",
         "releaseYear": 2024,
         "countryCode": "US",
-        "directors": ["Vania Heymann", "Gal Muggia"],
+        "directors": [
+          "Vania Heymann",
+          "Gal Muggia"
+        ],
         "productionCompany": "Iconoclast",
         "vfxProduction": "Vania Heymann / Tal Baltuch",
         "label": "RCA / AWGE",
@@ -248,33 +551,75 @@
         {
           "type": "award_archive_official",
           "url": "https://awards.ciclopefestival.com/?action=ows%3Aentries.details&e=169032&project_year=2024",
-          "supports": ["officialTitle", "directors", "productionCompany", "vfxProduction", "label", "awardProgram", "awardYear", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "directors",
+            "productionCompany",
+            "vfxProduction",
+            "label",
+            "awardProgram",
+            "awardYear",
+            "awardOutcome"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.grammy.com/news/2025-grammys-nominations-full-winners-nominees-list/",
-          "supports": ["officialTitle", "directors", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "directors",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "festival_official",
           "url": "https://sxsw.com/film/2025/sxsw-film-tv-festival-announces-2025-audience-award-winners/",
-          "supports": ["officialTitle", "directors", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "directors",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.dandad.org/work/d-ad-awards-archive/aap-rocky-tailor-swif",
-          "supports": ["officialTitle", "awardProgram", "awardYear", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "awardProgram",
+            "awardYear",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://awards.ukmva.com/",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "CICLOPE Festival",
             "year": 2024,
             "category": "Grand Prix",
             "result": "Winner",
-            "creditedNames": ["Vania Heymann", "Gal Muggia", "Iconoclast"],
+            "creditedNames": [
+              "Vania Heymann",
+              "Gal Muggia",
+              "Iconoclast"
+            ],
             "source": "https://awards.ciclopefestival.com/?action=ows%3Aentries.details&e=169032&project_year=2024"
           },
           {
@@ -282,7 +627,11 @@
             "year": 2025,
             "category": "Best Music Video",
             "result": "Nominee",
-            "creditedNames": ["Vania Heymann", "Gal Muggia", "Natan Schottenfels"],
+            "creditedNames": [
+              "Vania Heymann",
+              "Gal Muggia",
+              "Natan Schottenfels"
+            ],
             "source": "https://www.grammy.com/news/2025-grammys-nominations-full-winners-nominees-list/"
           },
           {
@@ -290,13 +639,126 @@
             "year": 2025,
             "category": "Music Video Competition Audience Award",
             "result": "Winner",
-            "creditedNames": ["Vania Heymann", "Gal Muggia"],
+            "creditedNames": [
+              "Vania Heymann",
+              "Gal Muggia"
+            ],
             "source": "https://sxsw.com/film/2025/sxsw-film-tv-festival-announces-2025-audience-award-winners/"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 2025,
+            "category": "Music Videos",
+            "result": "Black Pencil",
+            "creditedNames": [
+              "Vania Heymann",
+              "Gal Muggia",
+              "Iconoclast"
+            ],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/aap-rocky-tailor-swif"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 2025,
+            "category": "Music Videos",
+            "result": "Yellow Pencil",
+            "creditedNames": [
+              "Vania Heymann",
+              "Gal Muggia",
+              "Iconoclast"
+            ],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/aap-rocky-tailor-swif"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 2025,
+            "category": "Music Videos",
+            "result": "Graphite Pencil",
+            "creditedNames": [
+              "Vania Heymann",
+              "Gal Muggia",
+              "Iconoclast"
+            ],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/aap-rocky-tailor-swif"
+          },
+          {
+            "program": "UK Music Video Awards",
+            "year": 2025,
+            "category": "Best Hip Hop / Grime / Rap Video — International",
+            "result": "Winner",
+            "creditedNames": [
+              "Vania Heymann",
+              "Gal Muggia",
+              "Iconoclast"
+            ],
+            "source": "https://awards.ukmva.com/"
+          },
+          {
+            "program": "UK Music Video Awards",
+            "year": 2025,
+            "category": "Best Cinematography in a Video",
+            "result": "Winner",
+            "creditedNames": [
+              "Denys Lushchyk"
+            ],
+            "source": "https://awards.ukmva.com/"
+          },
+          {
+            "program": "UK Music Video Awards",
+            "year": 2025,
+            "category": "Best Visual Effects in a Video",
+            "result": "Winner",
+            "creditedNames": [
+              "Vania Heymann",
+              "Tal Baltuch"
+            ],
+            "source": "https://awards.ukmva.com/"
+          },
+          {
+            "program": "UK Music Video Awards",
+            "year": 2025,
+            "category": "Video of the Year",
+            "result": "Winner",
+            "creditedNames": [
+              "Vania Heymann",
+              "Gal Muggia",
+              "Iconoclast"
+            ],
+            "source": "https://awards.ukmva.com/"
           }
         ],
-        "notes": "The official D&AD page records four pencils in 2025, but a reliable category-to-pencil mapping is not exposed in the staged evidence. No D&AD result is registered until that mapping is verified."
+        "notes": "Exact D&AD, UKMVA, CICLOPE, GRAMMY, and SXSW work-level records are retained. One repeated D&AD Graphite icon is not duplicated without a distinct category mapping.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2020s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "runtime_unverified"]
+      "publicationBlockers": [
+        "official_video_unresolved",
+        "runtime_unverified"
+      ]
     }
   ]
 }

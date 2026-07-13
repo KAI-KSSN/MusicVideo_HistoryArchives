@@ -11,7 +11,10 @@
         "officialTitle": "Do Not Tell Me",
         "releaseYear": 2021,
         "countryCode": "BR",
-        "directors": ["Pedro Tejada", "Marcello Costa"],
+        "directors": [
+          "Pedro Tejada",
+          "Marcello Costa"
+        ],
         "productionCompany": "Stink Films São Paulo",
         "vfxProduction": "Pedro Tejada / Marcello Costa / Diego Morone",
         "label": null,
@@ -39,34 +42,95 @@
         {
           "type": "software_platform_project_gallery",
           "url": "https://www.sidefx.com/gallery/do-not-tell-me/",
-          "supports": ["officialTitle", "artist", "releaseYear", "directors", "productionCompany", "vfxProduction", "productionMethods", "runtimeContext"]
+          "supports": [
+            "officialTitle",
+            "artist",
+            "releaseYear",
+            "directors",
+            "productionCompany",
+            "vfxProduction",
+            "productionMethods",
+            "runtimeContext"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://submit.ciclopefestival.com/?action=ows%3Aentries.details&e=87603&project_year=2022",
-          "supports": ["officialTitle", "artist", "directors", "productionCompany", "vfxProduction", "runtimeSeconds", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "artist",
+            "directors",
+            "productionCompany",
+            "vfxProduction",
+            "runtimeSeconds",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.dandad.org/work/d-ad-awards-archive/do-not-tell-me",
-          "supports": ["officialTitle", "artist", "countryCode", "productionCompany", "awardProgram", "awardYear", "awardCategory"]
+          "supports": [
+            "officialTitle",
+            "artist",
+            "countryCode",
+            "productionCompany",
+            "awardProgram",
+            "awardYear",
+            "awardCategory"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "CICLOPE Festival",
             "year": 2022,
             "category": "Special Categories — Low Budget",
             "result": "Finalist",
-            "creditedNames": ["Pedro Tejada", "Marcello Costa", "Stink Films"],
+            "creditedNames": [
+              "Pedro Tejada",
+              "Marcello Costa",
+              "Stink Films"
+            ],
             "source": "https://submit.ciclopefestival.com/?action=ows%3Aentries.details&e=87603&project_year=2022"
           }
         ],
-        "notes": "The D&AD archive confirms the 2022 Visual Effects category but does not expose a reliable pencil outcome in the available official record. No D&AD result is registered."
+        "notes": "The D&AD archive confirms the 2022 Visual Effects category but does not expose a reliable pencil outcome in the available official record. No D&AD result is registered. The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2020s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "label_unverified"]
+      "publicationBlockers": [
+        "official_video_unresolved",
+        "label_unverified"
+      ]
     },
     {
       "artist": "SKIIFALL",
@@ -76,7 +140,9 @@
         "officialTitle": "2 Charming",
         "releaseYear": 2023,
         "countryCode": null,
-        "directors": ["rubberband."],
+        "directors": [
+          "rubberband."
+        ],
         "productionCompany": "SMUGGLER",
         "vfxProduction": "The Mill",
         "label": "RCA Records",
@@ -104,38 +170,78 @@
         {
           "type": "production_company_official",
           "url": "https://smugglersite.com/global/music-video/projects/",
-          "supports": ["officialTitle", "artist", "directors", "productionCompany"]
+          "supports": [
+            "officialTitle",
+            "artist",
+            "directors",
+            "productionCompany"
+          ]
         },
         {
           "type": "official_music_platform",
           "url": "https://music.apple.com/zm/music-video/2-charming-official-video/1689505814",
-          "supports": ["officialTitle", "artist", "releaseYear", "genre", "officialVideoExistence"]
+          "supports": [
+            "officialTitle",
+            "artist",
+            "releaseYear",
+            "genre",
+            "officialVideoExistence"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://awards.ukmva.com/years/2023",
-          "supports": ["officialTitle", "artist", "directors", "productionCompany", "vfxProduction", "label", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "artist",
+            "directors",
+            "productionCompany",
+            "vfxProduction",
+            "label",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://awards.ciclopefestival.com/winners/2023/music-video",
-          "supports": ["officialTitle", "artist", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "artist",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "production_trade",
           "url": "https://www.promonews.tv/videos/2023/05/31/skiifall-2-charming-rubberband/81782",
-          "supports": ["directors", "productionCompany", "vfxProduction", "productionConcept", "editor"]
+          "supports": [
+            "directors",
+            "productionCompany",
+            "vfxProduction",
+            "productionConcept",
+            "editor"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "UK Music Video Awards",
             "year": 2023,
             "category": "Best Visual Effects in a Video",
             "result": "Shortlist",
-            "creditedNames": ["Matt Fuller", "The Mill", "rubberband.", "SMUGGLER"],
+            "creditedNames": [
+              "Matt Fuller",
+              "The Mill",
+              "rubberband.",
+              "SMUGGLER"
+            ],
             "source": "https://awards.ukmva.com/years/2023"
           },
           {
@@ -143,12 +249,47 @@
             "year": 2023,
             "category": "Music Video — VFX",
             "result": "Bronze",
-            "creditedNames": ["rubberband.", "SMUGGLER", "The Mill"],
+            "creditedNames": [
+              "rubberband.",
+              "SMUGGLER",
+              "The Mill"
+            ],
             "source": "https://awards.ciclopefestival.com/winners/2023/music-video"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2020s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "runtime_unverified", "country_unverified"]
+      "publicationBlockers": [
+        "official_video_unresolved",
+        "runtime_unverified",
+        "country_unverified"
+      ]
     }
   ]
 }

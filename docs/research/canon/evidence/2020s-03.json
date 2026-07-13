@@ -10,7 +10,11 @@
         "officialTitle": "Fly with me",
         "releaseYear": 2020,
         "countryCode": "JP",
-        "directors": ["Shu Sasaki", "Yuhei Kanbe", "PERIMETRON"],
+        "directors": [
+          "Shu Sasaki",
+          "Yuhei Kanbe",
+          "PERIMETRON"
+        ],
         "productionCompany": "PERIMETRON",
         "vfxProduction": "OPTICAL FORCE, inc. / N-DESIGN Inc. / NEWPOT PICTURES Inc. / DIGITAL GARDEN Inc. / SAZABI Inc.",
         "label": null,
@@ -38,19 +42,62 @@
         {
           "type": "production_company_official",
           "url": "https://www.perimetron.jp/single-post/2020/06/01/millennium-parade-fly-with-me",
-          "supports": ["officialTitle", "releaseYear", "directors", "productionCompany", "vfxProduction", "animationCredits", "motionCaptureCredits", "youtubeId"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "directors",
+            "productionCompany",
+            "vfxProduction",
+            "animationCredits",
+            "motionCaptureCredits",
+            "youtubeId"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=fuXZMQAD9vU",
-          "supports": ["officialTitle", "youtubeId", "thumbnailUrl"]
+          "supports": [
+            "officialTitle",
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
-        "verifiedResults": []
+        "status": "complete",
+        "verifiedResults": [],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2020s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "label_unverified"]
+      "publicationBlockers": [
+        "runtime_unverified",
+        "label_unverified"
+      ]
     },
     {
       "artist": "Weval",
@@ -59,7 +106,9 @@
         "officialTitle": "Someday",
         "releaseYear": 2019,
         "countryCode": "IE",
-        "directors": ["Páraic Mc Gloughlin"],
+        "directors": [
+          "Páraic Mc Gloughlin"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Kompakt",
@@ -87,28 +136,75 @@
         {
           "type": "official_video",
           "url": "https://vimeo.com/328690392",
-          "supports": ["officialTitle", "director", "label", "productionConcept", "sourceImagery"]
+          "supports": [
+            "officialTitle",
+            "director",
+            "label",
+            "productionConcept",
+            "sourceImagery"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://activepixels.blob.core.windows.net/ukmvaproduction/assets/ukmva19-winners-booklet-digital.pdf",
-          "supports": ["officialTitle", "director", "label", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "director",
+            "label",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "UK Music Video Awards",
             "year": 2019,
             "category": "Best Animation in a Video",
             "result": "Winner",
-            "creditedNames": ["Páraic Mc Gloughlin"],
+            "creditedNames": [
+              "Páraic Mc Gloughlin"
+            ],
             "source": "https://activepixels.blob.core.windows.net/ukmvaproduction/assets/ukmva19-winners-booklet-digital.pdf"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2020s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["youtube_url_unverified", "award_scope_incomplete", "runtime_unverified", "production_company_unverified"]
+      "publicationBlockers": [
+        "youtube_url_unverified",
+        "runtime_unverified",
+        "production_company_unverified"
+      ]
     },
     {
       "artist": "Max Cooper",
@@ -133,20 +229,31 @@
         {
           "type": "artist_official",
           "url": "https://vimeo.com/channels/66618",
-          "supports": ["artistVisualPractice", "officialVideoCatalogue"]
+          "supports": [
+            "artistVisualPractice",
+            "officialVideoCatalogue"
+          ]
         },
         {
           "type": "curated_video_archive",
           "url": "https://www.bugvideos.co.uk/portfolio/repetition",
-          "supports": ["candidateTitle", "candidateDirector"]
+          "supports": [
+            "candidateTitle",
+            "candidateDirector"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "blocked_by_identity_resolution",
         "verifiedResults": [],
-        "notes": "The editorial title contains '/ TBD'. Repetition, directed by Kevin McGloughlin, is a plausible candidate, but the selected work must be confirmed before metadata or awards are registered."
+        "notes": "The spreadsheet label does not resolve to one exact audiovisual work. Award registration is blocked until work identity and official video are resolved."
       },
-      "publicationBlockers": ["work_identity_unresolved", "official_video_unresolved", "metadata_unverified", "award_scope_incomplete"]
+      "publicationBlockers": [
+        "work_identity_unresolved",
+        "official_video_unresolved",
+        "metadata_unverified",
+        "award_scope_incomplete"
+      ]
     },
     {
       "artist": "imai feat. 79, 中村佳穂",
@@ -156,7 +263,9 @@
         "officialTitle": "Fly feat. 79, 中村佳穂",
         "releaseYear": 2017,
         "countryCode": "JP",
-        "directors": ["Baku Hashimoto"],
+        "directors": [
+          "Baku Hashimoto"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": null,
@@ -184,14 +293,53 @@
         {
           "type": "director_official",
           "url": "https://baku89.com/fly",
-          "supports": ["officialTitle", "director", "animationCredit", "album", "productionConcept"]
+          "supports": [
+            "officialTitle",
+            "director",
+            "animationCredit",
+            "album",
+            "productionConcept"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
-        "verifiedResults": []
+        "status": "complete",
+        "verifiedResults": [],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2020s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["official_video_unresolved", "release_year_source_needs_upgrade", "award_scope_incomplete", "runtime_unverified", "label_unverified", "production_company_unverified"]
+      "publicationBlockers": [
+        "official_video_unresolved",
+        "release_year_source_needs_upgrade",
+        "runtime_unverified",
+        "label_unverified",
+        "production_company_unverified"
+      ]
     }
   ]
 }
