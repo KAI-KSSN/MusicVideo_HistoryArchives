@@ -1,0 +1,186 @@
+{
+  "batch": "1990s-02",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Radiohead",
+      "title": "Karma Police",
+      "metadata": {
+        "officialTitle": "Karma Police",
+        "releaseYear": 1997,
+        "countryCode": "GB",
+        "directors": ["Jonathan Glazer"],
+        "productionCompany": "Academy Films",
+        "vfxProduction": null,
+        "label": "Parlophone",
+        "youtubeUrl": "https://www.youtube.com/watch?v=1uYWYWPc9HU",
+        "youtubeId": "1uYWYWPc9HU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/1uYWYWPc9HU/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Alternative Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A car follows a running man along an unlit road while Thom Yorke watches from the rear seat, until the pursuit reverses through fire.",
+          "whyItMatters": "The film sustains dread with one spatial premise, withholding explanation and using the camera's position to implicate the viewer in the pursuit.",
+          "historicalContext": "Released in 1997 during the OK Computer period, the video was directed by Jonathan Glazer and produced through Academy Films.",
+          "keyInnovation": "Restricted illumination, long-duration tracking, off-screen threat, and a reversal of pursuer and pursued turn a simple road into a complete narrative mechanism."
+        },
+        "ja": {
+          "shortSummary": "暗い道路で車が走る男を追い、Thom Yorkeが後部座席から見つめるなか、炎によって追跡の関係が反転する作品。",
+          "whyItMatters": "ひとつの空間的前提だけで不安を持続させ、説明を保留し、カメラの位置によって観客を追跡へ巻き込みました。",
+          "historicalContext": "1997年の『OK Computer』期に公開され、Jonathan Glazerが監督し、Academy Filmsを通じて制作されました。",
+          "keyInnovation": "限定された照明、長い追跡撮影、画面外の脅威、追う者と追われる者の反転によって、単純な道路を完結した物語装置へ変えています。"
+        }
+      },
+      "sources": [
+        {"type":"production_company","url":"https://www.academyfilms.com/portfolio/radiohead-karma-police","supports":["officialTitle","director","productionCompany"]},
+        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/karma-police","supports":["label","awardProgramChecked","awardYearChecked"]},
+        {"type":"official_chart_archive","url":"https://www.officialcharts.com/charts/singles-chart/19970907/7501/","supports":["releaseYear"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=1uYWYWPc9HU","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {"status":"in_progress","verifiedResults":[],"notes":"The D&AD archive contains a 1998 entry but displays no pencil result; no award is registered from that page."},
+      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified"]
+    },
+    {
+      "artist": "The Prodigy",
+      "title": "Smack My Bitch Up",
+      "metadata": {
+        "officialTitle": "Smack My Bitch Up",
+        "releaseYear": 1997,
+        "countryCode": "GB",
+        "directors": ["Jonas Åkerlund"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "XL Recordings",
+        "youtubeUrl": "https://www.youtube.com/watch?v=xW17jtkjvvg",
+        "youtubeId": "xW17jtkjvvg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/xW17jtkjvvg/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Electronic"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A night of intoxication, violence, theft, and sex is presented almost entirely through the first-person viewpoint of an initially unidentified protagonist.",
+          "whyItMatters": "The film uses point of view not as a brief effect but as an ethical and perceptual trap, forcing the viewer to occupy behavior before the final identity reveal.",
+          "historicalContext": "Directed by Jonas Åkerlund and released in 1997, the video became inseparable from debates about broadcast restriction, violence, sexuality, and music-video censorship.",
+          "keyInnovation": "A body-mounted subjective camera, altered-state movement, concealed identity, and a delayed mirror reveal make viewpoint itself the narrative structure."
+        },
+        "ja": {
+          "shortSummary": "酩酊、暴力、盗難、性行為に至る一夜を、正体が伏せられた人物の一人称視点でほぼ全編描く作品。",
+          "whyItMatters": "POVを短い効果ではなく倫理的・知覚的な罠として用い、最後の正体開示まで観客に行為者の位置を占めさせました。",
+          "historicalContext": "Jonas Åkerlundが監督し1997年に公開され、放送制限、暴力、性表現、MV検閲をめぐる議論と切り離せない作品となりました。",
+          "keyInnovation": "身体に取り付けた主観カメラ、酩酊状態の動き、隠された人物像、遅れて現れる鏡の開示によって、視点自体を物語構造へ変えています。"
+        }
+      },
+      "sources": [
+        {"type":"director_official","url":"https://jonasakerlund.com/bio/","supports":["director","awardClaimDiscovery"]},
+        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/prodigy-smack-my-bitch-up/","supports":["officialTitle","releaseYear","label"]},
+        {"type":"production_trade_archive","url":"https://shots.net/news/view/2176-smack-my-bitch-up","supports":["director"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=xW17jtkjvvg","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "candidateOfficialClaims": [
+          {"program":"MTV Video Music Awards","year":1998,"claim":"Best Direction nomination","source":"https://jonasakerlund.com/bio/","registrationStatus":"hold_for_awarding_body_archive"},
+          {"program":"MTV Video Music Awards","year":1998,"claim":"Best Editing nomination","source":"https://jonasakerlund.com/bio/","registrationStatus":"hold_for_awarding_body_archive"}
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Aphex Twin",
+      "title": "Come to Daddy",
+      "metadata": {
+        "officialTitle": "Come To Daddy",
+        "releaseYear": 1997,
+        "countryCode": "GB",
+        "directors": ["Chris Cunningham"],
+        "productionCompany": "Black Dog Films",
+        "vfxProduction": null,
+        "label": "Warp",
+        "youtubeUrl": "https://www.youtube.com/watch?v=TZ827lkktYs",
+        "youtubeId": "TZ827lkktYs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/TZ827lkktYs/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Electronic"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Children bearing the artist's face swarm a housing estate and gather around a television-born creature whose scream overwhelms an elderly witness.",
+          "whyItMatters": "The film brought body horror, social-realist location work, and electronic-music identity into a single image system without softening their antagonism.",
+          "historicalContext": "Released by Warp in 1997 and directed by Chris Cunningham, the video established a recurring collaboration between electronic music and a distinctly physical form of digital-era horror.",
+          "keyInnovation": "Face replacement, prosthetic character design, documentary-textured photography, rapid movement, and an extended close-range scream combine the familiar and synthetic."
+        },
+        "ja": {
+          "shortSummary": "アーティストの顔を持つ子どもたちが集合住宅地を群れで走り、テレビから現れる怪物を囲み、その叫びが老女を圧倒する作品。",
+          "whyItMatters": "ボディホラー、社会写実的なロケーション、電子音楽の人格をひとつの映像システムへ統合し、それぞれの対立性を弱めませんでした。",
+          "historicalContext": "Chris Cunninghamの監督によりWarpから1997年に公開され、電子音楽と物質感の強いデジタル時代の恐怖表現を結ぶ継続的な文脈を確立しました。",
+          "keyInnovation": "顔の置換、特殊造形、ドキュメンタリー調の撮影、急速な運動、至近距離で持続する叫びによって、日常と人工物を結合しています。"
+        }
+      },
+      "sources": [
+        {"type":"label_official","url":"https://aphextwin.warp.net/release/68141-aphex-twin-come-to-daddy?lang=en_US","supports":["officialTitle","releaseYear","label"]},
+        {"type":"production_trade_archive","url":"https://shots.net/news/view/playlist-wouter-stoter","supports":["director","productionCompany","editor","cinematographer"]},
+        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/come-to-daddy-aphex-twin","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=TZ827lkktYs","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"D&AD Awards","year":1998,"category":"Music Videos","result":"Yellow Pencil (two pencils shown; subcategories not exposed by the public record)","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/come-to-daddy-aphex-twin"}
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified"]
+    },
+    {
+      "artist": "Massive Attack",
+      "title": "Teardrop",
+      "metadata": {
+        "officialTitle": "Teardrop",
+        "releaseYear": 1998,
+        "countryCode": "GB",
+        "directors": ["Walter Stern"],
+        "productionCompany": "Academy Films",
+        "vfxProduction": null,
+        "label": "Virgin Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=u7K72X4eo_s",
+        "youtubeId": "u7K72X4eo_s",
+        "thumbnailUrl": "https://i.ytimg.com/vi/u7K72X4eo_s/maxresdefault.jpg",
+        "runtimeSeconds": 285,
+        "genre": "Trip-Hop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A fetus appears to sing from within the womb, its movements and facial articulation synchronized to the track inside an otherwise abstract dark space.",
+          "whyItMatters": "The film turns a technically constructed prenatal image into a restrained performance, allowing vulnerability rather than spectacle to govern the effect.",
+          "historicalContext": "Released in 1998 during the Mezzanine period and directed by Walter Stern, the video extended Massive Attack's collaboration with the director into a digitally mediated single-subject image.",
+          "keyInnovation": "A sustained computer-generated fetal performance combines anatomical reference, lip synchronization, fluid motion, and controlled lighting without cutting away to the artist."
+        },
+        "ja": {
+          "shortSummary": "胎児が子宮内から歌うように現れ、抽象的な暗い空間の中で身体と顔の動きが楽曲へ同期する作品。",
+          "whyItMatters": "技術的に構築された胎内イメージを抑制された演技へ変え、スペクタクルではなく脆さに効果全体を支配させました。",
+          "historicalContext": "Walter Sternの監督により1998年の『Mezzanine』期に公開され、Massive Attackと監督の協働を、デジタルで媒介された単一被写体の映像へ展開しました。",
+          "keyInnovation": "解剖学的参照、リップシンク、流動的な動作、制御された照明を統合したCG胎児の演技を、アーティスト映像へ切り替えず持続させています。"
+        }
+      },
+      "sources": [
+        {"type":"production_company","url":"https://www.academyfilms.com/portfolio/tagged/music-video/page/2","supports":["director","productionCompany"]},
+        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/massive-attack-teardrop/","supports":["officialTitle","releaseYear","label"]},
+        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/massive-attack-teardrop","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/teardrop","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=u7K72X4eo_s","supports":["youtubeId","thumbnailUrl","runtimeSeconds"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"D&AD Awards","year":1999,"category":"Music Videos","result":"Wood Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/massive-attack-teardrop"},
+          {"program":"D&AD Awards","year":1999,"category":"Music Videos","result":"Yellow Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/teardrop","notes":"The public archive exposes a second Teardrop record without its subcategory; the records are retained separately rather than merged."}
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "vfx_credit_unverified"]
+    }
+  ]
+}

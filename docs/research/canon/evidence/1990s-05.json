@@ -1,0 +1,137 @@
+{
+  "batch": "1990s-05",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Cornelius",
+      "title": "Fantasma-era",
+      "requiresIdentityResolution": true,
+      "officialVideoUnresolved": true,
+      "metadata": {
+        "officialTitle": null,
+        "releaseYear": null,
+        "countryCode": "JP",
+        "directors": [],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": null
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        },
+        "ja": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        }
+      },
+      "sources": [],
+      "awardAudit": {
+        "status": "blocked_on_work_identity",
+        "verifiedResults": [],
+        "notes": "The editorial label 'Fantasma-era' identifies a period rather than a unique music-video title. No candidate work is substituted without an explicit editorial mapping."
+      },
+      "publicationBlockers": ["work_identity_unresolved", "official_video_unresolved", "metadata_unverified", "award_scope_not_started", "editorial_not_started", "sources_missing"]
+    },
+    {
+      "artist": "The Chemical Brothers",
+      "title": "Let Forever Be",
+      "metadata": {
+        "officialTitle": "Let Forever Be",
+        "releaseYear": 1999,
+        "countryCode": "GB",
+        "directors": ["Michel Gondry"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Virgin",
+        "youtubeUrl": "https://www.youtube.com/watch?v=s5FyfQDO5g0",
+        "youtubeId": "s5FyfQDO5g0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/s5FyfQDO5g0/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Electronic"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A retail worker moves between waking routine and kaleidoscopic dream sequences in which her body and surroundings repeat as practical geometric patterns.",
+          "whyItMatters": "The video recreates the logic of optical compositing through sets, choreography, and in-camera transitions, allowing digital-looking multiplicity to remain visibly physical.",
+          "historicalContext": "Released in 1999 and directed by Michel Gondry, the work belongs to the Chemical Brothers' Surrender period and continues the director's investigation of musical repetition.",
+          "keyInnovation": "Rotating sets, synchronized doubles, match cuts, mirrored formations, and mechanical transitions translate psychedelic layering into staged performance."
+        },
+        "ja": {
+          "shortSummary": "小売店で働く女性が日常と万華鏡的な夢を往復し、身体と周囲の空間が実物の幾何学模様として反復する作品。",
+          "whyItMatters": "光学合成の論理をセット、振付、インカメラの移行で再構築し、デジタルに見える多重性を明確に物理的なまま保ちました。",
+          "historicalContext": "Michel Gondryの監督により1999年、『Surrender』期に公開され、監督による音楽的反復の研究を継続する作品です。",
+          "keyInnovation": "回転セット、同期する複数の演者、マッチカット、鏡像的な隊形、機械的な転換によって、サイケデリックな重層を舞台上の演技へ翻訳しています。"
+        }
+      },
+      "sources": [
+        {"type":"artist_official","url":"https://www.thechemicalbrothers.com/music-videos/let-forever-be-video","supports":["officialTitle","officialVideoIdentity"]},
+        {"type":"artist_official","url":"https://www.thechemicalbrothers.com/news/new-video-for-got-to-keep-on-directed-by-michel-olivier-gondry","supports":["director"]},
+        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/chemical-brothers-let-forever-be","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=s5FyfQDO5g0","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"D&AD Awards","year":2000,"category":"Music Videos","result":"Graphite Pencil (two pencils shown; subcategories not exposed by the public record)","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/chemical-brothers-let-forever-be"}
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "label_source_incomplete", "production_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Björk",
+      "title": "Big Time Sensuality",
+      "metadata": {
+        "officialTitle": "Big Time Sensuality",
+        "releaseYear": 1993,
+        "countryCode": "IS",
+        "directors": ["Stéphane Sednaoui"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "One Little Indian",
+        "youtubeUrl": "https://www.youtube.com/watch?v=75WFTHpOw8Y",
+        "youtubeId": "75WFTHpOw8Y",
+        "thumbnailUrl": "https://i.ytimg.com/vi/75WFTHpOw8Y/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Electronic Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Björk dances and sings in black and white on the bed of a truck moving through New York, exposed to the city rather than isolated on a set.",
+          "whyItMatters": "The video makes a single mobile performance sufficient, deriving energy from risk, traffic, changing background, and the artist's direct relation to the camera.",
+          "historicalContext": "Released in 1993 during the Debut period and directed by Stéphane Sednaoui, the work presented the city as an active partner in an otherwise minimal performance film.",
+          "keyInnovation": "A moving platform, frontal framing, uninterrupted urban variation, and spontaneous bodily response replace narrative construction with sustained presence."
+        },
+        "ja": {
+          "shortSummary": "BjörkがNew Yorkを走るトラックの荷台で、セットに隔離されることなく、白黒映像の中で踊り歌う作品。",
+          "whyItMatters": "ひとつの移動する演技だけで成立させ、危険、交通、変化する背景、カメラとの直接的な関係からエネルギーを引き出しました。",
+          "historicalContext": "Stéphane Sednaouiの監督により1993年の『Debut』期に公開され、最小限のパフォーマンス映像の中で都市を能動的な共演者として提示しました。",
+          "keyInnovation": "移動する足場、正面構図、途切れない都市の変化、即興的な身体反応によって、物語構築を持続する存在感へ置き換えています。"
+        }
+      },
+      "sources": [
+        {"type":"director_official","url":"https://www.stephanesednaoui.com/","supports":["directorIdentity"]},
+        {"type":"director_authorized_collection_catalog","url":"https://www.mediatheques.strasbourg.eu/doc/IGUANA_2/364318/the-work-of-director-stephane-sednaoui","supports":["director","officialTitle"]},
+        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/bjork-big-time-sensuality/","supports":["officialTitle","releaseYear","label"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=75WFTHpOw8Y","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "No result is registered from unverified Billboard or MTV claims. The official GRAMMY profile contains no music-video nomination for this work."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "runtime_unverified"]
+    }
+  ]
+}

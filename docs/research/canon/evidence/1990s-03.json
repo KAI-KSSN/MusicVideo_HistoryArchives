@@ -1,0 +1,189 @@
+{
+  "batch": "1990s-03",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "The Chemical Brothers",
+      "title": "Star Guitar",
+      "metadata": {
+        "officialTitle": "Star Guitar",
+        "releaseYear": 2002,
+        "countryCode": "GB",
+        "directors": ["Michel Gondry"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Virgin",
+        "youtubeUrl": "https://www.youtube.com/watch?v=0S43IwBF0uM",
+        "youtubeId": "0S43IwBF0uM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/0S43IwBF0uM/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Electronic"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A train-window view converts passing buildings, poles, bridges, and platforms into visible counterparts of the track's repeating musical layers.",
+          "whyItMatters": "The video demonstrates musical structure without diagrams or performance, making ordinary landscape function as a precise visual score.",
+          "historicalContext": "Released in 2002 and directed by Michel Gondry, the work belongs chronologically to the 2000s even though the editorial source sheet groups it within the 1990s batch.",
+          "keyInnovation": "Footage of a rail journey is edited so recurring objects align with individual sounds, allowing spatial repetition and musical repetition to become the same system."
+        },
+        "ja": {
+          "shortSummary": "列車の窓から流れる建物、電柱、橋、ホームを、楽曲の反復する音の層に対応する可視的な要素へ変える作品。",
+          "whyItMatters": "図解や演奏場面を使わずに音楽構造を示し、日常的な風景を精密な視覚譜として機能させました。",
+          "historicalContext": "Michel Gondryの監督により2002年に公開された作品です。編集上の正本では1990年代バッチに置かれていますが、年代メタデータは公式記録に従い2002年とします。",
+          "keyInnovation": "鉄道移動の映像を、反復する物体が個々の音へ同期するよう編集し、空間の反復と音楽の反復を同一のシステムへ統合しています。"
+        }
+      },
+      "sources": [
+        {"type":"artist_official","url":"https://www.thechemicalbrothers.com/?appsule=184","supports":["director"]},
+        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/chemical-brothers-star-guitar/","supports":["officialTitle","releaseYear","label"]},
+        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/star-guitar","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=0S43IwBF0uM","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"D&AD Awards","year":2002,"category":"Music Videos","result":"Black Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/star-guitar"},
+          {"program":"D&AD Awards","year":2002,"category":"Music Videos","result":"Graphite Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/star-guitar","notes":"The public archive does not expose the two pencil subcategories; no subcategory is inferred."}
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Blur",
+      "title": "Coffee & TV",
+      "metadata": {
+        "officialTitle": "Coffee & TV",
+        "releaseYear": 1999,
+        "countryCode": "GB",
+        "directors": ["Garth Jennings"],
+        "productionCompany": "Hammer & Tongs",
+        "vfxProduction": null,
+        "label": "Food Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=6oqXVx3sBOk",
+        "youtubeId": "6oqXVx3sBOk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/6oqXVx3sBOk/maxresdefault.jpg",
+        "runtimeSeconds": 371,
+        "genre": "Alternative Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "An anthropomorphic milk carton leaves a family home to search the city for the missing Graham Coxon, encountering danger and companionship along the way.",
+          "whyItMatters": "The film gives a disposable package a complete emotional arc, showing how character design and restrained performance can carry a long-form music-video narrative.",
+          "historicalContext": "Released in 1999, the video was directed by Garth Jennings through Hammer & Tongs, with creature work associated with Jim Henson's workshop.",
+          "keyInnovation": "A simple carton silhouette, practical puppetry, legible gesture, and location-scale staging make a nonverbal branded object readable as a vulnerable protagonist."
+        },
+        "ja": {
+          "shortSummary": "擬人化された牛乳パックが家族の家を出て、行方不明のGraham Coxonを探しながら都市を旅し、危険と出会いを経験する作品。",
+          "whyItMatters": "使い捨ての容器に完結した感情の弧を与え、キャラクターデザインと抑制された演技だけで長編的なMV物語を支えられることを示しました。",
+          "historicalContext": "1999年に公開され、Garth JenningsがHammer & Tongsを通じて監督し、Jim Hensonのワークショップに関連する造形技術が用いられました。",
+          "keyInnovation": "単純なパックの輪郭、実物のパペット、明確な身振り、ロケーション規模の演出によって、言葉を持たない商品容器を脆い主人公として読ませています。"
+        }
+      },
+      "sources": [
+        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/blur-coffee-tv/","supports":["officialTitle","releaseYear","label"]},
+        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/blur-coffee-tv","supports":["awardProgram","awardYear","awardCategory","awardOutcome","label"]},
+        {"type":"contemporary_music_press","url":"https://www.nme.com/news/music/blur-517-1387489","supports":["productionCompany","productionTechnique"]},
+        {"type":"curated_video_archive","url":"https://www.bugvideos.co.uk/portfolio/coffee-and-tv","supports":["director","productionCompany"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=6oqXVx3sBOk","supports":["youtubeId","thumbnailUrl","runtimeSeconds"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"D&AD Awards","year":2000,"category":"Music Videos","result":"Graphite Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/blur-coffee-tv"},
+          {"program":"D&AD Awards","year":2000,"category":"Music Videos","result":"Wood Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/blur-coffee-tv","notes":"The public archive does not expose the two pencil subcategories; no subcategory is inferred."}
+        ],
+        "notes": "Claims for other programs are not registered until an awarding-body archive is located."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "vfx_credit_unverified"]
+    },
+    {
+      "artist": "Red Hot Chili Peppers",
+      "title": "Californication",
+      "metadata": {
+        "officialTitle": "Californication",
+        "releaseYear": 2000,
+        "countryCode": "US",
+        "directors": ["Jonathan Dayton", "Valerie Faris"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Warner Bros.",
+        "youtubeUrl": "https://www.youtube.com/watch?v=YlUKcNNmywk",
+        "youtubeId": "YlUKcNNmywk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/YlUKcNNmywk/maxresdefault.jpg",
+        "runtimeSeconds": 322,
+        "genre": "Alternative Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "The band members appear as playable avatars moving through separate missions in a simulated California before the game world collapses into live performance.",
+          "whyItMatters": "The video treats the visual grammar of a contemporary console game as a complete narrative environment rather than a decorative reference.",
+          "historicalContext": "Released in 2000 and directed by Jonathan Dayton and Valerie Faris, the work arrived as three-dimensional open-world game imagery was becoming a widely shared visual language.",
+          "keyInnovation": "Interface graphics, mission logic, avatar movement, camera behavior, and level transitions are coordinated into a fictional game that remains legible as a music performance."
+        },
+        "ja": {
+          "shortSummary": "バンドメンバーが操作可能なアバターとなり、シミュレートされたCaliforniaで別々のミッションを進み、ゲーム世界の崩壊から実演へ移行する作品。",
+          "whyItMatters": "当時の家庭用ゲームの視覚文法を装飾的な引用ではなく、完結した物語環境として扱いました。",
+          "historicalContext": "Jonathan DaytonとValerie Farisの監督により2000年に公開され、3Dオープンワールドゲームのイメージが広く共有される視覚言語になりつつある時期に登場しました。",
+          "keyInnovation": "インターフェース、ミッション構造、アバターの動き、ゲーム的カメラ、ステージ遷移を統合し、架空のゲームをMVとして一貫して読めるものにしています。"
+        }
+      },
+      "sources": [
+        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/red-hot-chili-peppers-californication/","supports":["officialTitle","releaseYear","label"]},
+        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/californication","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=YlUKcNNmywk","supports":["youtubeId","thumbnailUrl","runtimeSeconds"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"D&AD Awards","year":2001,"category":"Music Videos","result":"Wood Pencil (two pencils shown; subcategories not exposed by the public record)","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/californication"}
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "director_source_incomplete", "production_credit_unverified", "vfx_credit_unverified"]
+    },
+    {
+      "artist": "Foo Fighters",
+      "title": "Everlong",
+      "metadata": {
+        "officialTitle": "Everlong",
+        "releaseYear": 1997,
+        "countryCode": "US",
+        "directors": ["Michel Gondry"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Columbia",
+        "youtubeUrl": "https://www.youtube.com/watch?v=eBG7P-K-r1Y",
+        "youtubeId": "eBG7P-K-r1Y",
+        "thumbnailUrl": "https://i.ytimg.com/vi/eBG7P-K-r1Y/maxresdefault.jpg",
+        "runtimeSeconds": 291,
+        "genre": "Alternative Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A sleeping couple moves through nested nightmares in which distorted bodies, domestic space, and band performance continually exchange roles.",
+          "whyItMatters": "The film translates dream logic into physical staging, allowing scale, identity, and genre to change without requiring explanatory transitions.",
+          "historicalContext": "Released in 1997 and directed by Michel Gondry, the video places the band's performance inside a succession of horror and domestic dream scenarios.",
+          "keyInnovation": "Oversized practical hands, forced scale, costume transformation, rear projection, and circular waking transitions reproduce the continuity of a dream through tactile effects."
+        },
+        "ja": {
+          "shortSummary": "眠る男女が入れ子状の悪夢を通過し、変形した身体、家庭空間、バンド演奏が絶えず役割を交換する作品。",
+          "whyItMatters": "夢の論理を物理的な演出へ翻訳し、説明的な接続を必要とせず、縮尺、人格、ジャンルを変化させました。",
+          "historicalContext": "Michel Gondryの監督により1997年に公開され、バンドの演奏をホラーと家庭的な夢の連鎖の中へ配置しています。",
+          "keyInnovation": "巨大な実物の手、強制遠近、衣装による変身、リアプロジェクション、循環する覚醒の移行によって、夢の連続性を触覚的な効果で再現しています。"
+        }
+      },
+      "sources": [
+        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/foo-fighters-everlong/","supports":["officialTitle","releaseYear","label"]},
+        {"type":"recording_academy_editorial","url":"https://www.grammy.com/news/foo-fighters-essential-songs-list-full-discography-dave-grohl-taylor-hawkins/","supports":["releaseYear","officialVideoIdentity"]},
+        {"type":"director_authorized_collection","url":"https://www.criterion.com/films/225-the-work-of-director-michel-gondry","supports":["director"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=eBG7P-K-r1Y","supports":["youtubeId","thumbnailUrl","runtimeSeconds"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "No award result is registered. A 2009 MTV retrospective nominee listing is not treated as a 1997-era award, and non-official claims remain excluded."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified"]
+    }
+  ]
+}

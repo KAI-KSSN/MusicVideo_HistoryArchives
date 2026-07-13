@@ -1,0 +1,190 @@
+{
+  "batch": "1990s-04",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Missy Elliott",
+      "title": "The Rain (Supa Dupa Fly)",
+      "metadata": {
+        "officialTitle": "The Rain (Supa Dupa Fly)",
+        "releaseYear": 1997,
+        "countryCode": "US",
+        "directors": ["Hype Williams"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=hHcyJPTTn9w",
+        "youtubeId": "hHcyJPTTn9w",
+        "thumbnailUrl": "https://i.ytimg.com/vi/hHcyJPTTn9w/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Hip-Hop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Missy Elliott performs through rain, reflective surfaces, fisheye distortion, dancers, and an inflated black suit that radically changes her silhouette.",
+          "whyItMatters": "The video established an image of female rap performance grounded in scale, humor, bodily autonomy, and futurism rather than inherited conventions of presentation.",
+          "historicalContext": "Released in 1997, it was the first collaboration between Elliott and Hype Williams and introduced the visual language surrounding her debut album.",
+          "keyInnovation": "Extreme wide-angle optics, direct-to-camera performance, sculptural styling, and exaggerated spatial depth make the artist's body the source of the frame's visual logic."
+        },
+        "ja": {
+          "shortSummary": "Missy Elliottが雨、反射面、魚眼の歪み、ダンサー、身体の輪郭を大きく変える黒い膨張スーツの中で演じる作品。",
+          "whyItMatters": "女性ラップの演技イメージを、既存の提示慣習ではなく、縮尺、ユーモア、身体の主体性、未来性に基づいて確立しました。",
+          "historicalContext": "1997年に公開され、ElliottとHype Williamsの最初の協働となり、デビューアルバムを取り巻く視覚言語を提示しました。",
+          "keyInnovation": "極端な広角光学、カメラへの直接的な演技、彫刻的なスタイリング、誇張された奥行きによって、アーティストの身体を画面構造の起点にしています。"
+        }
+      },
+      "sources": [
+        {"type":"artist_official","url":"https://www.missy-elliott.com/","supports":["officialTitle","releaseYear","director","costumeDesigner"]},
+        {"type":"recording_academy_editorial","url":"https://www.grammy.com/news/hype-williams-vh1-honor-hip-hop-video-director/","supports":["director","officialVideoIdentity"]},
+        {"type":"recording_academy_editorial","url":"https://www.grammy.com/news/revisiting-supa-dupa-fly-at-25-missy-elliott-interview-supa-dupa-fly-the-rain-25th-anniversary/","supports":["releaseYear","historicalContext"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=hHcyJPTTn9w","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "The 1998 GRAMMY nomination located in the official archive is Best Rap Solo Performance for the track, not a music-video award, and is therefore not registered as a work award."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "label_unverified", "production_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Madonna",
+      "title": "Frozen",
+      "metadata": {
+        "officialTitle": "Frozen",
+        "releaseYear": 1998,
+        "countryCode": "US",
+        "directors": ["Chris Cunningham"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Warner Bros.",
+        "youtubeUrl": "https://www.youtube.com/watch?v=XS088Opj9o0",
+        "youtubeId": "XS088Opj9o0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/XS088Opj9o0/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Madonna performs alone in a desert as her body divides, folds into the ground, and transforms into birds and a black dog.",
+          "whyItMatters": "The film uses effects to extend a single performance into a mutable figure whose identity remains coherent across human, animal, and landscape forms.",
+          "historicalContext": "Released in 1998 and directed by Chris Cunningham, the work joined the Ray of Light period's electronic sound to an austere desert image.",
+          "keyInnovation": "Motion-controlled repetition, digital duplication, morphing, silhouette, and fabric movement turn transformation into a continuous choreographic event."
+        },
+        "ja": {
+          "shortSummary": "Madonnaが砂漠でひとり演じ、身体が分裂し、地面へ折り畳まれ、鳥や黒い犬へ変身する作品。",
+          "whyItMatters": "特殊効果によって単独の演技を可変的な像へ拡張し、人間、動物、風景の形を横断しても人物の一貫性を保ちました。",
+          "historicalContext": "Chris Cunninghamの監督により1998年に公開され、『Ray of Light』期の電子的な音響を禁欲的な砂漠のイメージへ結びました。",
+          "keyInnovation": "モーションコントロールによる反復、デジタル複製、モーフィング、シルエット、布の運動によって、変身を連続する振付として構成しています。"
+        }
+      },
+      "sources": [
+        {"type":"artist_official","url":"https://www.madonna.com/products/frozen","supports":["officialTitle","releaseYear","director","label","awardClaimDiscovery"]},
+        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/madonna-frozen/","supports":["officialTitle","releaseYear"]},
+        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/frozen","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=XS088Opj9o0","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"D&AD Awards","year":1999,"category":"Music Videos","result":"Wood Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/frozen"}
+        ],
+        "candidateOfficialClaims": [
+          {"program":"MTV Video Music Awards","year":1998,"claim":"Best Special Effects in a Video winner","source":"https://www.madonna.com/products/frozen","registrationStatus":"hold_for_awarding_body_archive"}
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Nine Inch Nails",
+      "title": "Closer",
+      "metadata": {
+        "officialTitle": "Closer",
+        "releaseYear": 1994,
+        "countryCode": "US",
+        "directors": ["Mark Romanek"],
+        "productionCompany": "Satellite Films",
+        "vfxProduction": null,
+        "label": "Nothing Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=PTFwQP86BRs",
+        "youtubeId": "PTFwQP86BRs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/PTFwQP86BRs/maxresdefault.jpg",
+        "runtimeSeconds": 280,
+        "genre": "Industrial Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A sequence of distressed laboratory tableaux combines anatomical specimens, mechanical devices, religious symbols, animals, and Trent Reznor's suspended performance.",
+          "whyItMatters": "The video made censorship visible within the work itself and treated the damaged broadcast image as part of its historical form rather than a neutral delivery problem.",
+          "historicalContext": "Directed by Mark Romanek in 1994, the work circulated in edited broadcast versions while its uncensored form remained tied to home-video and later official releases.",
+          "keyInnovation": "Hand-processed film texture, intermittent frames marked 'scene missing,' mechanical repetition, and museum-like tableaux fuse archival decay with controlled art direction."
+        },
+        "ja": {
+          "shortSummary": "解剖標本、機械装置、宗教的象徴、動物、吊られたTrent Reznorの演技を、損傷した実験室のタブローとして連ねる作品。",
+          "whyItMatters": "検閲を作品内部で可視化し、欠損した放送映像を単なる流通上の問題ではなく、作品の歴史的形態の一部として扱いました。",
+          "historicalContext": "Mark Romanekの監督により1994年に制作され、編集された放送版が流通する一方、無修正版はホームビデオや後年の公式公開と結びつきました。",
+          "keyInnovation": "手作業で処理されたフィルム質感、『scene missing』と記された断続フレーム、機械的反復、美術館的なタブローによって、アーカイブの劣化と精密な美術を融合しています。"
+        }
+      },
+      "sources": [
+        {"type":"aicp_archive_official","url":"https://www.aicp.show/show/closer","supports":["officialTitle","runtimeSeconds","director","productionCompany","cinematographer","editor","artDirector","awardProgram","awardCategory"]},
+        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/nine-inch-nails-closer","supports":["awardProgram","awardYear","awardCategory","awardOutcome","label"]},
+        {"type":"artist_official_archive","url":"https://vimeo.com/groups/35mmandrisdamburs/videos/3704806","supports":["director","productionContext"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=PTFwQP86BRs","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"D&AD Awards","year":1995,"category":"Music Videos","result":"Graphite Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/nine-inch-nails-closer"},
+          {"program":"D&AD Awards","year":1995,"category":"Music Videos","result":"Wood Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/nine-inch-nails-closer","notes":"The public archive does not expose the two pencil subcategories; no subcategory is inferred."},
+          {"program":"AICP Show","year":null,"category":"Music Video","result":"Archived selection","creditedNames":["Mark Romanek","Harris Savides","Robert Duffy","Tom Faden"],"source":"https://www.aicp.show/show/closer","notes":"The public record confirms inclusion in the AICP Show archive but does not expose an award year on the page."}
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "vfx_credit_unverified"]
+    },
+    {
+      "artist": "Soundgarden",
+      "title": "Black Hole Sun",
+      "metadata": {
+        "officialTitle": "Black Hole Sun",
+        "releaseYear": 1994,
+        "countryCode": "US",
+        "directors": ["Howard Greenhalgh"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "A&M",
+        "youtubeUrl": "https://www.youtube.com/watch?v=3mbBbFH9fAg",
+        "youtubeId": "3mbBbFH9fAg",
+        "thumbnailUrl": "https://i.ytimg.com/vi/3mbBbFH9fAg/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Alternative Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A suburban landscape of fixed smiles and distorted faces gives way to an apocalyptic sky while the band performs inside the same unstable world.",
+          "whyItMatters": "The video converted grunge-era unease into a broadly legible suburban nightmare, using grotesque transformation rather than documentary authenticity.",
+          "historicalContext": "Released in 1994 and directed by Howard Greenhalgh, the video became a prominent visual counterpart to Soundgarden's Superunknown period.",
+          "keyInnovation": "Facial warping, chromatic compositing, exaggerated performance, miniature-like suburbia, and a consuming sky build horror out of cheerful everyday surfaces."
+        },
+        "ja": {
+          "shortSummary": "固定された笑顔と歪んだ顔を持つ郊外の風景が終末的な空へ飲み込まれ、バンドも同じ不安定な世界の中で演奏する作品。",
+          "whyItMatters": "グランジ期の不安を、記録的な真正性ではなくグロテスクな変形によって、広く読める郊外の悪夢へ変えました。",
+          "historicalContext": "Howard Greenhalghの監督により1994年に公開され、Soundgardenの『Superunknown』期を代表する視覚的な対作品となりました。",
+          "keyInnovation": "顔のワープ、色彩を強調した合成、誇張された演技、ミニチュアのような郊外、すべてを飲み込む空によって、陽気な日常表面から恐怖を構築しています。"
+        }
+      },
+      "sources": [
+        {"type":"artist_official","url":"https://www.soundgardenworld.com/videos/soundgarden-black-hole-sun-remastered-audio/","supports":["officialTitle","officialVideoIdentity"]},
+        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/soundgarden-black-hole-sun/","supports":["officialTitle","releaseYear","label"]},
+        {"type":"recording_academy_editorial","url":"https://www.grammy.com/news/soundgarden-superunknown-album-anniversary-chris-cornell-grunge/","supports":["director","historicalContext"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=3mbBbFH9fAg","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "The official GRAMMY record is Best Hard Rock Performance for the song, not a music-video award, and is therefore not registered as a work award."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+    }
+  ]
+}

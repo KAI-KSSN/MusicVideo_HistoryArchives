@@ -1,0 +1,281 @@
+{
+  "batch": "1990s-01",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Jamiroquai",
+      "title": "Virtual Insanity",
+      "metadata": {
+        "officialTitle": "Virtual Insanity",
+        "releaseYear": 1996,
+        "countryCode": "GB",
+        "directors": ["Jonathan Glazer"],
+        "productionCompany": "Academy Films",
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=4JkIs37a2JE",
+        "youtubeId": "4JkIs37a2JE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/4JkIs37a2JE/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Funk"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A performance video built around an apparently shifting room, choreographed movement, and practical spatial illusion.",
+          "whyItMatters": "Virtual Insanity is a benchmark for creating an unforgettable visual premise from a restrained set and tightly controlled performance.",
+          "historicalContext": "Released in 1996 and directed by Jonathan Glazer, the video became one of the defining music-video images of the decade.",
+          "keyInnovation": "Coordinated set movement, camera framing, choreography, and selective object motion create the illusion of an unstable room."
+        },
+        "ja": {
+          "shortSummary": "移動して見える部屋、振付、実践的な空間トリックを軸に構成されたパフォーマンス映像。",
+          "whyItMatters": "抑制されたセットと精密なパフォーマンスから、忘れがたい映像的アイデアを生み出した基準点です。",
+          "historicalContext": "1996年に公開され、Jonathan Glazerが監督した本作は、1990年代を象徴するMVイメージのひとつとなりました。",
+          "keyInnovation": "セットの移動、カメラのフレーミング、振付、物体の動きを同期させ、不安定に変化する部屋の錯覚を作っています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "production_company",
+          "url": "https://www.academyfilms.com/portfolio/jamiroquai-virtual-insanity",
+          "supports": ["officialTitle", "director", "productionCompany", "visualTechnique"]
+        },
+        {
+          "type": "official_chart_archive",
+          "url": "https://www.officialcharts.com/songs/jamiroquai-virtual-insanity/",
+          "supports": ["releaseYear"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=4JkIs37a2JE",
+          "supports": ["youtubeId", "thumbnailUrl"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "The prior pilot audit found no result safe to register. Frequently reported historical MTV VMA results remain unresolved until an explicit official category record is retained."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "label_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Daft Punk",
+      "title": "Around the World",
+      "metadata": {
+        "officialTitle": "Around The World",
+        "releaseYear": 1997,
+        "countryCode": "FR",
+        "directors": ["Michel Gondry"],
+        "productionCompany": "Partizan",
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=K0HSD_i2DvA",
+        "youtubeId": "K0HSD_i2DvA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/K0HSD_i2DvA/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Electronic"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Costumed performers translate separate parts of the track into a precisely organized choreographic system.",
+          "whyItMatters": "Around the World demonstrates how musical structure itself can become the narrative and organizing principle of a music video.",
+          "historicalContext": "Released in 1997 and directed by Michel Gondry, the video belongs to the director-driven music-video culture of the late 1990s.",
+          "keyInnovation": "Distinct performer groups embody different musical components, turning repetition and arrangement into visible choreography."
+        },
+        "ja": {
+          "shortSummary": "衣装をまとった複数のパフォーマーが、楽曲の各パートを精密な振付システムへ翻訳する作品。",
+          "whyItMatters": "楽曲構造そのものを、MVの物語と構成原理へ変換できることを示した作品です。",
+          "historicalContext": "1997年に公開され、Michel Gondryが監督した本作は、1990年代後半の監督主導型MV文化を代表しています。",
+          "keyInnovation": "異なるパフォーマー群が別々の音楽要素を担当し、反復とアレンジを視覚的な振付として可視化しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://www.daftpunk.com/homework/",
+          "supports": ["officialTitle", "releaseYear", "albumContext"]
+        },
+        {
+          "type": "production_company",
+          "url": "https://partizan.com/director/michel-gondry/commercials-branded/",
+          "supports": ["director", "productionCompany"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=K0HSD_i2DvA",
+          "supports": ["youtubeId", "thumbnailUrl"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "The prior pilot audit did not accept any award result. Historical nominations remain unresolved without an explicit official result page."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "label_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Beastie Boys",
+      "title": "Sabotage",
+      "metadata": {
+        "officialTitle": "Sabotage",
+        "releaseYear": 1994,
+        "countryCode": "US",
+        "directors": ["Spike Jonze"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Grand Royal / Capitol Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=z5rRZdiu1UE",
+        "youtubeId": "z5rRZdiu1UE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/z5rRZdiu1UE/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Hip-Hop / Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "The band performs fictional actors inside a compressed parody of 1970s police television, complete with chases, titles, stunts, and freeze-frame characterization.",
+          "whyItMatters": "The film made parody inseparable from performance, showing that a music video could construct a complete fictional television object rather than merely reference a genre.",
+          "historicalContext": "Released with Ill Communication in 1994 and directed by Spike Jonze, the video became a central example of the decade's low-budget, director-led alternative to polished studio spectacle.",
+          "keyInnovation": "Handheld action, crash zooms, discontinuous cutting, character cards, and deliberately excessive acting reproduce the grammar of an imagined television series at song length."
+        },
+        "ja": {
+          "shortSummary": "バンド自身が架空の俳優を演じ、追跡、タイトル、スタント、静止画による人物紹介を備えた1970年代刑事テレビの圧縮されたパロディを構成する作品。",
+          "whyItMatters": "パロディと演奏を不可分にし、既存ジャンルを参照するだけでなく、架空のテレビ番組そのものをMVとして作れることを示しました。",
+          "historicalContext": "Spike Jonzeの監督により1994年の『Ill Communication』期に公開され、洗練されたスタジオ型スペクタクルに対する、低予算で監督主導の1990年代的選択肢を代表しました。",
+          "keyInnovation": "手持ちアクション、急なズーム、断続的な編集、人物カード、誇張された演技によって、架空テレビシリーズの文法を楽曲の長さへ再構成しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://beastieboys.com/discography/",
+          "supports": ["officialTitle", "releaseYear", "albumContext"]
+        },
+        {
+          "type": "director_approved_archive",
+          "url": "https://www.criterion.com/films/638-beastie-boys-video-anthology",
+          "supports": ["officialTitle", "director"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://ir.paramount.com/news-releases/news-release-details/beyonce-green-day-lady-gaga-lead-way-three-moonmen-2009-video",
+          "supports": ["director", "label", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=z5rRZdiu1UE",
+          "supports": ["youtubeId", "thumbnailUrl"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "MTV Video Music Awards",
+            "ceremony": "2009 MTV Video Music Awards",
+            "year": 2009,
+            "category": "Best Video (That Should Have Won a Moonman)",
+            "result": "winner",
+            "creditedNames": ["Beastie Boys", "Spike Jonze"],
+            "source": "https://ir.paramount.com/news-releases/news-release-details/beyonce-green-day-lady-gaga-lead-way-three-moonmen-2009-video"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Björk",
+      "title": "All Is Full of Love",
+      "metadata": {
+        "officialTitle": "All Is Full of Love",
+        "releaseYear": 1999,
+        "countryCode": "GB",
+        "directors": ["Chris Cunningham"],
+        "productionCompany": "RSA Films",
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=cbGSy6PKOb0",
+        "youtubeId": "cbGSy6PKOb0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/cbGSy6PKOb0/maxresdefault.jpg",
+        "runtimeSeconds": 253,
+        "genre": "Electronic / Art Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Two white humanoid machines are assembled, observed, and drawn into an intimate encounter inside a bright clinical environment.",
+          "whyItMatters": "The film treats robotics as a vehicle for tenderness and desire rather than technological display, making emotional ambiguity central to its effects work.",
+          "historicalContext": "Directed by Chris Cunningham and released in 1999, the video accompanied the final single from Homogenic and entered museum, design, and music-video award contexts soon after release.",
+          "keyInnovation": "Live-action performance, prosthetic shells, motion-controlled photography, and digital compositing merge human facial presence with manufactured bodies without resolving the boundary between them."
+        },
+        "ja": {
+          "shortSummary": "白い人型機械二体が、明るい臨床的な空間で組み立てられ、観察され、親密な接触へ導かれる作品。",
+          "whyItMatters": "ロボット技術を技術展示ではなく親密さと欲望の媒体として扱い、感情の曖昧さをVFX表現の中心に置きました。",
+          "historicalContext": "Chris Cunninghamが監督し1999年に公開され、『Homogenic』最後のシングルに伴う映像として、美術館、デザイン賞、MV賞の文脈へ早くから入りました。",
+          "keyInnovation": "実写演技、人工外装、モーションコントロール撮影、デジタル合成を統合し、人間の顔の存在感と製造された身体の境界を解消しないまま接続しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://shop.bjork.com/products/bjork-homogenic",
+          "supports": ["officialTitle", "albumContext"]
+        },
+        {
+          "type": "film_archive",
+          "url": "https://www.criterionchannel.com/all-is-full-of-love/videos/all-is-full-of-love",
+          "supports": ["officialTitle", "releaseYear", "countryCode", "director", "runtimeSeconds"]
+        },
+        {
+          "type": "production_trade_archive",
+          "url": "https://magazine.shots.net/videos/video/2647/all-is-full-of-love",
+          "supports": ["director", "productionCompany"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.grammy.com/artists/bjork/485/",
+          "supports": ["awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/bj%C3%B6rk-all-is-full-of-love",
+          "supports": ["awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=cbGSy6PKOb0",
+          "supports": ["youtubeId", "thumbnailUrl"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "GRAMMY Awards",
+            "ceremony": "42nd Annual GRAMMY Awards",
+            "year": 2000,
+            "category": "Best Music Video",
+            "result": "nominee",
+            "creditedNames": ["Björk"],
+            "source": "https://www.grammy.com/artists/bjork/485/"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 2000,
+            "category": "Music Videos",
+            "result": "Black Pencil",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/bj%C3%B6rk-all-is-full-of-love"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 2000,
+            "category": "Music Videos",
+            "result": "Yellow Pencil (three pencils shown; subcategories not exposed by the public record)",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/bj%C3%B6rk-all-is-full-of-love"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "label_unverified", "vfx_credit_unverified"]
+    }
+  ]
+}
