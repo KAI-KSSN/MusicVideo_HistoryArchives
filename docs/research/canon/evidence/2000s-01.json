@@ -1,0 +1,192 @@
+{
+  "batch": "2000s-01",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "OK Go",
+      "title": "Here It Goes Again",
+      "metadata": {
+        "officialTitle": "Here It Goes Again",
+        "releaseYear": 2006,
+        "countryCode": "US",
+        "directors": ["Damian Kulash Jr.", "Trish Sie"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Capitol",
+        "youtubeUrl": "https://www.youtube.com/watch?v=dTAAsCNK7RA",
+        "youtubeId": "dTAAsCNK7RA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/dTAAsCNK7RA/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Alternative Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "The four members of OK Go perform a precisely timed routine across eight treadmills in a single continuous frontal view.",
+          "whyItMatters": "The video demonstrated that a modest production, a repeatable physical premise, and online circulation could generate an audience on the scale of broadcast promotion.",
+          "historicalContext": "Released in 2006, the treadmill performance became OK Go's breakthrough visual work and won the 49th GRAMMY Award for Best Music Video.",
+          "keyInnovation": "A locked camera, visible apparatus, synchronized choreography, and one uninterrupted take make timing and physical risk the complete visual system."
+        },
+        "ja": {
+          "shortSummary": "OK Goの4人が8台のトレッドミルを横断し、正面の固定視点によるワンテイクで精密な振付を演じる作品。",
+          "whyItMatters": "小規模な制作、反復可能な身体的着想、オンライン流通の組み合わせが、放送型プロモーションに匹敵する観客を生み得ることを示しました。",
+          "historicalContext": "2006年に公開され、バンドの映像上のブレイクスルーとなり、第49回GRAMMY AwardsのBest Music Videoを受賞しました。",
+          "keyInnovation": "固定カメラ、露出した装置、同期する振付、途切れない一回の撮影によって、タイミングと身体的リスクそのものを画面の仕組みにしています。"
+        }
+      },
+      "sources": [
+        {"type":"artist_official","url":"https://okgo.net/2006/07/31/here-it-goes-again-official-video/","supports":["officialTitle","releaseYear","officialVideoIdentity"]},
+        {"type":"award_archive_official","url":"https://www.grammy.com/artists/ok-go/17689/","supports":["awardProgram","awardYear","awardCategory","awardOutcome","historicalContext"]},
+        {"type":"award_archive_official","url":"https://www.grammy.com/artists/trish-sie/6352/","supports":["directorAssociation","awardProgram","awardOutcome"]},
+        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/ok-go-here-it-goes-again/","supports":["officialTitle","releaseYear","label"]},
+        {"type":"institutional_editorial","url":"https://www.smithsonianmag.com/videos/how-ok-go-has-revolutionized-the-music-video/","supports":["releaseYear","historicalContext","creativeCollaboration"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=dTAAsCNK7RA","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"GRAMMY Awards","year":2007,"category":"Best Music Video","result":"Winner","creditedNames":["OK Go","Damian Kulash Jr.","Trish Sie"],"source":"https://www.grammy.com/artists/ok-go/17689/","notes":"The current GRAMMY archive labels the historical category Best Music Video; Recording Academy editorial also identifies the historical name Best Short Form Music Video."}
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Fatboy Slim",
+      "title": "Weapon of Choice",
+      "metadata": {
+        "officialTitle": "Weapon of Choice",
+        "releaseYear": 2001,
+        "countryCode": "US",
+        "directors": ["Spike Jonze"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=XQ7z57qrZU8",
+        "youtubeId": "XQ7z57qrZU8",
+        "thumbnailUrl": "https://i.ytimg.com/vi/XQ7z57qrZU8/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Electronic"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Christopher Walken dances alone through a hotel in a performance-led film directed by Spike Jonze.",
+          "whyItMatters": "The video shows how a single performer, a familiar location, and a clear physical premise can carry an entire music video.",
+          "historicalContext": "Released in 2001, the video won the 2002 GRAMMY for Best Music Video and became one of Spike Jonze's most widely recognized works.",
+          "keyInnovation": "Long takes, restrained visual effects, choreography, and wire-assisted movement turn an ordinary hotel into a continuous performance space."
+        },
+        "ja": {
+          "shortSummary": "Christopher Walkenがホテルを一人で踊り進む、Spike Jonze監督のパフォーマンス映像。",
+          "whyItMatters": "一人の演者、身近なロケーション、明快な身体表現だけでMV全体を成立させた代表例です。",
+          "historicalContext": "2001年に公開され、2002年のGRAMMY Best Music Videoを受賞。Spike Jonzeの代表作のひとつとなりました。",
+          "keyInnovation": "長回し、抑制されたVFX、振付、ワイヤーアクションによって、ホテル全体を連続した舞台へ変換しています。"
+        }
+      },
+      "sources": [
+        {"type":"artist_official","url":"https://www.fatboyslim.net/songs/weapon-of-choice/","supports":["officialTitle","officialWorkIdentity"]},
+        {"type":"award_archive_official","url":"https://www.grammy.com/artists/spike-jonze/9835/","supports":["director","awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=XQ7z57qrZU8","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"GRAMMY Awards","year":2002,"category":"Best Music Video","result":"Winner","creditedNames":["Spike Jonze"],"source":"https://www.grammy.com/artists/spike-jonze/9835/"}
+        ],
+        "notes": "Existing verified pilot evidence is reused. Frequently reported MTV results remain unregistered until an accepted official historical result record is attached."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "label_unverified", "production_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "The White Stripes",
+      "title": "Fell in Love with a Girl",
+      "metadata": {
+        "officialTitle": "Fell In Love With A Girl",
+        "releaseYear": 2002,
+        "countryCode": "US",
+        "directors": ["Michel Gondry"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Third Man Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=fTH71AAxXmM",
+        "youtubeId": "fTH71AAxXmM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/fTH71AAxXmM/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Garage Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Rapid stop-motion animation rebuilds the White Stripes and their performance as coarse red, white, black, and yellow toy-brick forms.",
+          "whyItMatters": "The video translated the band's strict visual identity into a material animation system whose low resolution became a source of speed and character.",
+          "historicalContext": "Released as a single in 2002 and directed by Michel Gondry, the film became the White Stripes' breakthrough video and received a D&AD Graphite Pencil in 2003.",
+          "keyInnovation": "Frame-by-frame brick replacement, limited color, abrupt changes of scale, and synchronized cuts turn a familiar construction toy into a compressed performance image."
+        },
+        "ja": {
+          "shortSummary": "粗い赤、白、黒、黄の玩具ブロックによって、The White Stripesと演奏を高速なストップモーションとして再構築した作品。",
+          "whyItMatters": "バンドの厳格な視覚アイデンティティを物質的なアニメーションの仕組みへ移し、低い解像度そのものを速度と個性の源にしました。",
+          "historicalContext": "Michel Gondryの監督により2002年にシングル映像として公開され、バンドのブレイクスルー映像となり、2003年D&ADでGraphite Pencilを受賞しました。",
+          "keyInnovation": "フレームごとのブロック置換、限定色、急激な縮尺変化、音に同期するカットによって、身近な組立玩具を圧縮された演奏映像へ変えています。"
+        }
+      },
+      "sources": [
+        {"type":"label_official","url":"https://thirdmanrecords.com/products/fell-in-love-with-a-girl","supports":["officialTitle","releaseYear","artist","label"]},
+        {"type":"artist_official","url":"https://thirdmanrecords.com/collections/jack-white","supports":["director","historicalContext","visualTechnique"]},
+        {"type":"artist_official","url":"https://thirdmanrecords.com/blogs/news/the-white-stripes-release-greatest-hits-album-today","supports":["officialVideoIdentity"]},
+        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/fell-in-love-with-a-girl","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"award_editorial_official","url":"https://www.dandad.org/insights/awards/oscar-season-looking-back-at-dad-award-winning-work-made-by-academy-award-winners","supports":["director","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=fTH71AAxXmM","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"D&AD Awards","year":2003,"category":"Music Videos","result":"Graphite Pencil","creditedNames":["Michel Gondry"],"source":"https://www.dandad.org/work/d-ad-awards-archive/fell-in-love-with-a-girl"}
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Gorillaz",
+      "title": "Feel Good Inc.",
+      "metadata": {
+        "officialTitle": "Feel Good Inc.",
+        "releaseYear": 2005,
+        "countryCode": "GB",
+        "directors": ["Jamie Hewlett", "Pete Candeland"],
+        "productionCompany": "Passion Pictures",
+        "vfxProduction": null,
+        "label": "Parlophone",
+        "youtubeUrl": "https://www.youtube.com/watch?v=HyHNuVaZJ-k",
+        "youtubeId": "HyHNuVaZJ-k",
+        "thumbnailUrl": "https://i.ytimg.com/vi/HyHNuVaZJ-k/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Alternative Hip-Hop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Gorillaz perform inside a dark tower while a windmill island drifts through open sky beyond the building's enclosed crowd.",
+          "whyItMatters": "The video consolidated the virtual band as a coherent screen presence, allowing drawn characters, CG environments, and recorded performers to occupy one continuing world.",
+          "historicalContext": "Released in 2005 as the lead single from Demon Days, the film was directed by Jamie Hewlett and Pete Candeland and received a GRAMMY nomination for Best Short Form Music Video.",
+          "keyInnovation": "Two-dimensional character animation and computer-generated space are integrated through shared lighting, texture, camera movement, and atmospheric depth."
+        },
+        "ja": {
+          "shortSummary": "Gorillazが暗い塔の内部で演奏し、閉ざされた群衆の外では風車の島が広い空を漂う作品。",
+          "whyItMatters": "描画キャラクター、CG環境、記録された演者を一つの継続する世界へ置くことで、バーチャルバンドを一貫したスクリーン上の存在として確立しました。",
+          "historicalContext": "『Demon Days』の先行シングルとして2005年に公開され、Jamie HewlettとPete Candelandが監督し、GRAMMY Best Short Form Music Videoにノミネートされました。",
+          "keyInnovation": "二次元のキャラクターアニメーションとCG空間を、共通する照明、質感、カメラ移動、大気的な奥行きによって統合しています。"
+        }
+      },
+      "sources": [
+        {"type":"production_official","url":"https://www.passion-animation.com/project/gorillaz-feel-good-inc/","supports":["officialTitle","releaseYear","directors","productionCompany","label","visualTechnique","historicalContext"]},
+        {"type":"award_archive_official","url":"https://www.grammy.com/news/madonna-gorillaz-to-perform-on-48th-grammy-awards-telecast/","supports":["awardProgram","awardCategory","awardOutcome"]},
+        {"type":"award_archive_official","url":"https://www.grammy.com/news/48th-annual-grammy-awards-roundup-general-field/","supports":["awardProgram","awardCategory","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=HyHNuVaZJ-k","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"GRAMMY Awards","year":2006,"category":"Best Short Form Music Video","result":"Nominee","creditedNames":["Gorillaz","De La Soul"],"source":"https://www.grammy.com/news/madonna-gorillaz-to-perform-on-48th-grammy-awards-telecast/"}
+        ],
+        "notes": "Recording Academy sources verify the nomination. Other frequently reported 2005 craft wins remain unregistered until the corresponding awarding-body archive is attached."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "vfx_credit_unverified", "runtime_unverified"]
+    }
+  ]
+}

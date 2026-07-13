@@ -1,0 +1,50 @@
+{
+  "batch": "2000s-05",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Battles",
+      "title": "Atlas",
+      "metadata": {
+        "officialTitle": "Atlas",
+        "releaseYear": 2007,
+        "countryCode": "US",
+        "directors": ["Timothy Saccenti"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Warp Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=IpGp-22t0lU",
+        "youtubeId": "IpGp-22t0lU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/IpGp-22t0lU/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Experimental Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Battles perform inside a reflective rehearsal enclosure while slow camera movement, repeated architectural lines, and controlled lighting turn the room into an optical instrument.",
+          "whyItMatters": "The video treats ensemble performance as a spatial system, making the physical relationships between musicians, instruments, reflections, and camera as important as individual gesture.",
+          "historicalContext": "Released by Warp in 2007 as Battles' first new music for the label, the work introduced the visual language associated with the Mirrored period.",
+          "keyInnovation": "Mirrored walls, a tightly bounded set, lateral camera movement, synchronized lighting, and selective post-production transform a straightforward band performance into a continuously reconfigured diagram."
+        },
+        "ja": {
+          "shortSummary": "Battlesが反射するリハーサル空間で演奏し、ゆっくりしたカメラ移動、反復する建築線、制御された照明によって部屋そのものが光学装置へ変わる作品。",
+          "whyItMatters": "アンサンブル演奏を空間システムとして扱い、演奏者、楽器、反射、カメラの物理的な関係を、個々の身振りと同じ重要度で見せました。",
+          "historicalContext": "Warpから2007年に、同レーベルでのBattles初の新曲として公開され、『Mirrored』期の視覚言語を提示しました。",
+          "keyInnovation": "鏡面の壁、境界の明確なセット、横方向のカメラ移動、同期する照明、限定的なポスト処理によって、単純なバンド演奏を絶えず組み替わる図式へ変換しています。"
+        }
+      },
+      "sources": [
+        {"type":"label_official","url":"https://battles.warp.net/release/60911-battles-atlas?lang=en_US","supports":["officialTitle","releaseYear","label","releaseContext"]},
+        {"type":"creator_upload","url":"https://vimeo.com/2240229","supports":["officialTitle","director","officialVideoIdentity"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=IpGp-22t0lU","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "No award result is registered in this pass. Secondary credit lists were not used for production, VFX, editing, cinematography, animation, or art-direction fields."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+    }
+  ]
+}

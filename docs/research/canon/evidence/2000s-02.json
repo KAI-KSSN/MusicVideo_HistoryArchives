@@ -1,0 +1,197 @@
+{
+  "batch": "2000s-02",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Coldplay",
+      "title": "The Scientist",
+      "metadata": {
+        "officialTitle": "The Scientist",
+        "releaseYear": 2002,
+        "countryCode": "GB",
+        "directors": ["Jamie Thraves"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Parlophone",
+        "youtubeUrl": "https://www.youtube.com/watch?v=RB-RcX5DS5A",
+        "youtubeId": "RB-RcX5DS5A",
+        "thumbnailUrl": "https://i.ytimg.com/vi/RB-RcX5DS5A/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Alternative Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Chris Martin moves backward from the aftermath of a car crash toward the journey and relationship that preceded it while appearing to sing forward.",
+          "whyItMatters": "The video makes reverse motion carry both narrative information and emotional consequence rather than functioning as an isolated visual trick.",
+          "historicalContext": "Directed by Jamie Thraves and released in 2002, the film accompanied Coldplay's second album period and was nominated for the 2004 GRAMMY for Best Music Video.",
+          "keyInnovation": "Reverse photography, backward-learned lip synchronization, delayed revelation, and natural locations align the song's desire to return with the film's physical direction."
+        },
+        "ja": {
+          "shortSummary": "Chris Martinが交通事故の後景から、その前の移動と関係へ逆行しながら、歌だけは前向きに聞こえるよう演じる作品。",
+          "whyItMatters": "逆再生を単独の視覚的な仕掛けではなく、物語情報と感情的な結果の両方を運ぶ構造として用いました。",
+          "historicalContext": "Jamie Thravesが監督し2002年に公開。Coldplayのセカンドアルバム期を代表する映像となり、2004年GRAMMY Best Music Videoにノミネートされました。",
+          "keyInnovation": "逆回転撮影、逆向きに覚えた口の同期、遅れて明かされる出来事、自然ロケーションによって、戻りたいという歌の欲求と映像の物理方向を一致させています。"
+        }
+      },
+      "sources": [
+        {"type":"artist_official","url":"https://www.coldplay.com/video/the-scientist/","supports":["officialTitle","releaseYear","officialVideoIdentity"]},
+        {"type":"artist_official","url":"https://www.coldplay.com/release/the-scientist/","supports":["officialTitle","releaseYear"]},
+        {"type":"director_official","url":"https://www.jamiethraves.com/portfolio/coldplay-the-scientist-official-4k-video","supports":["director","officialVideoIdentity"]},
+        {"type":"label_official","url":"https://warnermusic-ie-4.nds.acquia-psi.com/news/2022/arushofbloodtothehead20/","supports":["director","filmFormat","restorationContext"]},
+        {"type":"award_archive_official","url":"https://www.grammy.com/artists/jamie-thraves/6719/","supports":["director","awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=RB-RcX5DS5A","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"GRAMMY Awards","year":2004,"category":"Best Music Video","result":"Nominee","creditedNames":["Coldplay","Jamie Thraves"],"source":"https://www.grammy.com/artists/jamie-thraves/6719/"}
+        ],
+        "candidateOfficialClaims": [
+          {"program":"MTV Video Music Awards","year":2003,"claim":"Best Direction, Breakthrough Video, and Best Group Video wins","source":"https://www.jamiethraves.com/pages/about-1","registrationStatus":"hold_for_awarding_body_archive"}
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "Single Ladies (Put a Ring on It)",
+      "metadata": {
+        "officialTitle": "Single Ladies (Put a Ring on It)",
+        "releaseYear": 2008,
+        "countryCode": "US",
+        "directors": ["Jake Nava"],
+        "productionCompany": "Anonymous Content",
+        "vfxProduction": null,
+        "label": "Columbia Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=4m1EFMoRFvY",
+        "youtubeId": "4m1EFMoRFvY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/4m1EFMoRFvY/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Pop / R&B"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Three dancers, a monochrome studio, and tightly synchronized choreography define a deliberately minimal performance video.",
+          "whyItMatters": "The work demonstrates how reduction can strengthen an image: choreography, silhouette, and repetition become the complete visual identity.",
+          "historicalContext": "Released in 2008 and directed by Jake Nava, the video became a major reference point for choreography-led online circulation and imitation.",
+          "keyInnovation": "Long performance passages and a minimal seamless set keep attention on bodily precision, formation, and camera rhythm."
+        },
+        "ja": {
+          "shortSummary": "3人のダンサー、モノクロのスタジオ、精密に同期した振付で構成されたミニマルなパフォーマンス映像。",
+          "whyItMatters": "要素を削ぎ落とすことで、振付、シルエット、反復そのものを作品の視覚的アイデンティティにした代表例です。",
+          "historicalContext": "Jake Navaが監督した2008年の作品で、振付を軸とするオンライン上の模倣と拡散の基準点になりました。",
+          "keyInnovation": "長いパフォーマンス区間と簡潔な白ホリゾントにより、身体の精度、フォーメーション、カメラのリズムへ視線を集中させています。"
+        }
+      },
+      "sources": [
+        {"type":"award_archive_official","url":"https://ir.paramount.com/news-releases/news-release-details/beyonce-green-day-lady-gaga-lead-way-three-moonmen-2009-video","supports":["director","productionCompany","awardProgram","awardYear","awardCategories","awardOutcomes","creditedRecipients"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=4m1EFMoRFvY","supports":["officialTitle","youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"MTV Video Music Awards","year":2009,"category":"VIDEO OF THE YEAR","result":"Winner","creditedNames":["Beyoncé"],"source":"https://ir.paramount.com/news-releases/news-release-details/beyonce-green-day-lady-gaga-lead-way-three-moonmen-2009-video"},
+          {"program":"MTV Video Music Awards","year":2009,"category":"BEST CHOREOGRAPHY","result":"Winner","creditedNames":["JaQuel Knight","Frank Gatson Jr."],"source":"https://ir.paramount.com/news-releases/news-release-details/beyonce-green-day-lady-gaga-lead-way-three-moonmen-2009-video"},
+          {"program":"MTV Video Music Awards","year":2009,"category":"BEST EDITING","result":"Winner","creditedNames":["Jarrett Fijal"],"source":"https://ir.paramount.com/news-releases/news-release-details/beyonce-green-day-lady-gaga-lead-way-three-moonmen-2009-video"}
+        ],
+        "notes": "Existing verified pilot results and their direct Paramount/MTV source are reused without expansion beyond the official release."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "vfx_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Justice",
+      "title": "D.A.N.C.E.",
+      "metadata": {
+        "officialTitle": "D.A.N.C.E.",
+        "releaseYear": 2007,
+        "countryCode": "FR",
+        "directors": ["Jonas Euvremer", "François Rousselet"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Ed Banger Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=sy1dYFGkPUE",
+        "youtubeId": "sy1dYFGkPUE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/sy1dYFGkPUE/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Electronic"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Justice walk through a dark environment while animated shirts continuously replace typography, lyrics, symbols, bodies, and pop images across their torsos.",
+          "whyItMatters": "The video made graphic design the principal performer, joining a record's visual identity to moving typography rather than illustrating a separate narrative.",
+          "historicalContext": "Released in 2007 on Ed Banger Records, the single introduced a prominent visual statement for Justice and was nominated for the 2008 GRAMMY for Best Music Video.",
+          "keyInnovation": "Frame-by-frame garment graphics, nested images, hand-drawn type, and continuous lateral movement make the shirt surface behave as an editable screen."
+        },
+        "ja": {
+          "shortSummary": "Justiceが暗い空間を歩き、シャツ上のタイポグラフィ、歌詞、記号、身体、ポップイメージが絶えず置き換わる作品。",
+          "whyItMatters": "別の物語を説明するのではなく、グラフィックデザインそのものを主要な演者とし、レコードの視覚的アイデンティティを動く文字へ結びました。",
+          "historicalContext": "Ed Banger Recordsから2007年に公開され、Justiceを代表する初期の視覚表現となり、2008年GRAMMY Best Music Videoにノミネートされました。",
+          "keyInnovation": "フレームごとに変化する衣服の図像、入れ子状の画像、手描き文字、連続する横移動によって、シャツ表面を編集可能な画面として機能させています。"
+        }
+      },
+      "sources": [
+        {"type":"artist_official","url":"https://uk.justice.church/music?lang=en_US","supports":["officialTitle","releaseYear","label"]},
+        {"type":"artist_official","url":"https://uk.justice.church/about?lang=pt","supports":["releaseYear","historicalContext","awardNominationDiscovery"]},
+        {"type":"award_archive_official","url":"https://www.grammy.com/artists/justice/14621/","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=sy1dYFGkPUE","supports":["officialTitle","youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"GRAMMY Awards","year":2008,"category":"Best Music Video","result":"Nominee","creditedNames":["Justice"],"source":"https://www.grammy.com/artists/justice/14621/"}
+        ],
+        "notes": "The director names are supported by the official-video credit and are retained as individual people. No production company is inferred from secondary databases."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Radiohead",
+      "title": "House of Cards",
+      "metadata": {
+        "officialTitle": "House of Cards",
+        "releaseYear": 2008,
+        "countryCode": "GB",
+        "directors": ["James Frost"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=8nTFjVm9sTQ",
+        "youtubeId": "8nTFjVm9sTQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/8nTFjVm9sTQ/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Alternative Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Laser and sensor data reconstruct Thom Yorke, other faces, and suburban spaces as unstable clouds of measured points without conventional cameras.",
+          "whyItMatters": "The project treated capture data as both the source image and a public material, linking a music video to an interactive viewer and released code.",
+          "historicalContext": "Directed by James Frost and released in 2008, the work joined Radiohead's In Rainbows period to an open-source data project and received a 2009 GRAMMY nomination for Best Music Video.",
+          "keyInnovation": "Structured-light face capture, rotating LIDAR scans, point-cloud rendering, and released datasets replace photographic surfaces with measurable spatial samples."
+        },
+        "ja": {
+          "shortSummary": "通常のカメラを用いず、レーザーとセンサーのデータによってThom Yorke、複数の顔、郊外空間を不安定な点群として再構成した作品。",
+          "whyItMatters": "取得データを映像の素材であると同時に公開可能な資料として扱い、MVをインタラクティブビューアと公開コードへ接続しました。",
+          "historicalContext": "James Frostが監督し2008年に公開。Radioheadの『In Rainbows』期とオープンソースのデータプロジェクトを結び、2009年GRAMMY Best Music Videoにノミネートされました。",
+          "keyInnovation": "構造化光による顔の取得、回転式LIDAR、点群レンダリング、公開データセットによって、写真表面を測定された空間サンプルへ置き換えています。"
+        }
+      },
+      "sources": [
+        {"type":"artist_official","url":"https://www.radiohead.com/deadairspace/page/3","supports":["officialVideoIdentity","releaseContext"]},
+        {"type":"director_official","url":"https://www.jamesfrost.tv/moving-image/house-of-cards","supports":["officialTitle","artist","director"]},
+        {"type":"director_official","url":"https://www.jamesfrost.tv/about","supports":["director","historicalContext","awardNominationDiscovery"]},
+        {"type":"technology_director_official","url":"https://www.aaronkoblin.com/work/rh/index.html","supports":["director","technologyDirector","captureTechnology","openSourceContext"]},
+        {"type":"award_archive_official","url":"https://www.grammy.com/artists/radiohead/8042/","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=8nTFjVm9sTQ","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"GRAMMY Awards","year":2009,"category":"Best Music Video","result":"Nominee","creditedNames":["Radiohead","James Frost"],"source":"https://www.grammy.com/artists/radiohead/8042/"}
+        ],
+        "notes": "The simultaneous GRAMMY nomination for the song performance is not attached as a work award. Only the music-video nomination is registered."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "label_unverified", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+    }
+  ]
+}

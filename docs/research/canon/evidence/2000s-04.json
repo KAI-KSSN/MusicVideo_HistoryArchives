@@ -1,0 +1,189 @@
+{
+  "batch": "2000s-04",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Muse",
+      "title": "Knights of Cydonia",
+      "metadata": {
+        "officialTitle": "Knights of Cydonia",
+        "releaseYear": 2006,
+        "countryCode": "GB",
+        "directors": ["Joseph Kahn"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=G_sBOsh-vyI",
+        "youtubeId": "G_sBOsh-vyI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/G_sBOsh-vyI/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Alternative Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A lone rider crosses a future-western landscape where gunfighters, robots, martial arts, and the band appear inside one deliberately excessive genre fiction.",
+          "whyItMatters": "The video treats genre collision as a complete production language, allowing the scale and theatricality of a short film to coexist with the direct address of a band performance.",
+          "historicalContext": "Directed by Joseph Kahn and released in 2006, the work accompanied Muse's Black Holes and Revelations period and received a D&AD Wood Pencil in 2007.",
+          "keyInnovation": "Spaghetti-western staging, science-fiction props, martial-arts action, silent-film intertitles, and holographic performance are edited as parts of the same coherent invented world."
+        },
+        "ja": {
+          "shortSummary": "孤独な騎手が、ガンマン、ロボット、武術、バンドの演奏が同居する未来西部劇の風景を進む、意図的に過剰なジャンルフィクション。",
+          "whyItMatters": "ジャンルの衝突そのものを一つの制作言語として扱い、短編映画の規模と演劇性を、バンド演奏の直接性と共存させました。",
+          "historicalContext": "Joseph Kahnが監督し2006年に公開。Museの『Black Holes and Revelations』期を代表する映像となり、2007年D&ADでWood Pencilを受賞しました。",
+          "keyInnovation": "マカロニ・ウェスタンの演出、SFの小道具、武術アクション、無声映画の字幕、ホログラム状の演奏を、同一の架空世界を構成する要素として編集しています。"
+        }
+      },
+      "sources": [
+        {"type":"artist_official","url":"https://www.muse.mu/video/knights-cydonia-251251","supports":["officialTitle","officialVideoIdentity"]},
+        {"type":"director_portfolio","url":"https://www.josephkahn.com/project/7824/muse","supports":["officialTitle","director"]},
+        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/knights-of-cydonia","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=G_sBOsh-vyI","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"D&AD Awards","year":2007,"category":"Music Videos","result":"Wood Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/knights-of-cydonia"}
+        ],
+        "candidateOfficialClaims": [
+          {"program":"Los Angeles Film Festival","year":null,"claim":"Audience Award winner","source":"https://www.josephkahn.com/route.php?%2Fbio=","registrationStatus":"hold_for_awarding_body_archive"}
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "label_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "サカナクション",
+      "title": "アルクアラウンド",
+      "metadata": {
+        "officialTitle": "アルクアラウンド",
+        "releaseYear": 2010,
+        "countryCode": "JP",
+        "directors": ["関和亮"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Victor Entertainment",
+        "youtubeUrl": "https://www.youtube.com/watch?v=vS6wzjpCvec",
+        "youtubeId": "vS6wzjpCvec",
+        "thumbnailUrl": "https://i.ytimg.com/vi/vS6wzjpCvec/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Ichiro Yamaguchi walks through a dark studio while fragmented lyric objects align with the camera and become readable at precisely timed viewpoints.",
+          "whyItMatters": "The video makes typography a physical event rather than an overlay, joining the act of reading to camera movement, performance, and the passage of time.",
+          "historicalContext": "Directed by Kazuaki Seki and released in 2010, the work received an Excellence Award in the Entertainment Division of the 14th Japan Media Arts Festival.",
+          "keyInnovation": "A continuous moving shot, forced-perspective letterforms, flip animation, lighting cues, and practical scenic mechanisms synchronize visible language with the song without digital compositing."
+        },
+        "ja": {
+          "shortSummary": "山口一郎が暗いスタジオを歩き、分解された歌詞のオブジェがカメラの視点と重なる瞬間に読める文字へ変わる作品。",
+          "whyItMatters": "タイポグラフィを画面上の合成ではなく物理的な出来事に変え、読む行為をカメラ移動、演奏、時間の経過へ接続しました。",
+          "historicalContext": "関和亮が監督し2010年に公開。第14回文化庁メディア芸術祭エンターテインメント部門で優秀賞を受賞しました。",
+          "keyInnovation": "連続する移動撮影、強制遠近法の文字、フリップアニメーション、照明の合図、実物の舞台装置によって、デジタル合成を使わずに可視化された言葉と楽曲を同期しています。"
+        }
+      },
+      "sources": [
+        {"type":"label_official","url":"https://www.jvcmusic.co.jp/-/Discography/A020936/VIBL-620.html","supports":["officialTitle","label","officialVideoIdentity"]},
+        {"type":"label_official","url":"https://www.jvcmusic.co.jp/sakanaction/sakanazukan/comment/comment15.html","supports":["director","technicalContributor","visualTechnique"]},
+        {"type":"award_archive_official","url":"https://j-mediaarts-festival.bunka.go.jp/award/single/sakanaction/index.html","supports":["officialTitle","director","awardProgram","awardEdition","awardCategory","awardOutcome","visualTechnique"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=vS6wzjpCvec","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"Japan Media Arts Festival","year":2010,"category":"Entertainment Division","result":"Excellence Award","creditedNames":["関和亮"],"source":"https://j-mediaarts-festival.bunka.go.jp/award/single/sakanaction/index.html"}
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "runtime_unverified", "release_date_precision_unverified"]
+    },
+    {
+      "artist": "宇多田ヒカル",
+      "title": "traveling",
+      "metadata": {
+        "officialTitle": "traveling",
+        "releaseYear": 2001,
+        "countryCode": "JP",
+        "directors": ["紀里谷和明"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Toshiba-EMI",
+        "youtubeUrl": "https://www.youtube.com/watch?v=tuyZ9f6mHZk",
+        "youtubeId": "tuyZ9f6mHZk",
+        "thumbnailUrl": "https://i.ytimg.com/vi/tuyZ9f6mHZk/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "J-Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Utada moves through a brightly artificial journey of vehicles, tunnels, plant forms, miniature worlds, and stage machinery built as a continuous pop fantasy.",
+          "whyItMatters": "The video treats production design as narrative motion, using color, constructed space, and visible artifice to turn travel into an elastic sequence of imagined environments.",
+          "historicalContext": "Released as a DVD single in 2002 after the song's 2001 release, the work received the Japanese short-form Music Video of the Year award at the 17th Japan Gold Disc Awards.",
+          "keyInnovation": "Miniatures, oversized props, mechanical scenery, saturated color fields, compositing, and abrupt changes of scale allow each space to transform into the next without requiring realistic continuity."
+        },
+        "ja": {
+          "shortSummary": "宇多田ヒカルが、乗り物、トンネル、植物の形、ミニチュア世界、舞台機構が連なる鮮やかな人工の旅を進むポップ・ファンタジー。",
+          "whyItMatters": "美術設計を物語の運動として扱い、色、構築された空間、人工性を隠さない表現によって、移動を伸縮自在な想像環境の連続へ変えました。",
+          "historicalContext": "楽曲は2001年に公開され、映像は2002年にDVDシングルとして発売。第17回日本ゴールドディスク大賞で邦楽部門（短編）のミュージック・ビデオ・オブ・ザ・イヤーを受賞しました。",
+          "keyInnovation": "ミニチュア、巨大な小道具、機械仕掛けの舞台、高彩度の色面、合成、急激なスケール変化によって、現実的な連続性に依存せず空間を次々と変形させています。"
+        }
+      },
+      "sources": [
+        {"type":"artist_official","url":"https://www.sonymusic.co.jp/Music/Info/utadahikaru/music/dvd/","supports":["officialTitle","videoReleaseDate","officialVideoIdentity"]},
+        {"type":"artist_official","url":"https://www.sonymusic.co.jp/Music/Info/utadahikaru/profile/","supports":["awardClaimDiscovery"]},
+        {"type":"award_archive_official","url":"https://www.golddisc.jp/award/17/","supports":["officialTitle","artist","label","awardProgram","awardEdition","awardCategory","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=tuyZ9f6mHZk","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"Japan Gold Disc Award","year":2003,"category":"Music Video of the Year — Japanese, Short Form","result":"Winner","creditedNames":["宇多田ヒカル"],"source":"https://www.golddisc.jp/award/17/"}
+        ],
+        "notes": "The official award record concerns the DVD Single 'traveling' and is registered as a music-video work award. The director credit still requires a direct creator, label, or production source."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "director_source_needs_upgrade", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified", "youtube_availability_unverified"]
+    },
+    {
+      "artist": "Kylie Minogue",
+      "title": "Come Into My World",
+      "metadata": {
+        "officialTitle": "Come Into My World",
+        "releaseYear": 2002,
+        "countryCode": null,
+        "directors": ["Michel Gondry"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=63vqob-MljQ",
+        "youtubeId": "63vqob-MljQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/63vqob-MljQ/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Kylie Minogue repeatedly circles a Paris street; with each completed loop, another Kylie and another copy of every surrounding action remain in the frame.",
+          "whyItMatters": "The video turns repetition into visible accumulation, making a familiar urban block behave like a precisely timed system whose complexity grows while the camera's route stays constant.",
+          "historicalContext": "Directed by Michel Gondry and released in 2002, the work belongs to a period in which large-scale compositing was used to extend practical choreography rather than replace it.",
+          "keyInnovation": "A locked circular camera path, repeated performances, timed street action, and layered compositing multiply the entire environment while preserving the continuity of a single apparent take."
+        },
+        "ja": {
+          "shortSummary": "Kylie Minogueがパリの街角を繰り返し一周し、周回を終えるたびに彼女自身と周囲のすべての行為の複製が画面内へ残っていく作品。",
+          "whyItMatters": "反復を目に見える蓄積へ変え、カメラの経路を一定に保ちながら、見慣れた街区を複雑さが増殖する精密なシステムとして機能させました。",
+          "historicalContext": "Michel Gondryが監督し2002年に公開。大規模な合成技術を、実演の振付に置き換えるのではなく拡張するために用いた時期の代表作です。",
+          "keyInnovation": "固定された円形のカメラ軌道、反復する演技、時間設計された街路の動作、レイヤー合成によって、一見したワンカットの連続性を保ちながら環境全体を増殖させています。"
+        }
+      },
+      "sources": [
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=63vqob-MljQ","supports":["officialTitle","youtubeId","thumbnailUrl"]},
+        {"type":"official_music_service","url":"https://music.apple.com/gb/music-video/come-into-my-world/1445826382","supports":["officialTitle","artist","officialVideoIdentity"]},
+        {"type":"recording_academy_official","url":"https://www.grammy.com/awards/46th-annual-grammy-awards/","supports":["songAwardExclusion"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "The 46th GRAMMY was Best Dance Recording for the sound recording, not a music-video award, and is excluded. The Michel Gondry director credit remains pending a direct creator, label, or production source."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "director_source_needs_upgrade", "production_credit_unverified", "vfx_credit_unverified", "label_unverified", "country_unverified", "runtime_unverified"]
+    }
+  ]
+}

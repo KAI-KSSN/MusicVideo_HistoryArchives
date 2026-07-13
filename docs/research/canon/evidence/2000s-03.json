@@ -1,0 +1,185 @@
+{
+  "batch": "2000s-03",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Röyksopp",
+      "title": "Remind Me",
+      "metadata": {
+        "officialTitle": "Remind Me",
+        "releaseYear": 2002,
+        "countryCode": "FR",
+        "directors": ["Ludovic Houplain", "Hervé de Crécy"],
+        "productionCompany": "H5",
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=1Xhdy9zBEws",
+        "youtubeId": "1Xhdy9zBEws",
+        "thumbnailUrl": "https://i.ytimg.com/vi/1Xhdy9zBEws/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Electronic"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "An office worker's day is reconstructed as a continuous field of isometric diagrams, cutaways, labels, systems maps, and quantified flows.",
+          "whyItMatters": "The video turned information graphics into a complete narrative environment, using analytical description to reveal the hidden systems inside an ordinary routine.",
+          "historicalContext": "Created by H5 and released in 2002, the film became a reference point for data-led motion design and received a D&AD Wood Pencil in 2003.",
+          "keyInnovation": "Isometric projection, diagrammatic transitions, product lifecycles, labeled anatomy, and synchronized charts allow every object and action to open into another layer of information."
+        },
+        "ja": {
+          "shortSummary": "オフィスで働く女性の一日を、アイソメ図、断面図、ラベル、システムマップ、数量化された流れの連続として再構成した作品。",
+          "whyItMatters": "情報グラフィックを完全な物語環境へ変え、分析的な記述によって日常の内部にある見えない仕組みを可視化しました。",
+          "historicalContext": "H5が制作し2002年に公開。データ主導のモーションデザインを代表する作品となり、2003年D&ADでWood Pencilを受賞しました。",
+          "keyInnovation": "アイソメ投影、図式的なトランジション、製品ライフサイクル、ラベル付き人体、同期するチャートによって、すべての物体と行為を別の情報層へ展開しています。"
+        }
+      },
+      "sources": [
+        {"type":"production_official","url":"https://www.h5.fr/fr/projects/royksopp","supports":["officialTitle","releaseYear","productionCompany","visualTechnique"]},
+        {"type":"artist_official","url":"https://royksopp.com/2009/09/remind-me-one-of-pitchforks-100-awesome-videos/","supports":["officialTitle","releaseYear","directors","awardClaimDiscovery"]},
+        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/remind-me","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=1Xhdy9zBEws","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"D&AD Awards","year":2003,"category":"Music Videos","result":"Wood Pencil","creditedNames":["H5"],"source":"https://www.dandad.org/work/d-ad-awards-archive/remind-me"}
+        ],
+        "candidateOfficialClaims": [
+          {"program":"MTV Europe Music Awards","year":2002,"claim":"Best Music Video winner","source":"https://royksopp.com/2009/09/remind-me-one-of-pitchforks-100-awesome-videos/","registrationStatus":"hold_for_awarding_body_archive"}
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "label_unverified", "vfx_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Kanye West",
+      "title": "Stronger",
+      "metadata": {
+        "officialTitle": "Stronger",
+        "releaseYear": 2007,
+        "countryCode": "US",
+        "directors": ["Hype Williams"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Mercury",
+        "youtubeUrl": "https://www.youtube.com/watch?v=PsO6ZnUZI0g",
+        "youtubeId": "PsO6ZnUZI0g",
+        "thumbnailUrl": "https://i.ytimg.com/vi/PsO6ZnUZI0g/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Hip-Hop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Kanye West moves through a saturated Tokyo of laboratories, motorcycles, shutter shades, Japanese type, and bodies framed through science-fiction imagery.",
+          "whyItMatters": "The video joined mainstream hip-hop to a dense field of Japanese urban and anime references, treating cultural citation as the engine of a new pop persona.",
+          "historicalContext": "Directed by Hype Williams and released in 2007 during the Graduation period, the work coincided with West's shift toward electronic production and stadium-scale visual identity.",
+          "keyInnovation": "Guerrilla location footage, luminous graphic overlays, rapid compositing, medical imagery, and explicit echoes of Akira compress Tokyo into a synthetic performance space."
+        },
+        "ja": {
+          "shortSummary": "Kanye Westが、研究施設、オートバイ、シャッターシェード、日本語の文字、SF的に構成された身体が交錯する高彩度の東京を移動する作品。",
+          "whyItMatters": "メインストリームのヒップホップを日本の都市文化とアニメの参照群へ接続し、文化的引用を新しいポップ人格の推進力として扱いました。",
+          "historicalContext": "Hype Williamsが監督し、『Graduation』期の2007年に公開。Westが電子的な制作と大規模な視覚アイデンティティへ移行する時期と重なります。",
+          "keyInnovation": "ゲリラ的なロケ撮影、発光するグラフィック合成、高速なコンポジット、医療イメージ、『AKIRA』への明示的な参照によって、東京を人工的な演奏空間へ圧縮しています。"
+        }
+      },
+      "sources": [
+        {"type":"director_portfolio","url":"https://saintjamesstudios.com/projects/kanye-west-stronger/","supports":["officialTitle","director"]},
+        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/kanye-west-stronger/","supports":["officialTitle","releaseYear","label"]},
+        {"type":"recording_academy_editorial","url":"https://www.grammy.com/news/alicia-keys-amy-winehouse-7-happenings-50th-grammy-awards/","supports":["officialVideoIdentity","youtubeId","historicalContext","songAwardExclusion"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=PsO6ZnUZI0g","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "The official GRAMMY record is Best Rap Solo Performance for the song, not a music-video award, and is therefore not registered as a work award. No VFX company is accepted from secondary-only credit listings."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "The Knife",
+      "title": "Silent Shout",
+      "metadata": {
+        "officialTitle": "Silent Shout",
+        "releaseYear": 2006,
+        "countryCode": "SE",
+        "directors": ["Andreas Nilsson"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Rabid Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=mWzZnxPAQhs",
+        "youtubeId": "mWzZnxPAQhs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/mWzZnxPAQhs/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Electronic"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Figures with altered faces and bodies appear in a dark domestic world illuminated by screens, cold lamps, and intermittent colored light.",
+          "whyItMatters": "The video makes lighting and exposure carry psychological identity, allowing a minimal set of bodies and rooms to feel unstable without explanatory narrative.",
+          "historicalContext": "Released in 2006 during The Knife's Silent Shout period, the work extended the duo's controlled anonymity into an austere moving-image form.",
+          "keyInnovation": "Underexposure, UV-like color, screen light, prosthetic distortion, and near-static framing use limited visibility as an active compositional material."
+        },
+        "ja": {
+          "shortSummary": "変形した顔と身体を持つ人物が、スクリーン、冷たい照明、断続的な色光に照らされた暗い室内世界に現れる作品。",
+          "whyItMatters": "照明と露出に心理的なアイデンティティを担わせ、説明的な物語なしに、少数の身体と部屋を不安定な存在へ変えました。",
+          "historicalContext": "The Knifeの『Silent Shout』期である2006年に公開され、デュオが保ってきた匿名性を禁欲的な映像形式へ拡張しました。",
+          "keyInnovation": "低露出、UVを思わせる色、画面光、補綴的な変形、ほぼ静止した構図によって、見えにくさを能動的な構成素材として用いています。"
+        }
+      },
+      "sources": [
+        {"type":"artist_official","url":"https://www.theknife.net/","supports":["officialTitle","releaseYear","label","releaseContext"]},
+        {"type":"artist_official","url":"https://theknife.net/bio","supports":["releaseYear","historicalContext","visualIdentity"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=mWzZnxPAQhs","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "No award result is registered in this pass. The director credit remains pending a direct creator or production source even though the work identity and official artist context are established."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "director_source_needs_upgrade", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Sigur Rós",
+      "title": "Glósóli",
+      "metadata": {
+        "officialTitle": "Glósóli",
+        "releaseYear": 2005,
+        "countryCode": "IS",
+        "directors": ["Arni & Kinski"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Krunk Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Bz8iEJeh26E",
+        "youtubeId": "Bz8iEJeh26E",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Bz8iEJeh26E/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Post-Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A barefoot drummer leads a growing procession of children across an Icelandic landscape toward a cliff and a final collective leap.",
+          "whyItMatters": "The film builds a complete myth from landscape, costume, procession, and one unresolved action, keeping the boundary between flight and fall deliberately open.",
+          "historicalContext": "Directed by Arni & Kinski and released in 2005, the video accompanied Sigur Rós's Takk… period and was shot in Iceland shortly before publication.",
+          "keyInnovation": "Measured procession, natural-scale landscape, restrained period styling, and a single climactic cut align the song's accumulation with a narrative of collective movement."
+        },
+        "ja": {
+          "shortSummary": "裸足の太鼓奏者が、増え続ける子どもたちの列をアイスランドの風景から崖へ導き、最後に全員が跳躍する作品。",
+          "whyItMatters": "風景、衣装、行進、一つの未解決の行為だけで完全な神話を構築し、飛翔と落下の境界を意図的に開いたままにしました。",
+          "historicalContext": "Arni & Kinskiが監督し2005年に公開。Sigur Rósの『Takk…』期に制作され、公開直前にアイスランドで撮影されました。",
+          "keyInnovation": "計測された行進、自然の縮尺を保つ風景、抑制された時代的衣装、一度のクライマックスカットによって、楽曲の蓄積と集団移動の物語を一致させています。"
+        }
+      },
+      "sources": [
+        {"type":"artist_official","url":"https://sigurros.com/film/glosoli/","supports":["officialTitle","releaseYear","director","label","officialVideoIdentity"]},
+        {"type":"artist_official","url":"https://sigurros.com/news/2005/glsli-music-video/","supports":["releaseYear","shootingCountry","releaseContext"]},
+        {"type":"artist_official","url":"https://sigurros.com/news/2005/glosoli-video-qa/","supports":["cinematographer","productionContext"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=Bz8iEJeh26E","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": []
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+    }
+  ]
+}
