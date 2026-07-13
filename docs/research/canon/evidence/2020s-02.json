@@ -1,0 +1,226 @@
+{
+  "batch": "2020s-02",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Doja Cat",
+      "title": "Paint The Town Red",
+      "metadata": {
+        "officialTitle": "Paint The Town Red",
+        "releaseYear": 2023,
+        "countryCode": "US",
+        "directors": ["Doja Cat", "Nina McNeely"],
+        "productionCompany": "Freenjoy",
+        "vfxProduction": "SUPERCONTINENT",
+        "label": "Kemosabe Records / RCA Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=m4_9TFeMfJE",
+        "youtubeId": "m4_9TFeMfJE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/m4_9TFeMfJE/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Hip-Hop / Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Doja Cat moves through a sequence of surreal tableaux derived from her own paintings, accompanied by death figures, exposed flesh, devils, and impossible creatures.",
+          "whyItMatters": "The video makes an artist's preparatory paintings the governing structure of a major pop production, preserving their grotesque imagery while expanding them into performance space.",
+          "historicalContext": "Released in 2023 through Kemosabe and RCA, the video was co-directed by Doja Cat and Nina McNeely and produced by Freenjoy.",
+          "keyInnovation": "Three painted compositions are reconstructed as dimensional sets and effects sequences, allowing colour, creature design, choreography, and editing to move between static source image and live action."
+        },
+        "ja": {
+          "shortSummary": "Doja Cat自身の絵画を基にしたシュルレアルな場面を移動し、死の人物、露出した肉体、悪魔、不可能な生物が現れる作品。",
+          "whyItMatters": "アーティストの準備絵画を大規模ポップ制作の支配的な構造にし、そのグロテスクな図像を保ったままパフォーマンス空間へ拡張しました。",
+          "historicalContext": "KemosabeとRCAから2023年に公開され、Doja CatとNina McNeelyが共同監督、Freenjoyが制作しました。",
+          "keyInnovation": "三つの絵画構図を立体セットとVFXシークエンスとして再構築し、色、クリーチャー造形、振付、編集を静止した原画と実写の間で往復させています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "label_official",
+          "url": "https://www.sonymusic.ca/press_release/doja-cat-releases-new-single-paint-the-town-red",
+          "supports": ["officialTitle", "releaseYear", "directors", "label", "officialVideoExistence", "productionConcept"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=m4_9TFeMfJE",
+          "supports": ["officialTitle", "youtubeId", "thumbnailUrl"]
+        },
+        {
+          "type": "production_portfolio",
+          "url": "https://vimeo.com/851575360",
+          "supports": ["directors", "productionCompany", "vfxProduction", "producer", "cinematographer", "productionDesigner", "editor", "colorist"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://winners.webbyawards.com/2024/video-film/general-video-film/music-video/290305/doja-cat-paint-the-town-red",
+          "supports": ["officialTitle", "editor", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://berlincommercial.awardsengine.com/?action=ows%3Aentries.details&e=159281&project_year=2024",
+          "supports": ["officialTitle", "directors", "productionCompany", "producer", "cinematographer", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "The Webby Awards",
+            "year": 2024,
+            "category": "Video — Music Video",
+            "result": "Nominee",
+            "creditedNames": ["Mah Ferraz", "Church Edit"],
+            "source": "https://winners.webbyawards.com/2024/video-film/general-video-film/music-video/290305/doja-cat-paint-the-town-red"
+          },
+          {
+            "program": "Berlin Commercial",
+            "year": 2024,
+            "category": "Music Videos — Craft: Editing",
+            "result": "Shortlist",
+            "creditedNames": ["Doja Cat", "Nina McNeely", "Freenjoy"],
+            "source": "https://berlincommercial.awardsengine.com/?action=ows%3Aentries.details&e=159281&project_year=2024"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "production_source_needs_upgrade"]
+    },
+    {
+      "artist": "Tyler, The Creator",
+      "title": "LUMBERJACK",
+      "metadata": {
+        "officialTitle": "LUMBERJACK",
+        "releaseYear": 2021,
+        "countryCode": "US",
+        "directors": ["Tyler Okonma"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Columbia Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=R4Y7JIQlv20",
+        "youtubeId": "R4Y7JIQlv20",
+        "thumbnailUrl": "https://i.ytimg.com/vi/R4Y7JIQlv20/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Hip-Hop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Tyler, The Creator moves through compact theatrical sets involving travel, luxury objects, forced weather, and abrupt changes of scale and location.",
+          "whyItMatters": "The video compresses a complete visual persona into a short duration, using production design and comic interruption to introduce the Call Me If You Get Lost world with unusual economy.",
+          "historicalContext": "Released in 2021 before Call Me If You Get Lost, the work was directed under Tyler Okonma's established Wolf Haley authorship.",
+          "keyInnovation": "Hard cuts, miniature-feeling sets, frontal blocking, and deliberately artificial weather turn each lyric fragment into a self-contained stage image."
+        },
+        "ja": {
+          "shortSummary": "Tyler, The Creatorが旅行、高級品、人工的な天候、急なスケールと場所の変化を含む小型の舞台セットを移動する作品。",
+          "whyItMatters": "短い尺の中に完全な視覚的人格を圧縮し、美術と喜劇的な中断によって『Call Me If You Get Lost』の世界を高い密度で導入しました。",
+          "historicalContext": "『Call Me If You Get Lost』に先行して2021年に公開され、Tyler Okonmaが継続して用いるWolf Haley名義の演出体系に位置づきます。",
+          "keyInnovation": "ハードカット、ミニチュアのようなセット、正面性の強い人物配置、意図的に人工的な天候によって、歌詞の断片を独立した舞台イメージへ変えています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=R4Y7JIQlv20",
+          "supports": ["officialTitle", "releaseYear", "director", "youtubeId", "thumbnailUrl", "label"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "A possible 2021 MTV VMA direction nomination was not entered because an accessible official archive record has not yet been attached."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "YOASOBI",
+      "title": "アイドル",
+      "metadata": {
+        "officialTitle": "アイドル",
+        "localTitle": "アイドル",
+        "englishTitle": "Idol",
+        "releaseYear": 2023,
+        "countryCode": "JP",
+        "directors": [],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Sony Music Entertainment Japan",
+        "youtubeUrl": "https://www.youtube.com/watch?v=ZRtdQ81jPUQ",
+        "youtubeId": "ZRtdQ81jPUQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/ZRtdQ81jPUQ/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "J-Pop / Animation"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Animated idol performance, media imagery, fan perception, and private contradiction are rapidly intercut around the central figure of Ai Hoshino.",
+          "whyItMatters": "The work uses the visual vocabulary of anime promotion to examine the construction of idol identity, aligning extreme information density with the song's shifts in voice and perspective.",
+          "historicalContext": "Released in 2023 as the opening theme for Oshi no Ko, Idol became a major international Japanese pop and animation work and later received MUSIC AWARDS JAPAN's Best Music Video honour.",
+          "keyInnovation": "Rapid graphic transitions, character animation, simulated media surfaces, and sharply changing colour systems synchronize multiple public and private identities within a single performance."
+        },
+        "ja": {
+          "shortSummary": "星野アイを中心に、アニメーションによるアイドル・パフォーマンス、メディア像、ファンの視線、私的な矛盾を高速に交差させる作品。",
+          "whyItMatters": "アニメ宣伝の視覚語彙を用いてアイドル人格の構築を検討し、極端な情報密度を楽曲の声と視点の変化へ対応させました。",
+          "historicalContext": "『【推しの子】』オープニング主題歌として2023年に公開され、日本のポップとアニメーションを国際的に接続する代表作となり、後にMUSIC AWARDS JAPANのBest Music Videoを受賞しました。",
+          "keyInnovation": "高速なグラフィック転換、キャラクターアニメーション、模擬メディア画面、急変する色彩体系を同期し、複数の公的・私的人格を一つのパフォーマンスへ統合しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=ZRtdQ81jPUQ",
+          "supports": ["officialTitle", "releaseYear", "youtubeId", "thumbnailUrl", "label"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.musicawardsjapan.com/wp-content/uploads/20_%E6%9C%80%E5%84%AA%E7%A7%80%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B7%E3%82%99%E3%83%83%E3%82%AF%E3%83%92%E3%82%99%E3%83%86%E3%82%99%E3%82%AA%E8%B3%9Ed.pdf",
+          "supports": ["officialTitle", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "MUSIC AWARDS JAPAN",
+            "year": 2025,
+            "category": "Best Music Video / 最優秀ミュージックビデオ賞",
+            "result": "Winner",
+            "creditedNames": ["YOASOBI"],
+            "source": "https://www.musicawardsjapan.com/wp-content/uploads/20_%E6%9C%80%E5%84%AA%E7%A7%80%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B7%E3%82%99%E3%83%83%E3%82%AF%E3%83%92%E3%82%99%E3%83%86%E3%82%99%E3%82%AA%E8%B3%9Ed.pdf"
+          }
+        ]
+      },
+      "publicationBlockers": ["director_unverified", "production_credit_unverified", "vfx_credit_unverified", "award_scope_incomplete", "runtime_unverified"]
+    },
+    {
+      "artist": "Beyoncé",
+      "title": "BREAK MY SOUL",
+      "requiresIdentityResolution": true,
+      "officialVideoUnresolved": true,
+      "metadata": {
+        "officialTitle": "BREAK MY SOUL",
+        "releaseYear": 2022,
+        "countryCode": "US",
+        "directors": [],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Parkwood Entertainment / Columbia Records",
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": "Dance / House"
+      },
+      "sources": [
+        {
+          "type": "label_official",
+          "url": "https://www.sonymusic.fr/news/beyonce-break-my-soul/",
+          "supports": ["officialTitle", "releaseYear", "officialLyricVideoExistence", "recordingContext"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "The editorial row does not identify whether it refers to the official lyric video, CLIQUEBAIT version, visualizer, or another visual asset. Song and recording awards are excluded until the work identity is resolved."
+      },
+      "publicationBlockers": ["work_identity_unresolved", "official_video_unresolved", "director_unverified", "production_credit_unverified", "vfx_credit_unverified", "award_scope_incomplete", "runtime_unverified"]
+    }
+  ]
+}

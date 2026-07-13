@@ -1,0 +1,255 @@
+{
+  "batch": "2020s-01",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "宇多田ヒカル",
+      "title": "One Last Kiss",
+      "metadata": {
+        "officialTitle": "One Last Kiss",
+        "releaseYear": 2021,
+        "countryCode": "JP",
+        "directors": ["庵野秀明"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Epic Records Japan",
+        "youtubeUrl": "https://www.youtube.com/watch?v=0Uhh62MUEic",
+        "youtubeId": "0Uhh62MUEic",
+        "thumbnailUrl": "https://i.ytimg.com/vi/0Uhh62MUEic/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "J-Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Hikaru Utada appears in intimate handheld images gathered across domestic rooms, streets, transport, and waterfront locations, with the act of recording left visible.",
+          "whyItMatters": "The work replaces polished franchise imagery with personal observation, giving a major film theme the scale and texture of an informal visual diary.",
+          "historicalContext": "Released in 2021 as the theme for Evangelion: 3.0+1.0 Thrice Upon a Time, the video was directed by Hideaki Anno and assembled from remotely captured footage.",
+          "keyInnovation": "Consumer-scale cameras, visible filming gestures, and multiple image qualities are edited into a coherent portrait that makes distance and mediated intimacy part of the form."
+        },
+        "ja": {
+          "shortSummary": "室内、街路、交通機関、水辺で撮影された親密な手持ち映像の中に宇多田ヒカルが現れ、撮る行為自体も画面へ残される作品。",
+          "whyItMatters": "大規模映画主題歌に磨き込まれたフランチャイズ映像ではなく個人的な観察を与え、非公式な映像日記の尺度と質感へ置き換えました。",
+          "historicalContext": "『シン・エヴァンゲリオン劇場版』の主題歌として2021年に公開され、庵野秀明が監督。遠隔で撮影された素材を用いて構成されました。",
+          "keyInnovation": "民生機に近いカメラ、撮影動作の可視化、異なる画質を一つの肖像へ編集し、距離と媒介された親密さを形式の一部にしています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "label_official",
+          "url": "https://www.sonymusic.co.jp/artist/utadahikaru/info/528047",
+          "supports": ["officialTitle", "releaseYear", "director", "officialVideoExistence", "culturalReach"]
+        },
+        {
+          "type": "label_official",
+          "url": "https://www.sonymusic.co.jp/artist/utadahikaru/discography/ESCL-5488",
+          "supports": ["officialTitle", "releaseYear", "label"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=0Uhh62MUEic",
+          "supports": ["officialTitle", "director", "youtubeId", "thumbnailUrl"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://prtimes.jp/a/?c=2929&f=d2929-1983-5950e976d8c5708e582067b1b9d65665.pdf&r=1983",
+          "supports": ["officialTitle", "director", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "SPACE SHOWER MUSIC AWARDS",
+            "year": 2022,
+            "category": "BEST MOVIE SONG",
+            "result": "Winner",
+            "creditedNames": ["宇多田ヒカル", "庵野秀明"],
+            "source": "https://prtimes.jp/a/?c=2929&f=d2929-1983-5950e976d8c5708e582067b1b9d65665.pdf&r=1983"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "The Weeknd",
+      "title": "Take My Breath",
+      "metadata": {
+        "officialTitle": "Take My Breath",
+        "releaseYear": 2021,
+        "countryCode": "US",
+        "directors": ["Cliqua"],
+        "productionCompany": "Somesuch",
+        "vfxProduction": null,
+        "label": "XO Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=rhTl_OyehF8",
+        "youtubeId": "rhTl_OyehF8",
+        "thumbnailUrl": "https://i.ytimg.com/vi/rhTl_OyehF8/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Synth-Pop / R&B"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "The Weeknd enters a strobe-lit underground club where dance, breath, erotic danger, and mechanical restraint unfold within a tightly controlled industrial environment.",
+          "whyItMatters": "The video translates the song's physical urgency into an image system built from flashing light, restricted breath, and performance under pressure.",
+          "historicalContext": "Released in 2021 at the beginning of the Dawn FM cycle, the video was directed by Cliqua and produced by Somesuch; it was shortlisted at the 2021 UK Music Video Awards.",
+          "keyInnovation": "Lighting rhythm, haze, close physical contact, and controlled camera movement fuse nightclub performance with a narrative of voluntary risk."
+        },
+        "ja": {
+          "shortSummary": "The Weekndがストロボに照らされた地下クラブへ入り、ダンス、呼吸、官能的な危険、機械的拘束が制御された工業空間で展開する作品。",
+          "whyItMatters": "楽曲の身体的切迫を、点滅する光、制限された呼吸、圧力下のパフォーマンスから成る映像システムへ翻訳しました。",
+          "historicalContext": "『Dawn FM』期の始まりとなる2021年に公開され、Cliquaが監督、Somesuchが制作。2021年UK Music Video AwardsのShortlistに選出されました。",
+          "keyInnovation": "照明のリズム、煙霧、身体の接近、制御されたカメラ移動を結び、クラブ・パフォーマンスと自発的な危険の物語を融合しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=rhTl_OyehF8",
+          "supports": ["officialTitle", "releaseYear", "youtubeId", "thumbnailUrl", "label"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://awards.ukmva.com/years/2021",
+          "supports": ["officialTitle", "director", "productionCompany", "producer", "label", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "UK Music Video Awards",
+            "year": 2021,
+            "category": "Best R&B / Soul Video — International",
+            "result": "Shortlisted",
+            "creditedNames": ["Cliqua", "Somesuch"],
+            "source": "https://awards.ukmva.com/years/2021"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "vfx_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "NewJeans",
+      "title": "Ditto",
+      "metadata": {
+        "officialTitle": "Ditto",
+        "releaseYear": 2022,
+        "countryCode": "KR",
+        "directors": ["Shin Woo-seok"],
+        "productionCompany": "Dolphiners Films",
+        "vfxProduction": null,
+        "label": "ADOR",
+        "youtubeUrl": "https://www.youtube.com/watch?v=pSUydWEqKwE",
+        "youtubeId": "pSUydWEqKwE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/pSUydWEqKwE/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "K-Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Presented across linked Side A and Side B films, a schoolgirl records NewJeans and her classmates while memory, fandom, and the reliability of the camera gradually separate.",
+          "whyItMatters": "The work treats idol imagery as remembered evidence rather than direct promotion, placing the viewer inside an unstable relationship between fan, performer, and recorded image.",
+          "historicalContext": "Released in December 2022, Ditto was directed by Shin Woo-seok and produced by Dolphiners Films as a two-part narrative for NewJeans and ADOR.",
+          "keyInnovation": "Consumer-video texture, repeated scenes from altered viewpoints, and a two-film structure make recording itself the mechanism through which presence becomes absence."
+        },
+        "ja": {
+          "shortSummary": "Side AとSide Bの連作で、一人の女子生徒がNewJeansと同級生を撮影し、記憶、ファンダム、カメラの信頼性が徐々に分離していく作品。",
+          "whyItMatters": "アイドル映像を直接的な宣伝ではなく記憶された証拠として扱い、ファン、演者、記録映像の不安定な関係の中へ鑑賞者を置きました。",
+          "historicalContext": "2022年12月に公開され、Shin Woo-seokが監督、Dolphiners Filmsが制作。NewJeansとADORのための二部構成の物語として発表されました。",
+          "keyInnovation": "民生映像の質感、視点を変えて反復される場面、二本の映画構造によって、記録行為そのものを存在が不在へ変わる仕組みにしています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=pSUydWEqKwE",
+          "supports": ["officialTitle", "releaseYear", "youtubeId", "thumbnailUrl", "label", "sideA"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=V37TaRdVUQY",
+          "supports": ["officialTitle", "releaseYear", "label", "sideB"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://clios.com/winners-gallery/details/9201",
+          "supports": ["officialTitle", "director", "productionCompany", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "Clio Music Awards",
+            "year": 2024,
+            "category": "Film & Video — Music Videos",
+            "result": "Shortlist",
+            "creditedNames": ["NewJeans", "Shin Woo-seok", "Dolphiners Films"],
+            "source": "https://clios.com/winners-gallery/details/9201"
+          }
+        ],
+        "notes": "Song-of-the-year results for the recording are outside the music-video award scope and are not registered here."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "vfx_credit_unverified", "runtime_unverified", "label_source_needs_upgrade"]
+    },
+    {
+      "artist": "Kendrick Lamar",
+      "title": "Count Me Out",
+      "metadata": {
+        "officialTitle": "Count Me Out",
+        "releaseYear": 2022,
+        "countryCode": "US",
+        "directors": ["Dave Free", "Kendrick Lamar"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "pgLang / Top Dawg Entertainment / Aftermath / Interscope",
+        "youtubeUrl": "https://www.youtube.com/watch?v=5GhhVHpPR_M",
+        "youtubeId": "5GhhVHpPR_M",
+        "thumbnailUrl": "https://i.ytimg.com/vi/5GhhVHpPR_M/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Hip-Hop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A therapy session between Kendrick Lamar and a clinician opens into staged memories, accusations, group tableaux, and images of conflict and release.",
+          "whyItMatters": "The work makes reflection and self-interrogation its narrative engine, using the music-video form to move between private speech and symbolic public scenes.",
+          "historicalContext": "Released in 2022 during the Mr. Morale & the Big Steppers period, the video was directed by Dave Free and Kendrick Lamar and later nominated for the 2024 GRAMMY Award for Best Music Video.",
+          "keyInnovation": "A sparse conversational frame expands into precisely composed vignettes, allowing transitions between therapy, memory, performance, and allegory without resolving them into a single chronology."
+        },
+        "ja": {
+          "shortSummary": "Kendrick Lamarとセラピストの対話から、演出された記憶、告発、群像、対立と解放のイメージへ展開する作品。",
+          "whyItMatters": "内省と自己尋問を物語の駆動力とし、MV形式を用いて私的な発話と象徴的な公共場面を往復しました。",
+          "historicalContext": "『Mr. Morale & the Big Steppers』期の2022年に公開され、Dave FreeとKendrick Lamarが監督。2024年GRAMMY AwardsのBest Music Videoにノミネートされました。",
+          "keyInnovation": "抑制された対話の枠から精密に構成された小場面へ拡張し、セラピー、記憶、パフォーマンス、寓意を単一の時間順へ解消せず接続しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=5GhhVHpPR_M",
+          "supports": ["officialTitle", "releaseYear", "youtubeId", "thumbnailUrl", "label"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.grammy.com/news/2024-grammys-nominations-full-winners-nominees-list/",
+          "supports": ["officialTitle", "directors", "producers", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "GRAMMY Awards",
+            "year": 2024,
+            "category": "Best Music Video",
+            "result": "Nominee",
+            "creditedNames": ["Kendrick Lamar", "Dave Free", "Jason Baum", "Jamie Rabineau"],
+            "source": "https://www.grammy.com/news/2024-grammys-nominations-full-winners-nominees-list/"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+    }
+  ]
+}

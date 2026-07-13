@@ -1,0 +1,302 @@
+{
+  "batch": "2020s-04",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Pharrell Williams",
+      "title": "Cash In Cash Out",
+      "officialVideoUnresolved": true,
+      "metadata": {
+        "officialTitle": "Cash In Cash Out",
+        "releaseYear": 2022,
+        "countryCode": "US",
+        "directors": ["François Rousselet"],
+        "productionCompany": "DIVISION",
+        "vfxProduction": "Electric Theatre Collective",
+        "label": "Columbia Records / Sony Music",
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": "Hip-Hop / 3D Animation"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Three performers occupy a rotating zoetrope-like structure, where repeated figures and continuous camera motion turn a sculptural set into animated choreography.",
+          "whyItMatters": "The video joins character animation, mechanical repetition, and performance direction in a single spatial idea rather than treating visual effects as a separate layer.",
+          "historicalContext": "Directed by François Rousselet and produced by DIVISION with animation and visual-effects work by Electric Theatre Collective, the 2022 film became a major craft-award work across the following season.",
+          "keyInnovation": "A virtual rotating apparatus is staged with the legibility of a physical optical toy, allowing loops, transformations, and multiple performers to share one continuous visual system."
+        },
+        "ja": {
+          "shortSummary": "3人のパフォーマーが回転するゾートロープ状の構造に配置され、反復する人物像と連続的なカメラ運動が彫刻的なセットをアニメーション化する作品。",
+          "whyItMatters": "キャラクターアニメーション、機械的な反復、パフォーマンス演出を一つの空間的アイデアへ統合し、VFXを独立した装飾層として扱わなかった点に意義があります。",
+          "historicalContext": "François Rousseletが監督し、DIVISIONが制作、Electric Theatre CollectiveがアニメーションとVFXを担った2022年の作品で、翌年の主要なクラフト賞で評価されました。",
+          "keyInnovation": "仮想的な回転装置を物理的な光学玩具のように明快に構成し、ループ、変形、複数のパフォーマーを一つの連続した視覚システムに収めています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "award_archive_official",
+          "url": "https://www.britisharrows.com/films/british-arrows/2023/cash-in-cash-out-pharrell-21-savage-and-tyler-the-creato",
+          "supports": ["officialTitle", "artist", "releaseYear", "director", "productionCompany", "vfxProduction", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/pharrell-williams-cash-in-cash-out",
+          "supports": ["officialTitle", "client", "productionCompany", "vfxProduction", "awardProgram", "awardYear", "awardOutcome"]
+        },
+        {
+          "type": "award_annual_official",
+          "url": "https://www.dandad.org/annual/2023/dandad2023/d-ad-in-2023",
+          "supports": ["awardCategory", "awardOutcome"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "British Arrows",
+            "year": 2023,
+            "category": "Music Video — Craft",
+            "result": "Gold",
+            "creditedNames": ["François Rousselet", "DIVISION", "Electric Theatre Collective"],
+            "source": "https://www.britisharrows.com/films/british-arrows/2023/cash-in-cash-out-pharrell-21-savage-and-tyler-the-creato"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 2023,
+            "category": "Visual Effects / Craft",
+            "result": "Black Pencil",
+            "creditedNames": ["DIVISION", "Electric Theatre Collective"],
+            "source": "https://www.dandad.org/annual/2023/dandad2023/d-ad-in-2023"
+          }
+        ],
+        "notes": "The D&AD work page records ten pencils, but it does not expose a reliable category-to-pencil mapping for every result. Only the Black Pencil explicitly mapped to Visual Effects / Craft by the official annual summary is staged."
+      },
+      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "runtime_unverified"]
+    },
+    {
+      "artist": "Bonobo",
+      "title": "No Reason",
+      "metadata": {
+        "officialTitle": "No Reason",
+        "releaseYear": 2017,
+        "countryCode": "GB",
+        "directors": ["Oscar Hudson"],
+        "productionCompany": "Pulse Films",
+        "vfxProduction": null,
+        "label": "Ninja Tune",
+        "youtubeUrl": "https://www.youtube.com/watch?v=ebzEEEdjHj0",
+        "youtubeId": "ebzEEEdjHj0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/ebzEEEdjHj0/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Electronic / Conceptual"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A performer moves through a sequence of apparently identical rooms that become progressively smaller, turning domestic space into a controlled perceptual distortion.",
+          "whyItMatters": "The film makes production design carry the central illusion, demonstrating how changes of scale can create an uncanny journey without relying on an explanatory narrative.",
+          "historicalContext": "Oscar Hudson directed the 2017 video for Bonobo and Nick Murphy. It received the UK Music Video Awards for Best UK Dance Video and Best Production Design in a Video.",
+          "keyInnovation": "Successive physical rooms, scaled props, matched framing, and choreographed movement create a continuous shrinking effect while preserving the tactile evidence of real sets."
+        },
+        "ja": {
+          "shortSummary": "人物が同じように見える複数の部屋を進むたびに空間が段階的に縮小し、日常的な室内を精密な知覚の錯覚へ変える作品。",
+          "whyItMatters": "プロダクションデザインそのものに錯覚の中心を担わせ、説明的な物語に依存せず、スケール変化だけで不穏な移動体験を作りました。",
+          "historicalContext": "Oscar HudsonがBonoboとNick Murphyのために監督した2017年の作品で、UK Music Video AwardsのBest UK Dance VideoとBest Production Design in a Videoを受賞しました。",
+          "keyInnovation": "段階的に縮小した実物セット、スケールの異なる小道具、対応する構図、振り付けられた移動を組み合わせ、物理的な手触りを保ったまま連続的な縮小効果を成立させています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://bonobomusic.com/watch/",
+          "supports": ["officialTitle", "officialVideoCatalogue"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=ebzEEEdjHj0",
+          "supports": ["officialTitle", "artist", "youtubeId", "thumbnailUrl"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.ukmva.com/191-2017",
+          "supports": ["officialTitle", "director", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "label_official",
+          "url": "https://ninjatune.net/about-us",
+          "supports": ["label", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "production_trade",
+          "url": "https://www.promonews.tv/videos/2017/01/19/bonobo-no-reason-oscar-hudson/45656",
+          "supports": ["director", "productionCompany", "productionDesign"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "UK Music Video Awards",
+            "year": 2017,
+            "category": "Best UK Dance Video",
+            "result": "Winner",
+            "creditedNames": ["Oscar Hudson"],
+            "source": "https://ninjatune.net/about-us"
+          },
+          {
+            "program": "UK Music Video Awards",
+            "year": 2017,
+            "category": "Best Production Design in a Video",
+            "result": "Winner",
+            "creditedNames": ["Oscar Hudson"],
+            "source": "https://ninjatune.net/about-us"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "vfx_production_unverified", "production_company_source_needs_upgrade"]
+    },
+    {
+      "artist": "水曜日のカンパネラ",
+      "title": "バク",
+      "officialVideoUnresolved": true,
+      "metadata": {
+        "officialTitle": "バク",
+        "releaseYear": 2017,
+        "countryCode": "JP",
+        "directors": ["鎌谷聡次郎"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Warner Music Japan",
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": "J-Pop / Full CG Animation"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A fully computer-generated dream world follows a baku, the mythic eater of dreams, through elastic bodies, shifting architecture, and surreal transformations.",
+          "whyItMatters": "The video places an entire pop performance inside a deliberately synthetic CG environment, using the freedom of animation to connect folklore with contemporary visual absurdity.",
+          "historicalContext": "Released in 2017 for Wednesday Campanella and directed by Sojiro Kamatani, the work was presented at the time as the group's first music video made entirely with computer graphics.",
+          "keyInnovation": "Continuous metamorphosis replaces conventional cutting: characters, props, and architecture change function within the same animated space, making transformation the video's narrative grammar."
+        },
+        "ja": {
+          "shortSummary": "夢を食べる伝承上の獏を軸に、伸縮する身体、変形する建築、シュールな転換が連続するフルCGの夢世界。",
+          "whyItMatters": "ポップ・パフォーマンス全体を意図的に人工的なCG環境へ置き、アニメーションの自由度によって伝承と現代的な不条理表現を接続しました。",
+          "historicalContext": "水曜日のカンパネラのために鎌谷聡次郎が監督した2017年の作品で、当時、同グループ初の全編CGミュージックビデオとして紹介されました。",
+          "keyInnovation": "通常のカット割りに代えて連続的な変容を用い、人物、小道具、建築の機能を同じアニメーション空間内で変化させ、変形そのものを物語の文法にしています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "label_official",
+          "url": "https://wmg.jp/wedcamp/mv/",
+          "supports": ["artist", "label", "officialVideoCatalogue"]
+        },
+        {
+          "type": "music_press",
+          "url": "https://www.billboard-japan.com/d_news/detail/49381/2",
+          "supports": ["officialTitle", "releaseYear", "director", "fullCgProductionConcept"]
+        },
+        {
+          "type": "music_press",
+          "url": "https://natalie.mu/music/news/226979",
+          "supports": ["officialTitle", "releaseYear", "director", "fullCgProductionConcept"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": []
+      },
+      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "runtime_unverified", "production_company_unverified", "vfx_production_unverified", "director_source_needs_upgrade"]
+    },
+    {
+      "artist": "A$AP Rocky",
+      "title": "Tailor Swif",
+      "officialVideoUnresolved": true,
+      "metadata": {
+        "officialTitle": "Tailor Swif",
+        "releaseYear": 2024,
+        "countryCode": "US",
+        "directors": ["Vania Heymann", "Gal Muggia"],
+        "productionCompany": "Iconoclast",
+        "vfxProduction": "Vania Heymann / Tal Baltuch",
+        "label": "RCA / AWGE",
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": "Hip-Hop / Surreal Narrative"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A chain of precisely staged urban tableaux turns ordinary streets into an escalating sequence of physical jokes, visual contradictions, and impossible transitions.",
+          "whyItMatters": "The work extends the tradition of large-scale practical music-video spectacle while maintaining the concise timing and visual economy of a succession of single-shot ideas.",
+          "historicalContext": "Directed by Vania Heymann and Gal Muggia, produced by Iconoclast, and released in 2024, the film received a CICLOPE Grand Prix, a Grammy nomination, and the SXSW Music Video Competition Audience Award.",
+          "keyInnovation": "Each scene is designed as a self-contained visual proposition, but camera movement, match action, and controlled VFX connect the tableaux into a continuous rhythm of surprise."
+        },
+        "ja": {
+          "shortSummary": "精密に演出された都市のタブローが連鎖し、日常の街路を身体的なジョーク、視覚的な矛盾、不可能な転換が拡大していく連続へ変える作品。",
+          "whyItMatters": "大規模な実写スペクタクルというMVの伝統を継承しながら、一つずつ完結する視覚アイデアの簡潔なタイミングと経済性を保っています。",
+          "historicalContext": "Vania HeymannとGal Muggiaが監督し、Iconoclastが制作した2024年の作品で、CICLOPE Grand Prix、Grammyノミネート、SXSW Music Video Competition Audience Awardを得ました。",
+          "keyInnovation": "各場面を独立した視覚命題として設計しつつ、カメラ移動、動作の一致、制御されたVFXによって、驚きが連続する一つのリズムへ接続しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "award_archive_official",
+          "url": "https://awards.ciclopefestival.com/?action=ows%3Aentries.details&e=169032&project_year=2024",
+          "supports": ["officialTitle", "directors", "productionCompany", "vfxProduction", "label", "awardProgram", "awardYear", "awardOutcome"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.grammy.com/news/2025-grammys-nominations-full-winners-nominees-list/",
+          "supports": ["officialTitle", "directors", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "festival_official",
+          "url": "https://sxsw.com/film/2025/sxsw-film-tv-festival-announces-2025-audience-award-winners/",
+          "supports": ["officialTitle", "directors", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/aap-rocky-tailor-swif",
+          "supports": ["officialTitle", "awardProgram", "awardYear", "awardOutcome"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "CICLOPE Festival",
+            "year": 2024,
+            "category": "Grand Prix",
+            "result": "Winner",
+            "creditedNames": ["Vania Heymann", "Gal Muggia", "Iconoclast"],
+            "source": "https://awards.ciclopefestival.com/?action=ows%3Aentries.details&e=169032&project_year=2024"
+          },
+          {
+            "program": "Grammy Awards",
+            "year": 2025,
+            "category": "Best Music Video",
+            "result": "Nominee",
+            "creditedNames": ["Vania Heymann", "Gal Muggia", "Natan Schottenfels"],
+            "source": "https://www.grammy.com/news/2025-grammys-nominations-full-winners-nominees-list/"
+          },
+          {
+            "program": "SXSW Film & TV Festival",
+            "year": 2025,
+            "category": "Music Video Competition Audience Award",
+            "result": "Winner",
+            "creditedNames": ["Vania Heymann", "Gal Muggia"],
+            "source": "https://sxsw.com/film/2025/sxsw-film-tv-festival-announces-2025-audience-award-winners/"
+          }
+        ],
+        "notes": "The official D&AD page records four pencils in 2025, but a reliable category-to-pencil mapping is not exposed in the staged evidence. No D&AD result is registered until that mapping is verified."
+      },
+      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "runtime_unverified"]
+    }
+  ]
+}

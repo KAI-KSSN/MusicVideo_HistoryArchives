@@ -1,0 +1,197 @@
+{
+  "batch": "2020s-03",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "millennium parade",
+      "title": "Fly with me",
+      "metadata": {
+        "officialTitle": "Fly with me",
+        "releaseYear": 2020,
+        "countryCode": "JP",
+        "directors": ["Shu Sasaki", "Yuhei Kanbe", "PERIMETRON"],
+        "productionCompany": "PERIMETRON",
+        "vfxProduction": "OPTICAL FORCE, inc. / N-DESIGN Inc. / NEWPOT PICTURES Inc. / DIGITAL GARDEN Inc. / SAZABI Inc.",
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=fuXZMQAD9vU",
+        "youtubeId": "fuXZMQAD9vU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/fuXZMQAD9vU/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Alternative / 3DCG Animation"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A dense 3DCG city, airborne vehicles, masked figures, interface graphics, and motion-captured performance form a continuous cyberpunk pursuit.",
+          "whyItMatters": "The work demonstrates how a Japanese creative collective can coordinate animation, CG, graphic design, compositing, and performance capture as one authorship system.",
+          "historicalContext": "Released in 2020 in connection with Ghost in the Shell: SAC_2045, the video was directed within PERIMETRON by Shu Sasaki and Yuhei Kanbe with a large distributed production team.",
+          "keyInnovation": "Multiple specialist studios and visual languages are combined inside a unified realtime-feeling world, with motion capture and graphic interfaces giving digital characters a performative presence."
+        },
+        "ja": {
+          "shortSummary": "高密度な3DCG都市、飛行車両、仮面の人物、インターフェース・グラフィック、モーションキャプチャの演技が連続するサイバーパンクの追跡劇。",
+          "whyItMatters": "日本のクリエイティブ・コレクティブが、アニメーション、CG、グラフィック、コンポジット、パフォーマンスキャプチャを一つの作家システムとして統括できることを示しました。",
+          "historicalContext": "『攻殻機動隊 SAC_2045』との接続を持つ2020年の作品で、PERIMETRONの佐々木集と神戸雄平が監督し、多数の専門チームが参加しました。",
+          "keyInnovation": "複数の専門スタジオと視覚言語を統一されたリアルタイム感のある世界へ結合し、モーションキャプチャとUI表現によってデジタルキャラクターへ演技の存在感を与えています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "production_company_official",
+          "url": "https://www.perimetron.jp/single-post/2020/06/01/millennium-parade-fly-with-me",
+          "supports": ["officialTitle", "releaseYear", "directors", "productionCompany", "vfxProduction", "animationCredits", "motionCaptureCredits", "youtubeId"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=fuXZMQAD9vU",
+          "supports": ["officialTitle", "youtubeId", "thumbnailUrl"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": []
+      },
+      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "label_unverified"]
+    },
+    {
+      "artist": "Weval",
+      "title": "Someday",
+      "metadata": {
+        "officialTitle": "Someday",
+        "releaseYear": 2019,
+        "countryCode": "IE",
+        "directors": ["Páraic Mc Gloughlin"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Kompakt",
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": "Electronic / Photographic Animation"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Thousands of photographs and moving images are sequenced by recurring shapes, directions, and gestures, producing an abstract journey through landscapes, bodies, and built environments.",
+          "whyItMatters": "The video shows how visual continuity can be created without continuous action, using shared geometry across unrelated images as its primary editing logic.",
+          "historicalContext": "Created by Irish filmmaker Páraic Mc Gloughlin for Weval and released in 2019 through Kompakt, Someday won Best Animation in a Video at the 2019 UK Music Video Awards.",
+          "keyInnovation": "Photographic match cuts and frame-by-frame sequencing convert an archive of personal, public-domain, stock, and geographic imagery into fluid spatial motion."
+        },
+        "ja": {
+          "shortSummary": "数千点の写真と映像を、反復する形、方向、身振りで連結し、風景、身体、建築空間を通過する抽象的な旅を作る作品。",
+          "whyItMatters": "連続した動作を使わず、無関係な画像間の共通幾何を主要な編集論理として、視覚的連続性を構築できることを示しました。",
+          "historicalContext": "アイルランドの映像作家Páraic Mc GloughlinがWevalのために制作し、Kompaktから2019年に公開。UK Music Video AwardsのBest Animation in a Videoを受賞しました。",
+          "keyInnovation": "写真のマッチカットとフレーム単位の配列によって、個人写真、パブリックドメイン、ストック、地理画像のアーカイブを流動的な空間運動へ変換しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "official_video",
+          "url": "https://vimeo.com/328690392",
+          "supports": ["officialTitle", "director", "label", "productionConcept", "sourceImagery"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://activepixels.blob.core.windows.net/ukmvaproduction/assets/ukmva19-winners-booklet-digital.pdf",
+          "supports": ["officialTitle", "director", "label", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "UK Music Video Awards",
+            "year": 2019,
+            "category": "Best Animation in a Video",
+            "result": "Winner",
+            "creditedNames": ["Páraic Mc Gloughlin"],
+            "source": "https://activepixels.blob.core.windows.net/ukmvaproduction/assets/ukmva19-winners-booklet-digital.pdf"
+          }
+        ]
+      },
+      "publicationBlockers": ["youtube_url_unverified", "award_scope_incomplete", "runtime_unverified", "production_company_unverified"]
+    },
+    {
+      "artist": "Max Cooper",
+      "title": "Repetition / TBD",
+      "requiresIdentityResolution": true,
+      "officialVideoUnresolved": true,
+      "metadata": {
+        "officialTitle": null,
+        "releaseYear": null,
+        "countryCode": null,
+        "directors": [],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": "Electronic / Generative Visuals"
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://vimeo.com/channels/66618",
+          "supports": ["artistVisualPractice", "officialVideoCatalogue"]
+        },
+        {
+          "type": "curated_video_archive",
+          "url": "https://www.bugvideos.co.uk/portfolio/repetition",
+          "supports": ["candidateTitle", "candidateDirector"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "The editorial title contains '/ TBD'. Repetition, directed by Kevin McGloughlin, is a plausible candidate, but the selected work must be confirmed before metadata or awards are registered."
+      },
+      "publicationBlockers": ["work_identity_unresolved", "official_video_unresolved", "metadata_unverified", "award_scope_incomplete"]
+    },
+    {
+      "artist": "imai feat. 79, 中村佳穂",
+      "title": "Fly",
+      "officialVideoUnresolved": true,
+      "metadata": {
+        "officialTitle": "Fly feat. 79, 中村佳穂",
+        "releaseYear": 2017,
+        "countryCode": "JP",
+        "directors": ["Baku Hashimoto"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": "Electronic / Stop Motion"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Small pieces of mochi and confectionery are rearranged frame by frame into faces, crowds, symbols, and rhythmic transformations.",
+          "whyItMatters": "The video finds a complete performance vocabulary inside ordinary food materials, using modest scale and tactile imperfection as strengths rather than limitations.",
+          "historicalContext": "Directed and animated by Baku Hashimoto for imai's Fly feat. 79 and Kaho Nakamura, the work was released in connection with the album PSEP.",
+          "keyInnovation": "Direct stop-motion substitution turns shape, texture, bite marks, and placement into musical timing, allowing edible objects to behave as graphic characters."
+        },
+        "ja": {
+          "shortSummary": "小さな餅や菓子をコマごとに並べ替え、顔、群衆、記号、リズミカルな変形を作るストップモーション作品。",
+          "whyItMatters": "身近な食品素材の中に完全なパフォーマンス語彙を見出し、小さなスケールと触覚的な不完全さを制約ではなく強みとして用いました。",
+          "historicalContext": "imai『Fly feat. 79, 中村佳穂』のために橋本麦が監督・アニメーションを担当し、アルバム『PSEP』に関連して発表されました。",
+          "keyInnovation": "置き換えによる直接的なストップモーションで、形、質感、かじられた跡、配置を音楽的タイミングへ変え、食べ物をグラフィック・キャラクターとして動かしています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "director_official",
+          "url": "https://baku89.com/fly",
+          "supports": ["officialTitle", "director", "animationCredit", "album", "productionConcept"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": []
+      },
+      "publicationBlockers": ["official_video_unresolved", "release_year_source_needs_upgrade", "award_scope_incomplete", "runtime_unverified", "label_unverified", "production_company_unverified"]
+    }
+  ]
+}

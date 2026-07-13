@@ -1,0 +1,131 @@
+{
+  "batch": "pilot-canon-01",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Michael Jackson",
+      "title": "Thriller",
+      "metadata": {
+        "officialTitle": "Michael Jackson's Thriller",
+        "releaseYear": 1983,
+        "countryCode": "US",
+        "directors": ["John Landis"],
+        "productionCompany": "Optimum Productions",
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=sOnqjkJTMaA",
+        "youtubeId": "sOnqjkJTMaA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/sOnqjkJTMaA/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Pop / Long-form Narrative"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A long-form music video combining dramatic narrative, choreography, make-up, and special effects.",
+          "whyItMatters": "Thriller is a landmark example of the music video expanding into cinematic, long-form storytelling.",
+          "historicalContext": "Released in 1983, the film was also shown theatrically in 35mm and was selected for the U.S. National Film Registry in 2009.",
+          "keyInnovation": "It integrates narrative filmmaking, choreography, make-up, and special effects within an extended music-video format."
+        },
+        "ja": {
+          "shortSummary": "ドラマ的な物語、振付、特殊メイク、特殊効果を組み合わせた長編形式のミュージックビデオ。",
+          "whyItMatters": "ミュージックビデオを映画的な長編ストーリーテリングへ拡張した代表的作品です。",
+          "historicalContext": "1983年に公開され、35mmフィルムによる劇場上映も行われました。2009年には米国国立フィルム登録簿に選定されています。",
+          "keyInnovation": "物語演出、振付、特殊メイク、特殊効果を長編形式のミュージックビデオへ統合しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "library_catalog_official",
+          "url": "https://www.loc.gov/item/86708393/",
+          "supports": ["officialTitle", "releaseYear", "countryCode", "director", "productionCompany", "productionCharacteristics"]
+        },
+        {
+          "type": "national_registry_official",
+          "url": "https://www.loc.gov/item/prn-09-250/",
+          "supports": ["registrySelection", "historicalContext"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=sOnqjkJTMaA",
+          "supports": ["officialTitle", "youtubeId", "thumbnailUrl"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.grammy.com/awards/26th-annual-grammy-awards/",
+          "supports": ["excludedFalsePositive"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.grammy.com/awards/27th-annual-grammy-awards/",
+          "supports": ["excludedFalsePositive"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "excludedFalsePositives": [
+          "GRAMMY results for the song or album are not music-video awards.",
+          "Making Michael Jackson's Thriller is a separate making-of work and is not registered as an award for this music video.",
+          "The National Film Registry selection is preservation recognition, not an award result."
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "label_unverified", "vfx_production_unverified"]
+    },
+    {
+      "artist": "a-ha",
+      "title": "Take On Me",
+      "metadata": {
+        "officialTitle": "Take On Me",
+        "releaseYear": 1985,
+        "countryCode": "GB",
+        "directors": ["Steve Barron"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Warner Bros. Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=djV11Xbc914",
+        "youtubeId": "djV11Xbc914",
+        "thumbnailUrl": "https://i.ytimg.com/vi/djV11Xbc914/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Pop / Live Action + Rotoscope Animation"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A live-action romance crosses into a pencil-drawn world through rotoscope animation.",
+          "whyItMatters": "Take On Me remains a defining example of animation and live action functioning as one continuous narrative space.",
+          "historicalContext": "The widely recognized 1985 video was directed by Steve Barron and became central to the song's international visual identity.",
+          "keyInnovation": "Frame-by-frame rotoscope animation connects filmed performance and illustration without separating them into independent sections."
+        },
+        "ja": {
+          "shortSummary": "実写のロマンスが、ロトスコープによる鉛筆画の世界へと横断していくミュージックビデオ。",
+          "whyItMatters": "アニメーションと実写を、ひとつの連続した物語空間として成立させた代表的作品です。",
+          "historicalContext": "広く知られる1985年版はSteve Barronが監督し、楽曲の国際的なビジュアルイメージを決定づけました。",
+          "keyInnovation": "フレーム単位のロトスコープ表現によって、撮影映像とイラストレーションを分断せずに接続しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://a-hadiscography.com/video.htm",
+          "supports": ["officialTitle", "releaseYear", "director", "animationFormat"]
+        },
+        {
+          "type": "label_official",
+          "url": "https://wmg.jp/a-ha/mv/",
+          "supports": ["officialVideoCatalogue", "label"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=djV11Xbc914",
+          "supports": ["officialTitle", "youtubeId", "thumbnailUrl"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "Frequently reported historical MTV VMA results are not staged until an exact official result archive identifies the work, year, category, and outcome."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "production_company_unverified", "vfx_production_unverified"]
+    }
+  ]
+}

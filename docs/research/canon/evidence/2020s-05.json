@@ -1,0 +1,154 @@
+{
+  "batch": "2020s-05",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "L'HOMME STATUE",
+      "title": "Do Not Tell Me",
+      "officialVideoUnresolved": true,
+      "metadata": {
+        "officialTitle": "Do Not Tell Me",
+        "releaseYear": 2021,
+        "countryCode": "BR",
+        "directors": ["Pedro Tejada", "Marcello Costa"],
+        "productionCompany": "Stink Films São Paulo",
+        "vfxProduction": "Pedro Tejada / Marcello Costa / Diego Morone",
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": 243,
+        "genre": "Electronic / Performance / CGI"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Live performance, depth capture, aerial imagery, and three-dimensional reconstruction place Loïc Koutana inside a sequence of unstable digital and physical environments.",
+          "whyItMatters": "The work uses a limited-budget production as a formal advantage, making the visible friction between captured bodies and reconstructed space central to its portrait of isolation and renewal.",
+          "historicalContext": "Directed by Pedro Tejada and Marcello Costa and produced with Stink Films São Paulo, the 2021 video was developed over two years using Alexa cameras, Kinect depth capture, Houdini, Redshift, Arnold, and Nuke.",
+          "keyInnovation": "Volumetric traces of the performer are not polished into seamless realism; gaps, particles, and incomplete surfaces become expressive evidence of the capture and reconstruction process."
+        },
+        "ja": {
+          "shortSummary": "実写パフォーマンス、深度キャプチャ、空撮、三次元再構成によって、Loïc Koutanaを不安定なデジタル／物理環境の連続へ配置する作品。",
+          "whyItMatters": "限られた予算を形式上の強みに変え、取り込まれた身体と再構成空間の摩擦を、孤独と再生を描く中心的な表現にしました。",
+          "historicalContext": "Pedro TejadaとMarcello Costaが監督し、Stink Films São Pauloの協力で制作された2021年の作品。Alexa、Kinect深度キャプチャ、Houdini、Redshift、Arnold、Nukeを用い、2年間かけて開発されました。",
+          "keyInnovation": "人物のボリュームキャプチャを滑らかな写実へ整えるのではなく、欠損、粒子、不完全な表面を残し、取得と再構成の過程そのものを表現として用いています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "software_platform_project_gallery",
+          "url": "https://www.sidefx.com/gallery/do-not-tell-me/",
+          "supports": ["officialTitle", "artist", "releaseYear", "directors", "productionCompany", "vfxProduction", "productionMethods", "runtimeContext"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://submit.ciclopefestival.com/?action=ows%3Aentries.details&e=87603&project_year=2022",
+          "supports": ["officialTitle", "artist", "directors", "productionCompany", "vfxProduction", "runtimeSeconds", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/do-not-tell-me",
+          "supports": ["officialTitle", "artist", "countryCode", "productionCompany", "awardProgram", "awardYear", "awardCategory"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "CICLOPE Festival",
+            "year": 2022,
+            "category": "Special Categories — Low Budget",
+            "result": "Finalist",
+            "creditedNames": ["Pedro Tejada", "Marcello Costa", "Stink Films"],
+            "source": "https://submit.ciclopefestival.com/?action=ows%3Aentries.details&e=87603&project_year=2022"
+          }
+        ],
+        "notes": "The D&AD archive confirms the 2022 Visual Effects category but does not expose a reliable pencil outcome in the available official record. No D&AD result is registered."
+      },
+      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "label_unverified"]
+    },
+    {
+      "artist": "SKIIFALL",
+      "title": "2 Charming",
+      "officialVideoUnresolved": true,
+      "metadata": {
+        "officialTitle": "2 Charming",
+        "releaseYear": 2023,
+        "countryCode": null,
+        "directors": ["rubberband."],
+        "productionCompany": "SMUGGLER",
+        "vfxProduction": "The Mill",
+        "label": "RCA Records",
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": "Hip-Hop / Performance / VFX"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A lateral tracking shot follows Skiifall along an overpass while the surrounding light completes an accelerated day-and-night cycle around his unhurried walk.",
+          "whyItMatters": "The video reduces a complex temporal effect to one readable gesture, using a continuous performance to make an entire day feel spatial rather than merely accelerated.",
+          "historicalContext": "Directed by rubberband. and produced by SMUGGLER in 2023, the film paired practical time-of-day photography with visual-effects work by The Mill and was recognized by UKMVA and CICLOPE for its VFX.",
+          "keyInnovation": "Changing skies, shadows, exposure, and environmental detail are integrated into a single camera move, while the performer maintains a stable physical rhythm against the compressed passage of time."
+        },
+        "ja": {
+          "shortSummary": "高架沿いを歩くSKIIFALLを横移動のカメラが追い、その緩やかな歩行の周囲で光が加速された昼夜の一周期を完了する作品。",
+          "whyItMatters": "複雑な時間表現を一つの読みやすい動作へ還元し、連続するパフォーマンスによって、一日を単なる早回しではなく空間的な体験として見せました。",
+          "historicalContext": "rubberband.が監督し、SMUGGLERが制作した2023年の作品。実際の時間帯を利用した撮影とThe MillのVFXを組み合わせ、UKMVAとCICLOPEでVFX部門の評価を受けました。",
+          "keyInnovation": "変化する空、影、露出、環境ディテールを一つのカメラ移動へ統合し、圧縮された時間の流れに対してパフォーマーの身体的リズムを安定させています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "production_company_official",
+          "url": "https://smugglersite.com/global/music-video/projects/",
+          "supports": ["officialTitle", "artist", "directors", "productionCompany"]
+        },
+        {
+          "type": "official_music_platform",
+          "url": "https://music.apple.com/zm/music-video/2-charming-official-video/1689505814",
+          "supports": ["officialTitle", "artist", "releaseYear", "genre", "officialVideoExistence"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://awards.ukmva.com/years/2023",
+          "supports": ["officialTitle", "artist", "directors", "productionCompany", "vfxProduction", "label", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://awards.ciclopefestival.com/winners/2023/music-video",
+          "supports": ["officialTitle", "artist", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "production_trade",
+          "url": "https://www.promonews.tv/videos/2023/05/31/skiifall-2-charming-rubberband/81782",
+          "supports": ["directors", "productionCompany", "vfxProduction", "productionConcept", "editor"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "UK Music Video Awards",
+            "year": 2023,
+            "category": "Best Visual Effects in a Video",
+            "result": "Shortlist",
+            "creditedNames": ["Matt Fuller", "The Mill", "rubberband.", "SMUGGLER"],
+            "source": "https://awards.ukmva.com/years/2023"
+          },
+          {
+            "program": "CICLOPE Festival",
+            "year": 2023,
+            "category": "Music Video — VFX",
+            "result": "Bronze",
+            "creditedNames": ["rubberband.", "SMUGGLER", "The Mill"],
+            "source": "https://awards.ciclopefestival.com/winners/2023/music-video"
+          }
+        ]
+      },
+      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "runtime_unverified", "country_unverified"]
+    }
+  ]
+}
