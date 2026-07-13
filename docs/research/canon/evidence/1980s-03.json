@@ -1,0 +1,282 @@
+{
+  "batch": "1980s-03",
+  "status": "metadata_partial_one_award_result_verified",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Michael Jackson",
+      "title": "Leave Me Alone",
+      "metadata": {
+        "officialTitle": "Leave Me Alone",
+        "releaseYear": 1989,
+        "countryCode": "US",
+        "directors": [],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Epic Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=crbFmpezO4A",
+        "youtubeId": "crbFmpezO4A",
+        "thumbnailUrl": "https://i.ytimg.com/vi/crbFmpezO4A/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "An animated amusement-park landscape assembles tabloid images, consumer objects, animals, and industrial machinery around a restrained giant figure of the performer.",
+          "whyItMatters": "The film converts the machinery of celebrity reporting into a literal visual environment, treating image circulation and confinement as parts of the same system.",
+          "historicalContext": "Released as a video from the Bad period, the work responded to the increasingly exaggerated press narratives surrounding Jackson and was later recognized by the Recording Academy as Best Music Video.",
+          "keyInnovation": "Layered collage, stop-motion, photographic cut-outs, miniatures, and traveling camera moves combine into a continuous constructed world rather than a sequence of isolated illustrations."
+        },
+        "ja": {
+          "shortSummary": "タブロイド写真、消費物、動物、工業機械を組み合わせた遊園地のようなアニメーション空間が、拘束された巨大な演者像を取り囲む作品。",
+          "whyItMatters": "著名人報道の装置を文字どおりの映像環境へ変換し、イメージの流通と身体の拘束を同じシステムとして扱いました。",
+          "historicalContext": "『Bad』期の映像として公開され、Jacksonをめぐって過熱していた報道上の物語へ応答し、後にRecording AcademyのBest Music Videoを受賞しました。",
+          "keyInnovation": "多層コラージュ、ストップモーション、写真の切り抜き、ミニチュア、移動撮影を統合し、個別の挿絵ではなく連続する構築世界を作っています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://www.michaeljackson.com/watch/leave-me-alone/",
+          "supports": ["officialTitle", "officialVideo"]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://www.michaeljackson.com/albums/bad/",
+          "supports": ["albumContext", "releasePeriod", "label"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.grammy.com/awards/32nd-annual-grammy-awards/",
+          "supports": ["awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.grammy.com/artists/jim-blashfield/2898/",
+          "supports": ["awardRecipient", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=crbFmpezO4A",
+          "supports": ["youtubeId", "thumbnailUrl"]
+        }
+      ],
+      "discoveryOnly": [
+        {
+          "claim": "Jim Blashfield directed the music video",
+          "source": "Widely repeated secondary music-video references",
+          "reasonNotVerified": "The located artist page does not expose the director credit, while the GRAMMY profile establishes Blashfield as an award recipient without labeling his production role."
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "GRAMMY Awards",
+            "ceremony": "32nd Annual GRAMMY Awards",
+            "year": 1990,
+            "category": "Best Music Video",
+            "result": "winner",
+            "creditedNames": ["Michael Jackson", "Jim Blashfield"],
+            "source": "https://www.grammy.com/awards/32nd-annual-grammy-awards/"
+          }
+        ],
+        "excludedFalsePositives": [
+          "Michael Jackson's Moonwalker was a separate Best Music Film nominee and is not attached to Leave Me Alone"
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "director_unverified", "production_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Prince",
+      "title": "Kiss",
+      "metadata": {
+        "officialTitle": "Kiss",
+        "releaseYear": 1986,
+        "countryCode": "US",
+        "directors": [],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Paisley Park Records / Warner Bros. Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=H9tEvfIsDyo",
+        "youtubeId": "H9tEvfIsDyo",
+        "thumbnailUrl": "https://i.ytimg.com/vi/H9tEvfIsDyo/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Funk / Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Prince, Wendy Melvoin, and dancer Monique Mannen occupy a sparse studio in a performance built from silhouette, gesture, costume, and direct address.",
+          "whyItMatters": "The film shows how a minimal set and a tightly controlled performance vocabulary can carry a major pop image without narrative spectacle or explanatory framing.",
+          "historicalContext": "Released in 1986 during the Parade period, the video presents the pared-back visual counterpart to a song whose production removed much of its original instrumentation.",
+          "keyInnovation": "High-contrast lighting, restricted scenery, alternating masculine and feminine styling, and precise body movement turn absence of production excess into the central visual device."
+        },
+        "ja": {
+          "shortSummary": "Prince、Wendy Melvoin、ダンサーのMonique Mannenが、シルエット、身振り、衣装、カメラへの直接的な視線で構成された簡素なスタジオ空間に立つ作品。",
+          "whyItMatters": "物語的な見世物や説明的な枠組みに頼らず、最小限のセットと厳密に制御された演技の語彙だけで大規模なポップイメージを成立させました。",
+          "historicalContext": "1986年の『Parade』期に公開され、原曲から多くの楽器要素を削ぎ落とした音楽制作に対応する、簡潔な視覚表現を提示しました。",
+          "keyInnovation": "高い明暗差、限定された美術、男性性と女性性を横断するスタイリング、精密な身体動作によって、制作上の過剰がないこと自体を主要な映像装置へ変えています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://discography.prince.com/albums/parade",
+          "supports": ["officialTitle", "releaseYear", "label", "albumContext"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=H9tEvfIsDyo",
+          "supports": ["youtubeId", "thumbnailUrl"]
+        }
+      ],
+      "discoveryOnly": [
+        {
+          "claim": "Rebecca Blake directed the music video",
+          "source": "Secondary film and Prince reference databases",
+          "reasonNotVerified": "No located Prince Estate, director portfolio, production-company, label, or awarding-body source confirms the director credit."
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "excludedFalsePositives": [
+          "The GRAMMY for Best R&B Performance by a Duo or Group with Vocals and the Best R&B Song nomination are recording honors, not music-video awards"
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "director_unverified", "production_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Paul Simon",
+      "title": "You Can Call Me Al",
+      "metadata": {
+        "officialTitle": "You Can Call Me Al",
+        "releaseYear": 1986,
+        "countryCode": "US",
+        "directors": [],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=uq-gYOrU8bA",
+        "youtubeId": "uq-gYOrU8bA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/uq-gYOrU8bA/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Pop / Worldbeat"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Chevy Chase lip-syncs the lead vocal while Paul Simon occupies the smaller, quieter position beside him, interrupting the role reversal with instruments and restrained reactions.",
+          "whyItMatters": "The film replaces expected star performance with a simple comic displacement, making scale, celebrity recognition, and mismatched embodiment the structure of the video.",
+          "historicalContext": "Released in 1986 as part of the Graceland period, the video circulated alongside an album whose collaborations and reception generated sustained cultural and political debate.",
+          "keyInnovation": "A nearly static two-person frame, deliberate lip-sync substitution, and minimal props create a complete performance concept through timing rather than visual accumulation."
+        },
+        "ja": {
+          "shortSummary": "Chevy Chaseが主旋律を口パクし、Paul Simonはその隣で小さく静かな位置を占め、楽器演奏と抑制された反応によって役割の逆転へ介入する作品。",
+          "whyItMatters": "期待されるスターの演技を単純な喜劇的置換へ変え、身体の大きさ、知名度、声と身体の不一致を映像全体の構造にしました。",
+          "historicalContext": "1986年の『Graceland』期に公開され、国際的な協働とその受容をめぐって文化的・政治的議論を生んだアルバムと並行して流通しました。",
+          "keyInnovation": "ほぼ固定された二人の画面、意図的なリップシンクの代替、最小限の小道具により、映像の蓄積ではなくタイミングだけで完結した演技コンセプトを作っています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://www.paulsimon.com/en-ca/video/can-call-al/",
+          "supports": ["officialTitle", "officialVideo"]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://www.paulsimon.com/en-ca/track/you-can-call-me-al-6/",
+          "supports": ["officialTitle", "releaseYear", "songwritingCredit"]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://www.paulsimon.com/news/legacy-recordings-celebrates-25th-anniversary-paul-simons-graceland-commemorative-editions-june/",
+          "supports": ["releaseYear", "albumContext", "officialMusicVideoCatalog"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=uq-gYOrU8bA",
+          "supports": ["youtubeId", "thumbnailUrl"]
+        }
+      ],
+      "discoveryOnly": [
+        {
+          "claim": "Gary Weis directed the music video",
+          "source": "Secondary film and music references",
+          "reasonNotVerified": "The located Paul Simon pages confirm the work but do not expose its director credit, and no authoritative director or production source has been located."
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "excludedFalsePositives": [
+          "Graceland's Album of the Year and title track's Song of the Year GRAMMY results are not attached to the You Can Call Me Al music video"
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "director_unverified", "production_credit_unverified", "label_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Guns N' Roses",
+      "title": "November Rain",
+      "metadata": {
+        "officialTitle": "November Rain",
+        "releaseYear": 1992,
+        "countryCode": "US",
+        "directors": ["Andy Morahan"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=8SbUC-UaAxE",
+        "youtubeId": "8SbUC-UaAxE",
+        "thumbnailUrl": "https://i.ytimg.com/vi/8SbUC-UaAxE/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Concert performance, wedding ritual, domestic intimacy, and funeral imagery expand a rock ballad into a large-scale melodramatic narrative.",
+          "whyItMatters": "The film demonstrates the peak scale of early-1990s rock-video production, using the duration of the song to sustain spectacle and unresolved narrative fragments.",
+          "historicalContext": "Released in 1992 and directed by Andy Morahan, the video belongs to the Use Your Illusion period and forms part of the band's connected cycle of expansive narrative videos.",
+          "keyInnovation": "Multiple locations, aerial scale, live performance, weather effects, and abrupt shifts in time are assembled without fully explaining causality, allowing montage to carry emotional continuity."
+        },
+        "ja": {
+          "shortSummary": "コンサート演奏、結婚の儀式、私的な親密さ、葬儀のイメージによって、ロックバラードを大規模なメロドラマ的物語へ拡張した作品。",
+          "whyItMatters": "楽曲の長さを用いて見世物と解決されない物語断片を持続させ、1990年代初頭のロックMV制作が到達した規模を示しました。",
+          "historicalContext": "Andy Morahanの監督により1992年に公開され、『Use Your Illusion』期に制作された、バンドの連続する大規模物語映像群の一部です。",
+          "keyInnovation": "複数の場所、空撮的な規模、ライブ演奏、気象効果、時間の急な転換を因果関係の完全な説明なしに組み合わせ、モンタージュによって感情の連続性を維持しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "director_official",
+          "url": "https://www.andymorahan.com/",
+          "supports": ["officialTitle", "artist", "director"]
+        },
+        {
+          "type": "director_official",
+          "url": "https://www.andymorahan.com/about.php",
+          "supports": ["director", "awardClaimDiscovery"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=8SbUC-UaAxE",
+          "supports": ["officialTitle", "youtubeId", "thumbnailUrl"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "candidateOfficialClaims": [
+          {
+            "program": "Unspecified award program",
+            "year": null,
+            "claim": "Best Video for November Rain",
+            "source": "https://www.andymorahan.com/about.php",
+            "registrationStatus": "hold_until_awarding_body_program_year_and_category_are_confirmed"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "release_year_needs_official_source", "production_credit_unverified", "label_unverified", "runtime_unverified"]
+    }
+  ]
+}

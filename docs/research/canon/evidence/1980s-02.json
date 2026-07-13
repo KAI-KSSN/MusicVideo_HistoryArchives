@@ -1,0 +1,258 @@
+{
+  "batch": "1980s-02",
+  "status": "metadata_partial_one_award_result_verified",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Herbie Hancock",
+      "title": "Rockit",
+      "metadata": {
+        "officialTitle": "Rockit",
+        "releaseYear": 1983,
+        "countryCode": "US",
+        "directors": ["Kevin Godley", "Lol Creme"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=GHhD4PD75zY",
+        "youtubeId": "GHhD4PD75zY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/GHhD4PD75zY/maxresdefault.jpg",
+        "runtimeSeconds": 203,
+        "genre": "Electronic / Jazz-Funk"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Mechanical mannequins, domestic objects, and fragmented body parts perform inside a constructed apartment while Hancock appears at a distance on a television screen.",
+          "whyItMatters": "The film redirected attention from conventional artist performance toward an autonomous designed environment while carrying an experimental electronic track into heavy music-television rotation.",
+          "historicalContext": "Released in 1983 and directed by Godley & Creme, the video was built around Jim Whiting's moving sculptures during a period when MTV gave little visibility to Black artists outside a narrow pop format.",
+          "keyInnovation": "Sculptural mechanisms, timed physical motion, abrupt framing, and screen-within-screen presentation turn the set itself into the principal performer."
+        },
+        "ja": {
+          "shortSummary": "機械仕掛けのマネキン、家庭用品、断片化された身体が作り込まれた室内で動き、Hancock本人は離れたテレビ画面の中にだけ現れる作品。",
+          "whyItMatters": "通常のアーティスト演奏から自律した美術空間へ視線を移し、実験的な電子音楽を音楽テレビの広い視聴層へ運びました。",
+          "historicalContext": "Godley & Cremeの監督により1983年に公開され、MTVが黒人アーティストへ与える可視性が限定的だった時期に、Jim Whitingの動く彫刻を中心に制作されました。",
+          "keyInnovation": "彫刻的な機構、時間制御された物理運動、急なフレーミング、画面内画面によって、セットそのものを主要な演者へ変えています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://www.herbiehancock.com/2015/04/20/feature-the-making-of-rockit/",
+          "supports": ["releaseYear", "directors", "sculptureDesigner", "historicalContext"]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://www.herbiehancock.com/music/discography/album/future-shock/",
+          "supports": ["releaseYear", "directors", "albumContext", "awardClaimDiscovery"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=GHhD4PD75zY",
+          "supports": ["officialTitle", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "candidateOfficialClaims": [
+          {
+            "program": "MTV Video Music Awards",
+            "year": 1984,
+            "claim": "Five wins; exact categories not established by the located artist source",
+            "source": "https://www.herbiehancock.com/music/discography/album/future-shock/",
+            "registrationStatus": "hold_for_awarding_body_archive"
+          }
+        ],
+        "excludedFalsePositives": [
+          "The 1983 GRAMMY Best R&B Instrumental Performance is a recording award and is not attached to the music video"
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "label_unverified"]
+    },
+    {
+      "artist": "Duran Duran",
+      "title": "Wild Boys",
+      "metadata": {
+        "officialTitle": "The Wild Boys",
+        "releaseYear": 1984,
+        "countryCode": "GB",
+        "directors": ["Russell Mulcahy"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=M43wsiNBwmo",
+        "youtubeId": "M43wsiNBwmo",
+        "thumbnailUrl": "https://i.ytimg.com/vi/M43wsiNBwmo/maxresdefault.jpg",
+        "runtimeSeconds": 253,
+        "genre": "Pop / Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A large-scale post-apocalyptic set turns unrealized feature-film development into a dense sequence of ritual, machinery, confinement, and spectacle.",
+          "whyItMatters": "The film demonstrates the point at which a music-video production could absorb the design ambition, budget, and world-building associated with a feature project.",
+          "historicalContext": "Released in 1984 and directed by Russell Mulcahy, the video reused concepts developed for an unrealized adaptation of William S. Burroughs' The Wild Boys and was filmed over ten days at Shepperton Studios.",
+          "keyInnovation": "Monumental sets, mechanical rigs, water, fire, costume, and mass performance are coordinated as a continuous constructed world rather than a sequence of unrelated visual effects."
+        },
+        "ja": {
+          "shortSummary": "未実現の長編映画企画を、儀式、機械、拘束、見世物が密集する大規模な終末後のセットへ転換した作品。",
+          "whyItMatters": "MV制作が、長編映画に近い美術的野心、予算、世界構築を吸収し得た時点を示しています。",
+          "historicalContext": "Russell Mulcahyの監督により1984年に公開され、William S. Burroughs『The Wild Boys』の未実現映画化企画で開発された構想を再利用し、Shepperton Studiosで10日間にわたり撮影されました。",
+          "keyInnovation": "巨大セット、機械装置、水、火、衣装、集団演技を、個別の効果の寄せ集めではなく、連続するひとつの構築世界として統御しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://duranduran.com/2014/director-russell-mulcahy-and-duran-durans-john-taylor-look-back-on-their-classic-music-videos/",
+          "supports": ["releaseYear", "director", "sourceMaterial", "productionContext", "studio", "shootDuration"]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://duranduran.com/2015/duran-duran-monthly-collectors-corner-november/",
+          "supports": ["releaseDate", "director", "visualConcept"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=M43wsiNBwmo",
+          "supports": ["officialTitle", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "candidateOfficialClaims": [
+          {
+            "program": "BRIT Awards",
+            "year": 1985,
+            "claim": "Best British Video",
+            "source": "https://duranduran.com/2008/durable-duran-duran-2/",
+            "registrationStatus": "hold_for_awarding_body_archive"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "label_unverified"]
+    },
+    {
+      "artist": "Genesis",
+      "title": "Land of Confusion",
+      "metadata": {
+        "officialTitle": "Land Of Confusion",
+        "releaseYear": 1986,
+        "countryCode": "GB",
+        "directors": ["John Lloyd", "Jim Yukich"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=Yq7FKO5DlV0",
+        "youtubeId": "Yq7FKO5DlV0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Yq7FKO5DlV0/maxresdefault.jpg",
+        "runtimeSeconds": 329,
+        "genre": "Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Spitting Image puppets place the band and Cold War political figures inside Ronald Reagan's escalating nightmare.",
+          "whyItMatters": "The film uses an established television satire language to make political caricature, celebrity culture, and band performance occupy the same narrative system.",
+          "historicalContext": "Released in 1986 and directed by John Lloyd and Jim Yukich, the video adapted the visual world of Spitting Image to a music-video format during the final decade of the Cold War.",
+          "keyInnovation": "Purpose-built puppets, vocal performance, miniature staging, and rapid shifts between political and popular figures sustain satire across an entire song rather than a single visual joke."
+        },
+        "ja": {
+          "shortSummary": "『Spitting Image』の人形が、バンドと冷戦期の政治家たちをRonald Reaganの拡大していく悪夢の中へ配置する作品。",
+          "whyItMatters": "既存のテレビ風刺の言語を用い、政治的カリカチュア、著名人文化、バンド演奏を同じ物語システムの中に共存させました。",
+          "historicalContext": "John LloydとJim Yukichの監督により1986年に公開され、冷戦最後の10年間に『Spitting Image』の視覚世界をMV形式へ移植しました。",
+          "keyInnovation": "専用制作の人形、声の演技、ミニチュア的な舞台、政治家と大衆文化の人物を横断する急速な切替によって、一度の視覚的な冗談ではなく楽曲全体に風刺を持続させています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "award_archive_official",
+          "url": "https://www.grammy.com/awards/categories/best-concept-music-video/1988/",
+          "supports": ["officialTitle", "directors", "videoProducer", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=Yq7FKO5DlV0",
+          "supports": ["youtubeId", "thumbnailUrl", "runtimeSeconds"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "GRAMMY Awards",
+            "ceremony": "30th Annual GRAMMY Awards",
+            "year": 1988,
+            "category": "Best Concept Music Video",
+            "result": "winner",
+            "creditedNames": ["Genesis", "John Lloyd", "Jim Yukich", "Jon Blair"],
+            "source": "https://www.grammy.com/awards/categories/best-concept-music-video/1988/"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "label_unverified", "release_year_needs_second_source"]
+    },
+    {
+      "artist": "Michael Jackson",
+      "title": "Bad",
+      "metadata": {
+        "officialTitle": "Bad",
+        "releaseYear": 1987,
+        "countryCode": "US",
+        "directors": [],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Epic Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Sd4SJVsTulc",
+        "youtubeId": "Sd4SJVsTulc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Sd4SJVsTulc/maxresdefault.jpg",
+        "runtimeSeconds": 1086,
+        "genre": "Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A long-form black-and-white drama about a student's return to his neighborhood shifts into color for a choreographed confrontation in a subway station.",
+          "whyItMatters": "The film extends a pop single into a narrative about identity, social expectation, and performance, using its scale to separate dramatic setup from musical release.",
+          "historicalContext": "Released in 1987 as the title track of Bad, the full official version runs approximately eighteen minutes and belongs to Jackson's sustained use of the term short film for expanded music-video works.",
+          "keyInnovation": "The transition from monochrome dialogue to color choreography changes visual register at the moment social conflict becomes musical performance."
+        },
+        "ja": {
+          "shortSummary": "学生が地元へ戻る長編のモノクロ劇から、地下鉄駅での振付された対立を描くカラー映像へ移行する作品。",
+          "whyItMatters": "ポップ・シングルを、アイデンティティ、社会的期待、演技を扱う物語へ拡張し、劇的な導入と音楽的な解放を規模によって分けています。",
+          "historicalContext": "1987年にアルバム『Bad』の表題曲として公開され、公式の長編版は約18分に及び、Jacksonが拡張型MVを「short film」と位置づけた継続的実践に属します。",
+          "keyInnovation": "モノクロの会話劇からカラーの振付へ切り替えることで、社会的な対立が音楽的パフォーマンスへ変化する瞬間に映像の様式も転換しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://www.michaeljackson.com/albums/bad/",
+          "supports": ["releaseYear", "albumContext", "songTitle"]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://www.michaeljackson.com/watch/bad/",
+          "supports": ["officialTitle", "officialVideo"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=Sd4SJVsTulc",
+          "supports": ["youtubeId", "thumbnailUrl", "runtimeSeconds", "selectedLongVersion"]
+        },
+        {
+          "type": "artist_official_store",
+          "url": "https://store-anz.michaeljackson.com/products/michael-jackson-bad-vinyl",
+          "supports": ["label"]
+        }
+      ],
+      "discoveryOnly": [
+        {
+          "claim": "Martin Scorsese directed the short film",
+          "source": "Secondary film and music references",
+          "reasonNotVerified": "The located artist pages do not expose the director credit, and an authoritative filmmaker, production, or award source is still required."
+        }
+      ],
+      "awardAudit": { "status": "not_started", "verifiedResults": [] },
+      "publicationBlockers": ["award_scope_incomplete", "director_unverified", "production_credit_unverified"]
+    }
+  ]
+}

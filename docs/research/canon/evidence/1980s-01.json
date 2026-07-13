@@ -1,0 +1,264 @@
+{
+  "batch": "1980s-01",
+  "status": "metadata_verified_awards_pending_archive_confirmation",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Peter Gabriel",
+      "title": "Sledgehammer",
+      "metadata": {
+        "officialTitle": "Sledgehammer",
+        "releaseYear": 1986,
+        "countryCode": "GB",
+        "directors": ["Stephen R. Johnson"],
+        "productionCompany": "Aardman Animation",
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=OJWJE0x7T4Q",
+        "youtubeId": "OJWJE0x7T4Q",
+        "thumbnailUrl": "https://i.ytimg.com/vi/OJWJE0x7T4Q/maxresdefault.jpg",
+        "runtimeSeconds": 345,
+        "genre": "Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Stop-motion, pixilation, clay animation, and live-action performance reorganize the singer's body through a continuous sequence of physical transformations.",
+          "whyItMatters": "The film places frame-by-frame animation at the center of a mainstream music-video performance without separating technique from character or rhythm.",
+          "historicalContext": "Released in 1986, the video brought together Stephen R. Johnson, Aardman Animation, Nick Park, the Brothers Quay, Peter Lord, and Richard Goleszowski within one collaborative production.",
+          "keyInnovation": "Animation is performed on and around the artist, allowing objects, facial movement, lighting, and replacement effects to operate as a single choreographed image system."
+        },
+        "ja": {
+          "shortSummary": "ストップモーション、ピクシレーション、クレイアニメーション、実写の演技によって、歌い手の身体を連続する物理的変形として再構成した作品。",
+          "whyItMatters": "フレーム単位のアニメーションを、人物やリズムから切り離すことなく、メインストリームのMVパフォーマンスの中心へ置きました。",
+          "historicalContext": "1986年に公開され、Stephen R. Johnson、Aardman Animation、Nick Park、Brothers Quay、Peter Lord、Richard Goleszowskiらがひとつの共同制作に参加しました。",
+          "keyInnovation": "演者の身体と周囲の空間を直接アニメートし、物体、表情、照明、置換効果をひとつの振付された映像システムとして機能させています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://petergabriel.com/video/peter-gabriel-sledgehammer-hd-1080p/",
+          "supports": ["officialTitle", "releaseYear", "director", "producer", "animationCredits", "productionCompany"]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://petergabriel.com/release/sledgehammer/",
+          "supports": ["releaseDate", "director", "producer", "animationCredits", "awardClaimDiscovery"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=OJWJE0x7T4Q",
+          "supports": ["youtubeId", "thumbnailUrl", "runtimeSeconds"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "candidateOfficialClaims": [
+          {
+            "program": "MTV Video Music Awards",
+            "year": 1987,
+            "claim": "Nine wins including Video of the Year",
+            "source": "https://petergabriel.com/release/sledgehammer/",
+            "registrationStatus": "hold_for_awarding_body_archive"
+          },
+          {
+            "program": "BRIT Awards",
+            "year": 1987,
+            "claim": "Best British Video",
+            "source": "https://petergabriel.com/release/sledgehammer/",
+            "registrationStatus": "hold_for_awarding_body_archive"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "label_unverified"]
+    },
+    {
+      "artist": "Dire Straits",
+      "title": "Money for Nothing",
+      "metadata": {
+        "officialTitle": "Money For Nothing",
+        "releaseYear": 1985,
+        "countryCode": "GB",
+        "directors": ["Steve Barron"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Vertigo / Warner Bros.",
+        "youtubeUrl": "https://www.youtube.com/watch?v=wTP2RUD_cL0",
+        "youtubeId": "wTP2RUD_cL0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/wTP2RUD_cL0/maxresdefault.jpg",
+        "runtimeSeconds": 279,
+        "genre": "Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Computer-generated workers, appliances, and graphic surfaces are intercut with performance footage to visualize a song already addressed to music television.",
+          "whyItMatters": "The film made early character-based computer imagery visible to a mass television audience while using the medium itself as part of the subject.",
+          "historicalContext": "Released in 1985 and directed by Steve Barron, the video accompanied Dire Straits' Brothers in Arms period and became closely associated with MTV's international expansion.",
+          "keyInnovation": "Block-like three-dimensional figures, simulated environments, and digitally modeled objects are integrated with live performance as a sustained visual premise rather than a brief effect."
+        },
+        "ja": {
+          "shortSummary": "コンピューター生成の労働者、家電、グラフィック面を演奏映像と交差させ、音楽テレビ自体へ向けられた楽曲を可視化した作品。",
+          "whyItMatters": "初期のキャラクター型コンピューター映像を大規模なテレビ視聴者へ提示し、同時にその放送メディア自体を作品の主題へ取り込みました。",
+          "historicalContext": "Steve Barronの監督により1985年に公開され、Dire Straitsの『Brothers in Arms』期を代表し、MTVの国際展開と強く結びつく映像となりました。",
+          "keyInnovation": "ブロック状の3D人物、仮想環境、デジタルで造形された物体を、短い効果ではなく映像全体を支える前提として実写演奏と統合しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://www.direstraits.com/timeline",
+          "supports": ["releaseYear", "director", "historicalContext", "awardClaimDiscovery"]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://www.direstraits.com/discography/brothers-in-arms/",
+          "supports": ["releaseYear", "label", "albumContext"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=wTP2RUD_cL0",
+          "supports": ["officialTitle", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "candidateOfficialClaims": [
+          {
+            "program": "MTV Video Music Awards",
+            "year": 1986,
+            "claim": "Video of the Year and Best Group Video",
+            "source": "https://www.direstraits.com/timeline",
+            "registrationStatus": "hold_for_awarding_body_archive"
+          }
+        ],
+        "excludedFalsePositives": [
+          "1987 GRAMMY Best Music Video was awarded to Dire Straits - Brothers In Arms, not Money For Nothing"
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified"]
+    },
+    {
+      "artist": "Madonna",
+      "title": "Like a Prayer",
+      "metadata": {
+        "officialTitle": "Like A Prayer",
+        "releaseYear": 1989,
+        "countryCode": "US",
+        "directors": ["Mary Lambert"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Warner Bros.",
+        "youtubeUrl": "https://www.youtube.com/watch?v=79fzeNUqQbQ",
+        "youtubeId": "79fzeNUqQbQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/79fzeNUqQbQ/maxresdefault.jpg",
+        "runtimeSeconds": 338,
+        "genre": "Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A witnessed crime, religious tableaux, performance, and theatrical revelation are organized as a sequence of moral and symbolic confrontations.",
+          "whyItMatters": "The film demonstrates how a mainstream music video could combine narrative, religious imagery, race, and public controversy without reducing them to decorative motifs.",
+          "historicalContext": "Released in 1989 and directed by Mary Lambert, the video became inseparable from debates around its burning crosses, stigmata, saint figure, and the withdrawal of Pepsi's campaign support.",
+          "keyInnovation": "The video moves between apparent reality, devotional iconography, stage space, and curtain-call disclosure, using theatrical structure to complicate what the viewer has witnessed."
+        },
+        "ja": {
+          "shortSummary": "目撃された犯罪、宗教的な場面、パフォーマンス、演劇的な種明かしを、道徳と象徴が衝突する連続として構成した作品。",
+          "whyItMatters": "物語、宗教的イメージ、人種、社会的論争を装飾的な記号へ還元せず、メインストリームのMV内で同時に扱えることを示しました。",
+          "historicalContext": "Mary Lambertの監督により1989年に公開され、燃える十字架、聖痕、聖人像、Pepsiによるキャンペーン支援撤回をめぐる議論と切り離せない作品となりました。",
+          "keyInnovation": "現実に見える場面、宗教的図像、舞台空間、カーテンコールによる開示を往復し、観客が見た出来事の意味を演劇的な構造で複雑化しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://www.madonna.com/products/like-a-prayer-single",
+          "supports": ["officialTitle", "releaseYear", "director", "visualContent", "historicalContext", "label", "awardClaimDiscovery"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=79fzeNUqQbQ",
+          "supports": ["youtubeId", "thumbnailUrl", "runtimeSeconds"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "candidateOfficialClaims": [
+          {
+            "program": "MTV Video Music Awards",
+            "year": 1989,
+            "claim": "Viewer's Choice winner",
+            "source": "https://www.madonna.com/products/like-a-prayer-single",
+            "registrationStatus": "hold_for_awarding_body_archive"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified"]
+    },
+    {
+      "artist": "Madonna",
+      "title": "Material Girl",
+      "metadata": {
+        "officialTitle": "Material Girl",
+        "releaseYear": 1985,
+        "countryCode": "US",
+        "directors": ["Mary Lambert"],
+        "productionCompany": "Fields Entertainment",
+        "vfxProduction": null,
+        "label": "Warner Bros.",
+        "youtubeUrl": "https://www.youtube.com/watch?v=6p-lDYPR2P8",
+        "youtubeId": "6p-lDYPR2P8",
+        "thumbnailUrl": "https://i.ytimg.com/vi/6p-lDYPR2P8/maxresdefault.jpg",
+        "runtimeSeconds": 286,
+        "genre": "Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A staged reconstruction of Diamonds Are a Girl's Best Friend is framed by a second narrative about performance, courtship, and the image of wealth.",
+          "whyItMatters": "The film turns an already recognizable Hollywood sequence into a study of quotation, star construction, and the distance between a public persona and the character observing it.",
+          "historicalContext": "Directed by Mary Lambert, the video entered heavy MTV circulation in 1985 and became central to the Material Girl persona attached to Madonna's public image.",
+          "keyInnovation": "The video places a precise cinematic quotation inside a backstage frame story, allowing choreography, costume, color, and spectatorship to comment on the image being reproduced."
+        },
+        "ja": {
+          "shortSummary": "『Diamonds Are a Girl's Best Friend』の舞台的再構成を、演技、求愛、富のイメージをめぐるもうひとつの物語で包んだ作品。",
+          "whyItMatters": "すでに認知されたハリウッド映画の場面を、引用、スター像の構築、公的な人格とそれを見つめる人物の距離を考える映像へ変換しました。",
+          "historicalContext": "Mary Lambertが監督し、1985年にMTVで広く放送され、Madonnaの公的イメージに結びつく「Material Girl」という人格形成の中心となりました。",
+          "keyInnovation": "精密な映画引用をバックステージの枠物語へ組み込み、振付、衣装、色彩、観客の視線によって、再現されるイメージ自体を批評する構造を作っています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://www.madonna.com/discography/album/36",
+          "supports": ["officialTitle", "videoReleaseContext", "director", "sourceFilm", "label", "awardClaimDiscovery"]
+        },
+        {
+          "type": "production_company",
+          "url": "https://www.fieldsent.com/projects-collection/material-girl",
+          "supports": ["director", "productionCompany"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=6p-lDYPR2P8",
+          "supports": ["youtubeId", "thumbnailUrl", "runtimeSeconds"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "candidateOfficialClaims": [
+          {
+            "program": "MTV Video Music Awards",
+            "year": 1985,
+            "claim": "Best Female Video nomination",
+            "source": "https://www.madonna.com/discography/album/36",
+            "registrationStatus": "hold_for_awarding_body_archive"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "release_year_needs_second_source"]
+    }
+  ]
+}
