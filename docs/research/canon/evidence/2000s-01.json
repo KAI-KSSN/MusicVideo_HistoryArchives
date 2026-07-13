@@ -95,7 +95,7 @@
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "GRAMMY Awards",
@@ -110,10 +110,36 @@
             "source": "https://www.grammy.com/artists/ok-go/17689/",
             "notes": "The current GRAMMY archive labels the historical category Best Music Video; Recording Academy editorial also identifies the historical name Best Short Form Music Video."
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2000s-resolved-award-audit.md",
+        "notes": "The verified GRAMMY music-video win is retained. The official 2009 MTV retrospective record names the original video only as a work performed by a contest entrant, not as a new award for the original work."
       },
       "publicationBlockers": [
-        "award_scope_incomplete",
         "production_credit_unverified",
         "runtime_unverified"
       ]
@@ -313,7 +339,7 @@
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "D&AD Awards",
@@ -325,10 +351,36 @@
             ],
             "source": "https://www.dandad.org/work/d-ad-awards-archive/fell-in-love-with-a-girl"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2000s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
       "publicationBlockers": [
-        "award_scope_incomplete",
         "production_credit_unverified",
         "runtime_unverified"
       ]
@@ -409,7 +461,7 @@
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "GRAMMY Awards",
@@ -423,10 +475,35 @@
             "source": "https://www.grammy.com/news/madonna-gorillaz-to-perform-on-48th-grammy-awards-telecast/"
           }
         ],
-        "notes": "Recording Academy sources verify the nomination. Other frequently reported 2005 craft wins remain unregistered until the corresponding awarding-body archive is attached."
+        "notes": "Recording Academy sources verify the nomination. Other frequently reported 2005 craft wins remain unregistered until the corresponding awarding-body archive is attached. The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2000s-resolved-award-audit.md"
       },
       "publicationBlockers": [
-        "award_scope_incomplete",
         "vfx_credit_unverified",
         "runtime_unverified"
       ]

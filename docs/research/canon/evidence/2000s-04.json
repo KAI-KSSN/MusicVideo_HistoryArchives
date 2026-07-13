@@ -10,7 +10,9 @@
         "officialTitle": "Knights of Cydonia",
         "releaseYear": 2006,
         "countryCode": "GB",
-        "directors": ["Joseph Kahn"],
+        "directors": [
+          "Joseph Kahn"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": null,
@@ -35,21 +37,96 @@
         }
       },
       "sources": [
-        {"type":"artist_official","url":"https://www.muse.mu/video/knights-cydonia-251251","supports":["officialTitle","officialVideoIdentity"]},
-        {"type":"director_portfolio","url":"https://www.josephkahn.com/project/7824/muse","supports":["officialTitle","director"]},
-        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/knights-of-cydonia","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=G_sBOsh-vyI","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "artist_official",
+          "url": "https://www.muse.mu/video/knights-cydonia-251251",
+          "supports": [
+            "officialTitle",
+            "officialVideoIdentity"
+          ]
+        },
+        {
+          "type": "director_portfolio",
+          "url": "https://www.josephkahn.com/project/7824/muse",
+          "supports": [
+            "officialTitle",
+            "director"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/knights-of-cydonia",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=G_sBOsh-vyI",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
-          {"program":"D&AD Awards","year":2007,"category":"Music Videos","result":"Wood Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/knights-of-cydonia"}
+          {
+            "program": "D&AD Awards",
+            "year": 2007,
+            "category": "Music Videos",
+            "result": "Wood Pencil",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/knights-of-cydonia"
+          }
         ],
         "candidateOfficialClaims": [
-          {"program":"Los Angeles Film Festival","year":null,"claim":"Audience Award winner","source":"https://www.josephkahn.com/route.php?%2Fbio=","registrationStatus":"hold_for_awarding_body_archive"}
-        ]
+          {
+            "program": "Los Angeles Film Festival",
+            "year": null,
+            "claim": "Audience Award winner",
+            "source": "https://www.josephkahn.com/route.php?%2Fbio=",
+            "registrationStatus": "hold_for_awarding_body_archive"
+          }
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2000s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "label_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "label_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "サカナクション",
@@ -58,7 +135,9 @@
         "officialTitle": "アルクアラウンド",
         "releaseYear": 2010,
         "countryCode": "JP",
-        "directors": ["関和亮"],
+        "directors": [
+          "関和亮"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Victor Entertainment",
@@ -83,18 +162,93 @@
         }
       },
       "sources": [
-        {"type":"label_official","url":"https://www.jvcmusic.co.jp/-/Discography/A020936/VIBL-620.html","supports":["officialTitle","label","officialVideoIdentity"]},
-        {"type":"label_official","url":"https://www.jvcmusic.co.jp/sakanaction/sakanazukan/comment/comment15.html","supports":["director","technicalContributor","visualTechnique"]},
-        {"type":"award_archive_official","url":"https://j-mediaarts-festival.bunka.go.jp/award/single/sakanaction/index.html","supports":["officialTitle","director","awardProgram","awardEdition","awardCategory","awardOutcome","visualTechnique"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=vS6wzjpCvec","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "label_official",
+          "url": "https://www.jvcmusic.co.jp/-/Discography/A020936/VIBL-620.html",
+          "supports": [
+            "officialTitle",
+            "label",
+            "officialVideoIdentity"
+          ]
+        },
+        {
+          "type": "label_official",
+          "url": "https://www.jvcmusic.co.jp/sakanaction/sakanazukan/comment/comment15.html",
+          "supports": [
+            "director",
+            "technicalContributor",
+            "visualTechnique"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://j-mediaarts-festival.bunka.go.jp/award/single/sakanaction/index.html",
+          "supports": [
+            "officialTitle",
+            "director",
+            "awardProgram",
+            "awardEdition",
+            "awardCategory",
+            "awardOutcome",
+            "visualTechnique"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=vS6wzjpCvec",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
-          {"program":"Japan Media Arts Festival","year":2010,"category":"Entertainment Division","result":"Excellence Award","creditedNames":["関和亮"],"source":"https://j-mediaarts-festival.bunka.go.jp/award/single/sakanaction/index.html"}
-        ]
+          {
+            "program": "Japan Media Arts Festival",
+            "year": 2010,
+            "category": "Entertainment Division",
+            "result": "Excellence Award",
+            "creditedNames": [
+              "関和亮"
+            ],
+            "source": "https://j-mediaarts-festival.bunka.go.jp/award/single/sakanaction/index.html"
+          }
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2000s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "runtime_unverified", "release_date_precision_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "runtime_unverified",
+        "release_date_precision_unverified"
+      ]
     },
     {
       "artist": "宇多田ヒカル",
@@ -103,7 +257,9 @@
         "officialTitle": "traveling",
         "releaseYear": 2001,
         "countryCode": "JP",
-        "directors": ["紀里谷和明"],
+        "directors": [
+          "紀里谷和明"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Toshiba-EMI",
@@ -128,19 +284,93 @@
         }
       },
       "sources": [
-        {"type":"artist_official","url":"https://www.sonymusic.co.jp/Music/Info/utadahikaru/music/dvd/","supports":["officialTitle","videoReleaseDate","officialVideoIdentity"]},
-        {"type":"artist_official","url":"https://www.sonymusic.co.jp/Music/Info/utadahikaru/profile/","supports":["awardClaimDiscovery"]},
-        {"type":"award_archive_official","url":"https://www.golddisc.jp/award/17/","supports":["officialTitle","artist","label","awardProgram","awardEdition","awardCategory","awardOutcome"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=tuyZ9f6mHZk","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "artist_official",
+          "url": "https://www.sonymusic.co.jp/Music/Info/utadahikaru/music/dvd/",
+          "supports": [
+            "officialTitle",
+            "videoReleaseDate",
+            "officialVideoIdentity"
+          ]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://www.sonymusic.co.jp/Music/Info/utadahikaru/profile/",
+          "supports": [
+            "awardClaimDiscovery"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.golddisc.jp/award/17/",
+          "supports": [
+            "officialTitle",
+            "artist",
+            "label",
+            "awardProgram",
+            "awardEdition",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=tuyZ9f6mHZk",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
-          {"program":"Japan Gold Disc Award","year":2003,"category":"Music Video of the Year — Japanese, Short Form","result":"Winner","creditedNames":["宇多田ヒカル"],"source":"https://www.golddisc.jp/award/17/"}
+          {
+            "program": "Japan Gold Disc Award",
+            "year": 2003,
+            "category": "Music Video of the Year — Japanese, Short Form",
+            "result": "Winner",
+            "creditedNames": [
+              "宇多田ヒカル"
+            ],
+            "source": "https://www.golddisc.jp/award/17/"
+          }
         ],
-        "notes": "The official award record concerns the DVD Single 'traveling' and is registered as a music-video work award. The director credit still requires a direct creator, label, or production source."
+        "notes": "The verified Japan Gold Disc work result is retained as prior evidence. No additional result was confirmed in the required MVHL award scope.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2000s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "director_source_needs_upgrade", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified", "youtube_availability_unverified"]
+      "publicationBlockers": [
+        "director_source_needs_upgrade",
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified",
+        "youtube_availability_unverified"
+      ]
     },
     {
       "artist": "Kylie Minogue",
@@ -149,7 +379,9 @@
         "officialTitle": "Come Into My World",
         "releaseYear": 2002,
         "countryCode": null,
-        "directors": ["Michel Gondry"],
+        "directors": [
+          "Michel Gondry"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": null,
@@ -174,16 +406,71 @@
         }
       },
       "sources": [
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=63vqob-MljQ","supports":["officialTitle","youtubeId","thumbnailUrl"]},
-        {"type":"official_music_service","url":"https://music.apple.com/gb/music-video/come-into-my-world/1445826382","supports":["officialTitle","artist","officialVideoIdentity"]},
-        {"type":"recording_academy_official","url":"https://www.grammy.com/awards/46th-annual-grammy-awards/","supports":["songAwardExclusion"]}
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=63vqob-MljQ",
+          "supports": [
+            "officialTitle",
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        },
+        {
+          "type": "official_music_service",
+          "url": "https://music.apple.com/gb/music-video/come-into-my-world/1445826382",
+          "supports": [
+            "officialTitle",
+            "artist",
+            "officialVideoIdentity"
+          ]
+        },
+        {
+          "type": "recording_academy_official",
+          "url": "https://www.grammy.com/awards/46th-annual-grammy-awards/",
+          "supports": [
+            "songAwardExclusion"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
-        "notes": "The 46th GRAMMY was Best Dance Recording for the sound recording, not a music-video award, and is excluded. The Michel Gondry director credit remains pending a direct creator, label, or production source."
+        "notes": "The official GRAMMY archive confirms Best Dance Recording, an audio award rather than a music-video result; it is excluded from this work-award ledger.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2000s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "director_source_needs_upgrade", "production_credit_unverified", "vfx_credit_unverified", "label_unverified", "country_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "director_source_needs_upgrade",
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "label_unverified",
+        "country_unverified",
+        "runtime_unverified"
+      ]
     }
   ]
 }

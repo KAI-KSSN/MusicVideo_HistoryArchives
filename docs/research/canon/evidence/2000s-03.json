@@ -10,7 +10,10 @@
         "officialTitle": "Remind Me",
         "releaseYear": 2002,
         "countryCode": "FR",
-        "directors": ["Ludovic Houplain", "Hervé de Crécy"],
+        "directors": [
+          "Ludovic Houplain",
+          "Hervé de Crécy"
+        ],
         "productionCompany": "H5",
         "vfxProduction": null,
         "label": null,
@@ -35,21 +38,101 @@
         }
       },
       "sources": [
-        {"type":"production_official","url":"https://www.h5.fr/fr/projects/royksopp","supports":["officialTitle","releaseYear","productionCompany","visualTechnique"]},
-        {"type":"artist_official","url":"https://royksopp.com/2009/09/remind-me-one-of-pitchforks-100-awesome-videos/","supports":["officialTitle","releaseYear","directors","awardClaimDiscovery"]},
-        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/remind-me","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=1Xhdy9zBEws","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "production_official",
+          "url": "https://www.h5.fr/fr/projects/royksopp",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "productionCompany",
+            "visualTechnique"
+          ]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://royksopp.com/2009/09/remind-me-one-of-pitchforks-100-awesome-videos/",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "directors",
+            "awardClaimDiscovery"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/remind-me",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=1Xhdy9zBEws",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
-          {"program":"D&AD Awards","year":2003,"category":"Music Videos","result":"Wood Pencil","creditedNames":["H5"],"source":"https://www.dandad.org/work/d-ad-awards-archive/remind-me"}
+          {
+            "program": "D&AD Awards",
+            "year": 2003,
+            "category": "Music Videos",
+            "result": "Wood Pencil",
+            "creditedNames": [
+              "H5"
+            ],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/remind-me"
+          }
         ],
         "candidateOfficialClaims": [
-          {"program":"MTV Europe Music Awards","year":2002,"claim":"Best Music Video winner","source":"https://royksopp.com/2009/09/remind-me-one-of-pitchforks-100-awesome-videos/","registrationStatus":"hold_for_awarding_body_archive"}
-        ]
+          {
+            "program": "MTV Europe Music Awards",
+            "year": 2002,
+            "claim": "Best Music Video winner",
+            "source": "https://royksopp.com/2009/09/remind-me-one-of-pitchforks-100-awesome-videos/",
+            "registrationStatus": "hold_for_awarding_body_archive"
+          }
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2000s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["award_scope_incomplete", "label_unverified", "vfx_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "label_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Kanye West",
@@ -58,7 +141,9 @@
         "officialTitle": "Stronger",
         "releaseYear": 2007,
         "countryCode": "US",
-        "directors": ["Hype Williams"],
+        "directors": [
+          "Hype Williams"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Mercury",
@@ -83,17 +168,78 @@
         }
       },
       "sources": [
-        {"type":"director_portfolio","url":"https://saintjamesstudios.com/projects/kanye-west-stronger/","supports":["officialTitle","director"]},
-        {"type":"official_chart_archive","url":"https://www.officialcharts.com/songs/kanye-west-stronger/","supports":["officialTitle","releaseYear","label"]},
-        {"type":"recording_academy_editorial","url":"https://www.grammy.com/news/alicia-keys-amy-winehouse-7-happenings-50th-grammy-awards/","supports":["officialVideoIdentity","youtubeId","historicalContext","songAwardExclusion"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=PsO6ZnUZI0g","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "director_portfolio",
+          "url": "https://saintjamesstudios.com/projects/kanye-west-stronger/",
+          "supports": [
+            "officialTitle",
+            "director"
+          ]
+        },
+        {
+          "type": "official_chart_archive",
+          "url": "https://www.officialcharts.com/songs/kanye-west-stronger/",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "label"
+          ]
+        },
+        {
+          "type": "recording_academy_editorial",
+          "url": "https://www.grammy.com/news/alicia-keys-amy-winehouse-7-happenings-50th-grammy-awards/",
+          "supports": [
+            "officialVideoIdentity",
+            "youtubeId",
+            "historicalContext",
+            "songAwardExclusion"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=PsO6ZnUZI0g",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
-        "notes": "The official GRAMMY record is Best Rap Solo Performance for the song, not a music-video award, and is therefore not registered as a work award. No VFX company is accepted from secondary-only credit listings."
+        "notes": "The official GRAMMY archive confirms an audio-performance award, not a music-video award; it is excluded. No exact work-level result was verified in the required award archives.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2000s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "The Knife",
@@ -102,7 +248,9 @@
         "officialTitle": "Silent Shout",
         "releaseYear": 2006,
         "countryCode": "SE",
-        "directors": ["Andreas Nilsson"],
+        "directors": [
+          "Andreas Nilsson"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Rabid Records",
@@ -127,16 +275,71 @@
         }
       },
       "sources": [
-        {"type":"artist_official","url":"https://www.theknife.net/","supports":["officialTitle","releaseYear","label","releaseContext"]},
-        {"type":"artist_official","url":"https://theknife.net/bio","supports":["releaseYear","historicalContext","visualIdentity"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=mWzZnxPAQhs","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "artist_official",
+          "url": "https://www.theknife.net/",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "label",
+            "releaseContext"
+          ]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://theknife.net/bio",
+          "supports": [
+            "releaseYear",
+            "historicalContext",
+            "visualIdentity"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=mWzZnxPAQhs",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
-        "notes": "No award result is registered in this pass. The director credit remains pending a direct creator or production source even though the work identity and official artist context are established."
+        "notes": "No award result is registered in this pass. The director credit remains pending a direct creator or production source even though the work identity and official artist context are established. The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2000s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "director_source_needs_upgrade", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "director_source_needs_upgrade",
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Sigur Rós",
@@ -145,7 +348,9 @@
         "officialTitle": "Glósóli",
         "releaseYear": 2005,
         "countryCode": "IS",
-        "directors": ["Arni & Kinski"],
+        "directors": [
+          "Arni & Kinski"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Krunk Records",
@@ -170,16 +375,98 @@
         }
       },
       "sources": [
-        {"type":"artist_official","url":"https://sigurros.com/film/glosoli/","supports":["officialTitle","releaseYear","director","label","officialVideoIdentity"]},
-        {"type":"artist_official","url":"https://sigurros.com/news/2005/glsli-music-video/","supports":["releaseYear","shootingCountry","releaseContext"]},
-        {"type":"artist_official","url":"https://sigurros.com/news/2005/glosoli-video-qa/","supports":["cinematographer","productionContext"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=Bz8iEJeh26E","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "artist_official",
+          "url": "https://sigurros.com/film/glosoli/",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "director",
+            "label",
+            "officialVideoIdentity"
+          ]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://sigurros.com/news/2005/glsli-music-video/",
+          "supports": [
+            "releaseYear",
+            "shootingCountry",
+            "releaseContext"
+          ]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://sigurros.com/news/2005/glosoli-video-qa/",
+          "supports": [
+            "cinematographer",
+            "productionContext"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=Bz8iEJeh26E",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/glosoli",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
-        "verifiedResults": []
+        "status": "complete",
+        "verifiedResults": [
+          {
+            "program": "D&AD Awards",
+            "year": 2006,
+            "category": "Music Videos",
+            "result": "Wood Pencil",
+            "creditedNames": [],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/glosoli"
+          }
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2000s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified"
+      ]
     }
   ]
 }

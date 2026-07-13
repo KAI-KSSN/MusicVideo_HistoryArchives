@@ -6,8 +6,8 @@
 
 - Selected works: 98
 - Works with complete bilingual editorial: 90
-- Works with complete award-scope audit: 45
-- Verified award result records: 94
+- Works with complete award-scope audit: 60
+- Verified award result records: 97
 - Works currently passing every publication gate: 9
 
 ## Work-by-work status
@@ -57,23 +57,23 @@
 | The Chemical Brothers — Let Forever Be | 1990s-05.json | `label_source_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
 | Red Hot Chili Peppers — Californication | 1990s-03.json | `director_source_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified` | 1 | 3 | Complete | No |
 | Fatboy Slim — Weapon of Choice | 2000s-01.json | — | 1 | 3 | Complete | Yes; reconciled |
-| 宇多田ヒカル — Traveling | 2000s-04.json | `award_scope_incomplete`<br>`director_source_needs_upgrade`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified`<br>`youtube_availability_unverified` | 1 | 4 | Complete | No |
+| 宇多田ヒカル — Traveling | 2000s-04.json | `director_source_needs_upgrade`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified`<br>`youtube_availability_unverified` | 1 | 4 | Complete | No |
 | Chemical Brothers — Star Guitar | 1990s-03.json | `production_credit_unverified`<br>`runtime_unverified` | 2 | 4 | Complete | No |
-| Coldplay — The Scientist | 2000s-02.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified` | 1 | 6 | Complete | No |
-| Kylie Minogue — Come Into My World | 2000s-04.json | `award_scope_incomplete`<br>`director_source_needs_upgrade`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`label_unverified`<br>`country_unverified`<br>`runtime_unverified` | 0 | 3 | Complete | No |
-| Röyksopp — Remind Me | 2000s-03.json | `award_scope_incomplete`<br>`label_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
-| The White Stripes — Fell in Love with a Girl | 2000s-01.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified` | 1 | 6 | Complete | No |
-| Gorillaz — Feel Good Inc. | 2000s-01.json | `award_scope_incomplete`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
-| Sigur Rós — Glósóli | 2000s-03.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
-| Muse — Knights of Cydonia | 2000s-04.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`label_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
-| OK Go — Here It Goes Again | 2000s-01.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified` | 1 | 6 | Complete | No |
-| The Knife — Silent Shout | 2000s-03.json | `award_scope_incomplete`<br>`director_source_needs_upgrade`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 0 | 3 | Complete | No |
-| Battles — Atlas | 2000s-05.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 0 | 3 | Complete | No |
-| Justice — D.A.N.C.E. | 2000s-02.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
-| Kanye West — Stronger | 2000s-03.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
+| Coldplay — The Scientist | 2000s-02.json | `production_credit_unverified`<br>`runtime_unverified` | 1 | 6 | Complete | No |
+| Kylie Minogue — Come Into My World | 2000s-04.json | `director_source_needs_upgrade`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`label_unverified`<br>`country_unverified`<br>`runtime_unverified` | 0 | 3 | Complete | No |
+| Röyksopp — Remind Me | 2000s-03.json | `label_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
+| The White Stripes — Fell in Love with a Girl | 2000s-01.json | `production_credit_unverified`<br>`runtime_unverified` | 1 | 6 | Complete | No |
+| Gorillaz — Feel Good Inc. | 2000s-01.json | `vfx_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
+| Sigur Rós — Glósóli | 2000s-03.json | `production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 1 | 5 | Complete | No |
+| Muse — Knights of Cydonia | 2000s-04.json | `production_credit_unverified`<br>`vfx_credit_unverified`<br>`label_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
+| OK Go — Here It Goes Again | 2000s-01.json | `production_credit_unverified`<br>`runtime_unverified` | 1 | 6 | Complete | No |
+| The Knife — Silent Shout | 2000s-03.json | `director_source_needs_upgrade`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 0 | 3 | Complete | No |
+| Battles — Atlas | 2000s-05.json | `production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 0 | 3 | Complete | No |
+| Justice — D.A.N.C.E. | 2000s-02.json | `production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
+| Kanye West — Stronger | 2000s-03.json | `production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
 | Beyoncé — Single Ladies | 2000s-02.json | — | 3 | 2 | Complete | Yes; reconciled |
-| Radiohead — House of Cards | 2000s-02.json | `award_scope_incomplete`<br>`label_unverified`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 1 | 6 | Complete | No |
-| サカナクション — アルクアラウンド | 2000s-04.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified`<br>`release_date_precision_unverified` | 1 | 4 | Complete | No |
+| Radiohead — House of Cards | 2000s-02.json | `label_unverified`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified` | 3 | 8 | Complete | No |
+| サカナクション — アルクアラウンド | 2000s-04.json | `production_credit_unverified`<br>`runtime_unverified`<br>`release_date_precision_unverified` | 1 | 4 | Complete | No |
 | OK Go — Needing / Getting | 2010s-04.json | `award_scope_incomplete`<br>`runtime_unverified`<br>`label_unverified`<br>`vfx_company_unverified` | 5 | 7 | Complete | No |
 | きゃりーぱみゅぱみゅ — ファッションモンスター | 2010s-03.json | `official_video_unresolved`<br>`award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified`<br>`runtime_unverified`<br>`label_source_needs_upgrade` | 1 | 1 | Complete | No |
 | Arcade Fire — Reflektor | 2010s-02.json | `work_identity_unresolved`<br>`official_video_unresolved`<br>`award_scope_incomplete` | 0 | 1 | Incomplete | No |

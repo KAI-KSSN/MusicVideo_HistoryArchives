@@ -10,7 +10,9 @@
         "officialTitle": "Atlas",
         "releaseYear": 2007,
         "countryCode": "US",
-        "directors": ["Timothy Saccenti"],
+        "directors": [
+          "Timothy Saccenti"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Warp Records",
@@ -35,16 +37,70 @@
         }
       },
       "sources": [
-        {"type":"label_official","url":"https://battles.warp.net/release/60911-battles-atlas?lang=en_US","supports":["officialTitle","releaseYear","label","releaseContext"]},
-        {"type":"creator_upload","url":"https://vimeo.com/2240229","supports":["officialTitle","director","officialVideoIdentity"]},
-        {"type":"official_video","url":"https://www.youtube.com/watch?v=IpGp-22t0lU","supports":["youtubeId","thumbnailUrl"]}
+        {
+          "type": "label_official",
+          "url": "https://battles.warp.net/release/60911-battles-atlas?lang=en_US",
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "label",
+            "releaseContext"
+          ]
+        },
+        {
+          "type": "creator_upload",
+          "url": "https://vimeo.com/2240229",
+          "supports": [
+            "officialTitle",
+            "director",
+            "officialVideoIdentity"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=IpGp-22t0lU",
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
-        "notes": "No award result is registered in this pass. Secondary credit lists were not used for production, VFX, editing, cinematography, animation, or art-direction fields."
+        "notes": "No award result is registered in this pass. Secondary credit lists were not used for production, VFX, editing, cinematography, animation, or art-direction fields. The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2000s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "vfx_credit_unverified",
+        "runtime_unverified"
+      ]
     }
   ]
 }

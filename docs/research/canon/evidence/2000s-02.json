@@ -92,7 +92,7 @@
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "GRAMMY Awards",
@@ -114,10 +114,36 @@
             "source": "https://www.jamiethraves.com/pages/about-1",
             "registrationStatus": "hold_for_awarding_body_archive"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2000s-resolved-award-audit.md",
+        "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
       "publicationBlockers": [
-        "award_scope_incomplete",
         "production_credit_unverified",
         "runtime_unverified"
       ]
@@ -319,7 +345,7 @@
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "GRAMMY Awards",
@@ -332,10 +358,35 @@
             "source": "https://www.grammy.com/artists/justice/14621/"
           }
         ],
-        "notes": "The director names are supported by the official-video credit and are retained as individual people. No production company is inferred from secondary databases."
+        "notes": "The director names are supported by the official-video credit and are retained as individual people. No production company is inferred from secondary databases. The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2000s-resolved-award-audit.md"
       },
       "publicationBlockers": [
-        "award_scope_incomplete",
         "production_credit_unverified",
         "vfx_credit_unverified",
         "runtime_unverified"
@@ -428,10 +479,30 @@
             "youtubeId",
             "thumbnailUrl"
           ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/radiohead-house-of-cards",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.oneclub.org/awards/theoneshow/-award/10979/radiohead-house-of-cards/",
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "GRAMMY Awards",
@@ -443,12 +514,58 @@
               "James Frost"
             ],
             "source": "https://www.grammy.com/artists/radiohead/8042/"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 2009,
+            "category": "Music Videos",
+            "result": "Yellow Pencil",
+            "creditedNames": [
+              "James Frost"
+            ],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/radiohead-house-of-cards"
+          },
+          {
+            "program": "The One Show",
+            "year": 2009,
+            "category": "Broadcast Design / Single",
+            "result": "Bronze Pencil",
+            "creditedNames": [
+              "James Frost",
+              "Zoo Film Productions"
+            ],
+            "source": "https://www.oneclub.org/awards/theoneshow/-award/10979/radiohead-house-of-cards/"
           }
         ],
-        "notes": "The simultaneous GRAMMY nomination for the song performance is not attached as a work award. Only the music-video nomination is registered."
+        "notes": "The verified GRAMMY nomination is retained and exact official D&AD and One Show records are added. The simultaneous GRAMMY song-performance nomination remains excluded.",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2000s-resolved-award-audit.md"
       },
       "publicationBlockers": [
-        "award_scope_incomplete",
         "label_unverified",
         "production_credit_unverified",
         "vfx_credit_unverified",
