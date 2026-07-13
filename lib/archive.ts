@@ -1,6 +1,6 @@
 import { cache } from "react";
 import type { AwardResult, LocalizedText, MusicVideo, RecognitionResult } from "@/types/music-video";
-import { decorateVideo, videos as jsonVideos } from "@/lib/videos";
+import { decorateVideo } from "@/lib/videos";
 
 type ArchiveEditorial = {
   shortSummary?: string | null;
@@ -33,9 +33,6 @@ type ArchiveRow = {
 
 type ArchiveAwardRow = AwardResult & { workSlug: string };
 type ArchiveRecognitionRow = RecognitionResult & { workSlug: string };
-
-const dataSource = process.env.MVHL_DATA_SOURCE ?? "supabase";
-const allowJsonFallback = process.env.MVHL_JSON_FALLBACK === "true";
 
 function localizedField(
   editorials: ArchiveRow["editorials"],
@@ -167,60 +164,32 @@ async function fetchArchiveRows(slug?: string): Promise<ArchiveRow[]> {
   return (await response.json()) as ArchiveRow[];
 }
 
-async function withFallback<T>(
-  fromSupabase: () => Promise<T>,
-  fromJson: () => T,
-): Promise<T> {
-  if (dataSource !== "supabase") return fromJson();
-
-  try {
-    return await fromSupabase();
-  } catch (error) {
-    if (!allowJsonFallback) throw error;
-    console.warn("MVHL: Supabase unavailable; using explicit JSON fallback.", error);
-    return fromJson();
+export const getPublishedWorks = cache(async (): Promise<MusicVideo[]> => {
+  const [rows, awardRows, recognitionRows] = await Promise.all([
+    fetchArchiveRows(), fetchArchiveAwards(), fetchArchiveRecognitions(),
+  ]);
+  const awardsBySlug = new Map<string, ArchiveAwardRow[]>();
+  const recognitionsBySlug = new Map<string, ArchiveRecognitionRow[]>();
+  for (const award of awardRows) {
+    awardsBySlug.set(award.workSlug, [...(awardsBySlug.get(award.workSlug) ?? []), award]);
   }
-}
-
-export const getPublishedWorks = cache(async (): Promise<MusicVideo[]> =>
-  withFallback(
-    async () => {
-      const [rows, awardRows, recognitionRows] = await Promise.all([
-        fetchArchiveRows(), fetchArchiveAwards(), fetchArchiveRecognitions(),
-      ]);
-      const awardsBySlug = new Map<string, ArchiveAwardRow[]>();
-      const recognitionsBySlug = new Map<string, ArchiveRecognitionRow[]>();
-      for (const award of awardRows) {
-        awardsBySlug.set(award.workSlug, [...(awardsBySlug.get(award.workSlug) ?? []), award]);
-      }
-      for (const recognition of recognitionRows) {
-        recognitionsBySlug.set(recognition.workSlug, [
-          ...(recognitionsBySlug.get(recognition.workSlug) ?? []), recognition,
-        ]);
-      }
-      return rows.map((row) => mapArchiveRow(
-        row,
-        awardsBySlug.get(row.slug) ?? [],
-        recognitionsBySlug.get(row.slug) ?? [],
-      ));
-    },
-    () => [...jsonVideos].sort((a, b) => {
-      const yearA = a.year ?? Number.MAX_SAFE_INTEGER;
-      const yearB = b.year ?? Number.MAX_SAFE_INTEGER;
-      return yearA - yearB || a.title.localeCompare(b.title, "ja");
-    }),
-  ),
-);
+  for (const recognition of recognitionRows) {
+    recognitionsBySlug.set(recognition.workSlug, [
+      ...(recognitionsBySlug.get(recognition.workSlug) ?? []), recognition,
+    ]);
+  }
+  return rows.map((row) => mapArchiveRow(
+    row,
+    awardsBySlug.get(row.slug) ?? [],
+    recognitionsBySlug.get(row.slug) ?? [],
+  ));
+});
 
 export const getPublishedWorkBySlug = cache(
-  async (slug: string): Promise<MusicVideo | undefined> =>
-    withFallback(
-      async () => {
-        const [[row], awards, recognitions] = await Promise.all([
-          fetchArchiveRows(slug), fetchArchiveAwards(slug), fetchArchiveRecognitions(slug),
-        ]);
-        return row ? mapArchiveRow(row, awards, recognitions) : undefined;
-      },
-      () => jsonVideos.find((video) => video.slug === slug),
-    ),
+  async (slug: string): Promise<MusicVideo | undefined> => {
+    const [[row], awards, recognitions] = await Promise.all([
+      fetchArchiveRows(slug), fetchArchiveAwards(slug), fetchArchiveRecognitions(slug),
+    ]);
+    return row ? mapArchiveRow(row, awards, recognitions) : undefined;
+  },
 );
