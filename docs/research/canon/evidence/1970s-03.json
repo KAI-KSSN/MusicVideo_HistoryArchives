@@ -1,0 +1,202 @@
+{
+  "batch": "1970s-03",
+  "status": "identity_review_and_metadata_partial",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Kraftwerk",
+      "title": "The Robots",
+      "requiresIdentityResolution": true,
+      "officialVideoUnresolved": true,
+      "metadata": {
+        "officialTitle": null,
+        "releaseYear": 1978,
+        "countryCode": "DE",
+        "directors": [],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": "Electronic"
+      },
+      "identityIssue": "The official Kraftwerk catalogue establishes the work and its album context, but an authoritative source identifying the exact historical promotional film, its credits, and a canonical official upload has not yet been located.",
+      "editorial": null,
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://www.kraftwerk.com/",
+          "supports": ["artistCatalogue", "albumContext"]
+        }
+      ],
+      "discoveryOnly": [
+        {
+          "claim": "A widely circulated upload represents the original promotional film for The Robots",
+          "source": "Third-party YouTube upload",
+          "reasonNotVerified": "The uploader is not an official artist or label channel and no authoritative production source has yet linked that upload to the intended work."
+        }
+      ],
+      "awardAudit": { "status": "not_started", "verifiedResults": [] },
+      "publicationBlockers": [
+        "work_identity_unresolved",
+        "official_video_unresolved",
+        "director_unverified",
+        "production_credit_unverified",
+        "label_unverified",
+        "award_scope_incomplete"
+      ]
+    },
+    {
+      "artist": "Donna Summer",
+      "title": "I Feel Love",
+      "requiresIdentityResolution": true,
+      "officialVideoUnresolved": true,
+      "metadata": {
+        "officialTitle": null,
+        "releaseYear": 1977,
+        "countryCode": "US",
+        "directors": [],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "GTO",
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": "Disco"
+      },
+      "identityIssue": "Official services expose a music-video asset for I Feel Love, but the available first-party pages do not establish whether it is the original 1977 promotional film or a later audiovisual version. The selected historical work must be resolved before publication.",
+      "editorial": null,
+      "sources": [
+        {
+          "type": "chart_archive_official",
+          "url": "https://www.officialcharts.com/songs/donna-summer-i-feel-love/",
+          "supports": ["releaseYear", "label", "recordingChartContext"]
+        },
+        {
+          "type": "official_platform_video",
+          "url": "https://music.apple.com/us/music-video/i-feel-love/1693665690",
+          "supports": ["musicVideoAssetExists"]
+        }
+      ],
+      "awardAudit": { "status": "not_started", "verifiedResults": [] },
+      "publicationBlockers": [
+        "work_identity_unresolved",
+        "official_video_unresolved",
+        "director_unverified",
+        "production_credit_unverified",
+        "award_scope_incomplete"
+      ]
+    },
+    {
+      "artist": "Elvis Costello",
+      "title": "Watching the Detectives",
+      "metadata": {
+        "officialTitle": "Watching the Detectives",
+        "releaseYear": 1977,
+        "countryCode": "GB",
+        "directors": [],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Stiff",
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": null
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A tightly framed performance presents Costello's stillness, direct address, and graphic silhouette as the work's primary visual material.",
+          "whyItMatters": "The film demonstrates how a controlled performer image could give an emerging artist a distinct screen identity without narrative scale or elaborate production.",
+          "historicalContext": "Released in 1977 on Stiff Records, the song and its promotional film belong to the period in which British punk and new wave acts used concise visual performances for television circulation.",
+          "keyInnovation": "Economical staging, frontal address, and sharply defined styling concentrate the image around attitude and presence rather than illustrative storytelling."
+        },
+        "ja": {
+          "shortSummary": "緊密なフレーミングの演奏を通して、Costelloの静止、カメラへの直接的な視線、明確なシルエットを主要な視覚素材とした作品。",
+          "whyItMatters": "物語的な規模や大掛かりな制作に頼らず、統御された演者のイメージだけで新進アーティストに固有のスクリーン上の人格を与えられることを示しました。",
+          "historicalContext": "楽曲は1977年にStiff Recordsから発表され、そのプロモーション映像は、英国のパンク／ニューウェーブ系アーティストがテレビ流通のために簡潔な演奏映像を用いた時期に位置づけられます。",
+          "keyInnovation": "簡潔な舞台設定、正面への語りかけ、輪郭の明確なスタイリングによって、説明的な物語ではなく態度と存在感へ映像を集中させています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://elviscostello.com/watch/",
+          "supports": ["officialTitle", "officialVideoCatalogue"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://elviscostello.com/videos/elvis-costello-watching-the-detectives/",
+          "supports": ["officialVideo"]
+        },
+        {
+          "type": "chart_archive_official",
+          "url": "https://www.officialcharts.com/songs/elvis-costello-watchin-the-detectives/",
+          "supports": ["releaseYear", "label", "recordingChartContext"]
+        }
+      ],
+      "discoveryOnly": [
+        {
+          "claim": "Irving Rappaport directed the promotional film",
+          "source": "IMDb and secondary credit databases",
+          "reasonNotVerified": "No artist, label, director, production-company, or award archive source has yet been located for this credit."
+        }
+      ],
+      "awardAudit": { "status": "not_started", "verifiedResults": [] },
+      "publicationBlockers": [
+        "youtube_id_unverified",
+        "director_unverified",
+        "production_credit_unverified",
+        "award_scope_incomplete"
+      ]
+    },
+    {
+      "artist": "ELO",
+      "title": "Shine a Little Love",
+      "requiresIdentityResolution": true,
+      "officialVideoUnresolved": true,
+      "metadata": {
+        "officialTitle": null,
+        "releaseYear": 1979,
+        "countryCode": "GB",
+        "directors": [],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": null
+      },
+      "identityIssue": "More than one promotional version is reported for Shine a Little Love, while the editorial sheet does not identify a version. The official catalogue confirms the 1979 recording context but does not presently resolve the intended audiovisual work or its credits.",
+      "editorial": null,
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://store.jefflynneselo.com/products/discovery-1lp-d2c-exclusive",
+          "supports": ["releaseYear", "albumTrack", "artistCatalogue"]
+        }
+      ],
+      "discoveryOnly": [
+        {
+          "claim": "Two promotional versions exist and one was directed by Mike Mansfield",
+          "source": "Fan-maintained videography and retailer listings",
+          "reasonNotVerified": "The sources are useful for discovery but are not sufficient to register a version or director credit."
+        }
+      ],
+      "awardAudit": { "status": "not_started", "verifiedResults": [] },
+      "publicationBlockers": [
+        "work_identity_unresolved",
+        "official_video_unresolved",
+        "director_unverified",
+        "production_credit_unverified",
+        "label_unverified",
+        "award_scope_incomplete"
+      ]
+    }
+  ]
+}

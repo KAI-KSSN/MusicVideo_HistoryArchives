@@ -1,0 +1,199 @@
+{
+  "batch": "1970s-02",
+  "status": "mixed_identity_and_metadata_review",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Pink Floyd",
+      "title": "Another Brick in the Wall",
+      "requiresIdentityResolution": true,
+      "metadata": {
+        "officialTitle": null,
+        "releaseYear": null,
+        "countryCode": "GB",
+        "directors": [],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=HrxX9TBj2zY",
+        "youtubeId": "HrxX9TBj2zY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/HrxX9TBj2zY/maxresdefault.jpg",
+        "runtimeSeconds": 199,
+        "genre": null
+      },
+      "identityIssue": "The 1979 promotional film and the later 1982 film-derived video are distinct audiovisual works. The current official YouTube upload appears to represent the later film-derived version; the editorial sheet does not specify which version is intended.",
+      "editorial": null,
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://www.pinkfloyd.com/albums/the-wall/",
+          "supports": ["albumReleaseYear", "concept", "geraldScarfeAlbumCredit"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=HrxX9TBj2zY",
+          "supports": ["youtubeId", "thumbnailUrl", "runtimeSeconds"]
+        }
+      ],
+      "awardAudit": { "status": "not_started", "verifiedResults": [] },
+      "publicationBlockers": ["work_identity_unresolved", "award_scope_incomplete", "director_unverified"]
+    },
+    {
+      "artist": "Blondie",
+      "title": "Heart of Glass",
+      "metadata": {
+        "officialTitle": "Heart of Glass",
+        "releaseYear": 1979,
+        "countryCode": "US",
+        "directors": [],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=WGU_4-5RaxU",
+        "youtubeId": "WGU_4-5RaxU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/WGU_4-5RaxU/maxresdefault.jpg",
+        "runtimeSeconds": 224,
+        "genre": null
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A restrained club performance places Debbie Harry's direct address, reflective surfaces, and controlled styling at the center of the frame.",
+          "whyItMatters": "The film demonstrates how performance, fashion, and the spatial codes of nightlife can establish a visual identity without a narrative premise.",
+          "historicalContext": "Released in 1979, the video accompanied Blondie's movement between New York new wave and disco-oriented mainstream pop.",
+          "keyInnovation": "Minimal staging and selective location imagery allow styling, gaze, and rhythmic cutting to carry the video's visual argument."
+        },
+        "ja": {
+          "shortSummary": "抑制されたクラブでの演奏を通して、Debbie Harryのカメラへの視線、反射面、統御されたスタイリングを画面の中心に置いた作品。",
+          "whyItMatters": "物語的な設定に頼らず、パフォーマンス、ファッション、ナイトライフの空間記号から強い視覚的アイデンティティを作れることを示しました。",
+          "historicalContext": "1979年に公開され、ニューヨークのニューウェーブとディスコ志向のメインストリーム・ポップを横断したBlondieの転換期に位置づけられます。",
+          "keyInnovation": "最小限の舞台設定と限定的なロケーション映像によって、スタイリング、視線、リズム編集そのものに映像の主張を担わせています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://www.blondie.net/videos/heart-of-glass-official-music-video/",
+          "supports": ["officialTitle", "officialVideo"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=WGU_4-5RaxU",
+          "supports": ["youtubeId", "thumbnailUrl", "runtimeSeconds"]
+        }
+      ],
+      "discoveryOnly": [
+        {
+          "claim": "Stanley Dorfman directed the video",
+          "source": "IMDb",
+          "reasonNotVerified": "No authoritative first-party or production source has yet been located."
+        }
+      ],
+      "awardAudit": { "status": "not_started", "verifiedResults": [] },
+      "publicationBlockers": ["award_scope_incomplete", "director_unverified", "release_year_needs_second_source"]
+    },
+    {
+      "artist": "The Clash",
+      "title": "London Calling",
+      "metadata": {
+        "officialTitle": "London Calling",
+        "releaseYear": 1979,
+        "countryCode": "GB",
+        "directors": ["Don Letts"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=EfK-WX2pa8c",
+        "youtubeId": "EfK-WX2pa8c",
+        "thumbnailUrl": "https://i.ytimg.com/vi/EfK-WX2pa8c/maxresdefault.jpg",
+        "runtimeSeconds": 202,
+        "genre": "Punk"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "The band performs on a Thames-side pier as rain, darkness, and unstable conditions become the video's principal atmosphere.",
+          "whyItMatters": "The film turns the contingency of a difficult location shoot into a visual language consistent with punk's directness and the song's sense of warning.",
+          "historicalContext": "Directed by Don Letts in 1979, the film was shot at Battersea on the River Thames and became one of The Clash's defining moving images.",
+          "keyInnovation": "Available weather, limited lighting, multiple camera positions, and forceful performance are treated as structural assets rather than production defects."
+        },
+        "ja": {
+          "shortSummary": "テムズ川沿いの桟橋で演奏するバンドを、雨、暗闇、不安定な撮影条件そのものを主要な空気として捉えた作品。",
+          "whyItMatters": "困難なロケーション撮影の偶発性を、パンクの直接性と楽曲の警告的な感覚に一致する視覚言語へ変換しています。",
+          "historicalContext": "Don Lettsの監督により1979年に制作され、テムズ川のBatterseaで撮影された本作は、The Clashを代表する映像のひとつとなりました。",
+          "keyInnovation": "自然の天候、限定的な照明、複数のカメラ位置、強い演奏を、制作上の欠点ではなく構造的な資産として扱っています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "director_official",
+          "url": "https://www.donletts.com/music-videos",
+          "supports": ["director", "location", "productionContext", "visualMethods"]
+        },
+        {
+          "type": "label_official",
+          "url": "https://www.sonymusic.co.jp/artist/TheClash/info/513479",
+          "supports": ["releaseContext", "officialHdRemaster"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=EfK-WX2pa8c",
+          "supports": ["officialTitle", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+        }
+      ],
+      "awardAudit": { "status": "not_started", "verifiedResults": [] },
+      "publicationBlockers": ["award_scope_incomplete", "label_unverified"]
+    },
+    {
+      "artist": "Kate Bush",
+      "title": "Wuthering Heights",
+      "metadata": {
+        "officialTitle": "Wuthering Heights — Version 1",
+        "releaseYear": 1978,
+        "countryCode": "GB",
+        "directors": [],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=-1pMMIe4hb4",
+        "youtubeId": "-1pMMIe4hb4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/-1pMMIe4hb4/maxresdefault.jpg",
+        "runtimeSeconds": 226,
+        "genre": null
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A solitary choreographed performance uses white costume, mist, and direct address to embody the song's literary speaker.",
+          "whyItMatters": "The video places authored movement and character performance at the center of a pop image, treating choreography as interpretation rather than accompaniment.",
+          "historicalContext": "Released in 1978, the selected white-dress version is one of two distinct promotional films made for the song.",
+          "keyInnovation": "A minimal studio environment concentrates attention on gesture, facial expression, costume, and the camera's sustained relationship with a single performer."
+        },
+        "ja": {
+          "shortSummary": "白い衣装、霧、カメラへの直接的な語りかけを用い、ひとりの振付パフォーマンスで楽曲の文学的な語り手を体現した作品。",
+          "whyItMatters": "作者性を持つ動きと人物演技をポップ映像の中心に置き、振付を伴奏ではなく解釈として扱っています。",
+          "historicalContext": "1978年に公開され、今回選定する白いドレスのVersion 1は、同曲のために制作された2種類の異なるプロモーション映像のひとつです。",
+          "keyInnovation": "最小限のスタジオ空間によって、身振り、表情、衣装、ひとりの演者とカメラの持続的な関係へ視線を集中させています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://music.katebush.com/buy/the-kick-inside/",
+          "supports": ["releaseYear", "songTitle"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=-1pMMIe4hb4",
+          "supports": ["officialTitle", "selectedVersion", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+        }
+      ],
+      "discoveryOnly": [
+        {
+          "claim": "Keef directed Version 1",
+          "source": "Kate Bush Encyclopedia",
+          "reasonNotVerified": "Useful discovery source, but an authoritative production or artist credit has not yet been located."
+        }
+      ],
+      "awardAudit": { "status": "not_started", "verifiedResults": [] },
+      "publicationBlockers": ["award_scope_incomplete", "director_unverified", "label_unverified"]
+    }
+  ]
+}

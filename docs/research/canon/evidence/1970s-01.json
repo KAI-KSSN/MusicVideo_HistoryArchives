@@ -1,0 +1,203 @@
+{
+  "batch": "1970s-01",
+  "status": "metadata_partial_editorial_draft",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Queen",
+      "title": "Bohemian Rhapsody",
+      "metadata": {
+        "officialTitle": "Bohemian Rhapsody",
+        "releaseYear": 1975,
+        "countryCode": "GB",
+        "directors": ["Bruce Gowers"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+        "youtubeId": "fJ9rUzIMcZQ",
+        "thumbnailUrl": "https://i.ytimg.com/vi/fJ9rUzIMcZQ/maxresdefault.jpg",
+        "runtimeSeconds": 360,
+        "genre": "Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A studio performance is reorganized through close framing, layered imagery, and controlled lighting.",
+          "whyItMatters": "The film established a durable model for the purpose-made promotional video while filmed pop performances were still closely tied to television appearances.",
+          "historicalContext": "Made in 1975 under director Bruce Gowers, the film enabled Queen to circulate a consistent visual performance without appearing live on every television program.",
+          "keyInnovation": "A limited production setup is transformed by iconic composition, multi-layered faces, lighting changes, and edits synchronized to the song's sectional structure."
+        },
+        "ja": {
+          "shortSummary": "スタジオでの演奏を、緊密なフレーミング、多重像、制御された照明によって再構成した作品。",
+          "whyItMatters": "ポップ映像がテレビ出演の記録と強く結びついていた時代に、目的を持って制作されたプロモーション映像の持続的なモデルを示しました。",
+          "historicalContext": "Bruce Gowersの監督により1975年に制作され、Queenが各地のテレビ番組へ毎回出演せずとも、楽曲の統一された視覚的パフォーマンスを届ける役割を果たしました。",
+          "keyInnovation": "限定的な撮影環境を、象徴的な構図、顔の多重像、照明変化、楽曲のセクションに同期した編集によって強い視覚言語へ変換しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://www.queenonline.com/news/bohemian-rhapsody-1-billion-views-on-you-tube",
+          "supports": ["releaseYear", "director", "historicalContext", "officialVideo"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
+          "supports": ["officialTitle", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "excludedFalsePositives": [
+          "2019 John Lewis/Waitrose advertisement titled Bohemian Rhapsody",
+          "2018 feature film and its marketing campaign",
+          "GRAMMY recording nominations and Hall of Fame induction"
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "label_unverified"]
+    },
+    {
+      "artist": "David Bowie",
+      "title": "Ashes to Ashes",
+      "metadata": {
+        "officialTitle": "Ashes To Ashes",
+        "releaseYear": 1980,
+        "countryCode": "GB",
+        "directors": ["David Bowie", "David Mallet"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=HyMm4rJemtI",
+        "youtubeId": "HyMm4rJemtI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/HyMm4rJemtI/maxresdefault.jpg",
+        "runtimeSeconds": 217,
+        "genre": null
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Solarized tableaux place Pierrot, institutional figures, and an industrial shoreline within one unstable visual world.",
+          "whyItMatters": "The film treats art direction, costume, image processing, and symbolic performance as equal components of a pop identity.",
+          "historicalContext": "Released in 1980 and co-directed by David Bowie and David Mallet, the film revisits Bowie's earlier characters through a newly controlled video-era image.",
+          "keyInnovation": "Solarization, restricted color, staged procession, and abrupt changes of scale create a structure that operates through recurrence rather than continuous narrative."
+        },
+        "ja": {
+          "shortSummary": "ソラリゼーションされた場面が、ピエロ、制度的な人物像、工業的な海岸をひとつの不安定な視覚世界に配置する作品。",
+          "whyItMatters": "美術、衣装、画像処理、象徴的な演技を、楽曲を飾る要素ではなくポップ・アイデンティティを構成する同等の要素として扱っています。",
+          "historicalContext": "David BowieとDavid Malletの共同監督により1980年に公開され、Bowieの過去の人物像をビデオ時代の新たに統御されたイメージとして提示しました。",
+          "keyInnovation": "ソラリゼーション、限定色、演出された行列、急激なスケール変化によって、連続的な物語ではなく反復から成立する視覚構造を作っています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://www.davidbowie.com/blog/2017/9/27/anciant-video-focus-ashes-to-ashes",
+          "supports": ["releaseYear", "directors", "visualMethods", "historicalContext"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=HyMm4rJemtI",
+          "supports": ["officialTitle", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+        }
+      ],
+      "awardAudit": { "status": "in_progress", "verifiedResults": [] },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "label_unverified"]
+    },
+    {
+      "artist": "ABBA",
+      "title": "Take a Chance on Me",
+      "metadata": {
+        "officialTitle": "Take A Chance On Me",
+        "releaseYear": 1978,
+        "countryCode": "SE",
+        "directors": ["Lasse Hallström"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=-crgQGdpZR0",
+        "youtubeId": "-crgQGdpZR0",
+        "thumbnailUrl": "https://i.ytimg.com/vi/-crgQGdpZR0/maxresdefault.jpg",
+        "runtimeSeconds": 239,
+        "genre": "Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Split screens, direct address, and shifting pairings turn a studio performance into a controlled study of group identity.",
+          "whyItMatters": "The film shows how a repeatable graphic device can organize personality, rhythm, and romantic suggestion without narrative locations or spectacle.",
+          "historicalContext": "Released in 1978 and directed by Lasse Hallström, the film belongs to ABBA's sustained use of purpose-made promotional films for international circulation.",
+          "keyInnovation": "A four-way split screen separates and recombines the performers, making editing and framing carry the song's call-and-response structure."
+        },
+        "ja": {
+          "shortSummary": "分割画面、カメラへの直接的な視線、組み合わせの変化によって、簡素なスタジオ演奏をグループ像の精密な研究へ変換した作品。",
+          "whyItMatters": "反復可能なグラフィック手法だけで、物語的なロケーションや大規模な見世物に頼らず、人物性、リズム、恋愛的な含意を構成できることを示しました。",
+          "historicalContext": "Lasse Hallströmの監督により1978年に公開され、国際流通のために専用プロモーション映像を継続制作したABBAの実践に位置づけられます。",
+          "keyInnovation": "4分割画面が各メンバーを分離し、再び組み合わせることで、楽曲の掛け合い構造を編集とフレーミングによって可視化しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://abbasite.com/articles/take-a-chance-on-me-abbas-farewell-to-innocence/",
+          "supports": ["releaseYear", "director", "visualMethods", "historicalContext"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=-crgQGdpZR0",
+          "supports": ["officialTitle", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+        }
+      ],
+      "awardAudit": { "status": "in_progress", "verifiedResults": [] },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "label_unverified"]
+    },
+    {
+      "artist": "The Buggles",
+      "title": "Video Killed the Radio Star",
+      "metadata": {
+        "officialTitle": "Video Killed The Radio Star",
+        "releaseYear": 1979,
+        "countryCode": "GB",
+        "directors": ["Russell Mulcahy"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Island Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=W8r-tXRLazs",
+        "youtubeId": "W8r-tXRLazs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/W8r-tXRLazs/maxresdefault.jpg",
+        "runtimeSeconds": 202,
+        "genre": null
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Performance, monochrome broadcast imagery, and a synthetic future are combined in a compact statement about changing media.",
+          "whyItMatters": "Its later position as the first video broadcast by MTV made the film a marker between the promotional-film era and continuous music television.",
+          "historicalContext": "Released in 1979 and directed by Russell Mulcahy, the film preceded MTV but became inseparable from the channel's 1981 launch.",
+          "keyInnovation": "Rapid editing, image layering, neon color, and transitions between past and future turn the song's media commentary into a visible temporal structure."
+        },
+        "ja": {
+          "shortSummary": "演奏、モノクロの放送イメージ、合成的な未来像を組み合わせ、メディアの変化を短い視覚的声明として提示した作品。",
+          "whyItMatters": "後にMTV最初の放送作品となったことで、プロモーション・フィルムの時代と音楽専門テレビの連続放送を隔てる象徴的な指標になりました。",
+          "historicalContext": "Russell Mulcahyの監督により1979年に公開され、MTV開局以前に制作されながら、1981年の同局開局と切り離せない作品となりました。",
+          "keyInnovation": "高速編集、像の重なり、ネオン色、過去と未来の切り替えによって、楽曲が扱うメディア論を時間的な視覚構造へ変換しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "label_editorial",
+          "url": "https://www.udiscovermusic.com/stories/best-80s-music-video/",
+          "supports": ["releaseYear", "director", "historicalContext", "visualMethods"]
+        },
+        {
+          "type": "label_editorial",
+          "url": "https://www.udiscovermusic.com/stories/buggles-become-video-radio-stars/",
+          "supports": ["releaseYear", "label", "historicalContext", "officialVideo"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=W8r-tXRLazs",
+          "supports": ["officialTitle", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+        }
+      ],
+      "awardAudit": { "status": "in_progress", "verifiedResults": [] },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified"]
+    }
+  ]
+}

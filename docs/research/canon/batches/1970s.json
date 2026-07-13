@@ -1,0 +1,3555 @@
+{
+  "sourceFile": "MVHL_Canon_Candidates_5star.xlsx",
+  "sourceSha256": "f7da97b5fea5b8b3c81051d83c8b19e45e67495c12a0b8b579972be8429c3c21",
+  "era": "1970s",
+  "count": 12,
+  "generatedAt": "2026-07-12T16:32:55.902Z",
+  "rules": {
+    "unknownValuesRemainNull": true,
+    "awardsRequireOfficialSource": true,
+    "noResultIsValidOnlyAfterProgramWasChecked": true,
+    "publishOnlyWhenGateIsReady": true
+  },
+  "works": [
+    {
+      "sourceRow": 2,
+      "priority": "★★★★★",
+      "artist": "Queen",
+      "title": "Bohemian Rhapsody",
+      "editorialMovement": "Performance",
+      "acquisitionReason": "Representative work for Performance.",
+      "researchStatus": "pending",
+      "publicationStatus": "not_evaluated",
+      "metadata": {
+        "officialTitle": null,
+        "localTitle": null,
+        "englishTitle": null,
+        "releaseYear": null,
+        "countryCode": null,
+        "director": null,
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": null
+      },
+      "editorial": {
+        "ja": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        },
+        "en": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        }
+      },
+      "awardsAudit": [
+        {
+          "code": "mtv-vma",
+          "name": "MTV Video Music Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ukmva",
+          "name": "UK Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "grammy",
+          "name": "Grammy Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "berlin-mva",
+          "name": "Berlin Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "camerimage",
+          "name": "Camerimage",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "d-and-ad",
+          "name": "D&AD",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "cannes-lions",
+          "name": "Cannes Lions",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "clio",
+          "name": "Clio",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "adc",
+          "name": "ADC",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "the-one-show",
+          "name": "The One Show",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ciclope",
+          "name": "CICLOPE",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "aicp",
+          "name": "AICP",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "webby",
+          "name": "Webby Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "sxsw",
+          "name": "SXSW",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "mtv-vmaj",
+          "name": "MTV VMAJ",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "space-shower-mva",
+          "name": "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "music-awards-japan",
+          "name": "MUSIC AWARDS JAPAN",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "acc",
+          "name": "ACC",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "media-arts-festival",
+          "name": "Japan Media Arts Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "jaa",
+          "name": "JAA",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "short-shorts",
+          "name": "Short Shorts Film Festival & Asia",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "image-forum",
+          "name": "Image Forum Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "tokyo-filmex",
+          "name": "TOKYO FILMeX",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        }
+      ],
+      "awardCraftScopes": [
+        "director",
+        "editing",
+        "cinematography",
+        "production_design",
+        "animation",
+        "colour_grading",
+        "vfx"
+      ],
+      "sources": [],
+      "tags": [],
+      "movements": [
+        "Performance"
+      ],
+      "relationships": [],
+      "missingRequiredFields": [],
+      "publicationGate": {
+        "metadataVerified": false,
+        "awardScopeCompleted": false,
+        "editorialCompleted": false,
+        "sourcesAttached": false,
+        "ready": false
+      }
+    },
+    {
+      "sourceRow": 3,
+      "priority": "★★★★★",
+      "artist": "David Bowie",
+      "title": "Ashes to Ashes",
+      "editorialMovement": "Art Direction",
+      "acquisitionReason": "Representative work for Art Direction.",
+      "researchStatus": "pending",
+      "publicationStatus": "not_evaluated",
+      "metadata": {
+        "officialTitle": null,
+        "localTitle": null,
+        "englishTitle": null,
+        "releaseYear": null,
+        "countryCode": null,
+        "director": null,
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": null
+      },
+      "editorial": {
+        "ja": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        },
+        "en": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        }
+      },
+      "awardsAudit": [
+        {
+          "code": "mtv-vma",
+          "name": "MTV Video Music Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ukmva",
+          "name": "UK Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "grammy",
+          "name": "Grammy Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "berlin-mva",
+          "name": "Berlin Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "camerimage",
+          "name": "Camerimage",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "d-and-ad",
+          "name": "D&AD",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "cannes-lions",
+          "name": "Cannes Lions",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "clio",
+          "name": "Clio",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "adc",
+          "name": "ADC",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "the-one-show",
+          "name": "The One Show",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ciclope",
+          "name": "CICLOPE",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "aicp",
+          "name": "AICP",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "webby",
+          "name": "Webby Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "sxsw",
+          "name": "SXSW",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "mtv-vmaj",
+          "name": "MTV VMAJ",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "space-shower-mva",
+          "name": "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "music-awards-japan",
+          "name": "MUSIC AWARDS JAPAN",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "acc",
+          "name": "ACC",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "media-arts-festival",
+          "name": "Japan Media Arts Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "jaa",
+          "name": "JAA",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "short-shorts",
+          "name": "Short Shorts Film Festival & Asia",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "image-forum",
+          "name": "Image Forum Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "tokyo-filmex",
+          "name": "TOKYO FILMeX",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        }
+      ],
+      "awardCraftScopes": [
+        "director",
+        "editing",
+        "cinematography",
+        "production_design",
+        "animation",
+        "colour_grading",
+        "vfx"
+      ],
+      "sources": [],
+      "tags": [],
+      "movements": [
+        "Art Direction"
+      ],
+      "relationships": [],
+      "missingRequiredFields": [],
+      "publicationGate": {
+        "metadataVerified": false,
+        "awardScopeCompleted": false,
+        "editorialCompleted": false,
+        "sourcesAttached": false,
+        "ready": false
+      }
+    },
+    {
+      "sourceRow": 4,
+      "priority": "★★★★★",
+      "artist": "ABBA",
+      "title": "Take a Chance on Me",
+      "editorialMovement": "Performance",
+      "acquisitionReason": "Representative work for Performance.",
+      "researchStatus": "pending",
+      "publicationStatus": "not_evaluated",
+      "metadata": {
+        "officialTitle": null,
+        "localTitle": null,
+        "englishTitle": null,
+        "releaseYear": null,
+        "countryCode": null,
+        "director": null,
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": null
+      },
+      "editorial": {
+        "ja": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        },
+        "en": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        }
+      },
+      "awardsAudit": [
+        {
+          "code": "mtv-vma",
+          "name": "MTV Video Music Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ukmva",
+          "name": "UK Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "grammy",
+          "name": "Grammy Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "berlin-mva",
+          "name": "Berlin Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "camerimage",
+          "name": "Camerimage",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "d-and-ad",
+          "name": "D&AD",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "cannes-lions",
+          "name": "Cannes Lions",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "clio",
+          "name": "Clio",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "adc",
+          "name": "ADC",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "the-one-show",
+          "name": "The One Show",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ciclope",
+          "name": "CICLOPE",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "aicp",
+          "name": "AICP",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "webby",
+          "name": "Webby Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "sxsw",
+          "name": "SXSW",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "mtv-vmaj",
+          "name": "MTV VMAJ",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "space-shower-mva",
+          "name": "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "music-awards-japan",
+          "name": "MUSIC AWARDS JAPAN",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "acc",
+          "name": "ACC",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "media-arts-festival",
+          "name": "Japan Media Arts Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "jaa",
+          "name": "JAA",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "short-shorts",
+          "name": "Short Shorts Film Festival & Asia",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "image-forum",
+          "name": "Image Forum Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "tokyo-filmex",
+          "name": "TOKYO FILMeX",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        }
+      ],
+      "awardCraftScopes": [
+        "director",
+        "editing",
+        "cinematography",
+        "production_design",
+        "animation",
+        "colour_grading",
+        "vfx"
+      ],
+      "sources": [],
+      "tags": [],
+      "movements": [
+        "Performance"
+      ],
+      "relationships": [],
+      "missingRequiredFields": [],
+      "publicationGate": {
+        "metadataVerified": false,
+        "awardScopeCompleted": false,
+        "editorialCompleted": false,
+        "sourcesAttached": false,
+        "ready": false
+      }
+    },
+    {
+      "sourceRow": 5,
+      "priority": "★★★★★",
+      "artist": "The Buggles",
+      "title": "Video Killed the Radio Star",
+      "editorialMovement": "MTV Prelude",
+      "acquisitionReason": "Representative work for MTV Prelude.",
+      "researchStatus": "pending",
+      "publicationStatus": "not_evaluated",
+      "metadata": {
+        "officialTitle": null,
+        "localTitle": null,
+        "englishTitle": null,
+        "releaseYear": null,
+        "countryCode": null,
+        "director": null,
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": null
+      },
+      "editorial": {
+        "ja": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        },
+        "en": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        }
+      },
+      "awardsAudit": [
+        {
+          "code": "mtv-vma",
+          "name": "MTV Video Music Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ukmva",
+          "name": "UK Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "grammy",
+          "name": "Grammy Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "berlin-mva",
+          "name": "Berlin Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "camerimage",
+          "name": "Camerimage",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "d-and-ad",
+          "name": "D&AD",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "cannes-lions",
+          "name": "Cannes Lions",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "clio",
+          "name": "Clio",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "adc",
+          "name": "ADC",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "the-one-show",
+          "name": "The One Show",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ciclope",
+          "name": "CICLOPE",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "aicp",
+          "name": "AICP",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "webby",
+          "name": "Webby Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "sxsw",
+          "name": "SXSW",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "mtv-vmaj",
+          "name": "MTV VMAJ",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "space-shower-mva",
+          "name": "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "music-awards-japan",
+          "name": "MUSIC AWARDS JAPAN",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "acc",
+          "name": "ACC",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "media-arts-festival",
+          "name": "Japan Media Arts Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "jaa",
+          "name": "JAA",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "short-shorts",
+          "name": "Short Shorts Film Festival & Asia",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "image-forum",
+          "name": "Image Forum Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "tokyo-filmex",
+          "name": "TOKYO FILMeX",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        }
+      ],
+      "awardCraftScopes": [
+        "director",
+        "editing",
+        "cinematography",
+        "production_design",
+        "animation",
+        "colour_grading",
+        "vfx"
+      ],
+      "sources": [],
+      "tags": [],
+      "movements": [
+        "MTV Prelude"
+      ],
+      "relationships": [],
+      "missingRequiredFields": [],
+      "publicationGate": {
+        "metadataVerified": false,
+        "awardScopeCompleted": false,
+        "editorialCompleted": false,
+        "sourcesAttached": false,
+        "ready": false
+      }
+    },
+    {
+      "sourceRow": 6,
+      "priority": "★★★★★",
+      "artist": "Pink Floyd",
+      "title": "Another Brick in the Wall",
+      "editorialMovement": "Concept",
+      "acquisitionReason": "Representative work for Concept.",
+      "researchStatus": "pending",
+      "publicationStatus": "not_evaluated",
+      "metadata": {
+        "officialTitle": null,
+        "localTitle": null,
+        "englishTitle": null,
+        "releaseYear": null,
+        "countryCode": null,
+        "director": null,
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": null
+      },
+      "editorial": {
+        "ja": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        },
+        "en": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        }
+      },
+      "awardsAudit": [
+        {
+          "code": "mtv-vma",
+          "name": "MTV Video Music Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ukmva",
+          "name": "UK Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "grammy",
+          "name": "Grammy Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "berlin-mva",
+          "name": "Berlin Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "camerimage",
+          "name": "Camerimage",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "d-and-ad",
+          "name": "D&AD",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "cannes-lions",
+          "name": "Cannes Lions",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "clio",
+          "name": "Clio",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "adc",
+          "name": "ADC",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "the-one-show",
+          "name": "The One Show",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ciclope",
+          "name": "CICLOPE",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "aicp",
+          "name": "AICP",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "webby",
+          "name": "Webby Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "sxsw",
+          "name": "SXSW",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "mtv-vmaj",
+          "name": "MTV VMAJ",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "space-shower-mva",
+          "name": "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "music-awards-japan",
+          "name": "MUSIC AWARDS JAPAN",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "acc",
+          "name": "ACC",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "media-arts-festival",
+          "name": "Japan Media Arts Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "jaa",
+          "name": "JAA",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "short-shorts",
+          "name": "Short Shorts Film Festival & Asia",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "image-forum",
+          "name": "Image Forum Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "tokyo-filmex",
+          "name": "TOKYO FILMeX",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        }
+      ],
+      "awardCraftScopes": [
+        "director",
+        "editing",
+        "cinematography",
+        "production_design",
+        "animation",
+        "colour_grading",
+        "vfx"
+      ],
+      "sources": [],
+      "tags": [],
+      "movements": [
+        "Concept"
+      ],
+      "relationships": [],
+      "missingRequiredFields": [],
+      "publicationGate": {
+        "metadataVerified": false,
+        "awardScopeCompleted": false,
+        "editorialCompleted": false,
+        "sourcesAttached": false,
+        "ready": false
+      }
+    },
+    {
+      "sourceRow": 7,
+      "priority": "★★★★★",
+      "artist": "Blondie",
+      "title": "Heart of Glass",
+      "editorialMovement": "Fashion",
+      "acquisitionReason": "Representative work for Fashion.",
+      "researchStatus": "pending",
+      "publicationStatus": "not_evaluated",
+      "metadata": {
+        "officialTitle": null,
+        "localTitle": null,
+        "englishTitle": null,
+        "releaseYear": null,
+        "countryCode": null,
+        "director": null,
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": null
+      },
+      "editorial": {
+        "ja": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        },
+        "en": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        }
+      },
+      "awardsAudit": [
+        {
+          "code": "mtv-vma",
+          "name": "MTV Video Music Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ukmva",
+          "name": "UK Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "grammy",
+          "name": "Grammy Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "berlin-mva",
+          "name": "Berlin Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "camerimage",
+          "name": "Camerimage",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "d-and-ad",
+          "name": "D&AD",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "cannes-lions",
+          "name": "Cannes Lions",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "clio",
+          "name": "Clio",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "adc",
+          "name": "ADC",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "the-one-show",
+          "name": "The One Show",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ciclope",
+          "name": "CICLOPE",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "aicp",
+          "name": "AICP",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "webby",
+          "name": "Webby Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "sxsw",
+          "name": "SXSW",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "mtv-vmaj",
+          "name": "MTV VMAJ",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "space-shower-mva",
+          "name": "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "music-awards-japan",
+          "name": "MUSIC AWARDS JAPAN",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "acc",
+          "name": "ACC",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "media-arts-festival",
+          "name": "Japan Media Arts Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "jaa",
+          "name": "JAA",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "short-shorts",
+          "name": "Short Shorts Film Festival & Asia",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "image-forum",
+          "name": "Image Forum Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "tokyo-filmex",
+          "name": "TOKYO FILMeX",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        }
+      ],
+      "awardCraftScopes": [
+        "director",
+        "editing",
+        "cinematography",
+        "production_design",
+        "animation",
+        "colour_grading",
+        "vfx"
+      ],
+      "sources": [],
+      "tags": [],
+      "movements": [
+        "Fashion"
+      ],
+      "relationships": [],
+      "missingRequiredFields": [],
+      "publicationGate": {
+        "metadataVerified": false,
+        "awardScopeCompleted": false,
+        "editorialCompleted": false,
+        "sourcesAttached": false,
+        "ready": false
+      }
+    },
+    {
+      "sourceRow": 8,
+      "priority": "★★★★★",
+      "artist": "The Clash",
+      "title": "London Calling",
+      "editorialMovement": "Punk",
+      "acquisitionReason": "Representative work for Punk.",
+      "researchStatus": "pending",
+      "publicationStatus": "not_evaluated",
+      "metadata": {
+        "officialTitle": null,
+        "localTitle": null,
+        "englishTitle": null,
+        "releaseYear": null,
+        "countryCode": null,
+        "director": null,
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": null
+      },
+      "editorial": {
+        "ja": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        },
+        "en": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        }
+      },
+      "awardsAudit": [
+        {
+          "code": "mtv-vma",
+          "name": "MTV Video Music Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ukmva",
+          "name": "UK Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "grammy",
+          "name": "Grammy Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "berlin-mva",
+          "name": "Berlin Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "camerimage",
+          "name": "Camerimage",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "d-and-ad",
+          "name": "D&AD",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "cannes-lions",
+          "name": "Cannes Lions",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "clio",
+          "name": "Clio",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "adc",
+          "name": "ADC",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "the-one-show",
+          "name": "The One Show",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ciclope",
+          "name": "CICLOPE",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "aicp",
+          "name": "AICP",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "webby",
+          "name": "Webby Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "sxsw",
+          "name": "SXSW",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "mtv-vmaj",
+          "name": "MTV VMAJ",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "space-shower-mva",
+          "name": "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "music-awards-japan",
+          "name": "MUSIC AWARDS JAPAN",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "acc",
+          "name": "ACC",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "media-arts-festival",
+          "name": "Japan Media Arts Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "jaa",
+          "name": "JAA",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "short-shorts",
+          "name": "Short Shorts Film Festival & Asia",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "image-forum",
+          "name": "Image Forum Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "tokyo-filmex",
+          "name": "TOKYO FILMeX",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        }
+      ],
+      "awardCraftScopes": [
+        "director",
+        "editing",
+        "cinematography",
+        "production_design",
+        "animation",
+        "colour_grading",
+        "vfx"
+      ],
+      "sources": [],
+      "tags": [],
+      "movements": [
+        "Punk"
+      ],
+      "relationships": [],
+      "missingRequiredFields": [],
+      "publicationGate": {
+        "metadataVerified": false,
+        "awardScopeCompleted": false,
+        "editorialCompleted": false,
+        "sourcesAttached": false,
+        "ready": false
+      }
+    },
+    {
+      "sourceRow": 9,
+      "priority": "★★★★★",
+      "artist": "Kate Bush",
+      "title": "Wuthering Heights",
+      "editorialMovement": "Performance",
+      "acquisitionReason": "Representative work for Performance.",
+      "researchStatus": "pending",
+      "publicationStatus": "not_evaluated",
+      "metadata": {
+        "officialTitle": null,
+        "localTitle": null,
+        "englishTitle": null,
+        "releaseYear": null,
+        "countryCode": null,
+        "director": null,
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": null
+      },
+      "editorial": {
+        "ja": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        },
+        "en": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        }
+      },
+      "awardsAudit": [
+        {
+          "code": "mtv-vma",
+          "name": "MTV Video Music Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ukmva",
+          "name": "UK Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "grammy",
+          "name": "Grammy Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "berlin-mva",
+          "name": "Berlin Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "camerimage",
+          "name": "Camerimage",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "d-and-ad",
+          "name": "D&AD",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "cannes-lions",
+          "name": "Cannes Lions",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "clio",
+          "name": "Clio",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "adc",
+          "name": "ADC",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "the-one-show",
+          "name": "The One Show",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ciclope",
+          "name": "CICLOPE",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "aicp",
+          "name": "AICP",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "webby",
+          "name": "Webby Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "sxsw",
+          "name": "SXSW",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "mtv-vmaj",
+          "name": "MTV VMAJ",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "space-shower-mva",
+          "name": "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "music-awards-japan",
+          "name": "MUSIC AWARDS JAPAN",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "acc",
+          "name": "ACC",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "media-arts-festival",
+          "name": "Japan Media Arts Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "jaa",
+          "name": "JAA",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "short-shorts",
+          "name": "Short Shorts Film Festival & Asia",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "image-forum",
+          "name": "Image Forum Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "tokyo-filmex",
+          "name": "TOKYO FILMeX",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        }
+      ],
+      "awardCraftScopes": [
+        "director",
+        "editing",
+        "cinematography",
+        "production_design",
+        "animation",
+        "colour_grading",
+        "vfx"
+      ],
+      "sources": [],
+      "tags": [],
+      "movements": [
+        "Performance"
+      ],
+      "relationships": [],
+      "missingRequiredFields": [],
+      "publicationGate": {
+        "metadataVerified": false,
+        "awardScopeCompleted": false,
+        "editorialCompleted": false,
+        "sourcesAttached": false,
+        "ready": false
+      }
+    },
+    {
+      "sourceRow": 10,
+      "priority": "★★★★★",
+      "artist": "Kraftwerk",
+      "title": "The Robots",
+      "editorialMovement": "Electronic",
+      "acquisitionReason": "Representative work for Electronic.",
+      "researchStatus": "pending",
+      "publicationStatus": "not_evaluated",
+      "metadata": {
+        "officialTitle": null,
+        "localTitle": null,
+        "englishTitle": null,
+        "releaseYear": null,
+        "countryCode": null,
+        "director": null,
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": null
+      },
+      "editorial": {
+        "ja": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        },
+        "en": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        }
+      },
+      "awardsAudit": [
+        {
+          "code": "mtv-vma",
+          "name": "MTV Video Music Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ukmva",
+          "name": "UK Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "grammy",
+          "name": "Grammy Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "berlin-mva",
+          "name": "Berlin Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "camerimage",
+          "name": "Camerimage",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "d-and-ad",
+          "name": "D&AD",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "cannes-lions",
+          "name": "Cannes Lions",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "clio",
+          "name": "Clio",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "adc",
+          "name": "ADC",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "the-one-show",
+          "name": "The One Show",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ciclope",
+          "name": "CICLOPE",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "aicp",
+          "name": "AICP",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "webby",
+          "name": "Webby Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "sxsw",
+          "name": "SXSW",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "mtv-vmaj",
+          "name": "MTV VMAJ",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "space-shower-mva",
+          "name": "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "music-awards-japan",
+          "name": "MUSIC AWARDS JAPAN",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "acc",
+          "name": "ACC",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "media-arts-festival",
+          "name": "Japan Media Arts Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "jaa",
+          "name": "JAA",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "short-shorts",
+          "name": "Short Shorts Film Festival & Asia",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "image-forum",
+          "name": "Image Forum Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "tokyo-filmex",
+          "name": "TOKYO FILMeX",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        }
+      ],
+      "awardCraftScopes": [
+        "director",
+        "editing",
+        "cinematography",
+        "production_design",
+        "animation",
+        "colour_grading",
+        "vfx"
+      ],
+      "sources": [],
+      "tags": [],
+      "movements": [
+        "Electronic"
+      ],
+      "relationships": [],
+      "missingRequiredFields": [],
+      "publicationGate": {
+        "metadataVerified": false,
+        "awardScopeCompleted": false,
+        "editorialCompleted": false,
+        "sourcesAttached": false,
+        "ready": false
+      }
+    },
+    {
+      "sourceRow": 11,
+      "priority": "★★★★★",
+      "artist": "Donna Summer",
+      "title": "I Feel Love",
+      "editorialMovement": "Disco",
+      "acquisitionReason": "Representative work for Disco.",
+      "researchStatus": "pending",
+      "publicationStatus": "not_evaluated",
+      "metadata": {
+        "officialTitle": null,
+        "localTitle": null,
+        "englishTitle": null,
+        "releaseYear": null,
+        "countryCode": null,
+        "director": null,
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": null
+      },
+      "editorial": {
+        "ja": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        },
+        "en": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        }
+      },
+      "awardsAudit": [
+        {
+          "code": "mtv-vma",
+          "name": "MTV Video Music Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ukmva",
+          "name": "UK Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "grammy",
+          "name": "Grammy Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "berlin-mva",
+          "name": "Berlin Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "camerimage",
+          "name": "Camerimage",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "d-and-ad",
+          "name": "D&AD",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "cannes-lions",
+          "name": "Cannes Lions",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "clio",
+          "name": "Clio",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "adc",
+          "name": "ADC",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "the-one-show",
+          "name": "The One Show",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ciclope",
+          "name": "CICLOPE",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "aicp",
+          "name": "AICP",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "webby",
+          "name": "Webby Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "sxsw",
+          "name": "SXSW",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "mtv-vmaj",
+          "name": "MTV VMAJ",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "space-shower-mva",
+          "name": "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "music-awards-japan",
+          "name": "MUSIC AWARDS JAPAN",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "acc",
+          "name": "ACC",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "media-arts-festival",
+          "name": "Japan Media Arts Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "jaa",
+          "name": "JAA",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "short-shorts",
+          "name": "Short Shorts Film Festival & Asia",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "image-forum",
+          "name": "Image Forum Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "tokyo-filmex",
+          "name": "TOKYO FILMeX",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        }
+      ],
+      "awardCraftScopes": [
+        "director",
+        "editing",
+        "cinematography",
+        "production_design",
+        "animation",
+        "colour_grading",
+        "vfx"
+      ],
+      "sources": [],
+      "tags": [],
+      "movements": [
+        "Disco"
+      ],
+      "relationships": [],
+      "missingRequiredFields": [],
+      "publicationGate": {
+        "metadataVerified": false,
+        "awardScopeCompleted": false,
+        "editorialCompleted": false,
+        "sourcesAttached": false,
+        "ready": false
+      }
+    },
+    {
+      "sourceRow": 12,
+      "priority": "★★★★★",
+      "artist": "Elvis Costello",
+      "title": "Watching the Detectives",
+      "editorialMovement": "Editing",
+      "acquisitionReason": "Representative work for Editing.",
+      "researchStatus": "pending",
+      "publicationStatus": "not_evaluated",
+      "metadata": {
+        "officialTitle": null,
+        "localTitle": null,
+        "englishTitle": null,
+        "releaseYear": null,
+        "countryCode": null,
+        "director": null,
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": null
+      },
+      "editorial": {
+        "ja": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        },
+        "en": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        }
+      },
+      "awardsAudit": [
+        {
+          "code": "mtv-vma",
+          "name": "MTV Video Music Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ukmva",
+          "name": "UK Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "grammy",
+          "name": "Grammy Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "berlin-mva",
+          "name": "Berlin Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "camerimage",
+          "name": "Camerimage",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "d-and-ad",
+          "name": "D&AD",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "cannes-lions",
+          "name": "Cannes Lions",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "clio",
+          "name": "Clio",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "adc",
+          "name": "ADC",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "the-one-show",
+          "name": "The One Show",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ciclope",
+          "name": "CICLOPE",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "aicp",
+          "name": "AICP",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "webby",
+          "name": "Webby Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "sxsw",
+          "name": "SXSW",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "mtv-vmaj",
+          "name": "MTV VMAJ",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "space-shower-mva",
+          "name": "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "music-awards-japan",
+          "name": "MUSIC AWARDS JAPAN",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "acc",
+          "name": "ACC",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "media-arts-festival",
+          "name": "Japan Media Arts Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "jaa",
+          "name": "JAA",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "short-shorts",
+          "name": "Short Shorts Film Festival & Asia",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "image-forum",
+          "name": "Image Forum Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "tokyo-filmex",
+          "name": "TOKYO FILMeX",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        }
+      ],
+      "awardCraftScopes": [
+        "director",
+        "editing",
+        "cinematography",
+        "production_design",
+        "animation",
+        "colour_grading",
+        "vfx"
+      ],
+      "sources": [],
+      "tags": [],
+      "movements": [
+        "Editing"
+      ],
+      "relationships": [],
+      "missingRequiredFields": [],
+      "publicationGate": {
+        "metadataVerified": false,
+        "awardScopeCompleted": false,
+        "editorialCompleted": false,
+        "sourcesAttached": false,
+        "ready": false
+      }
+    },
+    {
+      "sourceRow": 13,
+      "priority": "★★★★★",
+      "artist": "ELO",
+      "title": "Shine a Little Love",
+      "editorialMovement": "Visual FX",
+      "acquisitionReason": "Representative work for Visual FX.",
+      "researchStatus": "pending",
+      "publicationStatus": "not_evaluated",
+      "metadata": {
+        "officialTitle": null,
+        "localTitle": null,
+        "englishTitle": null,
+        "releaseYear": null,
+        "countryCode": null,
+        "director": null,
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": null
+      },
+      "editorial": {
+        "ja": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        },
+        "en": {
+          "shortSummary": null,
+          "whyItMatters": null,
+          "historicalContext": null,
+          "keyInnovation": null
+        }
+      },
+      "awardsAudit": [
+        {
+          "code": "mtv-vma",
+          "name": "MTV Video Music Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ukmva",
+          "name": "UK Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "grammy",
+          "name": "Grammy Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "berlin-mva",
+          "name": "Berlin Music Video Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "camerimage",
+          "name": "Camerimage",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "d-and-ad",
+          "name": "D&AD",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "cannes-lions",
+          "name": "Cannes Lions",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "clio",
+          "name": "Clio",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "adc",
+          "name": "ADC",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "the-one-show",
+          "name": "The One Show",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "ciclope",
+          "name": "CICLOPE",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "aicp",
+          "name": "AICP",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "webby",
+          "name": "Webby Awards",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "sxsw",
+          "name": "SXSW",
+          "region": "international",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "mtv-vmaj",
+          "name": "MTV VMAJ",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "space-shower-mva",
+          "name": "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "music-awards-japan",
+          "name": "MUSIC AWARDS JAPAN",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "acc",
+          "name": "ACC",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "media-arts-festival",
+          "name": "Japan Media Arts Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "jaa",
+          "name": "JAA",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "short-shorts",
+          "name": "Short Shorts Film Festival & Asia",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "image-forum",
+          "name": "Image Forum Festival",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        },
+        {
+          "code": "tokyo-filmex",
+          "name": "TOKYO FILMeX",
+          "region": "japan",
+          "status": "not_checked",
+          "officialArchiveUrl": null,
+          "checkedAt": null,
+          "verifiedResults": [],
+          "notes": null
+        }
+      ],
+      "awardCraftScopes": [
+        "director",
+        "editing",
+        "cinematography",
+        "production_design",
+        "animation",
+        "colour_grading",
+        "vfx"
+      ],
+      "sources": [],
+      "tags": [],
+      "movements": [
+        "Visual FX"
+      ],
+      "relationships": [],
+      "missingRequiredFields": [],
+      "publicationGate": {
+        "metadataVerified": false,
+        "awardScopeCompleted": false,
+        "editorialCompleted": false,
+        "sourcesAttached": false,
+        "ready": false
+      }
+    }
+  ]
+}
