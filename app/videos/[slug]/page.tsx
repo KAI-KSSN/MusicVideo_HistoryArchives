@@ -19,8 +19,24 @@ export default async function VideoDetailPage({ params }: Props) {
 
   if (!video) notFound();
 
-  const wins = (video.awards ?? []).filter((result) => result.result !== "nominee");
+  const winningResults = new Set([
+    "winner",
+    "peoples_voice_winner",
+    "grand_prix",
+    "gold",
+    "silver",
+    "bronze",
+    "black_pencil",
+    "yellow_pencil",
+    "graphite_pencil",
+    "wood_pencil",
+    "excellence_award",
+  ]);
+  const wins = (video.awards ?? []).filter((result) => winningResults.has(result.result));
   const nominations = (video.awards ?? []).filter((result) => result.result === "nominee");
+  const awardSelections = (video.awards ?? []).filter(
+    (result) => !winningResults.has(result.result) && result.result !== "nominee",
+  );
   const festivalSelections = (video.recognitions ?? []).filter((result) =>
     ["festival_selection", "jury_selection"].includes(result.recognitionType),
   );
@@ -29,11 +45,26 @@ export default async function VideoDetailPage({ params }: Props) {
   );
 
   const formatAward = (result: (typeof wins)[number]) => {
-    const outcome = result.result === "winner"
-      ? "Winner"
-      : result.result === "peoples_voice_winner"
-        ? "People's Voice Winner"
-        : result.result.replaceAll("_", " ");
+    const outcomeLabels: Record<string, string> = {
+      winner: "Winner",
+      peoples_voice_winner: "People's Voice Winner",
+      grand_prix: "Grand Prix",
+      gold: "Gold",
+      silver: "Silver",
+      bronze: "Bronze",
+      black_pencil: "Black Pencil",
+      yellow_pencil: "Yellow Pencil",
+      graphite_pencil: "Graphite Pencil",
+      wood_pencil: "Wood Pencil",
+      excellence_award: "Excellence Award",
+      nominee: "Nominee",
+      finalist: "Finalist",
+      shortlist: "Shortlist",
+      honorable_mention: "Honorable Mention",
+      official_selection: "Official Selection",
+      other: "Other verified result",
+    };
+    const outcome = outcomeLabels[result.result] ?? result.result.replaceAll("_", " ");
     return `${result.awardName} — ${result.categoryName} (${result.awardYear}) · ${outcome}`;
   };
 
@@ -143,6 +174,19 @@ export default async function VideoDetailPage({ params }: Props) {
               </>
             )}
 
+            {awardSelections.length > 0 && (
+              <>
+                <dt>Award Selections</dt>
+                <dd className="work-award-list">
+                  {awardSelections.map((award) => (
+                    <span key={`${award.awardSlug}-${award.categoryName}-${award.awardYear}-${award.result}`}>
+                      {formatAward(award)}
+                    </span>
+                  ))}
+                </dd>
+              </>
+            )}
+
             {festivalSelections.length > 0 && (
               <>
                 <dt>Festival Selections</dt>
@@ -224,6 +268,33 @@ export default async function VideoDetailPage({ params }: Props) {
           </dl>
         </div>
       </section>
+
+      {(video.sources?.length ?? 0) > 0 && (
+        <section className="work-caption work-sources">
+          <div className="work-caption-index">
+            <span>Sources</span>
+          </div>
+
+          <div className="work-caption-primary">
+            <p className="museum-kicker">Sources</p>
+
+            <dl>
+              {video.sources?.map((source, index) => (
+                <div className="work-source-row" key={source.url}>
+                  <dt>Source {String(index + 1).padStart(2, "0")}</dt>
+                  <dd>
+                    <a href={source.url} target="_blank" rel="noreferrer">
+                      <span>{source.publisher || source.title}</span>
+                      <small>{source.title}</small>
+                      <b aria-hidden="true">↗</b>
+                    </a>
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </section>
+      )}
 
       <footer className="work-footer">
         <span>Research status: {video.researchStatus}</span>

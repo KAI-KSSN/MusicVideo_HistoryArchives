@@ -69,7 +69,7 @@
         },
         {
           "type": "award_archive_official",
-          "url": "https://prtimes.jp/a/?c=2929&f=d2929-1983-5950e976d8c5708e582067b1b9d65665.pdf&r=1983",
+          "url": "https://awards.spaceshower.jp/2022/winners/index.html",
           "supports": [
             "officialTitle",
             "director",
@@ -86,13 +86,12 @@
           {
             "program": "SPACE SHOWER MUSIC AWARDS",
             "year": 2022,
-            "category": "BEST MOVIE SONG",
+            "category": "BEST CONCEPTUAL VIDEO",
             "result": "Winner",
             "creditedNames": [
-              "宇多田ヒカル",
               "庵野秀明"
             ],
-            "source": "https://prtimes.jp/a/?c=2929&f=d2929-1983-5950e976d8c5708e582067b1b9d65665.pdf&r=1983"
+            "source": "https://awards.spaceshower.jp/2022/winners/index.html"
           }
         ],
         "checkedPrograms": [

@@ -14,6 +14,46 @@ html[data-theme="light"] {
   --work-accent-dark: #07110d;
 }
 
+/* Work sources — same information hierarchy as Object Information */
+.work-sources .work-source-row {
+  display: contents;
+}
+
+.work-sources dd a {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2px 16px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.work-sources dd a span,
+.work-sources dd a small {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.work-sources dd a small {
+  color: var(--muted);
+  font-family: var(--font-sans, Arial, sans-serif);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+}
+
+.work-sources dd a b {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: center;
+  font-family: var(--font-sans, Arial, sans-serif);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.work-sources dd a:hover span {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 html[data-theme="dark"] {
   --background: #0a0a0a;
   --foreground: #f2f0e9;
