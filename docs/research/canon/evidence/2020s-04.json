@@ -411,7 +411,7 @@
     {
       "artist": "水曜日のカンパネラ",
       "title": "バク",
-      "officialVideoUnresolved": true,
+      "officialVideoUnresolved": false,
       "metadata": {
         "officialTitle": "バク",
         "releaseYear": 2017,
@@ -422,9 +422,9 @@
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Warner Music Japan",
-        "youtubeUrl": null,
-        "youtubeId": null,
-        "thumbnailUrl": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=mdEO6-Xv3O4",
+        "youtubeId": "mdEO6-Xv3O4",
+        "thumbnailUrl": "https://i.ytimg.com/vi/mdEO6-Xv3O4/hqdefault.jpg",
         "runtimeSeconds": null,
         "genre": "J-Pop / Full CG Animation"
       },
@@ -450,6 +450,16 @@
             "artist",
             "label",
             "officialVideoCatalogue"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=mdEO6-Xv3O4",
+          "supports": [
+            "officialTitle",
+            "artist",
+            "youtubeId",
+            "thumbnailUrl"
           ]
         },
         {
@@ -505,11 +515,9 @@
         "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
       "publicationBlockers": [
-        "official_video_unresolved",
         "runtime_unverified",
         "production_company_unverified",
-        "vfx_production_unverified",
-        "director_source_needs_upgrade"
+        "vfx_production_unverified"
       ]
     },
     {

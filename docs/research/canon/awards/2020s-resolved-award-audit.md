@@ -4,7 +4,7 @@ Completed: 2026-07-13
 
 ## Scope
 
-This audit covers the resolved works in the `2020s-*` evidence files, including several works whose verified release years are 2017 or 2019. `One Last Kiss` retains its completed pilot audit. `BREAK MY SOUL` and `Repetition / TBD` remain blocked by work-identity resolution and are not marked complete.
+This audit covers the resolved works in the `2020s-*` evidence files, including several works whose verified release years are 2017 or 2019. `One Last Kiss` retains its completed pilot audit. `BREAK MY SOUL` remains blocked by work-identity resolution. `Repetition / TBD` was resolved to Max Cooper — `Repetition` from the artist's official audiovisual project and official YouTube channel, and its audit is now complete.
 
 All 23 required MVHL award programs were checked. Exact official records only were registered; empty results remain intentional.
 
@@ -14,12 +14,13 @@ All 23 required MVHL award programs were checked. Exact official records only we
 - Bonobo — No Reason: D&AD 2017, Music Videos, Wood Pencil.
 - Pharrell Williams — Cash In Cash Out: UKMVA 2022 Best Animation winner; CICLOPE 2022 Grand Prix plus Gold for Production Design, Direction, and Visual Effects; Clio Music 2023 Grand for Film & Video Craft — Animation.
 - A$AP Rocky — Tailor Swif: D&AD 2025 Black, Yellow, and Graphite Pencils in Music Videos; UKMVA 2025 winners for International Hip Hop / Grime / Rap Video, Cinematography, Visual Effects, and Video of the Year.
+- Max Cooper — Repetition: Berlin Music Video Awards 2020 Best Experimental, 1st Place; Best Director, Nominee; UKMVA 2020 Best Animation in a Video, Shortlist.
 
 Official records are stored in each evidence item. Existing verified results for the remaining works were retained.
 
 ## Deliberate exclusions
 
-- `BREAK MY SOUL` and `Repetition / TBD` are not exact audiovisual identities and remain blocked.
+- `BREAK MY SOUL` is not an exact audiovisual identity and remains blocked.
 - Audio-song or performance awards for `Paint The Town Red` and other same-title recordings are excluded.
 - MUSIC AWARDS JAPAN song-category entries for `アイドル` are not duplicated as music-video results.
 - D&AD pages that show several pencil icons without an unambiguous category-to-level mapping are not expanded by inference.

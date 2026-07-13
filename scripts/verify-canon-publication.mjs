@@ -56,7 +56,7 @@ console.log(JSON.stringify({
   publicWorks: works.length,
   verifiedCanonWorks: expectedSlugs.size,
   newCanonWorks: expectedSlugs.size - 9,
-  heldCanonWorks: 30,
+  initialPublicationHeldCanonWorks: 30,
   verifiedCanonAwardResults: canonAwards.length,
   status: "verified_live_publication",
 }, null, 2));

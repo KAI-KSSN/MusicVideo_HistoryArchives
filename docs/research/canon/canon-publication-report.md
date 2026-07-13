@@ -3,24 +3,24 @@
 - Editorial source: `MVHL_Canon_Candidates_5star.xlsx`
 - Source SHA-256: `f7da97b5fea5b8b3c81051d83c8b19e45e67495c12a0b8b579972be8429c3c21`
 - Selected: 98
-- Publication packet: 68 (existing 9 + new 59)
-- Held for essential evidence: 30
-- Verified award result rows in publication packet: 86
+- Publication packet: 71 (existing 9 + new 62)
+- Held for essential evidence: 27
+- Verified award result rows in publication packet: 89
 - Optional unknown Production/VFX/Label/Runtime fields: retained as NULL
 - Relationships: left empty unless a direct historical relationship is source-backed
 
 ## Live publication verification
 
 - Supabase migration applied: Yes
-- Verified Canon works published: 68
-- Newly published in this sprint: 59
+- Verified Canon works published: 71
+- Newly published in this sprint: 62
 - Existing Canon works reconciled: 9
-- Total public archive works: 69 (includes 新宝島 outside this ★★★★★ sheet)
-- Verified Canon award results exposed: 86
+- Total public archive works: 72 (includes 新宝島 outside this ★★★★★ sheet)
+- Verified Canon award results exposed: 89
 - Home ordering: release year ascending when no filters are active
-- Detail pages generated from Supabase: 69
+- Detail pages generated from Supabase: 72
 - Object Information Awards / Nominations / Award Selections: verified
-- Bilingual Editorial: verified for all 68 published Canon works
+- Bilingual Editorial: verified for all 71 published Canon works
 - Public Sources block: verified
 - JSON fallback: none
 
@@ -89,9 +89,12 @@ song-level `BEST MOVIE SONG` result was removed from the MV relationship.
 | Radiohead — Daydreaming | 2016 | 0 | 2010s-05.json |
 | The Chemical Brothers — Wide Open | 2016 | 4 | 2010s-04.json |
 | Bonobo — No Reason | 2017 | 3 | 2020s-04.json |
+| imai feat. 79, 中村佳穂 — Fly feat. 79, 中村佳穂 | 2017 | 0 | 2020s-03.json |
 | OK Go — Obsession | 2017 | 1 | 2010s-03.json |
+| 水曜日のカンパネラ — バク | 2017 | 0 | 2020s-04.json |
 | Childish Gambino — This Is America | 2018 | 16 | 2010s-01.json |
 | 米津玄師 — Lemon | 2018 | 2 | 2010s-02.json |
+| Max Cooper — Repetition | 2019 | 3 | 2020s-03.json |
 | millennium parade — Fly with me | 2020 | 0 | 2020s-03.json |
 | The Weeknd — Take My Breath | 2021 | 1 | 2020s-01.json |
 | Tyler, The Creator — LUMBERJACK | 2021 | 0 | 2020s-02.json |
@@ -127,10 +130,7 @@ song-level `BEST MOVIE SONG` result was removed from the MV relationship.
 | YOASOBI — アイドル | `director_unverified` |
 | Beyoncé — BREAK MY SOUL | `work_identity_unresolved`<br>`director_unverified`<br>`official_video_unresolved`<br>`bilingual_editorial_incomplete`<br>`award_scope_incomplete` |
 | Weval — Someday | `official_video_unresolved` |
-| Max Cooper — Repetition / TBD | `work_identity_unresolved`<br>`official_title_unverified`<br>`release_year_unverified`<br>`country_unverified`<br>`director_unverified`<br>`official_video_unresolved`<br>`bilingual_editorial_incomplete`<br>`award_scope_incomplete` |
-| imai feat. 79, 中村佳穂 — Fly | `official_video_unresolved` |
 | Pharrell Williams — Cash In Cash Out | `official_video_unresolved` |
-| 水曜日のカンパネラ — バク | `official_video_unresolved` |
 | A$AP Rocky — Tailor Swif | `official_video_unresolved` |
 | L'HOMME STATUE — Do Not Tell Me | `official_video_unresolved` |
 | SKIIFALL — 2 Charming | `country_unverified`<br>`official_video_unresolved` |

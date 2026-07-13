@@ -209,56 +209,173 @@
     {
       "artist": "Max Cooper",
       "title": "Repetition / TBD",
-      "requiresIdentityResolution": true,
-      "officialVideoUnresolved": true,
+      "requiresIdentityResolution": false,
+      "officialVideoUnresolved": false,
       "metadata": {
-        "officialTitle": null,
-        "releaseYear": null,
-        "countryCode": null,
-        "directors": [],
-        "productionCompany": null,
+        "officialTitle": "Repetition",
+        "releaseYear": 2019,
+        "countryCode": "GB",
+        "directors": [
+          "Kevin McGloughlin"
+        ],
+        "productionCompany": "Hinterland Films",
         "vfxProduction": null,
-        "label": null,
-        "youtubeUrl": null,
-        "youtubeId": null,
-        "thumbnailUrl": null,
+        "label": "Mesh",
+        "youtubeUrl": "https://www.youtube.com/watch?v=nO9aot9RgQc",
+        "youtubeId": "nO9aot9RgQc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/nO9aot9RgQc/hqdefault.jpg",
         "runtimeSeconds": null,
         "genre": "Electronic / Generative Visuals"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Urban structures, roads, turbines, and bodies multiply into layered geometries that appear to extend beyond the frame.",
+          "whyItMatters": "The film makes repetition both its subject and its construction method, translating the scale of modern growth into a continuous audiovisual system.",
+          "historicalContext": "Created by Kevin McGloughlin for Max Cooper's 2019 audiovisual project Yearning for the Infinite, the work was developed within a Barbican commission concerned with technology, growth, and the human pursuit of the unbounded.",
+          "keyInnovation": "Recursive compositing, parallax, mirrored architecture, and precisely timed accumulation transform documentary images of the built environment into apparently endless spatial structures."
+        },
+        "ja": {
+          "shortSummary": "都市構造、道路、風力タービン、身体が幾何学的に増殖し、画面の外まで伸び続けるように構成された作品。",
+          "whyItMatters": "反復を主題であると同時に制作方法として用い、現代社会の成長規模を連続するオーディオビジュアル・システムへ変換しました。",
+          "historicalContext": "Kevin McGloughlinがMax Cooperの2019年のオーディオビジュアル・プロジェクト『Yearning for the Infinite』のために制作した作品で、技術、成長、無限を求める人間の営みを扱うBarbicanの委嘱を背景にしています。",
+          "keyInnovation": "再帰的なコンポジット、パララックス、鏡像化された建築、音楽と同期する蓄積によって、現実の都市映像を終わりのない空間構造へ変形しています。"
+        }
       },
       "sources": [
         {
           "type": "artist_official",
-          "url": "https://vimeo.com/channels/66618",
+          "url": "https://www.yearningfortheinfinite.net/",
           "supports": [
-            "artistVisualPractice",
-            "officialVideoCatalogue"
+            "officialTitle",
+            "artist",
+            "director",
+            "projectContext",
+            "historicalContext",
+            "visualConcept"
           ]
         },
         {
-          "type": "curated_video_archive",
-          "url": "https://www.bugvideos.co.uk/portfolio/repetition",
+          "type": "label_official",
+          "url": "https://meshmeshmesh.net/yearning-for-the-infinite",
           "supports": [
-            "candidateTitle",
-            "candidateDirector"
+            "releaseYear",
+            "label",
+            "album",
+            "commissionContext"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=nO9aot9RgQc",
+          "supports": [
+            "officialTitle",
+            "artist",
+            "director",
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.berlinmva.com/news/winners-berlin-music-video/",
+          "supports": [
+            "awardOutcome",
+            "director",
+            "productionCompany",
+            "label"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.berlinmva.com/bmva-nominees-2020/",
+          "supports": [
+            "awardNomination",
+            "director"
+          ]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://awards.ukmva.com/years/2020",
+          "supports": [
+            "awardShortlist",
+            "director",
+            "productionCompany"
           ]
         }
       ],
       "awardAudit": {
-        "status": "blocked_by_identity_resolution",
-        "verifiedResults": [],
-        "notes": "The spreadsheet label does not resolve to one exact audiovisual work. Award registration is blocked until work identity and official video are resolved."
+        "status": "complete",
+        "verifiedResults": [
+          {
+            "program": "Berlin Music Video Awards",
+            "year": 2020,
+            "category": "Best Experimental",
+            "result": "Winner",
+            "creditedNames": [
+              "Kevin McGloughlin"
+            ],
+            "source": "https://www.berlinmva.com/news/winners-berlin-music-video/",
+            "notes": "The official winners archive labels the result as 1st Place."
+          },
+          {
+            "program": "Berlin Music Video Awards",
+            "year": 2020,
+            "category": "Best Director",
+            "result": "Nominee",
+            "creditedNames": [
+              "Kevin McGloughlin"
+            ],
+            "source": "https://www.berlinmva.com/bmva-nominees-2020/"
+          },
+          {
+            "program": "UK Music Video Awards",
+            "year": 2020,
+            "category": "Best Animation in a Video",
+            "result": "Shortlist",
+            "creditedNames": [
+              "Kevin McGloughlin"
+            ],
+            "source": "https://awards.ukmva.com/years/2020",
+            "notes": "Official UKMVA archive credits Kevin McGloughlin as animator and director, with Hinterland Films as production company."
+          }
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/2020s-resolved-award-audit.md",
+        "notes": "Exact work identity was resolved from the artist's official audiovisual project and YouTube channel. Only result-level records exposed by official award archives were registered."
       },
       "publicationBlockers": [
-        "work_identity_unresolved",
-        "official_video_unresolved",
-        "metadata_unverified",
-        "award_scope_incomplete"
+        "runtime_unverified",
+        "vfx_production_unverified"
       ]
     },
     {
       "artist": "imai feat. 79, 中村佳穂",
       "title": "Fly",
-      "officialVideoUnresolved": true,
+      "officialVideoUnresolved": false,
       "metadata": {
         "officialTitle": "Fly feat. 79, 中村佳穂",
         "releaseYear": 2017,
@@ -269,9 +386,9 @@
         "productionCompany": null,
         "vfxProduction": null,
         "label": null,
-        "youtubeUrl": null,
-        "youtubeId": null,
-        "thumbnailUrl": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=iQi3aMQXip8",
+        "youtubeId": "iQi3aMQXip8",
+        "thumbnailUrl": "https://i.ytimg.com/vi/iQi3aMQXip8/hqdefault.jpg",
         "runtimeSeconds": null,
         "genre": "Electronic / Stop Motion"
       },
@@ -298,6 +415,26 @@
             "director",
             "animationCredit",
             "album",
+            "productionConcept"
+          ]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=iQi3aMQXip8",
+          "supports": [
+            "officialTitle",
+            "artist",
+            "youtubeId",
+            "thumbnailUrl"
+          ]
+        },
+        {
+          "type": "director_official",
+          "url": "https://baku89.com/ja/making-of/fly",
+          "supports": [
+            "releaseYear",
+            "director",
+            "animationCredit",
             "productionConcept"
           ]
         }
@@ -334,8 +471,6 @@
         "notes": "The complete required MVHL award scope was checked against available official archives; no additional exact work-level result was safe to register."
       },
       "publicationBlockers": [
-        "official_video_unresolved",
-        "release_year_source_needs_upgrade",
         "runtime_unverified",
         "label_unverified",
         "production_company_unverified"
