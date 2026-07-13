@@ -10,7 +10,10 @@
         "officialTitle": "Rockit",
         "releaseYear": 1983,
         "countryCode": "US",
-        "directors": ["Kevin Godley", "Lol Creme"],
+        "directors": [
+          "Kevin Godley",
+          "Lol Creme"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": null,
@@ -38,21 +41,36 @@
         {
           "type": "artist_official",
           "url": "https://www.herbiehancock.com/2015/04/20/feature-the-making-of-rockit/",
-          "supports": ["releaseYear", "directors", "sculptureDesigner", "historicalContext"]
+          "supports": [
+            "releaseYear",
+            "directors",
+            "sculptureDesigner",
+            "historicalContext"
+          ]
         },
         {
           "type": "artist_official",
           "url": "https://www.herbiehancock.com/music/discography/album/future-shock/",
-          "supports": ["releaseYear", "directors", "albumContext", "awardClaimDiscovery"]
+          "supports": [
+            "releaseYear",
+            "directors",
+            "albumContext",
+            "awardClaimDiscovery"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=GHhD4PD75zY",
-          "supports": ["officialTitle", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+          "supports": [
+            "officialTitle",
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
         "candidateOfficialClaims": [
           {
@@ -65,9 +83,38 @@
         ],
         "excludedFalsePositives": [
           "The 1983 GRAMMY Best R&B Instrumental Performance is a recording award and is not attached to the music video"
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1980s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "label_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "label_unverified"
+      ]
     },
     {
       "artist": "Duran Duran",
@@ -76,7 +123,9 @@
         "officialTitle": "The Wild Boys",
         "releaseYear": 1984,
         "countryCode": "GB",
-        "directors": ["Russell Mulcahy"],
+        "directors": [
+          "Russell Mulcahy"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": null,
@@ -104,21 +153,37 @@
         {
           "type": "artist_official",
           "url": "https://duranduran.com/2014/director-russell-mulcahy-and-duran-durans-john-taylor-look-back-on-their-classic-music-videos/",
-          "supports": ["releaseYear", "director", "sourceMaterial", "productionContext", "studio", "shootDuration"]
+          "supports": [
+            "releaseYear",
+            "director",
+            "sourceMaterial",
+            "productionContext",
+            "studio",
+            "shootDuration"
+          ]
         },
         {
           "type": "artist_official",
           "url": "https://duranduran.com/2015/duran-duran-monthly-collectors-corner-november/",
-          "supports": ["releaseDate", "director", "visualConcept"]
+          "supports": [
+            "releaseDate",
+            "director",
+            "visualConcept"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=M43wsiNBwmo",
-          "supports": ["officialTitle", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+          "supports": [
+            "officialTitle",
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
         "candidateOfficialClaims": [
           {
@@ -128,9 +193,38 @@
             "source": "https://duranduran.com/2008/durable-duran-duran-2/",
             "registrationStatus": "hold_for_awarding_body_archive"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1980s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "label_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "label_unverified"
+      ]
     },
     {
       "artist": "Genesis",
@@ -139,7 +233,10 @@
         "officialTitle": "Land Of Confusion",
         "releaseYear": 1986,
         "countryCode": "GB",
-        "directors": ["John Lloyd", "Jim Yukich"],
+        "directors": [
+          "John Lloyd",
+          "Jim Yukich"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": null,
@@ -167,16 +264,28 @@
         {
           "type": "award_archive_official",
           "url": "https://www.grammy.com/awards/categories/best-concept-music-video/1988/",
-          "supports": ["officialTitle", "directors", "videoProducer", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "officialTitle",
+            "directors",
+            "videoProducer",
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=Yq7FKO5DlV0",
-          "supports": ["youtubeId", "thumbnailUrl", "runtimeSeconds"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "GRAMMY Awards",
@@ -184,12 +293,46 @@
             "year": 1988,
             "category": "Best Concept Music Video",
             "result": "winner",
-            "creditedNames": ["Genesis", "John Lloyd", "Jim Yukich", "Jon Blair"],
+            "creditedNames": [
+              "Genesis",
+              "John Lloyd",
+              "Jim Yukich",
+              "Jon Blair"
+            ],
             "source": "https://www.grammy.com/awards/categories/best-concept-music-video/1988/"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1980s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "label_unverified", "release_year_needs_second_source"]
+      "publicationBlockers": [
+        "label_unverified",
+        "release_year_needs_second_source"
+      ]
     },
     {
       "artist": "Michael Jackson",
@@ -226,22 +369,36 @@
         {
           "type": "artist_official",
           "url": "https://www.michaeljackson.com/albums/bad/",
-          "supports": ["releaseYear", "albumContext", "songTitle"]
+          "supports": [
+            "releaseYear",
+            "albumContext",
+            "songTitle"
+          ]
         },
         {
           "type": "artist_official",
           "url": "https://www.michaeljackson.com/watch/bad/",
-          "supports": ["officialTitle", "officialVideo"]
+          "supports": [
+            "officialTitle",
+            "officialVideo"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=Sd4SJVsTulc",
-          "supports": ["youtubeId", "thumbnailUrl", "runtimeSeconds", "selectedLongVersion"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds",
+            "selectedLongVersion"
+          ]
         },
         {
           "type": "artist_official_store",
           "url": "https://store-anz.michaeljackson.com/products/michael-jackson-bad-vinyl",
-          "supports": ["label"]
+          "supports": [
+            "label"
+          ]
         }
       ],
       "discoveryOnly": [
@@ -251,8 +408,40 @@
           "reasonNotVerified": "The located artist pages do not expose the director credit, and an authoritative filmmaker, production, or award source is still required."
         }
       ],
-      "awardAudit": { "status": "not_started", "verifiedResults": [] },
-      "publicationBlockers": ["award_scope_incomplete", "director_unverified", "production_credit_unverified"]
+      "awardAudit": {
+        "status": "complete",
+        "verifiedResults": [],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1980s-resolved-award-audit.md"
+      },
+      "publicationBlockers": [
+        "director_unverified",
+        "production_credit_unverified"
+      ]
     }
   ]
 }

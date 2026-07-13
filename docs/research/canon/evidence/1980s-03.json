@@ -38,27 +38,47 @@
         {
           "type": "artist_official",
           "url": "https://www.michaeljackson.com/watch/leave-me-alone/",
-          "supports": ["officialTitle", "officialVideo"]
+          "supports": [
+            "officialTitle",
+            "officialVideo"
+          ]
         },
         {
           "type": "artist_official",
           "url": "https://www.michaeljackson.com/albums/bad/",
-          "supports": ["albumContext", "releasePeriod", "label"]
+          "supports": [
+            "albumContext",
+            "releasePeriod",
+            "label"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.grammy.com/awards/32nd-annual-grammy-awards/",
-          "supports": ["awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "awardProgram",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "award_archive_official",
           "url": "https://www.grammy.com/artists/jim-blashfield/2898/",
-          "supports": ["awardRecipient", "awardYear", "awardCategory", "awardOutcome"]
+          "supports": [
+            "awardRecipient",
+            "awardYear",
+            "awardCategory",
+            "awardOutcome"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=crbFmpezO4A",
-          "supports": ["youtubeId", "thumbnailUrl"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         }
       ],
       "discoveryOnly": [
@@ -69,7 +89,7 @@
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [
           {
             "program": "GRAMMY Awards",
@@ -77,15 +97,48 @@
             "year": 1990,
             "category": "Best Music Video",
             "result": "winner",
-            "creditedNames": ["Michael Jackson", "Jim Blashfield"],
+            "creditedNames": [
+              "Michael Jackson",
+              "Jim Blashfield"
+            ],
             "source": "https://www.grammy.com/awards/32nd-annual-grammy-awards/"
           }
         ],
         "excludedFalsePositives": [
           "Michael Jackson's Moonwalker was a separate Best Music Film nominee and is not attached to Leave Me Alone"
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1980s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "director_unverified", "production_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "director_unverified",
+        "production_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Prince",
@@ -122,12 +175,20 @@
         {
           "type": "artist_official",
           "url": "https://discography.prince.com/albums/parade",
-          "supports": ["officialTitle", "releaseYear", "label", "albumContext"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "label",
+            "albumContext"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=H9tEvfIsDyo",
-          "supports": ["youtubeId", "thumbnailUrl"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         }
       ],
       "discoveryOnly": [
@@ -138,13 +199,43 @@
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
         "excludedFalsePositives": [
           "The GRAMMY for Best R&B Performance by a Duo or Group with Vocals and the Best R&B Song nomination are recording honors, not music-video awards"
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1980s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "director_unverified", "production_credit_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "director_unverified",
+        "production_credit_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Paul Simon",
@@ -181,22 +272,36 @@
         {
           "type": "artist_official",
           "url": "https://www.paulsimon.com/en-ca/video/can-call-al/",
-          "supports": ["officialTitle", "officialVideo"]
+          "supports": [
+            "officialTitle",
+            "officialVideo"
+          ]
         },
         {
           "type": "artist_official",
           "url": "https://www.paulsimon.com/en-ca/track/you-can-call-me-al-6/",
-          "supports": ["officialTitle", "releaseYear", "songwritingCredit"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "songwritingCredit"
+          ]
         },
         {
           "type": "artist_official",
           "url": "https://www.paulsimon.com/news/legacy-recordings-celebrates-25th-anniversary-paul-simons-graceland-commemorative-editions-june/",
-          "supports": ["releaseYear", "albumContext", "officialMusicVideoCatalog"]
+          "supports": [
+            "releaseYear",
+            "albumContext",
+            "officialMusicVideoCatalog"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=uq-gYOrU8bA",
-          "supports": ["youtubeId", "thumbnailUrl"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         }
       ],
       "discoveryOnly": [
@@ -207,13 +312,44 @@
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
         "excludedFalsePositives": [
           "Graceland's Album of the Year and title track's Song of the Year GRAMMY results are not attached to the You Can Call Me Al music video"
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1980s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "director_unverified", "production_credit_unverified", "label_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "director_unverified",
+        "production_credit_unverified",
+        "label_unverified",
+        "runtime_unverified"
+      ]
     },
     {
       "artist": "Guns N' Roses",
@@ -222,7 +358,9 @@
         "officialTitle": "November Rain",
         "releaseYear": 1992,
         "countryCode": "US",
-        "directors": ["Andy Morahan"],
+        "directors": [
+          "Andy Morahan"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": null,
@@ -250,21 +388,32 @@
         {
           "type": "director_official",
           "url": "https://www.andymorahan.com/",
-          "supports": ["officialTitle", "artist", "director"]
+          "supports": [
+            "officialTitle",
+            "artist",
+            "director"
+          ]
         },
         {
           "type": "director_official",
           "url": "https://www.andymorahan.com/about.php",
-          "supports": ["director", "awardClaimDiscovery"]
+          "supports": [
+            "director",
+            "awardClaimDiscovery"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=8SbUC-UaAxE",
-          "supports": ["officialTitle", "youtubeId", "thumbnailUrl"]
+          "supports": [
+            "officialTitle",
+            "youtubeId",
+            "thumbnailUrl"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
         "candidateOfficialClaims": [
           {
@@ -274,9 +423,40 @@
             "source": "https://www.andymorahan.com/about.php",
             "registrationStatus": "hold_until_awarding_body_program_year_and_category_are_confirmed"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1980s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "release_year_needs_official_source", "production_credit_unverified", "label_unverified", "runtime_unverified"]
+      "publicationBlockers": [
+        "release_year_needs_official_source",
+        "production_credit_unverified",
+        "label_unverified",
+        "runtime_unverified"
+      ]
     }
   ]
 }

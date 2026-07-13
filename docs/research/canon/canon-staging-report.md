@@ -6,7 +6,7 @@
 
 - Selected works: 98
 - Works with complete bilingual editorial: 90
-- Works with complete award-scope audit: 17
+- Works with complete award-scope audit: 29
 - Verified award result records: 92
 - Works currently passing every publication gate: 9
 
@@ -25,20 +25,20 @@
 | The Buggles — Video Killed the Radio Star | 1970s-01.json | `production_credit_unverified` | 0 | 3 | Complete | No |
 | The Clash — London Calling | 1970s-02.json | `label_unverified` | 0 | 3 | Complete | No |
 | David Bowie — Ashes to Ashes | 1970s-01.json | `production_credit_unverified`<br>`label_unverified` | 0 | 2 | Complete | No |
-| Herbie Hancock — Rockit | 1980s-02.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`label_unverified` | 0 | 3 | Complete | No |
+| Herbie Hancock — Rockit | 1980s-02.json | `production_credit_unverified`<br>`label_unverified` | 0 | 3 | Complete | No |
 | Michael Jackson — Thriller | pilot-canon-01.json | — | 0 | 5 | Complete | Yes; reconciled |
-| Duran Duran — Wild Boys | 1980s-02.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`label_unverified` | 0 | 3 | Complete | No |
+| Duran Duran — Wild Boys | 1980s-02.json | `production_credit_unverified`<br>`label_unverified` | 0 | 3 | Complete | No |
 | a-ha — Take On Me | pilot-canon-01.json | — | 0 | 3 | Complete | Yes; reconciled |
-| Dire Straits — Money for Nothing | 1980s-01.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`vfx_credit_unverified` | 0 | 3 | Complete | No |
-| Madonna — Material Girl | 1980s-01.json | `award_scope_incomplete`<br>`release_year_needs_second_source` | 0 | 3 | Complete | No |
-| Genesis — Land of Confusion | 1980s-02.json | `award_scope_incomplete`<br>`label_unverified`<br>`release_year_needs_second_source` | 1 | 2 | Complete | No |
-| Paul Simon — You Can Call Me Al | 1980s-03.json | `award_scope_incomplete`<br>`director_unverified`<br>`production_credit_unverified`<br>`label_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
-| Peter Gabriel — Sledgehammer | 1980s-01.json | `award_scope_incomplete`<br>`label_unverified` | 0 | 3 | Complete | No |
-| Prince — Kiss | 1980s-03.json | `award_scope_incomplete`<br>`director_unverified`<br>`production_credit_unverified`<br>`runtime_unverified` | 0 | 2 | Complete | No |
-| Michael Jackson — Bad | 1980s-02.json | `award_scope_incomplete`<br>`director_unverified`<br>`production_credit_unverified` | 0 | 4 | Complete | No |
-| Madonna — Like a Prayer | 1980s-01.json | `award_scope_incomplete`<br>`production_credit_unverified` | 0 | 2 | Complete | No |
-| Michael Jackson — Leave Me Alone | 1980s-03.json | `award_scope_incomplete`<br>`director_unverified`<br>`production_credit_unverified`<br>`runtime_unverified` | 1 | 5 | Complete | No |
-| Guns N' Roses — November Rain | 1980s-03.json | `award_scope_incomplete`<br>`release_year_needs_official_source`<br>`production_credit_unverified`<br>`label_unverified`<br>`runtime_unverified` | 0 | 3 | Complete | No |
+| Dire Straits — Money for Nothing | 1980s-01.json | `production_credit_unverified`<br>`vfx_credit_unverified` | 0 | 3 | Complete | No |
+| Madonna — Material Girl | 1980s-01.json | `release_year_needs_second_source` | 0 | 3 | Complete | No |
+| Genesis — Land of Confusion | 1980s-02.json | `label_unverified`<br>`release_year_needs_second_source` | 1 | 2 | Complete | No |
+| Paul Simon — You Can Call Me Al | 1980s-03.json | `director_unverified`<br>`production_credit_unverified`<br>`label_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
+| Peter Gabriel — Sledgehammer | 1980s-01.json | `label_unverified` | 0 | 3 | Complete | No |
+| Prince — Kiss | 1980s-03.json | `director_unverified`<br>`production_credit_unverified`<br>`runtime_unverified` | 0 | 2 | Complete | No |
+| Michael Jackson — Bad | 1980s-02.json | `director_unverified`<br>`production_credit_unverified` | 0 | 4 | Complete | No |
+| Madonna — Like a Prayer | 1980s-01.json | `production_credit_unverified` | 0 | 2 | Complete | No |
+| Michael Jackson — Leave Me Alone | 1980s-03.json | `director_unverified`<br>`production_credit_unverified`<br>`runtime_unverified` | 1 | 5 | Complete | No |
+| Guns N' Roses — November Rain | 1980s-03.json | `release_year_needs_official_source`<br>`production_credit_unverified`<br>`label_unverified`<br>`runtime_unverified` | 0 | 3 | Complete | No |
 | Björk — Big Time Sensuality | 1990s-05.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified` | 0 | 4 | Complete | No |
 | Beastie Boys — Sabotage | 1990s-01.json | `award_scope_incomplete`<br>`production_credit_unverified`<br>`runtime_unverified` | 1 | 4 | Complete | No |
 | Nine Inch Nails — Closer | 1990s-04.json | `award_scope_incomplete`<br>`vfx_credit_unverified` | 3 | 4 | Complete | No |

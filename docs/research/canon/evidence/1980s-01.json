@@ -10,7 +10,9 @@
         "officialTitle": "Sledgehammer",
         "releaseYear": 1986,
         "countryCode": "GB",
-        "directors": ["Stephen R. Johnson"],
+        "directors": [
+          "Stephen R. Johnson"
+        ],
         "productionCompany": "Aardman Animation",
         "vfxProduction": null,
         "label": null,
@@ -38,21 +40,38 @@
         {
           "type": "artist_official",
           "url": "https://petergabriel.com/video/peter-gabriel-sledgehammer-hd-1080p/",
-          "supports": ["officialTitle", "releaseYear", "director", "producer", "animationCredits", "productionCompany"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "director",
+            "producer",
+            "animationCredits",
+            "productionCompany"
+          ]
         },
         {
           "type": "artist_official",
           "url": "https://petergabriel.com/release/sledgehammer/",
-          "supports": ["releaseDate", "director", "producer", "animationCredits", "awardClaimDiscovery"]
+          "supports": [
+            "releaseDate",
+            "director",
+            "producer",
+            "animationCredits",
+            "awardClaimDiscovery"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=OJWJE0x7T4Q",
-          "supports": ["youtubeId", "thumbnailUrl", "runtimeSeconds"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
         "candidateOfficialClaims": [
           {
@@ -69,9 +88,37 @@
             "source": "https://petergabriel.com/release/sledgehammer/",
             "registrationStatus": "hold_for_awarding_body_archive"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1980s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "label_unverified"]
+      "publicationBlockers": [
+        "label_unverified"
+      ]
     },
     {
       "artist": "Dire Straits",
@@ -80,7 +127,9 @@
         "officialTitle": "Money For Nothing",
         "releaseYear": 1985,
         "countryCode": "GB",
-        "directors": ["Steve Barron"],
+        "directors": [
+          "Steve Barron"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Vertigo / Warner Bros.",
@@ -108,21 +157,35 @@
         {
           "type": "artist_official",
           "url": "https://www.direstraits.com/timeline",
-          "supports": ["releaseYear", "director", "historicalContext", "awardClaimDiscovery"]
+          "supports": [
+            "releaseYear",
+            "director",
+            "historicalContext",
+            "awardClaimDiscovery"
+          ]
         },
         {
           "type": "artist_official",
           "url": "https://www.direstraits.com/discography/brothers-in-arms/",
-          "supports": ["releaseYear", "label", "albumContext"]
+          "supports": [
+            "releaseYear",
+            "label",
+            "albumContext"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=wTP2RUD_cL0",
-          "supports": ["officialTitle", "youtubeId", "thumbnailUrl", "runtimeSeconds"]
+          "supports": [
+            "officialTitle",
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
         "candidateOfficialClaims": [
           {
@@ -135,9 +198,38 @@
         ],
         "excludedFalsePositives": [
           "1987 GRAMMY Best Music Video was awarded to Dire Straits - Brothers In Arms, not Money For Nothing"
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1980s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified",
+        "vfx_credit_unverified"
+      ]
     },
     {
       "artist": "Madonna",
@@ -146,7 +238,9 @@
         "officialTitle": "Like A Prayer",
         "releaseYear": 1989,
         "countryCode": "US",
-        "directors": ["Mary Lambert"],
+        "directors": [
+          "Mary Lambert"
+        ],
         "productionCompany": null,
         "vfxProduction": null,
         "label": "Warner Bros.",
@@ -174,16 +268,28 @@
         {
           "type": "artist_official",
           "url": "https://www.madonna.com/products/like-a-prayer-single",
-          "supports": ["officialTitle", "releaseYear", "director", "visualContent", "historicalContext", "label", "awardClaimDiscovery"]
+          "supports": [
+            "officialTitle",
+            "releaseYear",
+            "director",
+            "visualContent",
+            "historicalContext",
+            "label",
+            "awardClaimDiscovery"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=79fzeNUqQbQ",
-          "supports": ["youtubeId", "thumbnailUrl", "runtimeSeconds"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
         "candidateOfficialClaims": [
           {
@@ -193,9 +299,37 @@
             "source": "https://www.madonna.com/products/like-a-prayer-single",
             "registrationStatus": "hold_for_awarding_body_archive"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1980s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified"]
+      "publicationBlockers": [
+        "production_credit_unverified"
+      ]
     },
     {
       "artist": "Madonna",
@@ -204,7 +338,9 @@
         "officialTitle": "Material Girl",
         "releaseYear": 1985,
         "countryCode": "US",
-        "directors": ["Mary Lambert"],
+        "directors": [
+          "Mary Lambert"
+        ],
         "productionCompany": "Fields Entertainment",
         "vfxProduction": null,
         "label": "Warner Bros.",
@@ -232,21 +368,35 @@
         {
           "type": "artist_official",
           "url": "https://www.madonna.com/discography/album/36",
-          "supports": ["officialTitle", "videoReleaseContext", "director", "sourceFilm", "label", "awardClaimDiscovery"]
+          "supports": [
+            "officialTitle",
+            "videoReleaseContext",
+            "director",
+            "sourceFilm",
+            "label",
+            "awardClaimDiscovery"
+          ]
         },
         {
           "type": "production_company",
           "url": "https://www.fieldsent.com/projects-collection/material-girl",
-          "supports": ["director", "productionCompany"]
+          "supports": [
+            "director",
+            "productionCompany"
+          ]
         },
         {
           "type": "official_video",
           "url": "https://www.youtube.com/watch?v=6p-lDYPR2P8",
-          "supports": ["youtubeId", "thumbnailUrl", "runtimeSeconds"]
+          "supports": [
+            "youtubeId",
+            "thumbnailUrl",
+            "runtimeSeconds"
+          ]
         }
       ],
       "awardAudit": {
-        "status": "in_progress",
+        "status": "complete",
         "verifiedResults": [],
         "candidateOfficialClaims": [
           {
@@ -256,9 +406,37 @@
             "source": "https://www.madonna.com/discography/album/36",
             "registrationStatus": "hold_for_awarding_body_archive"
           }
-        ]
+        ],
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "auditSource": "docs/research/canon/awards/1980s-resolved-award-audit.md"
       },
-      "publicationBlockers": ["award_scope_incomplete", "release_year_needs_second_source"]
+      "publicationBlockers": [
+        "release_year_needs_second_source"
+      ]
     }
   ]
 }
