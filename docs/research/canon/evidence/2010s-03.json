@@ -1,0 +1,237 @@
+{
+  "batch": "2010s-03",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Björk",
+      "title": "Black Lake",
+      "officialVideoUnresolved": true,
+      "metadata": {
+        "officialTitle": "Black Lake",
+        "releaseYear": 2015,
+        "countryCode": "IS",
+        "directors": ["Andrew Thomas Huang"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "One Little Indian",
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": 600,
+        "genre": "Art Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Björk moves through Icelandic caves, ravines, lava, and moss fields in a ten-minute work conceived both as a film and as an immersive museum installation.",
+          "whyItMatters": "The work connects the music-video form to installation practice, making projection space, landscape, duration, and bodily performance parts of a single mourning environment.",
+          "historicalContext": "Commissioned by The Museum of Modern Art for its 2015 Björk exhibition, Black Lake was conceived with director Andrew Thomas Huang and filmed in Iceland during the summer of 2014.",
+          "keyInnovation": "A ten-minute image sequence was designed to operate within a purpose-built installation, extending the work beyond a single rectangular screen and into an architectural viewing condition."
+        },
+        "ja": {
+          "shortSummary": "Björkがアイスランドの洞窟、峡谷、溶岩、苔原を移動し、映画と没入型の美術館展示の両方として構想された10分間の作品。",
+          "whyItMatters": "MV形式をインスタレーション実践へ接続し、投影空間、風景、持続時間、身体パフォーマンスを一つの喪の環境として統合しました。",
+          "historicalContext": "2015年のMoMA『Björk』展のために委嘱され、Andrew Thomas Huangとともに構想し、2014年夏にアイスランドで撮影されました。",
+          "keyInnovation": "10分間の映像を専用に構築された展示空間でも機能するよう設計し、単一の矩形スクリーンを越えて建築的な鑑賞条件へ作品を拡張しました。"
+        }
+      },
+      "sources": [
+        {
+          "type": "museum_official",
+          "url": "https://www.moma.org/calendar/exhibitions/1458",
+          "supports": ["officialTitle", "releaseYear", "director", "commission", "label", "installationContext"]
+        },
+        {
+          "type": "museum_official",
+          "url": "https://www.moma.org/documents/moma_press-release_389534.pdf",
+          "supports": ["officialTitle", "director", "runtimeSeconds", "filmingLocation", "productionPeriod", "installationContext"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "The MoMA commission is an institutional commission, not an award result, and is not entered in work_award_results."
+      },
+      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified"]
+    },
+    {
+      "artist": "The Weeknd",
+      "title": "Can't Feel My Face",
+      "metadata": {
+        "officialTitle": "Can't Feel My Face",
+        "releaseYear": 2015,
+        "countryCode": "US",
+        "directors": ["Grant Singer"],
+        "productionCompany": "Anonymous Content",
+        "vfxProduction": null,
+        "label": "Republic Records / XO",
+        "youtubeUrl": "https://www.youtube.com/watch?v=KEI4qSrkPAs",
+        "youtubeId": "KEI4qSrkPAs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/KEI4qSrkPAs/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Pop / R&B"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "The Weeknd performs to a disengaged nightclub audience until a thrown lighter sets him on fire and the room's attention abruptly reverses.",
+          "whyItMatters": "The video turns a conventional stage performance into a concise image of exposure, danger, and public approval, using one practical event to reorganize the entire scene.",
+          "historicalContext": "Released in 2015 during the Beauty Behind the Madness period, the video was directed by Grant Singer and produced through Anonymous Content.",
+          "keyInnovation": "A restrained club setup delays its central effect until the final section, allowing fire, crowd reaction, and continuous performance to convert indifference into spectacle."
+        },
+        "ja": {
+          "shortSummary": "無関心なナイトクラブの観客を前にThe Weekndが歌い、投げ込まれたライターで身体に火がついた瞬間、会場の注意が反転する作品。",
+          "whyItMatters": "通常のステージ・パフォーマンスを、露出、危険、公共的承認の簡潔なイメージへ転換し、一つの実写効果で場面全体の意味を組み替えました。",
+          "historicalContext": "『Beauty Behind the Madness』期の2015年に公開され、Grant Singerが監督し、Anonymous Contentを通じて制作されました。",
+          "keyInnovation": "抑制されたクラブの設定で中心的な効果を終盤まで遅らせ、炎、観客の反応、継続する演技によって無関心をスペクタクルへ変換しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "production_trade",
+          "url": "https://www.promonews.tv/videos/2015/07/29/weeknd-cant-feel-my-face-grant-singer/36384",
+          "supports": ["officialTitle", "releaseYear", "director", "productionCompany", "producer", "cinematographer", "productionDesigner", "editor", "vfxCredit"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=KEI4qSrkPAs",
+          "supports": ["youtubeId", "thumbnailUrl", "label"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.grammy.com/awards/58th-annual-grammy-awards/",
+          "supports": ["negativeAwardFinding"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "The 2016 GRAMMY record located for Can't Feel My Face concerns the recording and performance categories, not the music video; no MV award is registered from it."
+      },
+      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "production_source_needs_upgrade", "vfx_company_unverified"]
+    },
+    {
+      "artist": "OK Go",
+      "title": "Obsession",
+      "metadata": {
+        "officialTitle": "Obsession",
+        "releaseYear": 2017,
+        "countryCode": "JP",
+        "directors": ["Yusuke Tanaka", "Damian Kulash Jr."],
+        "productionCompany": "AOI Pro.",
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=QvW61K2s0tA",
+        "youtubeId": "QvW61K2s0tA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/QvW61K2s0tA/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Alternative Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "The band performs in front of a wall of synchronized printers whose sheets form rapidly changing fields of colour, pattern, text, and simulated depth.",
+          "whyItMatters": "The work makes office hardware, choreography, software control, and printed paper equally visible, turning a technical system into a legible live performance environment.",
+          "historicalContext": "Released in 2017, Obsession was directed by Yusuke Tanaka and Damian Kulash Jr., produced by AOI Pro., and received the 2018 Webby People's Voice award for Music Video.",
+          "keyInnovation": "Hundreds of printers are synchronized as a programmable image surface while camera movement, band blocking, and paper output are coordinated in physical space."
+        },
+        "ja": {
+          "shortSummary": "同期制御されたプリンターの壁の前でバンドが演奏し、排出される紙が色、模様、文字、擬似的な奥行きを高速に作り替える作品。",
+          "whyItMatters": "事務機器、振付、ソフトウェア制御、印刷された紙を等しく可視化し、技術システムそのものを理解可能なライブ・パフォーマンス環境へ変えました。",
+          "historicalContext": "2017年に公開され、田中裕介とDamian Kulash Jr.が監督、AOI Pro.が制作。2018年Webby AwardsのMusic Video部門でPeople's Voiceを受賞しました。",
+          "keyInnovation": "多数のプリンターをプログラム可能な画像面として同期し、カメラ移動、バンドの配置、紙の出力を実空間で精密に合わせています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://okgo.net/2017/11/23/obsession-video-credits/",
+          "supports": ["officialTitle", "releaseYear", "directors", "productionCompany", "technicalCredits", "vfxSupervisor", "editor", "colorist"]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://okgo.net/category/news/",
+          "supports": ["officialVideoExistence", "releaseYear", "awardOutcome"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://winners.webbyawards.com/2018/video/general-video/music-video/52916/ok-go-obsession",
+          "supports": ["officialTitle", "directors", "productionCompany", "technicalCredits", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=QvW61K2s0tA",
+          "supports": ["youtubeId", "thumbnailUrl"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "The Webby Awards",
+            "year": 2018,
+            "category": "Film & Video — Music Video",
+            "result": "People's Voice Winner",
+            "creditedNames": ["SIX"],
+            "source": "https://winners.webbyawards.com/2018/video/general-video/music-video/52916/ok-go-obsession"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "label_unverified", "vfx_company_unverified"]
+    },
+    {
+      "artist": "きゃりーぱみゅぱみゅ",
+      "title": "ファッションモンスター",
+      "officialVideoUnresolved": true,
+      "metadata": {
+        "officialTitle": "ファッションモンスター",
+        "localTitle": "ファッションモンスター",
+        "englishTitle": "Fashion Monster",
+        "releaseYear": 2012,
+        "countryCode": "JP",
+        "directors": ["田向潤"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Warner Music Japan",
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": "J-Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Kyary Pamyu Pamyu performs inside an ornate, densely populated fantasy room where fashion display, creature design, props, and choreography continually compete for attention.",
+          "whyItMatters": "The video established a compact visual grammar for Japanese pop surrealism in which costume, character, product-scale detail, and performance are inseparable.",
+          "historicalContext": "Released in 2012 and directed by Jun Tamukai, the video was nominated for Best Karaokee! Song at the 2013 MTV VMAJ.",
+          "keyInnovation": "A fixed theatrical world is kept in constant motion through layered props, eccentric supporting figures, graphic costume changes, and precisely timed choreography."
+        },
+        "ja": {
+          "shortSummary": "装飾的で密度の高い幻想空間の中で、ファッション展示、クリーチャー造形、小道具、振付が絶えず注意を奪い合う作品。",
+          "whyItMatters": "衣装、キャラクター、商品展示のような細部、パフォーマンスを不可分にし、日本的ポップ・シュルレアリスムの簡潔な視覚文法を確立しました。",
+          "historicalContext": "田向潤が監督し2012年に公開。MTV VMAJ 2013の最優秀カラオケソング賞にノミネートされました。",
+          "keyInnovation": "固定された舞台世界を、多層的な小道具、奇妙な脇役、図形的な衣装変化、精密な振付によって常に運動させています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "award_archive_official",
+          "url": "https://hps.mtvjapan.com/mediacms/pdfs/mtvj_press-release_20130328_zpcj.pdf",
+          "supports": ["officialTitle", "director", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "MTV VMAJ",
+            "year": 2013,
+            "category": "Best Karaokee! Song / 最優秀カラオケソング賞",
+            "result": "Nominee",
+            "creditedNames": ["きゃりーぱみゅぱみゅ", "田向潤"],
+            "source": "https://hps.mtvjapan.com/mediacms/pdfs/mtvj_press-release_20130328_zpcj.pdf"
+          }
+        ]
+      },
+      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified", "label_source_needs_upgrade"]
+    }
+  ]
+}

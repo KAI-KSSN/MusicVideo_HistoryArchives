@@ -1,0 +1,238 @@
+{
+  "batch": "2010s-01",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Childish Gambino",
+      "title": "This Is America",
+      "metadata": {
+        "officialTitle": "This Is America",
+        "releaseYear": 2018,
+        "countryCode": "US",
+        "directors": ["Hiro Murai"],
+        "productionCompany": "Doomsday Entertainment",
+        "vfxProduction": null,
+        "label": "RCA Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=VYOjWnS4cMY",
+        "youtubeId": "VYOjWnS4cMY",
+        "thumbnailUrl": "https://i.ytimg.com/vi/VYOjWnS4cMY/maxresdefault.jpg",
+        "runtimeSeconds": 245,
+        "genre": "Hip-Hop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A mobile camera follows Childish Gambino through a warehouse as performance, celebration, gun violence, and disorder compete across foreground and background.",
+          "whyItMatters": "The video uses the mechanics of spectacle to examine distraction, violence, race, and entertainment in the United States, making the viewer's shifting attention part of the work.",
+          "historicalContext": "Directed by Hiro Murai and released in 2018, the video became an immediate subject of public interpretation and received the 2019 GRAMMY for Best Music Video.",
+          "keyInnovation": "Long moving passages coordinate foreground choreography with incidents placed deep in the frame, forcing the viewer to choose between the central performance and the surrounding evidence."
+        },
+        "ja": {
+          "shortSummary": "移動するカメラが倉庫内のChildish Gambinoを追い、演技、祝祭、銃による暴力、混乱が前景と背景で注意を奪い合う作品。",
+          "whyItMatters": "スペクタクルの仕組みそのものを使って、米国における気晴らし、暴力、人種、娯楽を考察し、観客の移ろう注意を作品の一部にしました。",
+          "historicalContext": "Hiro Muraiが監督し2018年に公開。直ちに広範な解釈の対象となり、2019年GRAMMY Best Music Videoを受賞しました。",
+          "keyInnovation": "長い移動撮影の中で、前景の振付と画面奥の事件を同時進行させ、中心の演技と周囲の証拠のどちらを見るかを観客に選ばせます。"
+        }
+      },
+      "sources": [
+        {"type":"label_official","url":"https://www.sonymusic.co.uk/childish-gambino-releases-this-is-america-video/","supports":["officialTitle","releaseYear","director","label","youtubeId","historicalContext"]},
+        {"type":"production_official","url":"https://doomsdayent.com/directors/hiro-murai/childish-gambino-this-is-america/","supports":["officialTitle","director","productionCompany"]},
+        {"type":"award_archive_official","url":"https://www.grammy.com/artists/hiro-murai/243444/","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"award_archive_official","url":"https://www.ukmva.com/192-2018","supports":["awardProgram","awardYear","awardCategory","awardOutcome","productionCompany","cinematographer"]},
+        {"type":"award_archive_official","url":"https://winners.webbyawards.com/2019/video/general-video/music-video/81551/this-is-america","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"award_archive_official","url":"https://clios.com/winners-gallery/details/72649","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"award_archive_official","url":"https://awards.ciclopefestival.com/winners/2018","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"award_archive_official","url":"https://archive.camerimage.pl/assets/uploads/2019/01/EnergaCAMERIMAGE-WINNERS-SHOW-2019-program.pdf","supports":["awardProgram","awardYear","awardCategory","awardOutcome","cinematographer"]},
+        {"type":"award_archive_official","url":"https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations","supports":["awardProgram","awardYear","awardCategories","awardOutcomes","craftRecipients"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=VYOjWnS4cMY","supports":["youtubeId","thumbnailUrl","runtimeSeconds"]}
+      ],
+      "awardAudit": {
+        "status": "complete",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "verifiedResults": [
+          {"program":"GRAMMY Awards","year":2019,"category":"Best Music Video","result":"Winner","creditedNames":["Hiro Murai"],"source":"https://www.grammy.com/artists/hiro-murai/243444/"},
+          {"program":"UK Music Video Awards","year":2018,"category":"Video of the Year","result":"Winner","creditedNames":[],"source":"https://www.ukmva.com/192-2018"},
+          {"program":"UK Music Video Awards","year":2018,"category":"Best Urban Video — International","result":"Winner","creditedNames":["Hiro Murai","Jason Cole","Doomsday Entertainment"],"source":"https://www.ukmva.com/192-2018"},
+          {"program":"UK Music Video Awards","year":2018,"category":"Best Cinematography in a Video","result":"Winner","creditedNames":["Larkin Seiple"],"source":"https://www.ukmva.com/192-2018"},
+          {"program":"The Webby Awards","year":2019,"category":"Music Video","result":"Winner","creditedNames":[],"source":"https://winners.webbyawards.com/2019/video/general-video/music-video/81551/this-is-america"},
+          {"program":"The Webby Awards","year":2019,"category":"Music Video","result":"People's Voice Winner","creditedNames":[],"source":"https://winners.webbyawards.com/2019/video/general-video/music-video/81551/this-is-america"},
+          {"program":"Clio Music","year":2018,"category":"Film — Music Videos","result":"Gold","creditedNames":[],"source":"https://clios.com/winners-gallery/details/72649"},
+          {"program":"CICLOPE Awards","year":2018,"category":"Music Videos","result":"Grand Prix","creditedNames":[],"source":"https://awards.ciclopefestival.com/winners/2018"},
+          {"program":"EnergaCAMERIMAGE","year":2018,"category":"Best Cinematography in a Music Video","result":"Winner","creditedNames":["Larkin Seiple"],"source":"https://archive.camerimage.pl/assets/uploads/2019/01/EnergaCAMERIMAGE-WINNERS-SHOW-2019-program.pdf"},
+          {"program":"MTV Video Music Awards","year":2018,"category":"Video of the Year","result":"Nominee","creditedNames":[],"source":"https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"},
+          {"program":"MTV Video Music Awards","year":2018,"category":"Video with a Message","result":"Nominee","creditedNames":[],"source":"https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"},
+          {"program":"MTV Video Music Awards","year":2018,"category":"Best Cinematography","result":"Nominee","creditedNames":["Larkin Seiple"],"source":"https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"},
+          {"program":"MTV Video Music Awards","year":2018,"category":"Best Direction","result":"Nominee","creditedNames":["Hiro Murai"],"source":"https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"},
+          {"program":"MTV Video Music Awards","year":2018,"category":"Best Art Direction","result":"Nominee","creditedNames":["Jason Kisvarday"],"source":"https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"},
+          {"program":"MTV Video Music Awards","year":2018,"category":"Best Choreography","result":"Nominee","creditedNames":["Sherrie Silver"],"source":"https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"},
+          {"program":"MTV Video Music Awards","year":2018,"category":"Best Editing","result":"Nominee","creditedNames":["Ernie Gilbert"],"source":"https://ir.paramount.com/news-releases/news-release-details/mtv-announces-2018-vmas-nominations"}
+        ],
+        "notes": "The prior pilot-wide official archive audit is reused. SXSW competition placement and Vimeo Staff Pick remain recognitions rather than work_award_results."
+      },
+      "publicationBlockers": ["staged_existing_published_reconciliation_pending"]
+    },
+    {
+      "artist": "Flying Lotus",
+      "title": "Never Catch Me",
+      "metadata": {
+        "officialTitle": "Never Catch Me",
+        "releaseYear": 2014,
+        "countryCode": "US",
+        "directors": ["Hiro Murai"],
+        "productionCompany": "Doomsday Entertainment",
+        "vfxProduction": null,
+        "label": "Warp Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=2lXD0vv-ds8",
+        "youtubeId": "2lXD0vv-ds8",
+        "thumbnailUrl": "https://i.ytimg.com/vi/2lXD0vv-ds8/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Electronic Hip-Hop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Two children rise from their coffins during a funeral and dance out of the church, through the streets, and away from the mourning adults who cannot see them.",
+          "whyItMatters": "The video uses dance to hold grief and release in the same image, allowing choreography to function as narrative action rather than illustration.",
+          "historicalContext": "Directed by Hiro Murai and released in 2014 during Flying Lotus's You're Dead! period, the film won Best Alternative Video — International at the 2015 UK Music Video Awards.",
+          "keyInnovation": "A continuous progression from ritual stillness to expansive movement lets two young performers carry the film's emotional shift without explanatory dialogue or visual effects."
+        },
+        "ja": {
+          "shortSummary": "葬儀の最中に二人の子どもが棺から起き上がり、大人たちには見えないまま教会を出て、街を踊りながら去っていく作品。",
+          "whyItMatters": "悲嘆と解放を同じ画面に置き、振付を楽曲の説明ではなく物語を進める行為として機能させました。",
+          "historicalContext": "Hiro Muraiが監督し、Flying Lotusの『You're Dead!』期である2014年に公開。2015年UK Music Video AwardsでBest Alternative Video — Internationalを受賞しました。",
+          "keyInnovation": "儀式的な静止から広がりのある動きへ連続的に移行し、説明的な台詞やVFXに頼らず、二人の若い演者が作品の感情変化を担います。"
+        }
+      },
+      "sources": [
+        {"type":"production_official","url":"https://doomsdayent.com/directors/hiro-murai/flying-lotus-never-catch-me/","supports":["officialTitle","director","productionCompany"]},
+        {"type":"award_archive_official","url":"https://www.ukmva.com/73-2015","supports":["officialTitle","director","awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=2lXD0vv-ds8","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"UK Music Video Awards","year":2015,"category":"Best Alternative Video — International","result":"Winner","creditedNames":["Hiro Murai"],"source":"https://www.ukmva.com/73-2015"}
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "vfx_credit_unverified", "runtime_unverified", "label_source_needs_upgrade"]
+    },
+    {
+      "artist": "Sia",
+      "title": "Chandelier",
+      "metadata": {
+        "officialTitle": "Chandelier",
+        "releaseYear": 2014,
+        "countryCode": "US",
+        "directors": ["Sia", "Daniel Askill"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "RCA Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=2vjPBrBU-TM",
+        "youtubeId": "2vjPBrBU-TM",
+        "thumbnailUrl": "https://i.ytimg.com/vi/2vjPBrBU-TM/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Maddie Ziegler performs a sustained solo inside a neglected apartment, moving between play, compulsion, exhaustion, and confrontation.",
+          "whyItMatters": "The video places a single dancer at the center of a pop release and allows choreography, rather than the singer's physical presence, to define the work's public image.",
+          "historicalContext": "Directed by Sia and Daniel Askill and released in 2014, the video won Best Pop Video — International at the UKMVAs, received two D&AD Pencils, and was nominated for the 2015 GRAMMY for Best Music Video.",
+          "keyInnovation": "A bounded domestic set, close camera proximity, elastic full-body choreography, and an uninterrupted performance identity turn movement into the video's complete narrative vocabulary."
+        },
+        "ja": {
+          "shortSummary": "Maddie Zieglerが荒れた室内で持続的なソロを演じ、遊び、衝動、疲労、対峙のあいだを身体で移動する作品。",
+          "whyItMatters": "一人のダンサーをポップ作品の中心に置き、歌手本人の身体的な登場ではなく、振付によって作品の公共的イメージを定義しました。",
+          "historicalContext": "SiaとDaniel Askillが監督し2014年に公開。UKMVAのBest Pop Video — International、D&ADの2本のPencilを獲得し、2015年GRAMMY Best Music Videoにノミネートされました。",
+          "keyInnovation": "境界のある室内セット、近接するカメラ、伸縮性の高い全身振付、一貫した演技上の人格によって、動きそのものを映像の完全な物語語彙にしています。"
+        }
+      },
+      "sources": [
+        {"type":"award_archive_official","url":"https://www.ukmva.com/184-2014","supports":["officialTitle","directors","awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/chandelier","supports":["officialTitle","label","countryCode","awardProgram","awardYear","awardCategories","awardOutcomes"]},
+        {"type":"award_archive_official","url":"https://www.grammy.com/artists/sia/15372/","supports":["awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=2vjPBrBU-TM","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"UK Music Video Awards","year":2014,"category":"Best Pop Video — International","result":"Winner","creditedNames":["Sia","Daniel Askill"],"source":"https://www.ukmva.com/184-2014"},
+          {"program":"D&AD Awards","year":2015,"category":"Film","result":"Graphite Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/chandelier"},
+          {"program":"D&AD Awards","year":2015,"category":"Music Videos","result":"Wood Pencil","creditedNames":[],"source":"https://www.dandad.org/work/d-ad-awards-archive/chandelier"},
+          {"program":"GRAMMY Awards","year":2015,"category":"Best Music Video","result":"Nominee","creditedNames":["Sia"],"source":"https://www.grammy.com/artists/sia/15372/"}
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "Pharrell Williams",
+      "title": "Happy",
+      "metadata": {
+        "officialTitle": "Happy",
+        "releaseYear": 2013,
+        "countryCode": "FR",
+        "directors": ["We Are From LA"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=ZbZSe6N_BXs",
+        "youtubeId": "ZbZSe6N_BXs",
+        "thumbnailUrl": "https://i.ytimg.com/vi/ZbZSe6N_BXs/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Hundreds of performers move through Los Angeles in repeating single-take segments arranged across a continuous twenty-four-hour interactive timeline.",
+          "whyItMatters": "The project expanded a music video from a fixed short film into a day-long navigable structure, while keeping each segment legible as a direct encounter between one performer, one place, and one song.",
+          "historicalContext": "Directed by We Are From LA and released in 2013, the 24-hour project received three D&AD Pencils in 2014 and the 2015 GRAMMY for Best Music Video.",
+          "keyInnovation": "A clock-based interface, looping song structure, repeated tracking shots, location continuity, and a large cast make duration itself the organizing principle of the work."
+        },
+        "ja": {
+          "shortSummary": "数百人の演者がロサンゼルスを移動するワンテイクの断片を、連続する24時間のインタラクティブな時間軸へ配置した作品。",
+          "whyItMatters": "MVを固定された短編から一日分の閲覧可能な構造へ拡張しながら、各断片を、一人の演者、一つの場所、一つの楽曲による直接的な出会いとして保ちました。",
+          "historicalContext": "We Are From LAが監督し2013年に公開。24時間版は2014年D&ADで3本のPencilを獲得し、2015年GRAMMY Best Music Videoを受賞しました。",
+          "keyInnovation": "時計に基づくインターフェース、ループする楽曲構造、反復する追跡撮影、場所の連続性、大規模な出演者によって、継続時間そのものを作品の構成原理にしています。"
+        }
+      },
+      "sources": [
+        {"type":"award_archive_official","url":"https://www.dandad.org/work/d-ad-awards-archive/24-hours-of-happy-pharrell-williams","supports":["officialTitle","directors","countryCode","awardProgram","awardYear","awardCategories","awardOutcomes","historicalContext"]},
+        {"type":"award_archive_official","url":"https://www.grammy.com/artists/we-are-la/18846","supports":["director","awardProgram","awardYear","awardCategory","awardOutcome"]},
+        {"type":"official_video","url":"https://www.youtube.com/watch?v=ZbZSe6N_BXs","supports":["youtubeId","thumbnailUrl"]}
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {"program":"GRAMMY Awards","year":2015,"category":"Best Music Video","result":"Winner","creditedNames":["We Are From LA"],"source":"https://www.grammy.com/artists/we-are-la/18846"},
+          {"program":"D&AD Awards","year":2014,"category":"Digital Experience Design","result":"Graphite Pencil","creditedNames":["We Are From LA"],"source":"https://www.dandad.org/work/d-ad-awards-archive/24-hours-of-happy-pharrell-williams"},
+          {"program":"D&AD Awards","year":2014,"category":"Film","result":"Wood Pencil","creditedNames":["We Are From LA"],"source":"https://www.dandad.org/work/d-ad-awards-archive/24-hours-of-happy-pharrell-williams"},
+          {"program":"D&AD Awards","year":2014,"category":"Music Videos","result":"Wood Pencil","creditedNames":["We Are From LA"],"source":"https://www.dandad.org/work/d-ad-awards-archive/24-hours-of-happy-pharrell-williams"}
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "production_credit_unverified", "label_unverified", "runtime_unverified"]
+    }
+  ]
+}

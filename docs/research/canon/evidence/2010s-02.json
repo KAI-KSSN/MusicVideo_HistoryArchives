@@ -1,0 +1,287 @@
+{
+  "batch": "2010s-02",
+  "status": "mixed_identity_and_metadata_review",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Arcade Fire",
+      "title": "Reflektor",
+      "requiresIdentityResolution": true,
+      "officialVideoUnresolved": true,
+      "metadata": {
+        "officialTitle": "Just a Reflektor",
+        "releaseYear": 2013,
+        "countryCode": "US",
+        "directors": ["Vincent Morisset"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": null
+      },
+      "identityIssue": "The editorial row says Reflektor and classifies the work as Interactive. D&AD's official archive identifies the interactive browser-and-mobile work as Just a Reflektor, directed by Vincent Morisset. A separate conventional Reflektor music video also exists, so the selected audiovisual work must be resolved before any award or credit is attached to the database record.",
+      "editorial": null,
+      "sources": [
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/just-a-reflektor",
+          "supports": ["candidateOfficialTitle", "candidateDirector", "candidateCountryCode", "candidateInteractiveFormat", "candidateAwardProgram", "candidateAwardYear", "candidateAwardOutcome"]
+        }
+      ],
+      "candidateOfficialClaims": [
+        {
+          "program": "D&AD Awards",
+          "year": 2014,
+          "category": "Digital Marketing",
+          "result": "Wood Pencil",
+          "creditedNames": ["Vincent Morisset"],
+          "source": "https://www.dandad.org/work/d-ad-awards-archive/just-a-reflektor",
+          "registrationStatus": "hold_until_work_identity_resolved"
+        }
+      ],
+      "awardAudit": {
+        "status": "blocked_by_identity_resolution",
+        "verifiedResults": [],
+        "notes": "The D&AD result belongs to Just a Reflektor. It is retained as evidence but is not registered against the generic Reflektor row until the editorial identity is resolved."
+      },
+      "publicationBlockers": ["work_identity_unresolved", "official_video_unresolved", "award_scope_incomplete"]
+    },
+    {
+      "artist": "David Bowie",
+      "title": "Blackstar",
+      "metadata": {
+        "officialTitle": "Blackstar",
+        "releaseYear": 2015,
+        "countryCode": null,
+        "directors": ["Johan Renck"],
+        "productionCompany": "Gisla & Renck",
+        "vfxProduction": null,
+        "label": "ISO / Columbia Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=kszLwBaC4Sw",
+        "youtubeId": "kszLwBaC4Sw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/kszLwBaC4Sw/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Art Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A dead astronaut, a jewelled skull, ritual dancers, crucified scarecrows, and three Bowie personae unfold across a nearly ten-minute ceremonial science-fiction landscape.",
+          "whyItMatters": "The film treats a long-form single as a complete symbolic world, allowing unresolved images, performance identities, and ritual movement to sustain interpretation without closing it down.",
+          "historicalContext": "Johan Renck's video premiered on 19 November 2015, ahead of the Blackstar single and album. In 2016 it won Best Production Design in a Video at the UK Music Video Awards.",
+          "keyInnovation": "Distinct performance personae, recurring ritual gestures, constructed cosmology, and patient long-form pacing organize the work without relying on a linear explanatory narrative."
+        },
+        "ja": {
+          "shortSummary": "死んだ宇宙飛行士、宝石で飾られた頭蓋骨、儀式を行う踊り手、磔にされた案山子、三つのBowieの人格が、約10分の儀礼的なSF空間に展開する作品。",
+          "whyItMatters": "長尺のシングルを完結した象徴世界として扱い、未解決のイメージ、複数の演技人格、儀礼的な動きによって、意味を閉じずに解釈を持続させました。",
+          "historicalContext": "Johan Renckが監督した映像は2015年11月19日に初公開され、その後のシングルとアルバムに先行しました。2016年UK Music Video AwardsでBest Production Design in a Videoを受賞しました。",
+          "keyInnovation": "異なる演技人格、反復する儀礼的身振り、構築された宇宙観、長尺を支える緩やかな進行によって、説明的な直線物語に頼らず作品を組織しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://www.davidbowie.com/blackstar",
+          "supports": ["officialTitle", "albumReleaseYear", "label"]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://www.davidbowie.com/blog/2025/11/20/-blackstar-single-is-10",
+          "supports": ["officialTitle", "releaseYear", "director", "youtubeId", "historicalContext", "visualDescription"]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://www.davidbowie.com/blog/2020/11/19/-video-arrived-five-years-ago-today",
+          "supports": ["director", "premiereDate"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.ukmva.com/42-2016",
+          "supports": ["officialTitle", "director", "productionCompany", "label", "awardProgram", "awardYear", "awardCategory", "awardOutcome", "productionDesigner"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=kszLwBaC4Sw",
+          "supports": ["youtubeId", "thumbnailUrl"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "UK Music Video Awards",
+            "year": 2016,
+            "category": "Best Production Design in a Video",
+            "result": "Winner",
+            "creditedNames": ["Jan Houllevigue"],
+            "source": "https://www.ukmva.com/42-2016"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "vfx_credit_unverified", "runtime_unverified", "country_code_unverified"]
+    },
+    {
+      "artist": "Perfume",
+      "title": "Magic of Love",
+      "officialVideoUnresolved": true,
+      "metadata": {
+        "officialTitle": "Magic of Love",
+        "releaseYear": 2013,
+        "countryCode": "JP",
+        "directors": ["関和亮"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Universal J",
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": "J-Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Perfume performs inside a bright geometric room whose repeated layouts, matched gestures, and concealed transitions make the space appear to reorganize around the trio.",
+          "whyItMatters": "The video turns choreography and spatial repetition into the same system, demonstrating how a tightly controlled pop performance can also function as a sustained visual puzzle.",
+          "historicalContext": "Released in 2013 and directed by Kazuaki Seki, the video accompanied the Magic of Love single and won Best Dance Video at the 2014 MTV VMAJ.",
+          "keyInnovation": "Matched framing, repeated room motifs, synchronized movement, and carefully timed transitions produce continuous transformations without making the performers secondary to the mechanism."
+        },
+        "ja": {
+          "shortSummary": "明るい幾何学的な室内でPerfumeが踊り、反復するレイアウト、一致する身振り、隠された切り替えによって、空間そのものが三人の周囲で再編されて見える作品。",
+          "whyItMatters": "振付と空間の反復を同じ仕組みとして扱い、統御されたポップ・パフォーマンスが持続的な視覚パズルにもなり得ることを示しました。",
+          "historicalContext": "関和亮が監督し2013年に公開。シングル『Magic of Love』に収録され、2014年MTV VMAJで最優秀ダンスビデオ賞を受賞しました。",
+          "keyInnovation": "一致する構図、反復する室内モチーフ、同期する動き、精密な切り替えによって、演者を仕掛けの従属物にせず連続的な空間変化を作り出しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://www.perfume-web.jp/news/detail.php?id=45",
+          "supports": ["officialTitle", "releaseYear", "officialVideoExistence", "label"]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://www.perfume-web.jp/discography/detail.php?cid=1&id=41",
+          "supports": ["officialTitle", "releaseYear", "officialVideoExistence"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://hps.mtvjapan.com/mediacms/pdfs/mtvj_press-release_20140614_6jvx.pdf",
+          "supports": ["officialTitle", "director", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "MTV VMAJ",
+            "year": 2014,
+            "category": "Best Dance Video / 最優秀ダンスビデオ賞",
+            "result": "Winner",
+            "creditedNames": ["Perfume", "関和亮"],
+            "source": "https://hps.mtvjapan.com/mediacms/pdfs/mtvj_press-release_20140614_6jvx.pdf"
+          }
+        ]
+      },
+      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified"]
+    },
+    {
+      "artist": "米津玄師",
+      "title": "Lemon",
+      "metadata": {
+        "officialTitle": "Lemon",
+        "releaseYear": 2018,
+        "countryCode": "JP",
+        "directors": ["山田智和"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "Sony Music Records",
+        "youtubeUrl": "https://www.youtube.com/watch?v=SX_ViT4Ra7k",
+        "youtubeId": "SX_ViT4Ra7k",
+        "thumbnailUrl": "https://i.ytimg.com/vi/SX_ViT4Ra7k/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "J-Pop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A restrained cinematic portrait combines Kenshi Yonezu's performance in a church with a funeral-like gathering, symbolic objects, and an uncanny interior atmosphere.",
+          "whyItMatters": "The video shows how symbolic props, architecture, restrained performance, and controlled ambiguity can sustain a widely shared song of grief.",
+          "historicalContext": "Released in 2018 as the theme for the television drama Unnatural, the video was directed by Tomokazu Yamada and won two awards at the 2018 MTV VMAJ.",
+          "keyInnovation": "Measured camera movement, choreographed gesture, recurring symbolic objects, and muted production design translate mourning into a spare visual system."
+        },
+        "ja": {
+          "shortSummary": "教会で歌う米津玄師と葬送を思わせる集いを、象徴的な物、抑制された演技、不穏な室内の空気とともに描いた作品。",
+          "whyItMatters": "象徴的な小道具、建築、抑制されたパフォーマンス、統御された曖昧さによって、広く共有された悲嘆の歌を持続的な映像へ変換しました。",
+          "historicalContext": "テレビドラマ『アンナチュラル』の主題歌として2018年に公開され、山田智和が監督。MTV VMAJ 2018で2部門を受賞しました。",
+          "keyInnovation": "節度あるカメラ移動、振付化された身振り、反復する象徴物、彩度を抑えた美術設計によって、喪失を簡潔な視覚体系へ置き換えています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://reissuerecords.net/2018/02/27/%E3%80%8Elemon%E3%80%8Fmusic-video%E5%85%AC%E9%96%8B/",
+          "supports": ["officialTitle", "releaseYear", "director", "youtubeId", "historicalContext", "visualConcept"]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://reissuerecords.net/2018/10/10/%E3%80%8Cmtv-vmaj-2018%E3%80%8D%E5%8F%97%E8%B3%9E%EF%BC%81/",
+          "supports": ["awardProgram", "awardYear", "awardCategories", "awardOutcomes"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=SX_ViT4Ra7k",
+          "supports": ["youtubeId", "thumbnailUrl"]
+        }
+      ],
+      "awardAudit": {
+        "status": "complete",
+        "checkedPrograms": [
+          "MTV Video Music Awards",
+          "UK Music Video Awards",
+          "GRAMMY Awards",
+          "Berlin Music Video Awards",
+          "EnergaCAMERIMAGE",
+          "D&AD Awards",
+          "Cannes Lions",
+          "Clio Music",
+          "ADC Awards",
+          "The One Show",
+          "CICLOPE Awards",
+          "AICP Awards",
+          "The Webby Awards",
+          "SXSW",
+          "MTV VMAJ",
+          "SPACE SHOWER MUSIC VIDEO AWARDS",
+          "MUSIC AWARDS JAPAN",
+          "ACC TOKYO CREATIVITY AWARDS",
+          "Japan Media Arts Festival",
+          "JAA Advertising Awards",
+          "Short Shorts Film Festival & Asia",
+          "Image Forum Festival",
+          "TOKYO FILMeX"
+        ],
+        "verifiedResults": [
+          {
+            "program": "MTV VMAJ",
+            "year": 2018,
+            "category": "Best Male Video — Japan / 最優秀邦楽男性アーティストビデオ賞",
+            "result": "Winner",
+            "creditedNames": ["米津玄師"],
+            "source": "https://reissuerecords.net/2018/10/10/%E3%80%8Cmtv-vmaj-2018%E3%80%8D%E5%8F%97%E8%B3%9E%EF%BC%81/"
+          },
+          {
+            "program": "MTV VMAJ",
+            "year": 2018,
+            "category": "Best Video of the Year",
+            "result": "Winner",
+            "creditedNames": ["米津玄師"],
+            "source": "https://reissuerecords.net/2018/10/10/%E3%80%8Cmtv-vmaj-2018%E3%80%8D%E5%8F%97%E8%B3%9E%EF%BC%81/"
+          }
+        ],
+        "notes": "The prior pilot-wide award audit is reused. Only the two artist-official MTV VMAJ results are registered; no result is inferred for the other checked programs."
+      },
+      "publicationBlockers": ["staged_existing_published_reconciliation_pending"]
+    }
+  ]
+}

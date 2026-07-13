@@ -1,0 +1,322 @@
+{
+  "batch": "2010s-04",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "OK Go",
+      "title": "Needing / Getting",
+      "metadata": {
+        "officialTitle": "Needing/Getting",
+        "releaseYear": 2012,
+        "countryCode": "US",
+        "directors": ["Brian L. Perkins"],
+        "productionCompany": "Caviar",
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=MejbOFk7H6c",
+        "youtubeId": "MejbOFk7H6c",
+        "thumbnailUrl": "https://i.ytimg.com/vi/MejbOFk7H6c/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Alternative Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "OK Go performs while a modified Chevrolet Sonic drives through a desert course, striking a large network of tuned objects and instruments in synchronization with the song.",
+          "whyItMatters": "The work turns an automobile, a road, and an instrument field into one continuous performance system, making the production method visible as the central image.",
+          "historicalContext": "Released in 2012 around a Super Bowl broadcast, the project adapted OK Go's established interest in single-system performances to a branded production built around a specially modified car.",
+          "keyInnovation": "Robotic arms attached to the vehicle activate hundreds of tuned elements along the route, coordinating driving speed, physical impact, musical timing, and camera coverage within a practical environment."
+        },
+        "ja": {
+          "shortSummary": "改造されたChevrolet Sonicで砂漠のコースを走行しながら、道路沿いに配置された多数の調律済みオブジェクトと楽器を楽曲に同期して鳴らす作品。",
+          "whyItMatters": "自動車、道路、楽器群を一つの連続した演奏システムへ統合し、制作方法そのものを中心的な映像として可視化しました。",
+          "historicalContext": "2012年のSuper Bowl放送に合わせて公開され、OK Goが継続してきた単一システム型のパフォーマンスを、特別改造車を中心とするブランド制作へ展開しました。",
+          "keyInnovation": "車体に取り付けたロボットアームで走路上の多数の音響要素を作動させ、走行速度、物理的衝突、音楽的タイミング、撮影を実空間で同期しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://okgo.net/2012/02/06/needinggetting-official-video/index.html",
+          "supports": ["officialTitle", "releaseYear", "officialVideoExistence", "productionConcept"]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://okgo.net/2012/02/10/behind-the-scenes-of-needinggetting/index.html",
+          "supports": ["productionConcept", "technicalMethod", "instrumentCount"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=MejbOFk7H6c",
+          "supports": ["youtubeId", "thumbnailUrl"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/ok-go-needinggetting",
+          "supports": ["awardProgram", "awardYear", "awardCategory", "awardOutcome", "productionConcept"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.oneclub.org/awards/theoneshow/-award/17823/ok-go/",
+          "supports": ["director", "productionCompany", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://clios.com/winners-gallery/details/45528",
+          "supports": ["awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://winners.webbyawards.com/2013/video-film/general-video-film/music/147187/ok-go-needinggetting-music-video",
+          "supports": ["awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "D&AD Awards",
+            "year": 2013,
+            "category": "Film",
+            "result": "Graphite Pencil",
+            "creditedNames": ["Goodby Silverstein & Partners"],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/ok-go-needinggetting"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 2013,
+            "category": "Film",
+            "result": "Wood Pencil",
+            "creditedNames": ["Goodby Silverstein & Partners"],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/ok-go-needinggetting"
+          },
+          {
+            "program": "The One Show",
+            "year": 2012,
+            "category": "Branded Content — Music Videos",
+            "result": "Bronze Pencil",
+            "creditedNames": ["Goodby Silverstein & Partners", "Caviar", "Brian L. Perkins"],
+            "source": "https://www.oneclub.org/awards/theoneshow/-award/17823/ok-go/"
+          },
+          {
+            "program": "Clio Awards",
+            "year": 2013,
+            "category": "Branded Entertainment & Content — Music",
+            "result": "Gold Award",
+            "creditedNames": ["Goodby Silverstein & Partners"],
+            "source": "https://clios.com/winners-gallery/details/45528"
+          },
+          {
+            "program": "The Webby Awards",
+            "year": 2013,
+            "category": "Online Film & Video — Music",
+            "result": "Honoree",
+            "creditedNames": ["Goodby Silverstein & Partners"],
+            "source": "https://winners.webbyawards.com/2013/video-film/general-video-film/music/147187/ok-go-needinggetting-music-video"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "label_unverified", "vfx_company_unverified"]
+    },
+    {
+      "artist": "The Chemical Brothers",
+      "title": "Wide Open",
+      "metadata": {
+        "officialTitle": "Wide Open",
+        "releaseYear": 2016,
+        "countryCode": "GB",
+        "directors": ["Dom & Nic"],
+        "productionCompany": "Outsider",
+        "vfxProduction": "The Mill London",
+        "label": "Virgin EMI",
+        "youtubeUrl": "https://www.youtube.com/watch?v=BC2dRkm8ATU",
+        "youtubeId": "BC2dRkm8ATU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/BC2dRkm8ATU/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Electronic"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A dancer moves through an empty industrial space while her body is progressively replaced by a transparent, lattice-like digital structure.",
+          "whyItMatters": "The video makes bodily transformation readable through uninterrupted choreography, allowing performance and visual effects to carry equal narrative weight.",
+          "historicalContext": "Released in 2016, Wide Open was directed by Dom & Nic, produced by Outsider, and completed with visual effects by The Mill London for Virgin EMI.",
+          "keyInnovation": "Detailed tracking, digital body replacement, and a continuous-feeling camera path preserve the dancer's movement while gradually exposing a synthetic internal structure."
+        },
+        "ja": {
+          "shortSummary": "無人の工業空間で踊る身体が、透明な格子状のデジタル構造へ段階的に置き換わっていく作品。",
+          "whyItMatters": "途切れない振付の中で身体変容を明瞭に読み取らせ、パフォーマンスとVFXに同等の物語的役割を与えました。",
+          "historicalContext": "2016年に公開され、Dom & Nicが監督、Outsiderが制作、The Mill LondonがVFXを担当し、Virgin EMIから発表されました。",
+          "keyInnovation": "精密なトラッキング、デジタル身体置換、連続して見えるカメラ動線によって、ダンサーの動きを保ちながら合成された内部構造を段階的に露出させています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "award_archive_official",
+          "url": "https://www.ukmva.com/42-2016",
+          "supports": ["officialTitle", "directors", "productionCompany", "vfxProduction", "label", "youtubeId", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.dandad.org/work/d-ad-awards-archive/chemical-brothers-wide-open",
+          "supports": ["officialTitle", "releaseYear", "countryCode", "directors", "productionCompany", "vfxProduction", "awardProgram", "awardYear", "awardCategory", "awardOutcome", "productionConcept"]
+        },
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=BC2dRkm8ATU",
+          "supports": ["youtubeId", "thumbnailUrl"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "UK Music Video Awards",
+            "year": 2016,
+            "category": "Best Dance Video — UK",
+            "result": "Winner",
+            "creditedNames": ["Dom & Nic", "Outsider"],
+            "source": "https://www.ukmva.com/42-2016"
+          },
+          {
+            "program": "UK Music Video Awards",
+            "year": 2016,
+            "category": "Best Visual Effects in a Video",
+            "result": "Winner",
+            "creditedNames": ["The Mill London"],
+            "source": "https://www.ukmva.com/42-2016"
+          },
+          {
+            "program": "D&AD Awards",
+            "year": 2016,
+            "category": "Music Videos",
+            "result": "Yellow Pencil",
+            "creditedNames": ["Dom & Nic", "Outsider", "The Mill London"],
+            "source": "https://www.dandad.org/work/d-ad-awards-archive/chemical-brothers-wide-open"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified"]
+    },
+    {
+      "artist": "宇多田ヒカル",
+      "title": "忘却",
+      "officialVideoUnresolved": true,
+      "metadata": {
+        "officialTitle": "忘却 featuring KOHH",
+        "localTitle": "忘却 featuring KOHH",
+        "englishTitle": null,
+        "releaseYear": 2017,
+        "countryCode": "JP",
+        "directors": ["山田健人"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": null,
+        "youtubeId": null,
+        "thumbnailUrl": null,
+        "runtimeSeconds": null,
+        "genre": "J-Pop / Hip-Hop"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Hikaru Utada and KOHH occupy a dark, restrained performance space where faces, breath, and small bodily movements carry the work's emotional tension.",
+          "whyItMatters": "The video removes spectacle from a high-profile collaboration and concentrates instead on two performers whose contrasting presence gives the song its visual structure.",
+          "historicalContext": "Released in 2017 from the Fantôme period and directed by Kento Yamada, the work received the MTV VMAJ award for Best Collaboration Video.",
+          "keyInnovation": "Minimal lighting and close observation reduce the image to voice, face, and gesture, allowing the collaboration itself to determine rhythm and spatial tension."
+        },
+        "ja": {
+          "shortSummary": "宇多田ヒカルとKOHHが暗く抑制された空間に立ち、顔、呼吸、小さな身体動作が感情的緊張を担うパフォーマンス作品。",
+          "whyItMatters": "注目度の高いコラボレーションからスペクタクルを取り除き、対照的な二人の存在そのものを楽曲の視覚構造へ集約しました。",
+          "historicalContext": "『Fantôme』期の2017年に公開され、山田健人が監督。MTV VMAJのBest Collaboration Videoを受賞しました。",
+          "keyInnovation": "最小限の照明と近接した観察によって映像を声、顔、身振りへ還元し、コラボレーションそのものにリズムと空間的緊張を決定させています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "artist_official",
+          "url": "https://www.utadahikaru.jp/profile/",
+          "supports": ["officialTitle", "releaseYear", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "label_official",
+          "url": "https://www.sonymusic.co.jp/Music/Info/utadahikaru/profile/",
+          "supports": ["officialTitle", "releaseYear", "officialVideoExistence", "awardProgram", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "label_official",
+          "url": "https://www.sonymusic.co.jp/Music/Info/utadahikaru/22songs/kento_yamada.html",
+          "supports": ["officialTitle", "director", "releaseYear", "awardProgram", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "artist_official",
+          "url": "https://www.utadahikaru.jp/music/tfmsiu8_b/",
+          "supports": ["officialTitle", "album"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "MTV VMAJ",
+            "year": 2017,
+            "category": "Best Collaboration Video",
+            "result": "Winner",
+            "creditedNames": ["宇多田ヒカル", "KOHH", "山田健人"],
+            "source": "https://www.utadahikaru.jp/profile/"
+          }
+        ]
+      },
+      "publicationBlockers": ["official_video_unresolved", "award_scope_incomplete", "production_credit_unverified", "vfx_credit_unverified", "runtime_unverified", "label_unverified"]
+    },
+    {
+      "artist": "Radiohead",
+      "title": "Lift",
+      "metadata": {
+        "officialTitle": "Lift",
+        "releaseYear": 2017,
+        "countryCode": "GB",
+        "directors": [],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": null,
+        "youtubeUrl": "https://www.youtube.com/watch?v=QBGaO89cBMI",
+        "youtubeId": "QBGaO89cBMI",
+        "thumbnailUrl": "https://i.ytimg.com/vi/QBGaO89cBMI/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Alternative Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Thom Yorke rides through the shifting social space of a lift, encountering a succession of passengers and small incidents before the journey opens onto an unexpected domestic scene.",
+          "whyItMatters": "The video uses an everyday vertical journey as a compact narrative container, allowing entrances, exits, repetition, and confined framing to accumulate meaning without explanatory dialogue.",
+          "historicalContext": "Released in 2017 alongside the OK Computer OKNOTOK 1997 2017 reissue, the work gave a newly issued archival song a contemporary visual narrative.",
+          "keyInnovation": "A constrained lift interior becomes a modular stage whose changing occupants and apparent continuity conceal transitions between social observation, memory, and dream logic."
+        },
+        "ja": {
+          "shortSummary": "Thom Yorkeがエレベーター内を移動し、次々に乗り込む人物と小さな出来事を経て、予想外の家庭的空間へ到達する作品。",
+          "whyItMatters": "日常的な上下移動を簡潔な物語容器として用い、出入り、反復、閉じたフレーミングだけで説明的台詞のない意味を蓄積しました。",
+          "historicalContext": "2017年の『OK Computer OKNOTOK 1997 2017』再発に伴って公開され、新たに公式発表されたアーカイブ楽曲へ同時代の映像物語を与えました。",
+          "keyInnovation": "制約されたエレベーター内部を可変的な舞台とし、乗客の交代と連続して見える移動の中に、社会観察、記憶、夢の論理を重ねています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=QBGaO89cBMI",
+          "supports": ["officialTitle", "releaseYear", "youtubeId", "thumbnailUrl"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.ukmva.com/191-2017",
+          "supports": ["negativeAwardFinding", "personAwardDistinction"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "The UKMVA 2017 Best Director award located for Oscar Hudson is a person-level honour and is not registered as an award result for Lift. No work-level result is inferred from it."
+      },
+      "publicationBlockers": ["director_unverified", "production_credit_unverified", "vfx_credit_unverified", "award_scope_incomplete", "runtime_unverified", "label_unverified"]
+    }
+  ]
+}

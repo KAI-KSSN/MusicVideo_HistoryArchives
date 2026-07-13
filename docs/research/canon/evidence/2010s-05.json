@@ -1,0 +1,135 @@
+{
+  "batch": "2010s-05",
+  "status": "metadata_verified_awards_in_progress",
+  "publicationAllowed": false,
+  "works": [
+    {
+      "artist": "Radiohead",
+      "title": "Daydreaming",
+      "metadata": {
+        "officialTitle": "Daydreaming",
+        "releaseYear": 2016,
+        "countryCode": "GB",
+        "directors": ["Paul Thomas Anderson"],
+        "productionCompany": null,
+        "vfxProduction": null,
+        "label": "XL Recordings",
+        "youtubeUrl": "https://www.youtube.com/watch?v=TTAU7lLDZYU",
+        "youtubeId": "TTAU7lLDZYU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/TTAU7lLDZYU/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Art Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "Thom Yorke walks through a chain of doors connecting homes, workplaces, institutional rooms, streets, and a final snowbound landscape.",
+          "whyItMatters": "The video translates emotional dislocation into continuous physical movement, using ordinary thresholds to connect spaces that cannot logically coexist.",
+          "historicalContext": "Released in May 2016 ahead of A Moon Shaped Pool, Daydreaming was directed by Paul Thomas Anderson and accompanied Radiohead's return after a five-year studio-album interval.",
+          "keyInnovation": "Matched movement and doorway transitions create an apparently continuous passage across many locations, making editing operate as architecture rather than visible interruption."
+        },
+        "ja": {
+          "shortSummary": "Thom Yorkeが扉を通り抜け、住宅、職場、施設、街路、最後の雪山へ連続して移動する作品。",
+          "whyItMatters": "日常的な境界を用いて論理的には共存しない空間を接続し、感情的な離脱を途切れない身体移動へ翻訳しました。",
+          "historicalContext": "『A Moon Shaped Pool』に先行して2016年5月に公開され、Paul Thomas Andersonが監督。Radioheadにとって5年ぶりとなるスタジオ・アルバムの再始動を伴いました。",
+          "keyInnovation": "一致した歩行と扉のトランジションで多数のロケーションを一続きに見せ、編集を目立つ中断ではなく建築的な接続として機能させています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=TTAU7lLDZYU",
+          "supports": ["officialTitle", "releaseYear", "director", "youtubeId", "thumbnailUrl"]
+        },
+        {
+          "type": "label_official",
+          "url": "https://shop.xlrecordings.com/release/347038-radiohead-a-moon-shaped-pool?lang=en_GB",
+          "supports": ["officialTitle", "releaseYear", "label", "album", "trackRuntime"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.ukmva.com/42-2016",
+          "supports": ["negativeAwardFinding"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.grammy.com/artists/radiohead/8042/",
+          "supports": ["negativeAwardFinding", "recordingAwardDistinction"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [],
+        "notes": "No work-level music-video result was located in the checked official UKMVA 2016 and GRAMMY Radiohead records. Recording and song nominations are not entered as music-video awards."
+      },
+      "publicationBlockers": ["production_credit_unverified", "vfx_credit_unverified", "award_scope_incomplete", "runtime_unverified"]
+    },
+    {
+      "artist": "Tame Impala",
+      "title": "Let It Happen",
+      "metadata": {
+        "officialTitle": "Let It Happen",
+        "releaseYear": 2015,
+        "countryCode": "AU",
+        "directors": ["David Wilson"],
+        "productionCompany": "Colonel Blimp",
+        "vfxProduction": "The Mill",
+        "label": "Universal Music Australia",
+        "youtubeUrl": "https://www.youtube.com/watch?v=pFptt7Cargc",
+        "youtubeId": "pFptt7Cargc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/pFptt7Cargc/maxresdefault.jpg",
+        "runtimeSeconds": null,
+        "genre": "Psychedelic Pop / Rock"
+      },
+      "editorial": {
+        "en": {
+          "shortSummary": "A business traveller's attempt to reach a flight turns into collapse, medical crisis, aerial disaster, and a sequence of ambiguous returns.",
+          "whyItMatters": "The video gives the song's theme of surrender a bodily narrative, allowing anxiety, repetition, and impossible survival to move between realism and hallucination.",
+          "historicalContext": "Released in 2015 during the Currents period, the video was directed by David Wilson, produced by Colonel Blimp, and won the UKMVA category for Best Rock/Indie Video — International.",
+          "keyInnovation": "A familiar airport journey is progressively destabilized through repeated collapse, suspended time, visual-effects transitions, and narrative loops that refuse a single literal explanation."
+        },
+        "ja": {
+          "shortSummary": "飛行機に乗ろうとするビジネストラベラーの移動が、倒れる身体、医療危機、航空事故、曖昧な帰還の反復へ変わっていく作品。",
+          "whyItMatters": "楽曲の『身を委ねる』という主題に身体的な物語を与え、不安、反復、不可能な生還を現実と幻覚の間で往復させました。",
+          "historicalContext": "『Currents』期の2015年に公開され、David Wilsonが監督、Colonel Blimpが制作。UKMVAのBest Rock/Indie Video — Internationalを受賞しました。",
+          "keyInnovation": "ありふれた空港移動を、倒れる身体、停止した時間、VFXによる転換、単一の文字通りの解釈を拒む物語ループによって段階的に不安定化しています。"
+        }
+      },
+      "sources": [
+        {
+          "type": "official_video",
+          "url": "https://www.youtube.com/watch?v=pFptt7Cargc",
+          "supports": ["officialTitle", "releaseYear", "youtubeId", "thumbnailUrl"]
+        },
+        {
+          "type": "production_company_official",
+          "url": "https://colonelblimp.com/films/tame-impala-let-it-happen",
+          "supports": ["officialTitle", "director", "productionCompany"]
+        },
+        {
+          "type": "award_archive_official",
+          "url": "https://www.ukmva.com/73-2015",
+          "supports": ["officialTitle", "director", "youtubeId", "awardProgram", "awardYear", "awardCategory", "awardOutcome"]
+        },
+        {
+          "type": "production_trade",
+          "url": "https://www.promonews.tv/videos/2015/08/18/tame-impala-let-it-happen-david-wilson/36173",
+          "supports": ["productionCompany", "vfxProduction", "label", "producer", "cinematographer", "editor", "productionDesigner", "serviceProduction"]
+        }
+      ],
+      "awardAudit": {
+        "status": "in_progress",
+        "verifiedResults": [
+          {
+            "program": "UK Music Video Awards",
+            "year": 2015,
+            "category": "Best Rock/Indie Video — International",
+            "result": "Winner",
+            "creditedNames": ["David Wilson"],
+            "source": "https://www.ukmva.com/73-2015"
+          }
+        ]
+      },
+      "publicationBlockers": ["award_scope_incomplete", "runtime_unverified", "vfx_source_needs_upgrade", "label_source_needs_upgrade"]
+    }
+  ]
+}
