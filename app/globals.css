@@ -136,6 +136,18 @@ select {
   letter-spacing: -0.02em;
 }
 
+.closed-beta-label {
+  padding: 4px 7px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 .header-actions {
   display: flex;
   align-items: center;
@@ -674,6 +686,10 @@ html[data-theme="dark"] .work-hero-image {
 
   .museum-wordmark strong {
     display: none;
+  }
+
+  .museum-wordmark {
+    gap: 9px;
   }
 
   .header-actions {
