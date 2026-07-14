@@ -136,7 +136,7 @@ select {
   letter-spacing: -0.02em;
 }
 
-.closed-beta-label {
+.beta-label {
   padding: 4px 7px;
   border: 1px solid var(--line);
   border-radius: 999px;
