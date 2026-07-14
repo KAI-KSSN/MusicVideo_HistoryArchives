@@ -1,4 +1,5 @@
 import { cache } from "react";
+import { fetchSupabasePublic } from "@/lib/supabase-public";
 import type {
   KnowledgeConcept,
   KnowledgeConceptType,
@@ -38,10 +39,10 @@ function supabaseConfig() {
 
 async function publicRequest<T>(path: string, params: URLSearchParams): Promise<T> {
   const { url, key } = supabaseConfig();
-  const response = await fetch(`${url}/rest/v1/${path}?${params}`, {
+  const response = await fetchSupabasePublic(`${url}/rest/v1/${path}?${params}`, {
     headers: { apikey: key, Authorization: `Bearer ${key}` },
     next: { revalidate: 60 },
-  });
+  }, "Supabase knowledge-graph request");
 
   if (!response.ok) {
     throw new Error(`Supabase knowledge-graph request failed (${response.status}).`);
