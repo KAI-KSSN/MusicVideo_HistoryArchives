@@ -33,10 +33,19 @@ const [works, technologies, visualLanguages, workTechnologies, workVisualLanguag
   read("archive_work_visual_languages", "select=workId,workSlug,conceptSlug,relationshipRole,relevance,noteJa,noteEn"),
 ]);
 
-assert(works.length === 72, `Expected 72 published works, found ${works.length}.`);
-assert(reviews.length === works.length, `Review dataset has ${reviews.length} rows for ${works.length} works.`);
-assert(workTechnologies.length === 15, `Expected 15 verified Technology edges, found ${workTechnologies.length}.`);
-assert(workVisualLanguages.length === 147, `Expected 147 verified Visual Language edges, found ${workVisualLanguages.length}.`);
+// Sprint 2 is a frozen review cohort. Later standard work additions must not
+// make this historical validator fail merely because the live archive grows.
+const reviewSlugs = new Set(reviews.map((review) => review.slug));
+const reviewedWorks = works.filter((work) => reviewSlugs.has(work.slug));
+const reviewedTechnologyEdges = workTechnologies.filter((edge) => reviewSlugs.has(edge.workSlug));
+const reviewedVisualEdges = workVisualLanguages.filter((edge) => reviewSlugs.has(edge.workSlug));
+
+assert(reviewedWorks.length === reviews.length,
+  `Expected all ${reviews.length} Sprint 2 works to remain published, found ${reviewedWorks.length}.`);
+assert(reviewedTechnologyEdges.length === 15,
+  `Expected 15 Sprint 2 Technology edges, found ${reviewedTechnologyEdges.length}.`);
+assert(reviewedVisualEdges.length === 147,
+  `Expected 147 Sprint 2 Visual Language edges, found ${reviewedVisualEdges.length}.`);
 
 for (const concept of [...technologies, ...visualLanguages]) {
   assert(concept.name && concept.name_ja && concept.description && concept.description_ja,
@@ -73,7 +82,8 @@ const visualWorks = new Set(workVisualLanguages.map((edge) => edge.workId)).size
 
 console.log(JSON.stringify({
   status: "passed",
-  publishedWorksReviewed: works.length,
+  publishedWorksReviewed: reviewedWorks.length,
+  currentPublishedWorks: works.length,
   worksWithTechnology: technologyWorks,
   worksWithVisualLanguage: visualWorks,
   worksIntentionallyWithoutTechnology: works.length - technologyWorks,
@@ -88,4 +98,3 @@ console.log(JSON.stringify({
   newConceptsApproved: 0,
   protectedResearchFields: "not publicly readable",
 }, null, 2));
-

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "work": {
+    "slug": "kylie-minogue-come-into-my-world",
+    "artist": "Kylie Minogue",
+    "title": "Come Into My World",
+    "releaseYear": 2002,
+    "countryCode": "AU",
+    "director": "Michel Gondry",
+    "productionCompany": "Partizan",
+    "vfxProduction": "Twisted Laboratories",
+    "label": "Parlophone",
+    "runtimeSeconds": 255,
+    "youtubeId": "63vqob-MljQ",
+    "officialUrl": "https://www.youtube.com/watch?v=63vqob-MljQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/63vqob-MljQ/hqdefault.jpg"
+  },
+  "expectedTechnology": [
+    { "slug": "motion-control", "relevance": "primary", "relationshipRole": "defining_use" },
+    { "slug": "digital-compositing", "relevance": "significant", "relationshipRole": "defining_use" },
+    { "slug": "rotoscoping", "relevance": "supporting", "relationshipRole": "standard_use" }
+  ],
+  "expectedVisualLanguage": [
+    { "slug": "loop", "relevance": "primary", "relationshipRole": "defining_example" },
+    { "slug": "continuous-shot-illusion", "relevance": "primary", "relationshipRole": "defining_example" },
+    { "slug": "spatial-choreography", "relevance": "significant", "relationshipRole": "defining_example" }
+  ],
+  "rejectedConcepts": [
+    { "slug": "graphic-composition", "reason": "The three retained formal relationships provide a clearer and less redundant exploration path." },
+    { "slug": "dance-camera", "reason": "The camera follows a repeatable spatial circuit; it is not primarily organized as a camera/dance partnership under the existing definition." }
+  ],
+  "awardAudit": {
+    "verifiedVideoResults": [],
+    "excluded": [
+      { "award": "Grammy Awards", "result": "Best Dance Recording winner", "reason": "Recording award, not a music-video or video-craft result." },
+      { "award": "ARIA Awards", "result": "Recording/artist categories only", "reason": "The official 2003 archive does not list the work in Best Video." }
+    ],
+    "unresolved": [
+      { "claim": "MTV VMAJ Best Dance Video nomination", "reason": "Only secondary listings were located; no official result-level archive was verified." },
+      { "claim": "UK CADS video awards", "reason": "Historical secondary references were located, but no authoritative result-level archive was verified." }
+    ]
+  },
+  "minimumPublicSources": 7
+}
