@@ -27,6 +27,42 @@ export type RecognitionResult = {
   sources: Array<{ title: string; publisher: string; url: string }>;
 };
 
+export type KnowledgeConceptType = "technology" | "visual-language";
+
+export type KnowledgeGraphRelationship = {
+  workId: string;
+  workSlug: string;
+  workTitle: string;
+  artist: string;
+  releaseYear: number | null;
+  youtubeId?: string;
+  thumbnailUrl?: string;
+  conceptId: string;
+  conceptSlug: string;
+  conceptName: string;
+  conceptNameJa?: string;
+  descriptionEn?: string;
+  descriptionJa?: string;
+  conceptFamily: string;
+  relevance: "primary" | "significant" | "supporting" | "incidental";
+  relationshipRole: string;
+  isPrimary: boolean;
+  noteJa?: string;
+  noteEn?: string;
+  displayOrder: number;
+};
+
+export type KnowledgeConcept = {
+  id: string;
+  slug: string;
+  name: string;
+  nameJa?: string;
+  descriptionEn?: string;
+  descriptionJa?: string;
+  family: string;
+  type: KnowledgeConceptType;
+};
+
 export type MusicVideo = {
   id: string;
   slug?: string;

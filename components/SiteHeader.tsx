@@ -11,6 +11,7 @@ export default function SiteHeader({ detail = false }: Props) {
       <Link href="/" className="museum-wordmark">
         <span>MVHL</span>
         <strong>Music Video History Library</strong>
+        <small className="beta-label">Open Beta</small>
       </Link>
 
       <div className="header-actions">

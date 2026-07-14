@@ -50,18 +50,18 @@ People, artists, companies, agencies, studios, and collectives are stored as ent
 
 Their relationship to a work is defined through credits.
 
-### Extensible taxonomy
+### Technology / Visual Language knowledge graph (v2.0)
 
-New technologies and visual techniques should be added as taxonomy terms rather than new database columns.
+Technology and Visual Language use dedicated controlled taxonomies rather than the legacy generic tag table.
 
-Examples:
+- `technologies` and `visual_languages` hold bilingual concept definitions, aliases, families, lifecycle state, and stable slugs.
+- `work_technologies` and `work_visual_languages` are evidence-bearing relationships with relevance, role, bilingual notes, verification state, and display order.
+- source-association tables preserve evidence without exposing verification notes or research internals to public clients.
+- `archive_work_technologies` and `archive_work_visual_languages` are the public, RLS-safe read models used by the frontend.
 
-- rotoscope
-- motion control
-- virtual production
-- generative AI
-- volumetric capture
-- Gaussian splatting
+Only `published` concepts and `verified` relationships connected to `published` works can be returned publicly. An empty relationship set is valid and preferred over an unsupported classification.
+
+The generic taxonomy remains available for legacy metadata, but it is not the canonical model for v2.0 Technology or Visual Language.
 
 ### Source-first verification
 

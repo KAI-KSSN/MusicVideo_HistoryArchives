@@ -11,7 +11,11 @@
     "report:canon": "node scripts/summarize-canon-evidence.mjs",
     "verify:pilot": "node --env-file=.env.local scripts/verify-pilot.mjs",
     "verify:canon:live": "node --env-file=.env.local scripts/verify-canon-publication.mjs && node --env-file=.env.local scripts/verify-canon-hold-release.mjs",
-    "verify:thumbnails": "node --env-file=.env.local scripts/verify-thumbnails.mjs"
+    "verify:thumbnails": "node --env-file=.env.local scripts/verify-thumbnails.mjs",
+    "verify:knowledge-graph": "node --env-file=.env.local scripts/validate-knowledge-graph.mjs",
+    "report:knowledge-scope": "node --env-file=.env.local scripts/export-published-knowledge-scope.mjs",
+    "generate:knowledge-sprint-2": "node scripts/generate-published-knowledge-graph-sprint-2.mjs",
+    "verify:knowledge-sprint-2": "node --env-file=.env.local scripts/validate-published-knowledge-graph.mjs"
   },
   "dependencies": {
     "next": "16.2.10",

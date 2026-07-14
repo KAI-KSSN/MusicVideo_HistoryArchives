@@ -1,5 +1,6 @@
 import { cache } from "react";
 import type { AwardResult, LocalizedText, MusicVideo, RecognitionResult } from "@/types/music-video";
+import { fetchSupabasePublic } from "@/lib/supabase-public";
 import { decorateVideo } from "@/lib/videos";
 
 type ArchiveEditorial = {
@@ -110,10 +111,10 @@ async function fetchArchiveRecognitions(slug?: string): Promise<ArchiveRecogniti
   });
   if (slug) params.set("workSlug", `eq.${slug}`);
 
-  const response = await fetch(`${url}/rest/v1/archive_recognitions?${params}`, {
+  const response = await fetchSupabasePublic(`${url}/rest/v1/archive_recognitions?${params}`, {
     headers: { apikey: key, Authorization: `Bearer ${key}` },
     next: { revalidate: 60 },
-  });
+  }, "Supabase recognitions request");
   if (!response.ok) throw new Error(`Supabase recognitions request failed (${response.status}).`);
   return (await response.json()) as ArchiveRecognitionRow[];
 }
@@ -126,10 +127,10 @@ async function fetchArchiveAwards(slug?: string): Promise<ArchiveAwardRow[]> {
   const params = new URLSearchParams({ select: "*", order: "awardYear.desc,awardName,categoryName" });
   if (slug) params.set("workSlug", `eq.${slug}`);
 
-  const response = await fetch(`${url}/rest/v1/archive_award_results?${params}`, {
+  const response = await fetchSupabasePublic(`${url}/rest/v1/archive_award_results?${params}`, {
     headers: { apikey: key, Authorization: `Bearer ${key}` },
     next: { revalidate: 60 },
-  });
+  }, "Supabase awards request");
   if (!response.ok) throw new Error(`Supabase awards request failed (${response.status}).`);
   return (await response.json()) as ArchiveAwardRow[];
 }
@@ -149,13 +150,13 @@ async function fetchArchiveRows(slug?: string): Promise<ArchiveRow[]> {
 
   if (slug) params.set("slug", `eq.${slug}`);
 
-  const response = await fetch(`${url}/rest/v1/archive_works?${params}`, {
+  const response = await fetchSupabasePublic(`${url}/rest/v1/archive_works?${params}`, {
     headers: {
       apikey: key,
       Authorization: `Bearer ${key}`,
     },
     next: { revalidate: 60 },
-  });
+  }, "Supabase archive request");
 
   if (!response.ok) {
     throw new Error(`Supabase archive request failed (${response.status}).`);
