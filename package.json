@@ -17,7 +17,8 @@
     "generate:knowledge-sprint-2": "node scripts/generate-published-knowledge-graph-sprint-2.mjs",
     "verify:knowledge-sprint-2": "node --env-file=.env.local scripts/validate-published-knowledge-graph.mjs",
     "verify:work-addition": "node --env-file=.env.local scripts/validate-work-addition.mjs docs/research/work-additions/kylie-minogue-come-into-my-world.json",
-    "verify:work-additions": "node --env-file=.env.local scripts/validate-work-addition.mjs docs/research/work-additions/nirvana-smells-like-teen-spirit.json && node --env-file=.env.local scripts/validate-work-addition.mjs docs/research/work-additions/ok-go-here-it-goes-again.json"
+    "verify:work-additions": "node --env-file=.env.local scripts/validate-work-addition.mjs docs/research/work-additions/nirvana-smells-like-teen-spirit.json && node --env-file=.env.local scripts/validate-work-addition.mjs docs/research/work-additions/ok-go-here-it-goes-again.json",
+    "verify:adventures-in-success": "node --env-file=.env.local scripts/validate-work-addition.mjs docs/research/work-additions/will-powers-adventures-in-success.json"
   },
   "dependencies": {
     "next": "16.2.10",

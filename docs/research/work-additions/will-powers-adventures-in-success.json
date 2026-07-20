@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "work": {
+    "slug": "will-powers-adventures-in-success",
+    "artist": "Will Powers",
+    "title": "Adventures in Success",
+    "releaseYear": 1983,
+    "countryCode": "US",
+    "director": "Rebecca Allen",
+    "productionCompany": "Computer Graphics Laboratory / NYIT",
+    "vfxProduction": null,
+    "label": "Island Records",
+    "runtimeSeconds": 239,
+    "youtubeId": "j5BLHeOdvYI",
+    "officialUrl": "https://www.youtube.com/watch?v=j5BLHeOdvYI",
+    "thumbnailUrl": "https://i.ytimg.com/vi/j5BLHeOdvYI/maxresdefault.jpg"
+  },
+  "expectedTechnology": [
+    { "slug": "cgi", "relevance": "primary", "relationshipRole": "early_adoption" }
+  ],
+  "expectedVisualLanguage": [
+    { "slug": "mixed-media", "relevance": "primary", "relationshipRole": "defining_example" },
+    { "slug": "collage", "relevance": "primary", "relationshipRole": "defining_example" },
+    { "slug": "optical-illusion", "relevance": "significant", "relationshipRole": "notable_example" }
+  ],
+  "rejectedConcepts": [
+    { "slug": "typography", "reason": "Text graphics are present, but Mixed Media and Collage provide more useful and less redundant navigation paths." },
+    { "slug": "body-transformation", "reason": "The rotating facial masks do not primarily organize the work as bodily metamorphosis." }
+  ],
+  "awardAudit": {
+    "verifiedVideoResults": [],
+    "excluded": [],
+    "unresolved": [
+      { "claim": "1984 Heavy Metal Music Video Awards — Best Animation", "reason": "The result appears in the director's official project page and CV, but no official result-level award archive was verified; it is not registered." },
+      { "claim": "1983 Billboard Video Music Awards — three nominations", "reason": "A creator record and contemporary Billboard credit correction were found, but no official result-level category archive was verified; no nomination is registered." }
+    ]
+  },
+  "minimumPublicSources": 7
+}
