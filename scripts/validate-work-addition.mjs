@@ -23,10 +23,11 @@ function assert(condition, message) { if (!condition) throw new Error(message); 
 
 const expected = manifest.work;
 const slug = encodeURIComponent(expected.slug);
-const [works, technologyEdges, visualEdges] = await Promise.all([
+const [works, technologyEdges, visualEdges, awardResults] = await Promise.all([
   read("archive_works", `select=*&slug=eq.${slug}&status=eq.published`),
   read("archive_work_technologies", `select=workId,workSlug,conceptSlug,relationshipRole,relevance,noteJa,noteEn&workSlug=eq.${slug}`),
   read("archive_work_visual_languages", `select=workId,workSlug,conceptSlug,relationshipRole,relevance,noteJa,noteEn&workSlug=eq.${slug}`),
+  read("archive_award_results", `select=workSlug,awardName,awardYear,categoryName,result,sources&workSlug=eq.${slug}`),
 ]);
 
 assert(works.length === 1, `Expected one published work for ${expected.slug}, found ${works.length}.`);
@@ -60,6 +61,21 @@ validateEdges(visualEdges, manifest.expectedVisualLanguage, "Visual Language");
 for (const rejected of manifest.rejectedConcepts)
   assert(!visualEdges.some((edge) => edge.conceptSlug === rejected.slug), `Rejected concept ${rejected.slug} is public.`);
 
+const expectedAwards = manifest.awardAudit.verifiedVideoResults;
+assert(awardResults.length === expectedAwards.length,
+  `Expected ${expectedAwards.length} verified video award results, found ${awardResults.length}.`);
+for (const expectedAward of expectedAwards) {
+  const found = awardResults.find((result) =>
+    result.awardName === expectedAward.award &&
+    result.categoryName === expectedAward.category &&
+    result.awardYear === expectedAward.year &&
+    result.result === expectedAward.result
+  );
+  assert(found, `Verified award result is missing: ${expectedAward.award} / ${expectedAward.category} / ${expectedAward.year} / ${expectedAward.result}.`);
+  assert(Array.isArray(found.sources) && found.sources.some((source) => source.url),
+    `Verified award result lacks a public source: ${expectedAward.award} / ${expectedAward.category}.`);
+}
+
 await Promise.all([
   expectDenied("knowledge_graph_work_reviews"),
   expectDenied("work_technologies", "select=verification_notes&limit=1"),
@@ -72,6 +88,6 @@ console.log(JSON.stringify({
   status: "passed", workId: work.id, slug: work.slug, publicSources: work.sources.length,
   technology: technologyEdges.map((edge) => edge.conceptSlug),
   visualLanguage: visualEdges.map((edge) => edge.conceptSlug),
-  awardsAdded: manifest.awardAudit.verifiedVideoResults.length,
+  verifiedVideoAwards: awardResults.length,
   protectedResearchFields: "not publicly readable",
 }, null, 2));

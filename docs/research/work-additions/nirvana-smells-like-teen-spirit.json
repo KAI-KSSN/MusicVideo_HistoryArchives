@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "work": {
+    "slug": "nirvana-smells-like-teen-spirit",
+    "artist": "Nirvana",
+    "title": "Smells Like Teen Spirit",
+    "releaseYear": 1991,
+    "countryCode": "US",
+    "director": "Samuel Bayer",
+    "productionCompany": null,
+    "vfxProduction": null,
+    "label": "DGC Records",
+    "runtimeSeconds": 278,
+    "youtubeId": "hTWKbfoikeg",
+    "officialUrl": "https://www.youtube.com/watch?v=hTWKbfoikeg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/hTWKbfoikeg/maxresdefault.jpg"
+  },
+  "expectedTechnology": [],
+  "expectedVisualLanguage": [
+    { "slug": "performance-film", "relevance": "primary", "relationshipRole": "defining_example" },
+    { "slug": "rhythmic-editing", "relevance": "significant", "relationshipRole": "notable_example" }
+  ],
+  "rejectedConcepts": [
+    { "slug": "spatial-choreography", "reason": "The crowd and cheerleaders are staged, but spatial choreography is not the most useful primary navigation path for the work." },
+    { "slug": "long-form-narrative", "reason": "The video develops a performance situation rather than an extended narrative structure." },
+    { "slug": "steadicam", "reason": "No authoritative production source verified a Steadicam workflow, so no Technology relationship is published." }
+  ],
+  "awardAudit": {
+    "verifiedVideoResults": [],
+    "excluded": [],
+    "unresolved": [
+      { "claim": "1992 MTV Video Music Awards wins for Best Alternative Video and Best New Artist in a Video", "reason": "Contemporary and secondary references were located, but no official result-level MTV archive was verified; no award result is registered." }
+    ]
+  },
+  "minimumPublicSources": 5
+}

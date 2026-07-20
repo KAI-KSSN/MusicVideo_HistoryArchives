@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "work": {
+    "slug": "ok-go-here-it-goes-again",
+    "artist": "OK Go",
+    "title": "Here It Goes Again",
+    "releaseYear": 2006,
+    "countryCode": "US",
+    "director": "Damian Kulash Jr. / Trish Sie",
+    "productionCompany": null,
+    "vfxProduction": null,
+    "label": "Capitol",
+    "runtimeSeconds": 186,
+    "youtubeId": "dTAAsCNK7RA",
+    "officialUrl": "https://www.youtube.com/watch?v=dTAAsCNK7RA",
+    "thumbnailUrl": "https://i.ytimg.com/vi/dTAAsCNK7RA/maxresdefault.jpg"
+  },
+  "expectedTechnology": [],
+  "expectedVisualLanguage": [
+    { "slug": "one-take", "relevance": "primary", "relationshipRole": "defining_example" },
+    { "slug": "spatial-choreography", "relevance": "primary", "relationshipRole": "defining_example" }
+  ],
+  "rejectedConcepts": [
+    { "slug": "dance-camera", "reason": "The locked frontal view records the choreography; camera movement is not an active dance partner under the controlled definition." },
+    { "slug": "performance-film", "reason": "One Take and Spatial Choreography provide the more precise and less redundant exploration paths." }
+  ],
+  "awardAudit": {
+    "verifiedVideoResults": [
+      { "award": "GRAMMY Awards", "category": "Best Music Video", "year": 2007, "result": "winner" }
+    ],
+    "excluded": [],
+    "unresolved": []
+  },
+  "minimumPublicSources": 5
+}
